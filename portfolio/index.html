@@ -11,15 +11,24 @@
         .hero h1 { font-size: 3em; margin-bottom: 20px; }
         .hero p { font-size: 1.3em; opacity: 0.9; }
         .container { max-width: 1000px; margin: 0 auto; padding: 40px 20px; }
+        .section-title { text-align: center; color: #1e3c72; font-size: 2em; margin: 50px 0 30px; }
+        .section-title:first-of-type { margin-top: 0; }
         .portfolio-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin-top: 40px; }
         .card { background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.1); transition: transform 0.3s; }
         .card:hover { transform: translateY(-10px); }
-        .card-image { height: 150px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); display: flex; align-items: center; justify-content: center; color: white; font-size: 2.5em; }
+        .card-image { height: 150px; display: flex; align-items: center; justify-content: center; color: white; font-size: 2.5em; }
+        .card-image.ai-agent { background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%); }
+        .card-image.crypto { background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); }
+        .card-image.ecommerce { background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%); }
+        .card-image.tech { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+        .card-image.finance { background: linear-gradient(135deg, #ff9a9e 0%, #fecfef 100%); }
         .card-content { padding: 25px; }
         .card h3 { color: #1e3c72; margin-bottom: 10px; font-size: 1.3em; }
         .card .excerpt { color: #666; margin-bottom: 15px; font-size: 0.95em; }
         .card .tags { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 15px; }
         .tag { background: #f0f0f0; padding: 5px 12px; border-radius: 15px; font-size: 0.75em; color: #666; }
+        .tag.en { background: #e3f2fd; color: #1565c0; }
+        .tag.cn { background: #fff3e0; color: #e65100; }
         .card a { display: inline-block; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 10px 20px; border-radius: 20px; text-decoration: none; font-weight: bold; }
         .card a:hover { opacity: 0.9; }
         .cta { background: white; padding: 40px; border-radius: 15px; text-align: center; margin-top: 50px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); }
@@ -36,64 +45,302 @@
     </div>
     
     <div class="container">
-        <h2 style="text-align: center; color: #1e3c72; font-size: 2em;">My Portfolio</h2>
-        
+        <!-- AI Agent 2025 -->
+        <h2 class="section-title">🤖 AI Agent 2025 Trends</h2>
         <div class="portfolio-grid">
-            <!-- Article 1: SaaS Pricing -->
             <div class="card">
-                <div class="card-image">💰</div>
+                <div class="card-image ai-agent">🤖</div>
+                <div class="card-content">
+                    <h3>AI Agents in 2025 - Original (EN)</h3>
+                    <p class="excerpt">The Complete Guide to Autonomous AI Revolution. 2,500+ words with in-depth analysis.</p>
+                    <div class="tags">
+                        <span class="tag">AI</span>
+                        <span class="tag en">EN</span>
+                        <span class="tag">Original</span>
+                    </div>
+                    <a href="ai-agent-2025/article-01-original-en.html">Read More →</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image ai-agent">🤖</div>
+                <div class="card-content">
+                    <h3>AI智能体2025趋势 - 原创 (CN)</h3>
+                    <p class="excerpt">自主AI智能体带来的革命性变革。中文深度分析文章。</p>
+                    <div class="tags">
+                        <span class="tag">AI</span>
+                        <span class="tag cn">CN</span>
+                        <span class="tag">原创</span>
+                    </div>
+                    <a href="ai-agent-2025/article-01-original-cn.html">Read More →</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image ai-agent">🤖</div>
+                <div class="card-content">
+                    <h3>AI Agents 2025 - 36Kr Style (EN)</h3>
+                    <p class="excerpt">Why Every Tech Company Is Racing to Build Them. Trending news style.</p>
+                    <div class="tags">
+                        <span class="tag">AI</span>
+                        <span class="tag en">EN</span>
+                        <span class="tag">36Kr</span>
+                    </div>
+                    <a href="ai-agent-2025/article-02-36kr-en.html">Read More →</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image ai-agent">🤖</div>
+                <div class="card-content">
+                    <h3>AI Agent爆发进行时 - 36Kr风格 (CN)</h3>
+                    <p class="excerpt">为什么每个科技公司都在抢着布局。36Kr热门风格。</p>
+                    <div class="tags">
+                        <span class="tag">AI</span>
+                        <span class="tag cn">CN</span>
+                        <span class="tag">36Kr</span>
+                    </div>
+                    <a href="ai-agent-2025/article-02-36kr-cn.html">Read More →</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image ai-agent">🤖</div>
+                <div class="card-content">
+                    <h3>AI Agents 2025 - Twitter Style (EN)</h3>
+                    <p class="excerpt">The Shift from Chat to Action. Viral thread format.</p>
+                    <div class="tags">
+                        <span class="tag">AI</span>
+                        <span class="tag en">EN</span>
+                        <span class="tag">Twitter</span>
+                    </div>
+                    <a href="ai-agent-2025/article-03-twitter-en.html">Read More →</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image ai-agent">🤖</div>
+                <div class="card-content">
+                    <h3>AI智能体2025 - Twitter风格 (CN)</h3>
+                    <p class="excerpt">从问答到执行的一切都在变。病毒式推文风格。</p>
+                    <div class="tags">
+                        <span class="tag">AI</span>
+                        <span class="tag cn">CN</span>
+                        <span class="tag">Twitter</span>
+                    </div>
+                    <a href="ai-agent-2025/article-03-twitter-cn.html">Read More →</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Crypto Exchange -->
+        <h2 class="section-title">💰 Crypto Exchange Guide</h2>
+        <div class="portfolio-grid">
+            <div class="card">
+                <div class="card-image crypto">₿</div>
+                <div class="card-content">
+                    <h3>Crypto Exchange Guide - Original (EN)</h3>
+                    <p class="excerpt">How to Choose the Right Platform. Comprehensive 3,000+ word guide.</p>
+                    <div class="tags">
+                        <span class="tag">Crypto</span>
+                        <span class="tag en">EN</span>
+                        <span class="tag">Original</span>
+                    </div>
+                    <a href="crypto-exchange/article-01-original-en.html">Read More →</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image crypto">₿</div>
+                <div class="card-content">
+                    <h3>加密货币交易所选择指南 - 原创 (CN)</h3>
+                    <p class="excerpt">2025年选择正确加密货币交易所的全面指南。中文深度分析。</p>
+                    <div class="tags">
+                        <span class="tag">Crypto</span>
+                        <span class="tag cn">CN</span>
+                        <span class="tag">原创</span>
+                    </div>
+                    <a href="crypto-exchange/article-01-original-cn.html">Read More →</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image crypto">₿</div>
+                <div class="card-content">
+                    <h3>Crypto Exchange Showdown - 36Kr (EN)</h3>
+                    <p class="excerpt">Binance vs Coinbase vs Kraken. Detailed comparison format.</p>
+                    <div class="tags">
+                        <span class="tag">Crypto</span>
+                        <span class="tag en">EN</span>
+                        <span class="tag">36Kr</span>
+                    </div>
+                    <a href="crypto-exchange/article-02-36kr-en.html">Read More →</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image crypto">₿</div>
+                <div class="card-content">
+                    <h3>加密货币交易所对比 - 36Kr (CN)</h3>
+                    <p class="excerpt">Binance vs Coinbase vs Kraken - 你该选哪个？详细对比。</p>
+                    <div class="tags">
+                        <span class="tag">Crypto</span>
+                        <span class="tag cn">CN</span>
+                        <span class="tag">36Kr</span>
+                    </div>
+                    <a href="crypto-exchange/article-02-36kr-cn.html">Read More →</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image crypto">₿</div>
+                <div class="card-content">
+                    <h3>Pick a Crypto Exchange - Twitter (EN)</h3>
+                    <p class="excerpt">Without Losing Your Money. Viral thread format.</p>
+                    <div class="tags">
+                        <span class="tag">Crypto</span>
+                        <span class="tag en">EN</span>
+                        <span class="tag">Twitter</span>
+                    </div>
+                    <a href="crypto-exchange/article-03-twitter-en.html">Read More →</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image crypto">₿</div>
+                <div class="card-content">
+                    <h3>选择交易所不亏钱 - Twitter (CN)</h3>
+                    <p class="excerpt">如何选择加密货币交易所（不亏钱的那种）。病毒式推文。</p>
+                    <div class="tags">
+                        <span class="tag">Crypto</span>
+                        <span class="tag cn">CN</span>
+                        <span class="tag">Twitter</span>
+                    </div>
+                    <a href="crypto-exchange/article-03-twitter-cn.html">Read More →</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Ecommerce Site -->
+        <h2 class="section-title">🛒 Ecommerce Website Guide</h2>
+        <div class="portfolio-grid">
+            <div class="card">
+                <div class="card-image ecommerce">🛒</div>
+                <div class="card-content">
+                    <h3>Ecommerce Website Guide - Original (EN)</h3>
+                    <p class="excerpt">From Domain to First Sale. Complete setup guide with 3,500+ words.</p>
+                    <div class="tags">
+                        <span class="tag">Ecommerce</span>
+                        <span class="tag en">EN</span>
+                        <span class="tag">Original</span>
+                    </div>
+                    <a href="ecommerce-site/article-01-original-en.html">Read More →</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image ecommerce">🛒</div>
+                <div class="card-content">
+                    <h3>跨境电商独立站搭建 - 原创 (CN)</h3>
+                    <p class="excerpt">从域名到首单完整搭建指南。中文深度教程。</p>
+                    <div class="tags">
+                        <span class="tag">Ecommerce</span>
+                        <span class="tag cn">CN</span>
+                        <span class="tag">原创</span>
+                    </div>
+                    <a href="ecommerce-site/article-01-original-cn.html">Read More →</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image ecommerce">🛒</div>
+                <div class="card-content">
+                    <h3>Platform Showdown - 36Kr (EN)</h3>
+                    <p class="excerpt">Shopify vs WooCommerce vs Wix. Detailed comparison.</p>
+                    <div class="tags">
+                        <span class="tag">Ecommerce</span>
+                        <span class="tag en">EN</span>
+                        <span class="tag">36Kr</span>
+                    </div>
+                    <a href="ecommerce-site/article-02-36kr-en.html">Read More →</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image ecommerce">🛒</div>
+                <div class="card-content">
+                    <h3>平台对比 - 36Kr (CN)</h3>
+                    <p class="excerpt">Shopify vs WooCommerce vs Wix - 你该选哪个？</p>
+                    <div class="tags">
+                        <span class="tag">Ecommerce</span>
+                        <span class="tag cn">CN</span>
+                        <span class="tag">36Kr</span>
+                    </div>
+                    <a href="ecommerce-site/article-02-36kr-cn.html">Read More →</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image ecommerce">🛒</div>
+                <div class="card-content">
+                    <h3>Ecommerce That Makes Money - Twitter (EN)</h3>
+                    <p class="excerpt">Build a site that actually makes money. Viral thread.</p>
+                    <div class="tags">
+                        <span class="tag">Ecommerce</span>
+                        <span class="tag en">EN</span>
+                        <span class="tag">Twitter</span>
+                    </div>
+                    <a href="ecommerce-site/article-03-twitter-en.html">Read More →</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-image ecommerce">🛒</div>
+                <div class="card-content">
+                    <h3>搭建赚钱电商 - Twitter (CN)</h3>
+                    <p class="excerpt">如何搭建一个真正赚钱的电商网站。病毒式推文。</p>
+                    <div class="tags">
+                        <span class="tag">Ecommerce</span>
+                        <span class="tag cn">CN</span>
+                        <span class="tag">Twitter</span>
+                    </div>
+                    <a href="ecommerce-site/article-03-twitter-cn.html">Read More →</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Legacy Articles -->
+        <h2 class="section-title">📚 Previous Works</h2>
+        <div class="portfolio-grid">
+            <div class="card">
+                <div class="card-image tech">💰</div>
                 <div class="card-content">
                     <h3>The Ultimate Guide to SaaS Pricing Strategies</h3>
-                    <p class="excerpt">A comprehensive 2,450-word guide covering value-based pricing, tiered models, and how to maximize revenue without losing customers.</p>
+                    <p class="excerpt">A comprehensive 2,450-word guide covering value-based pricing, tiered models.</p>
                     <div class="tags">
                         <span class="tag">SaaS</span>
                         <span class="tag">Business</span>
-                        <span class="tag">Pricing</span>
                     </div>
                     <a href="saas-pricing-guide.html">Read More →</a>
                 </div>
             </div>
-            
-            <!-- Article 2: Crypto -->
             <div class="card">
-                <div class="card-image">₿</div>
+                <div class="card-image finance">₿</div>
                 <div class="card-content">
                     <h3>Bitcoin vs. Ethereum: Investment Analysis</h3>
-                    <p class="excerpt">A data-driven 3,200-word analysis comparing the two largest cryptocurrencies, including risk factors and investment recommendations.</p>
+                    <p class="excerpt">A data-driven 3,200-word analysis comparing the two largest cryptocurrencies.</p>
                     <div class="tags">
                         <span class="tag">Crypto</span>
                         <span class="tag">Finance</span>
-                        <span class="tag">Investment</span>
                     </div>
                     <a href="crypto-investment-analysis.html">Read More →</a>
                 </div>
             </div>
-            
-            <!-- Article 3: Sleep -->
             <div class="card">
-                <div class="card-image">😴</div>
+                <div class="card-image tech">😴</div>
                 <div class="card-content">
                     <h3>The Science of Sleep: 30-Day Transformation</h3>
-                    <p class="excerpt">A comprehensive wellness guide with a practical 30-day program to improve sleep quality, backed by neuroscience research.</p>
+                    <p class="excerpt">A comprehensive wellness guide with a practical 30-day program.</p>
                     <div class="tags">
                         <span class="tag">Health</span>
                         <span class="tag">Wellness</span>
-                        <span class="tag">Lifestyle</span>
                     </div>
                     <a href="sleep-science-guide.html">Read More →</a>
                 </div>
             </div>
-            
-            <!-- Article 4: Tokyo -->
             <div class="card">
-                <div class="card-image">🗾</div>
+                <div class="card-image finance">🗾</div>
                 <div class="card-content">
                     <h3>东京生活指南 (Tokyo Living Guide)</h3>
-                    <p class="excerpt">A comprehensive 3,800-word guide about living in Tokyo, covering housing, transportation, food, work, and cultural experiences. Bilingual content in Chinese.</p>
+                    <p class="excerpt">A comprehensive 3,800-word guide about living in Tokyo. Bilingual content.</p>
                     <div class="tags">
                         <span class="tag">Lifestyle</span>
                         <span class="tag">Travel</span>
-                        <span class="tag">Chinese</span>
                     </div>
                     <a href="tokyo-living-guide.html">Read More →</a>
                 </div>
