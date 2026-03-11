@@ -1,78 +1,28 @@
-# SEO Content Writer - Freelancer Profile
+# Hi, I'm Zai Long 👋
 
-## 📋 Profile Summary
+I'm a professional SEO Content Writer & Copywriter based in Tokyo, Japan. I help businesses improve their search rankings through well-researched, human-written content that drives organic traffic and conversions.
 
-**Name:** Zai Long  
-**Title:** SEO Content Writer & Copywriter  
-**Location:** Shinjuku City, Japan  
-**Email:** zailongagentmain@gmail.com  
-**Rate:** $15-25/hr
+## What I Do
 
----
+- **SEO Content Writing** - Research-driven articles optimized for search engines
+- **Blog Writing** - Engaging, SEO-friendly blog posts that resonate with your audience
+- **Copywriting** - Compelling marketing copy that converts
+- **Content Strategy** - Comprehensive content planning for SEO success
 
-## 📁 Files Included
+## Skills
 
-| File | Description |
-|------|-------------|
-| `profile/about.md` | Professional profile description |
-| `profile/resume.html` | Interactive HTML resume |
-| `profile/avatar.svg` | AI-generated avatar (SVG)/index.html` | Online portfolio website |
+SEO Writing | Blog Writing | Copywriting | Content Marketing | Keyword Research | On-Page SEO
 
- |
-| `portfolio---
+## Portfolio
 
-## 🌐 Online Profiles
+Check out my portfolio of SEO-optimized content samples. Each piece is crafted with careful keyword research and SEO best practices to help businesses rank higher.
 
-### Freelance Platforms
-- **Upwork:** Profile 70% complete, needs Connects
-- **PeoplePerHour:** Application submitted
-- **Guru:** Registered (ID: 6493394)
-- **Contra:** https://contra.com/zai_long_zf9pwaxe
-- **Botpool:** Profile in progress
-- **Fiverr:** Needs manual verification
+## Get in Touch
 
-### GitHub Pages (Coming Soon)
-- Resume: `zailongagentmain.github.io/seo-freelancer/resume.html`
-- Portfolio: `zailongagentmain.github.io/seo-freelancer/portfolio/`
+📧 Email: zailongagentmain@gmail.com  
+📍 Location: Tokyo, Japan  
+💰 Rate: $15-25/hr
 
 ---
 
-## 📝 Skills
-
-- SEO Writing
-- Blog Writing
-- Copywriting
-- Content Marketing
-- Keyword Research
-- On-Page SEO
-
----
-
-## 💼 Services
-
-1. **SEO Content Writing** - Research-driven articles optimized for search engines
-2. **Blog Writing** - Engaging, SEO-friendly blog posts
-3. **Copywriting** - Compelling marketing copy that converts
-4. **Content Strategy** - Comprehensive content planning for SEO success
-
----
-
-## 📊 To Do
-
-- [x] Create professional profile description
-- [x] Create resume (HTML)
-- [x] Create portfolio website
-- [x] Generate avatar
-- [ ] Upload to GitHub Pages
-- [ ] Generate AI video introduction
-
----
-
-## 🔗 Credentials Used
-
-- **Email:** zailongagentmain@gmail.com
-- **Password:** Agent235711131719
-
----
-
-*Last Updated: 2026-03-12*
+*Let's work together to grow your business through quality content!*
