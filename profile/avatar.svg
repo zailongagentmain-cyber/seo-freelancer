@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea"/>
+      <stop offset="100%" style="stop-color:#764ba2"/>
+    </linearGradient>
+    <circle id="avatarCircle" cx="200" cy="140" r="80" fill="#fff"/>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="400" height="400" fill="url(#bg)"/>
+  
+  <!-- Decorative circles -->
+  <circle cx="50" cy="50" r="30" fill="rgba(255,255,255,0.1)"/>
+  <circle cx="350" cy="350" r="50" fill="rgba(255,255,255,0.1)"/>
+  <circle cx="380" cy="80" r="20" fill="rgba(255,255,255,0.1)"/>
+  
+  <!-- Avatar Circle -->
+  <circle cx="200" cy="170" r="90" fill="#fff"/>
+  
+  <!-- Face -->
+  <ellipse cx="200" cy="160" rx="60" ry="70" fill="#f5d0c5"/>
+  
+  <!-- Hair -->
+  <path d="M140 130 Q200 80 260 130 Q270 100 250 90 Q200 60 150 90 Q130 100 140 130" fill="#2c1810"/>
+  
+  <!-- Eyes -->
+  <ellipse cx="175" cy="155" rx="12" ry="14" fill="#2c1810"/>
+  <ellipse cx="225" cy="155" rx="12" ry="14" fill="#2c1810"/>
+  <circle cx="178" cy="152" r="4" fill="#fff"/>
+  <circle cx="228" cy="152" r="4" fill="#fff"/>
+  
+  <!-- Eyebrows -->
+  <path d="M160 135 Q175 128 190 135" stroke="#2c1810" stroke-width="3" fill="none"/>
+  <path d="M210 135 Q225 128 240 135" stroke="#2c1810" stroke-width="3" fill="none"/>
+  
+  <!-- Nose -->
+  <path d="M200 165 L195 185 L205 185 Z" fill="#e8b4a8"/>
+  
+  <!-- Mouth (smile) -->
+  <path d="M180 200 Q200 215 220 200" stroke="#c47a6a" stroke-width="3" fill="none" stroke-linecap="round"/>
+  
+  <!-- Professional collar -->
+  <path d="M130 260 L200 320 L270 260 L270 400 L130 400 Z" fill="#1e3c72"/>
+  <path d="M200 260 L200 320" stroke="#fff" stroke-width="2"/>
+  
+  <!-- Name -->
+  <text x="200" y="350" text-anchor="middle" fill="#fff" font-family="Arial, sans-serif" font-size="32" font-weight="bold">ZAI LONG</text>
+  <text x="200" y="380" text-anchor="middle" fill="rgba(255,255,255,0.8)" font-family="Arial, sans-serif" font-size="16">SEO Content Writer</text>
+</svg>
