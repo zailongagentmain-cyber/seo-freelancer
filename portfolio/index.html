@@ -14,12 +14,14 @@
         .portfolio-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px; margin-top: 40px; }
         .card { background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.1); transition: transform 0.3s; }
         .card:hover { transform: translateY(-10px); }
-        .card-image { height: 200px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); display: flex; align-items: center; justify-content: center; color: white; font-size: 3em; }
+        .card-image { height: 150px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); display: flex; align-items: center; justify-content: center; color: white; font-size: 2.5em; }
         .card-content { padding: 25px; }
-        .card h3 { color: #1e3c72; margin-bottom: 10px; font-size: 1.4em; }
-        .card p { color: #666; margin-bottom: 15px; }
-        .card .tags { display: flex; flex-wrap: wrap; gap: 8px; }
-        .tag { background: #f0f0f0; padding: 5px 12px; border-radius: 15px; font-size: 0.8em; color: #666; }
+        .card h3 { color: #1e3c72; margin-bottom: 10px; font-size: 1.3em; }
+        .card .excerpt { color: #666; margin-bottom: 15px; font-size: 0.95em; }
+        .card .tags { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 15px; }
+        .tag { background: #f0f0f0; padding: 5px 12px; border-radius: 15px; font-size: 0.75em; color: #666; }
+        .card a { display: inline-block; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 10px 20px; border-radius: 20px; text-decoration: none; font-weight: bold; }
+        .card a:hover { opacity: 0.9; }
         .cta { background: white; padding: 40px; border-radius: 15px; text-align: center; margin-top: 50px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); }
         .cta h2 { color: #1e3c72; margin-bottom: 15px; }
         .cta button { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; border: none; padding: 15px 40px; font-size: 1.1em; border-radius: 30px; cursor: pointer; margin-top: 20px; }
@@ -37,87 +39,63 @@
         <h2 style="text-align: center; color: #1e3c72; font-size: 2em;">My Portfolio</h2>
         
         <div class="portfolio-grid">
-            <!-- Portfolio Item 1 -->
+            <!-- Article 1: SaaS Pricing -->
             <div class="card">
-                <div class="card-image">🚀</div>
+                <div class="card-image">💰</div>
                 <div class="card-content">
-                    <h3>Website Speed Optimization Guide</h3>
-                    <p>A comprehensive guide on how to improve website loading speed for better SEO rankings. Covers technical optimizations, image compression, and caching strategies.</p>
+                    <h3>The Ultimate Guide to SaaS Pricing Strategies</h3>
+                    <p class="excerpt">A comprehensive 2,450-word guide covering value-based pricing, tiered models, and how to maximize revenue without losing customers.</p>
                     <div class="tags">
-                        <span class="tag">SEO</span>
-                        <span class="tag">Technical</span>
-                        <span class="tag">Guide</span>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Portfolio Item 2 -->
-            <div class="card">
-                <div class="card-image">📊</div>
-                <div class="card-content">
-                    <h3>CRM Implementation Guide</h3>
-                    <p>A complete guide to CRM implementation for small businesses. Includes best practices, vendor comparisons, and step-by-step deployment instructions.</p>
-                    <div class="tags">
+                        <span class="tag">SaaS</span>
                         <span class="tag">Business</span>
-                        <span class="tag">Guide</span>
-                        <span class="tag">Software</span>
+                        <span class="tag">Pricing</span>
                     </div>
+                    <a href="saas-pricing-guide.html">Read More →</a>
                 </div>
             </div>
             
-            <!-- Portfolio Item 3 -->
+            <!-- Article 2: Crypto -->
             <div class="card">
-                <div class="card-image">🤖</div>
+                <div class="card-image">₿</div>
                 <div class="card-content">
-                    <h3>AI Tools for Content Creation</h3>
-                    <p>An in-depth article exploring the best AI tools for content creators in 2024. Features ChatGPT, Claude, Jasper, and other emerging technologies.</p>
+                    <h3>Bitcoin vs. Ethereum: Investment Analysis</h3>
+                    <p class="excerpt">A data-driven 3,200-word analysis comparing the two largest cryptocurrencies, including risk factors and investment recommendations.</p>
                     <div class="tags">
-                        <span class="tag">AI</span>
-                        <span class="tag">Content</span>
-                        <span class="tag">Tools</span>
+                        <span class="tag">Crypto</span>
+                        <span class="tag">Finance</span>
+                        <span class="tag">Investment</span>
                     </div>
+                    <a href="crypto-investment-analysis.html">Read More →</a>
                 </div>
             </div>
             
-            <!-- Portfolio Item 4 -->
+            <!-- Article 3: Sleep -->
             <div class="card">
-                <div class="card-image">✍️</div>
+                <div class="card-image">😴</div>
                 <div class="card-content">
-                    <h3>SEO Blog Writing Services</h3>
-                    <p>Professional SEO blog writing service offering well-researched, keyword-optimized articles that help businesses attract organic traffic.</p>
+                    <h3>The Science of Sleep: 30-Day Transformation</h3>
+                    <p class="excerpt">A comprehensive wellness guide with a practical 30-day program to improve sleep quality, backed by neuroscience research.</p>
                     <div class="tags">
-                        <span class="tag">Service</span>
-                        <span class="tag">SEO</span>
-                        <span class="tag">Writing</span>
+                        <span class="tag">Health</span>
+                        <span class="tag">Wellness</span>
+                        <span class="tag">Lifestyle</span>
                     </div>
+                    <a href="sleep-science-guide.html">Read More →</a>
                 </div>
             </div>
             
-            <!-- Portfolio Item 5 -->
+            <!-- Article 4: Tokyo -->
             <div class="card">
-                <div class="card-image">💼</div>
+                <div class="card-image">🗾</div>
                 <div class="card-content">
-                    <h3>Product Description Writing</h3>
-                    <p>Compelling product descriptions that convert. Learn how to write copy that sells and improves your e-commerce SEO.</p>
+                    <h3>东京生活指南 (Tokyo Living Guide)</h3>
+                    <p class="excerpt">A comprehensive 3,800-word guide about living in Tokyo, covering housing, transportation, food, work, and cultural experiences. Bilingual content in Chinese.</p>
                     <div class="tags">
-                        <span class="tag">Copywriting</span>
-                        <span class="tag">E-commerce</span>
-                        <span class="tag">Conversion</span>
+                        <span class="tag">Lifestyle</span>
+                        <span class="tag">Travel</span>
+                        <span class="tag">Chinese</span>
                     </div>
-                </div>
-            </div>
-            
-            <!-- Portfolio Item 6 -->
-            <div class="card">
-                <div class="card-image">🎯</div>
-                <div class="card-content">
-                    <h3>Local SEO Strategy</h3>
-                    <p>A complete guide to local SEO for small businesses. Covers Google My Business, local citations, and location-based keyword strategies.</p>
-                    <div class="tags">
-                        <span class="tag">Local SEO</span>
-                        <span class="tag">Marketing</span>
-                        <span class="tag">Strategy</span>
-                    </div>
+                    <a href="tokyo-living-guide.html">Read More →</a>
                 </div>
             </div>
         </div>
@@ -132,7 +110,6 @@
     
     <footer>
         <p>&copy; 2024 Zai Long - SEO Content Writer</p>
-        <p>Portfolio | About | Contact</p>
     </footer>
 </body>
 </html>
