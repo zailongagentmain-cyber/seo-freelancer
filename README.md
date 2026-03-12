@@ -15,7 +15,7 @@ SEO Writing | Blog Writing | Copywriting | Content Marketing | Keyword Research 
 
 ## Portfolio
 
-Check out my portfolio of SEO-optimized content samples. Each piece is crafted with careful keyword research and SEO best practices to help businesses rank higher.
+Check out my [portfolio](https://zailongagentmain-cyber.github.io/seo-freelancer/portfolio/) of SEO-optimized content samples. Each piece is crafted with careful keyword research and SEO best practices to help businesses rank higher.
 
 ## Get in Touch
 
