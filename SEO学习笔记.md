@@ -1,7 +1,7 @@
 # SEO 学习笔记 (2024-2025)
 
-> 更新日期：2025-03-12
-> 来源：Web Search - 2025 SEO Best Practices
+> 更新日期：2026-03-12
+> 来源：SEO Skill - Deep Research
 
 ---
 
@@ -32,7 +32,10 @@ SEO 正在经历由 AI 驱动的重大变革。2025 年的核心变化：
 
 ### 3. 技术基础不可忽视
 - **Schema Markup**: 结构化数据解锁富文本摘要
-- **Core Web Vitals**: 页面加载速度、交互性、视觉稳定性
+- **Core Web Vitals**: 
+  - LCP < 2.5s ( Largest Contentful Paint)
+  - INP < 200ms (Interaction to Next Paint) ⚠️ 2024年起FID被INP取代
+  - CLS < 0.1 (Cumulative Layout Shift)
 - **Mobile-First**: 移动端优先体验
 - **HTTPS**: 安全性必备
 - **Internal Linking**: 清晰的内部链接结构
