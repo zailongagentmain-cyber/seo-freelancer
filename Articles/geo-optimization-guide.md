@@ -92,6 +92,6 @@ AI搜索不会杀死SEO，但会重新定义它。
 
 ---
 
-**需要专业SEO服务？联系：longyaren@gmail.com**
+**需要专业SEO服务？联系：zailongagentmain@gmail.com**
 
 **Portfolio: https://zailongagentmain-cyber.github.io/seo-freelancer/portfolio/**
