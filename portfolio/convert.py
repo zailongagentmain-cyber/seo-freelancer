@@ -1,0 +1,115 @@
+#!/usr/bin/env python3
+"""Convert Markdown to HTML with template"""
+
+import os
+import re
+import sys
+from datetime import datetime
+
+def md_to_html(md_content, title="Article"):
+    """Convert basic Markdown to HTML"""
+    
+    # Simple markdown to html conversion
+    html = md_content
+    
+    # Headers
+    html = re.sub(r'^### (.+)$', r'<h3>\1</h3>', html, flags=re.MULTILINE)
+    html = re.sub(r'^## (.+)$', r'<h2>\1</h2>', html, flags=re.MULTILINE)
+    html = re.sub(r'^# (.+)$', r'<h1>\1</h1>', html, flags=re.MULTILINE)
+    
+    # Bold and Italic
+    html = re.sub(r'\*\*\*(.+?)\*\*\*', r'<strong><em>\1</em></strong>', html)
+    html = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', html)
+    html = re.sub(r'\*(.+?)\*', r'<em>\1</em>', html)
+    
+    # Code blocks
+    html = re.sub(r'```(\w+)?\n(.*?)```', r'<pre><code>\2</code></pre>', html, flags=re.DOTALL)
+    html = re.sub(r'`(.+?)`', r'<code>\1</code>', html)
+    
+    # Links
+    html = re.sub(r'\[(.+?)\]\((.+?)\)', r'<a href="\2">\1</a>', html)
+    
+    # Lists
+    html = re.sub(r'^- (.+)$', r'<li>\1</li>', html, flags=re.MULTILINE)
+    html = re.sub(r'(<li>.*</li>\n?)+', r'<ul>\g<0></ul>', html)
+    
+    # Paragraphs (lines that don't start with HTML tags)
+    lines = html.split('\n')
+    new_lines = []
+    in_para = False
+    for line in lines:
+        stripped = line.strip()
+        if stripped and not stripped.startswith(('<h', '<ul', '<ol', '<li', '<pre', '<block', '<p', '< ')):
+            if not in_para:
+                new_lines.append('<p>')
+                in_para = True
+            new_lines.append(stripped)
+        else:
+            if in_para:
+                new_lines.append('</p>')
+                in_para = False
+            new_lines.append(line)
+    if in_para:
+        new_lines.append('</p>')
+    html = '\n'.join(new_lines)
+    
+    # Blockquotes
+    html = re.sub(r'^> (.+)$', r'<blockquote>\1</blockquote>', html, flags=re.MULTILINE)
+    
+    # Horizontal rules
+    html = re.sub(r'^---$', '<hr>', html, flags=re.MULTILINE)
+    
+    return html
+
+def convert_file(md_path, template_path, output_path):
+    """Convert a single markdown file to HTML"""
+    
+    # Read markdown
+    with open(md_path, 'r', encoding='utf-8') as f:
+        md_content = f.read()
+    
+    # Extract title from first heading
+    title_match = re.search(r'^# (.+)$', md_content, re.MULTILINE)
+    title = title_match.group(1) if title_match else os.path.basename(md_path)
+    
+    # Convert content
+    content = md_to_html(md_content, title)
+    
+    # Read template
+    with open(template_path, 'r', encoding='utf-8') as f:
+        template = f.read()
+    
+    # Replace placeholders
+    html = template.replace('{{title}}', title)
+    html = html.replace('{{content}}', content)
+    html = html.replace('{{date}}', datetime.now().strftime('%Y-%m-%d'))
+    
+    # Write output
+    with open(output_path, 'w', encoding='utf-8') as f:
+        f.write(html)
+    
+    print(f"Converted: {md_path} -> {output_path}")
+
+def main():
+    portfolio_dir = os.path.dirname(os.path.abspath(__file__))
+    template_path = os.path.join(portfolio_dir, 'template.html')
+    
+    # Convert files in en/ and cn/ directories
+    for lang in ['en', 'cn']:
+        lang_dir = os.path.join(portfolio_dir, lang)
+        if not os.path.exists(lang_dir):
+            continue
+            
+        for filename in os.listdir(lang_dir):
+            if filename.endswith('.md'):
+                md_path = os.path.join(lang_dir, filename)
+                html_filename = filename.replace('.md', '.html')
+                output_path = os.path.join(lang_dir, html_filename)
+                
+                try:
+                    convert_file(md_path, template_path, output_path)
+                except Exception as e:
+                    print(f"Error converting {filename}: {e}")
+
+if __name__ == '__main__':
+    main()
