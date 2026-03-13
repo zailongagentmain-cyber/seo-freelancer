@@ -56,6 +56,34 @@ def md_to_html(md_content, title="Article"):
     # Blockquotes
     html = re.sub(r'^> (.+)$', r'<blockquote>\1</blockquote>', html, flags=re.MULTILINE)
     
+    # Tables (| col | col | → <table><tr><td>)
+    def convert_table(match):
+        lines = match.group(0).strip().split('\n')
+        if len(lines) < 2:
+            return match.group(0)
+        
+        html_parts = ['<table>']
+        for i, line in enumerate(lines):
+            cells = [c.strip() for c in line.strip('|').split('|')]
+            if i == 0:  # Header row
+                html_parts.append('<thead><tr>')
+                for cell in cells:
+                    if cell:
+                        html_parts.append(f'<th>{cell}</th>')
+                html_parts.append('</tr></thead><tbody>')
+            elif '---' in line:  # Skip separator
+                continue
+            else:  # Data row
+                html_parts.append('<tr>')
+                for cell in cells:
+                    if cell:
+                        html_parts.append(f'<td>{cell}</td>')
+                html_parts.append('</tr>')
+        html_parts.append('</tbody></table>')
+        return '\n'.join(html_parts)
+    
+    html = re.sub(r'(\|.+\|\n)+', convert_table, html)
+    
     # Horizontal rules
     html = re.sub(r'^---$', '<hr>', html, flags=re.MULTILINE)
     
