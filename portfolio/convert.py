@@ -12,10 +12,11 @@ def md_to_html(md_content, title="Article"):
     # Simple markdown to html conversion
     html = md_content
     
-    # Headers
+    # Headers - Convert # to h2 instead of h1 to avoid duplicate H1
+    html = re.sub(r'^#### (.+)$', r'<h4>\1</h4>', html, flags=re.MULTILINE)
     html = re.sub(r'^### (.+)$', r'<h3>\1</h3>', html, flags=re.MULTILINE)
     html = re.sub(r'^## (.+)$', r'<h2>\1</h2>', html, flags=re.MULTILINE)
-    html = re.sub(r'^# (.+)$', r'<h1>\1</h1>', html, flags=re.MULTILINE)
+    html = re.sub(r'^# (.+)$', r'<h2>\1</h2>', html, flags=re.MULTILINE)
     
     # Bold and Italic
     html = re.sub(r'\*\*\*(.+?)\*\*\*', r'<strong><em>\1</em></strong>', html)
@@ -100,6 +101,17 @@ def convert_file(md_path, template_path, output_path):
     title_match = re.search(r'^# (.+)$', md_content, re.MULTILINE)
     title = title_match.group(1) if title_match else os.path.basename(md_path)
     
+    # Extract description from first paragraph (non-heading line)
+    lines = md_content.split('\n')
+    description = ""
+    for line in lines:
+        line = line.strip()
+        if line and not line.startswith('#') and not line.startswith('```') and len(line) > 20:
+            # Clean markdown formatting and take first 160 chars
+            desc = re.sub(r'[*_`\[\]()]', '', line)
+            description = desc[:160]
+            break
+    
     # Convert content
     content = md_to_html(md_content, title)
     
@@ -111,6 +123,7 @@ def convert_file(md_path, template_path, output_path):
     html = template.replace('{{title}}', title)
     html = html.replace('{{content}}', content)
     html = html.replace('{{date}}', datetime.now().strftime('%Y-%m-%d'))
+    html = html.replace('{{description}}', description)
     
     # Write output
     with open(output_path, 'w', encoding='utf-8') as f:
