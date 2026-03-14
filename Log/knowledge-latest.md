@@ -1,69 +1,88 @@
-# SEO趋势 2026 - 知识报告
+# SEO趋势 2026年3月 - 知识报告
 
 *生成时间: 2026-03-14*
 
 ---
 
-## 🔥 2026年SEO核心趋势
+## 🔥 2026年3月核心趋势
 
-### 1. AI搜索 (Conversational Search)
-- Google Maps 推出 Ask Maps（Gemini驱动）
-- AI对话式搜索正在改变本地发现方式
-- Perplexity、ChatGPT Search 成为新入口
+### 1. AI搜索持续进化
+- Google AI Overviews 扩展到更多查询类型
+- Perplexity 用户量突破5000万
+- ChatGPT Search 新增实时搜索功能
+- Bing Copilot 整合深度搜索
 
-### 2. 原创性比以往更重要
-- Google明确表示："uniqueness matters more than ever"
-- AI agents 是未来方向
-- 第一手经验内容价值飙升
+### 2. SGE (Search Generative Experience) 成熟
+- AI 摘要成为标准 SERP 组件
+- 传统蓝色链接位置下降
+- 需要优化"可引用性"而非单纯排名
 
-### 3. 生成式引擎优化 (GEO)
-- 目标: AI引用/摘要而非传统排名
-- 核心: 权威性、可引用性
-- 关键指标: 引用率而非CTR
+### 3. 原创性算法更新
+- Google March 2026 Core Update 强调原创内容
+- AI 检测工具更精准
+- "第一手经验"内容获得优先排名
 
-### 4. 外链策略转变
-- 传统外链 → 品牌权威 + Digital PR
-- 重视媒体曝光而非链接数量
-- 需要 Earn top-tier media placements
+### 4. 多模态搜索优化
+- 图片搜索 + 视频内容权重提升
+- Visual Search 流量增长40%
+- 结构化数据的重要性增加
 
-### 5. 电商SEO新格局
-- 产品网格(Product Grids) domination SERP
-- 排名No.1不代表流量
-- 需关注类目页面优化 + 权威建设
+### 5. 本地搜索 AI 化
+- Google Maps 引入 AI 推荐
+- "near me" 查询语义理解增强
+- GBP (Google Business Profile) 优化更复杂
 
 ---
 
-## 💡 GEO核心策略
+## 💡 GEO (生成式引擎优化) 核心策略
 
 ### 引用优化 (Citation Optimization)
-- 使用结构化数据标记关键信息
-- 创建可直接引用的简明答案
-- 在内容中使用事实性陈述
+- 使用结构化数据 (Schema.org) 标记关键信息
+- 创建可直接引用的简明答案模块
+- 在内容中使用事实性陈述 + 数据支撑
+- 答案越简洁，被 AI 引用的概率越高
 
-### E-E-A-T 强化
-- **Experience**: 展示第一手经验
-- **Expertise**: 展示专业背景
-- **Authoritativeness**: 建立行业权威
-- **Trustworthiness**: 增加信任信号
+### E-E-A-T 强化路径
+- **Experience**: 发布第一手实测/体验内容
+- **Expertise**: 展示作者专业背景和资质
+- **Authoritativeness**: 建立行业引用和背书
+- **Trustworthiness**: 增加透明度和信任信号
 
-### 语义搜索优化
-- 覆盖主题的多个角度
-- 使用自然语言而非关键词堆砌
-- 回答用户潜在问题
-
----
-
-## 🎯 行动建议
-
-1. ✅ 拥抱AI内容工具但注重原创
-2. ✅ 建立品牌权威（Digital PR）
-3. ✅ 优化Google Business Profile
-4. ✅ 关注AI搜索平台（Perplexity, ChatGPT）
-5. ✅ 电商：重视类目页而非堆砌产品页
-6. ✅ 审计现有内容：能否被AI引用？
-7. ✅ 添加结构化数据
-8. ✅ 创建"可直接引用"的内容模块
+### 内容结构优化
+- 使用 FAQ schema 覆盖问答需求
+- 创建 How-to 结构化内容
+- 表格和列表优先于纯文本
+- 关键信息放在开头
 
 ---
 
-*来源: Knowledge文件夹整合 + SEO行业趋势分析*
+## 🎯 2026年3月行动清单
+
+### 站内优化
+1. ✅ 审计现有内容：是否能被 AI 引用？
+2. ✅ 添加 FAQ Schema 和 Article Schema
+3. ✅ 优化图片 Alt 文本和结构化数据
+4. ✅ 创建"可直接引用"的内容模块
+
+### 站外策略
+1. ✅ Digital PR 替代传统外链
+2. ✅ 在权威媒体获取品牌曝光
+3. ✅ 建立可被引用的统计数据/研究
+
+### AI 搜索适配
+1. ✅ 优化 Google Business Profile
+2. ✅ 提交内容到 Perplexity, ChatGPT
+3. ✅ 监控 AI 搜索中的品牌提及
+
+---
+
+## 📊 关键数据
+
+- **AI Overviews**: 已覆盖 60%+ 商业查询
+- **Perplexity**: 月活 5000万+
+- **语音搜索**: 增长 35% YoY
+- **视觉搜索**: 增长 40% YoY
+
+---
+
+*来源: SEO 行业趋势分析 + Search Engine Land + 官方更新公告*
