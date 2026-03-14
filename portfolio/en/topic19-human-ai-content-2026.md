@@ -1,3 +1,8 @@
+---
+title: "Human-AI Content Creation: The Ultimate Guide for 2026"
+description: "Master the art of blending human creativity with AI efficiency. Learn the 5-step framework for content that ranks in AI search and engages real readers."
+---
+
 # Human-AI Content Creation: The Ultimate Guide for 2026
 
 > Master the art of blending human creativity with AI efficiency to create content that ranks and resonates.
