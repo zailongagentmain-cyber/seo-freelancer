@@ -4,47 +4,57 @@
 
 ## Key Trends
 
-### 1. AI Overviews & Answer Engines
-AI is fundamentally reshaping how users discover information. AI Overviews and answer engines increasingly provide direct answers within search results, leading to a surge in zero-click searches. Visibility now encompasses being featured in AI-generated summaries and conversational responses.
+### 1. AI Overviews & Zero-Click Searches
+- AI-generated summaries from Google and other engines provide direct answers
+- Studies show ~61% drop in CTR when AI Overview is present
+- ~48% of US Google searches now trigger AI Overviews
+- Focus shifting to optimizing for AI citations
 
-### 2. Search Everywhere Optimization (SEO)
-The concept of search has expanded far beyond Google to include:
-- Social media platforms
-- Video platforms (YouTube, TikTok)
-- Forums (Reddit)
-- AI platforms
+### 2. E-E-A-T as Paramount Trust Factor
+- Experience, Expertise, Authoritativeness, Trustworthiness
+- AI systems prioritize content with genuine expertise
+- Real authors, strong bios, first-hand experience matter
+- External validation of authority is crucial
 
-### 3. E-E-A-T & Brand Building
-- Experience, Expertise, Authoritativeness, Trust
-- Brand strength is increasingly a significant ranking signal
-- Building social proof and brand sentiment
+### 3. Content Optimized for AI Consumption
+- Thematic relevance and factual accuracy
+- Clear structures with logical headings
+- Schema markup and FAQs
+- Direct, concise answers to specific questions
 
-### 4. Intent Precision over Keywords
-- Focus on semantic entity mapping
-- Content precision, freshness, hyper-local optimization
-- Optimize for "intent density" rather than traffic volume
+### 4. Brand Building & Digital Footprint
+- Strong brand presence across platforms
+- Comprehensive digital footprint signals authority
+- More resilient to algorithm updates
 
-### 5. Multi-Format Content & Visual/Voice Search
-- Visual search optimization with high-quality images
-- Voice search with short, direct answers
-- Question-based and long-tail keywords
+### 5. Multi-Platform Discoverability ("Search Everywhere")
+- Beyond Google: ChatGPT, Gemini, Copilot, Perplexity
+- Also: Reddit, LinkedIn, YouTube, TikTok
+- Optimize for all channels where LLMs gather info
 
-### 6. Technical SEO & Structured Data
-- Schema markup is essential for AI-driven search
-- Clean site architecture
-- Mobile optimization and page speed
+### 6. Rise of the "Agentic Web"
+- AI evolving from answering to performing actions
+- "Agentic commerce": purchases, bookings
+- Optimize for machine readability and API compatibility
 
-### 7. User Experience (UX) & Engagement
-- Page experience signals: time-on-page, interactivity
-- Behavioral engagement metrics
-- Accessibility as core ranking factor
+### 7. Hyper-Personalization & Conversational Search
+- AI interprets user intent, context, emotion
+- Same question may yield different results
+- Complete, context-aware answers expected
 
-### 8. Human-AI Hybrid Content
-- AI-assisted content creation is standard
-- Human creativity, empathy, original insights still win
-- Hybrid approach: AI enhances efficiency, human ensures quality
+### 8. Predictive SEO & AI-Assisted Workflows
+- AI-powered predictive analytics
+- Forecast shifts in search behavior
+- Human-AI hybrid approach still crucial
+
+### 9. Evolving KPIs
+- Traditional metrics becoming less significant
+- New KPIs: Share of Voice in AI, AI citation frequency
+- Branded search volume, impression-to-engagement ratio
 
 ## Sources
-- envisionitagency.com/blog/2026-seo-predictions/
-- almcorp.com/blog/top-seo-trends-2026-guide/
-- roboticmarketer.com/the-future-of-seo-content-strategy-in-the-age-of-ai-2026-edition/
+- mandr-group.com
+- flowup.agency
+- susodigital.com
+- searchengineland.com
+- roboticmarketer.com
