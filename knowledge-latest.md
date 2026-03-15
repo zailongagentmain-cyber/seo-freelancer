@@ -1,6 +1,6 @@
 # SEO Trends 2026 - Latest Knowledge
 
-> Last Updated: March 15, 2026 (Afternoon Update)
+> Last Updated: March 15, 2026 (Evening Update)
 
 ## Key Trends
 
@@ -55,28 +55,53 @@
 - New KPIs: Share of Voice in AI, AI citation frequency
 - Branded search volume, impression-to-engagement ratio
 
-### 11. Dual SEO Focus: Humans vs. AI Agents (NEW)
+### 11. Dual SEO Focus: Humans vs. AI Agents
 - SEO strategies need to cater to two distinct audiences
 - Human users who browse, compare, and make purchasing decisions
 - Autonomous AI agents that locate, assess, and utilize information
 
-### 12. Hyper-Personalization of Search Results (NEW)
+### 12. Hyper-Personalization of Search Results
 - AI systems learning from user interactions across various timeframes
 - Highly personalized search experiences
 - Same question might receive entirely different results for different users
 
-### 13. GXO - Generative Experience Optimization (NEW)
+### 13. GXO - Generative Experience Optimization
 - Future of "agentic commerce"
 - AI agents will perform actions on behalf of users
 - Finding products, applying coupons, completing purchases
 
+### 14. SEO Fragmentation: Two Distinct Landscapes (NEW)
+- Traditional SEO for human browsing remains important
+- AI search optimization for AI agents emerging as separate discipline
+- AI agents browse sites, compare products, check specifications without users visiting
+
+### 15. Beyond Clicks: AI Visibility & Brand Mentions (NEW)
+- Focus shifting from clicks to becoming trusted AI source
+- Nearly 70% of Google searches end without website click
+- Being cited by AI matters more than traditional rankings
+
+### 16. LLMO - Large Language Model Optimization (NEW)
+- Specifically optimizing content for AI processing by LLMs
+- Distinct from traditional SEO approaches
+- Focus on structure that AI models can easily parse
+
+### 17. Multi-Engine Visibility Strategy (NEW)
+- Optimizing solely for Google is insufficient
+- Need multi-layered positioning across AI platforms
+- Consider: ChatGPT, Perplexity, Gemini, Reddit, YouTube
+
+### 18. Technical SEO for AI Readability (NEW)
+- Semantic HTML and server-side rendering crucial
+- Many LLM bots cannot render JavaScript
+- Accessibility = AI readability
+
 ## Sources
 - searchengineland.com
 - susodigital.com
-- designrush.com
 - zumoseo.ch
 - flowup.agency
+- evergreen.media
+- salesforce.com
 - moz.com
 - robusmarketing.com
 - mandr-group.com
-- evergreen.media
