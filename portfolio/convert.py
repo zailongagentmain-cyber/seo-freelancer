@@ -101,14 +101,15 @@ def convert_file(md_path, template_path, output_path):
     title_match = re.search(r'^# (.+)$', md_content, re.MULTILINE)
     title = title_match.group(1) if title_match else os.path.basename(md_path)
     
-    # Extract description from first paragraph (non-heading line)
+    # Extract description from first paragraph (non-heading line, skip blockquote)
     lines = md_content.split('\n')
     description = ""
     for line in lines:
         line = line.strip()
-        if line and not line.startswith('#') and not line.startswith('```') and len(line) > 20:
+        # Skip headings, blockquotes, code blocks, empty lines
+        if line and not line.startswith('#') and not line.startswith('```') and not line.startswith('>') and not line.startswith('|') and not line.startswith('-') and len(line) > 20:
             # Clean markdown formatting and take first 160 chars
-            desc = re.sub(r'[*_`\[\]()]', '', line)
+            desc = re.sub(r'[*_`\[\](){}]', '', line)
             description = desc[:160]
             break
     
