@@ -1,6 +1,6 @@
 # SEO Trends 2026 - Latest Knowledge
 
-> Last Updated: March 15, 2026 (Round 14)
+> Last Updated: March 16, 2026 (Round 15)
 
 ## Key Trends
 
@@ -8,7 +8,7 @@
 - AI is no longer just a component - it IS the conversation
 - Search engines becoming increasingly human-like, interpreting context, intent, and emotion
 - Moving beyond keyword matching to semantic meaning and entity relationships
-- Google's AI Overviews, ChatGPT, Perplexity, Gemini becoming standard
+- Google's AI Overviews, AI Mode, ChatGPT, Perplexity, Gemini becoming standard
 - Significant increase in "zero-click" searches
 
 ### 2. Generative Engine Optimization (GEO)
@@ -65,13 +65,23 @@
 - Direct API integration with platforms like ChatGPT can enhance visibility
 - Semantic HTML and structured data are crucial
 
+### 11. March 2026 Update: AI Overviews Dominate
+- Google's AI Overviews now appear in nearly half of all searches
+- Zero-click searches increasing significantly
+- Organic CTR declining for top positions
+- Focus shifts to earning AI citations, not just rankings
+- Long-tail, intent-based queries becoming more valuable
+
 ---
 
 ## Sources
-- mandr-group.com
-- clicksgorilla.com
+- marketmilk.com
+- weventure.de
+- wordstream.com
+- milesweb.com
+- averi.ai
+- evergreen.media
 - zumoseo.ch
-- extradigital.co.uk
-- searchengineland.com
-- nogood.io
-- pimberly.com
+- vazoola.com
+- envisionitagency.com
+- searchenginejournal.com
