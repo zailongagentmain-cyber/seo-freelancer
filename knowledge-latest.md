@@ -1,6 +1,6 @@
 # SEO Trends 2026 - Latest Knowledge
 
-> Last Updated: March 15, 2026
+> Last Updated: March 15, 2026 (Afternoon Update)
 
 ## Key Trends
 
@@ -55,12 +55,28 @@
 - New KPIs: Share of Voice in AI, AI citation frequency
 - Branded search volume, impression-to-engagement ratio
 
+### 11. Dual SEO Focus: Humans vs. AI Agents (NEW)
+- SEO strategies need to cater to two distinct audiences
+- Human users who browse, compare, and make purchasing decisions
+- Autonomous AI agents that locate, assess, and utilize information
+
+### 12. Hyper-Personalization of Search Results (NEW)
+- AI systems learning from user interactions across various timeframes
+- Highly personalized search experiences
+- Same question might receive entirely different results for different users
+
+### 13. GXO - Generative Experience Optimization (NEW)
+- Future of "agentic commerce"
+- AI agents will perform actions on behalf of users
+- Finding products, applying coupons, completing purchases
+
 ## Sources
-- evergreen.media
+- searchengineland.com
+- susodigital.com
 - designrush.com
 - zumoseo.ch
 - flowup.agency
-- mandr-group.com
+- moz.com
 - robusmarketing.com
-- roboticmarketer.com
-- searchengineland.com
+- mandr-group.com
+- evergreen.media
