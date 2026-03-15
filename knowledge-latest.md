@@ -16,45 +16,51 @@
 - Real authors, strong bios, first-hand experience matter
 - External validation of authority is crucial
 
-### 3. Content Optimized for AI Consumption
-- Thematic relevance and factual accuracy
-- Clear structures with logical headings
-- Schema markup and FAQs
-- Direct, concise answers to specific questions
+### 3. Generative Engine Optimization (GEO)
+- Optimizing content to be extracted, synthesized, and cited by AI models
+- Platforms: ChatGPT, Google Gemini, Perplexity
+- Key tactics: structured information, fluent citations, factual language, rich semantic architecture
 
-### 4. Brand Building & Digital Footprint
-- Strong brand presence across platforms
-- Comprehensive digital footprint signals authority
-- More resilient to algorithm updates
+### 4. Answer Engine Optimization (AEO)
+- Ensure content appears as direct answers in featured snippets, AI Overviews, voice assistants
+- Focus on providing concise, direct answers to specific questions
 
-### 5. Multi-Platform Discoverability ("Search Everywhere")
+### 5. Shift from Keywords to Entities and Intent
+- Stronger emphasis on understanding user intent
+- Optimizing for entities and semantic relationships
+- AI algorithms more sophisticated at interpreting context, sentiment, conversational tone
+
+### 6. Structured Data and Machine Readability
+- SEO success relies heavily on structured data, schema markup, entity tagging
+- Knowledge graph optimization is crucial
+- Semantic HTML and server-side rendering important for AI readability
+
+### 7. Human-AI Hybrid Content Strategy
+- AI tools enhance content production efficiency
+- Human creativity, empathy, strategic oversight remain essential
+- Blend AI precision with human perspective for trustworthy, original content
+
+### 8. Multi-Platform Discoverability ("Search Everywhere")
 - Beyond Google: ChatGPT, Gemini, Copilot, Perplexity
 - Also: Reddit, LinkedIn, YouTube, TikTok
 - Optimize for all channels where LLMs gather info
 
-### 6. Rise of the "Agentic Web"
+### 9. Rise of the "Agentic Web"
 - AI evolving from answering to performing actions
 - "Agentic commerce": purchases, bookings
 - Optimize for machine readability and API compatibility
 
-### 7. Hyper-Personalization & Conversational Search
-- AI interprets user intent, context, emotion
-- Same question may yield different results
-- Complete, context-aware answers expected
-
-### 8. Predictive SEO & AI-Assisted Workflows
-- AI-powered predictive analytics
-- Forecast shifts in search behavior
-- Human-AI hybrid approach still crucial
-
-### 9. Evolving KPIs
+### 10. Evolving KPIs
 - Traditional metrics becoming less significant
 - New KPIs: Share of Voice in AI, AI citation frequency
 - Branded search volume, impression-to-engagement ratio
 
 ## Sources
-- mandr-group.com
+- evergreen.media
+- designrush.com
+- zumoseo.ch
 - flowup.agency
-- susodigital.com
-- searchengineland.com
+- mandr-group.com
+- robusmarketing.com
 - roboticmarketer.com
+- searchengineland.com
