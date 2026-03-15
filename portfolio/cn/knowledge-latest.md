@@ -1,6 +1,6 @@
 # SEO Trends 2026 - Latest Knowledge
 
-> Last Updated: March 16, 2026 (Round 18)
+> Last Updated: March 16, 2026 (Round 19)
 
 ## Key Trends
 
@@ -95,6 +95,30 @@
 - "Entity-First" approach: visible trust and community presence
 - Critical for voice searches and "Near Me" queries
 
+### 16. Generative Experience Optimization (GXO)
+- Preparing content and digital experiences for autonomous AI agents
+- "Agentic commerce": AI agents browse sites, compare products, answer questions for users
+- Agents prioritize structure, clarity, and machine-readable detail over persuasion and design
+- Key elements: clear APIs, structured data, semantic HTML, API readiness
+
+### 17. March 2026 Core Update: Enhanced E-E-A-T
+- Stronger emphasis on Experience, Expertise, Authoritativeness, Trustworthiness
+- More weight to content demonstrating real first-hand experience
+- Stricter AI content detection - thin, low-value, AI spam penalized
+- Content must show genuine expertise and clear authorship
+
+### 18. Real-Time Information Priority
+- AI assistants prioritize businesses with real-time data
+- Current wait times, appointment availability, inventory status
+- Static information increasingly ignored in AI responses
+- Dynamic content and live data integration becoming essential
+
+### 19. Digital Neighboring
+- Building real local business recommendations and community presence
+- Replacing traditional backlinks with local trust signals
+- Geo-tagged images showing work in different neighborhoods
+- AI verifies active local presence through community engagement
+
 ---
 
 ## Sources
@@ -135,3 +159,16 @@
 - revved.digital
 - intrepidonline.com
 - neuronwriter.com
+- seovendor.co
+- quantifimedia.com
+- roardigital.co.uk
+- eoantechnologies.com
+- found.co.uk
+- techbusinessnews.com.au
+- harridigital.co.uk
+- clickrank.ai
+- kinexmedia.com
+- lseo.com
+- thailand-elite.com
+- marketinggrowthhub.com
+- knapsackcreative.com
