@@ -126,6 +126,12 @@ def convert_file(md_path, template_path, output_path):
     html = html.replace('{{date}}', datetime.now().strftime('%Y-%m-%d'))
     html = html.replace('{{description}}', description)
     
+    # Get lang and filename from path
+    lang = 'en' if '/en/' in output_path else 'cn'
+    filename = os.path.basename(output_path)
+    html = html.replace('{{lang}}', lang)
+    html = html.replace('{{filename}}', filename)
+    
     # Write output
     with open(output_path, 'w', encoding='utf-8') as f:
         f.write(html)

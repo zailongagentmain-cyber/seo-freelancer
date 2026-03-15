@@ -1,4 +1,4 @@
-# Multi-Engine Visibility Strategy: Optimizing Beyond Google in 2026
+# Multi-Engine Visibility: Beyond Google in 2026
 
 > The era of Google-dominance is over. In 2026, SEO success means being visible wherever users—and AI agents—search.
 
