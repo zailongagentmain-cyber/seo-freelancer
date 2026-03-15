@@ -1,6 +1,6 @@
 # E-E-A-T Trust Factors 2026: The Ultimate Guide to Building Trust in AI Search
 
-> Master Experience, Expertise, Authoritativeness, and Trustworthiness for AI-powered search success.
+> Master Experience, Expertise, Authoritativeness, and Trustworthiness for AI-powered search success in 2026.
 
 ## Introduction
 
