@@ -1,6 +1,6 @@
 # SEO Trends 2026 - Latest Knowledge
 
-> Last Updated: March 16, 2026 (Round 17)
+> Last Updated: March 16, 2026 (Round 18)
 
 ## Key Trends
 
@@ -83,6 +83,18 @@
 - Simple navigation and clear content structure rewarded
 - Not just rankings - UX directly impacts conversions
 
+### 14. March 2026 Update 3: AI Overviews Click Absorption
+- AI Overviews can absorb 60-70% of clicks in some queries
+- Visibility within AI-generated answers more important than traditional rankings
+- Zero-click results becoming the norm for informational queries
+- Strategy shift: optimize for AI citation, not just rankings
+
+### 15. Entity-First Local SEO
+- AI systems rely on hyper-local recommendations at neighborhood level
+- Contextual information, real signals, and verifiable local activities matter
+- "Entity-First" approach: visible trust and community presence
+- Critical for voice searches and "Near Me" queries
+
 ---
 
 ## Sources
@@ -100,3 +112,26 @@
 - nimustech.com
 - susodigital.com
 - searchengineland.com
+- robusmarketing.com
+- digitalconfex.com
+- trendchaska.com
+- jimassociates.com
+- broschdigital.com
+- almcorp.com
+- semrush.com
+- collectiveaudience.co
+- oriondigital.in
+- wsiworld.com
+- softmarketsolution.com
+- wingmanplanning.com
+- cresconnect.co.uk
+- keywordseverywhere.com
+- involvedigital.com
+- marketinggrowthmarkie.com
+- digitaloft.co.uk
+- sterlingsky.ca
+- safaridigital.com.au
+- numerounoweb.com
+- revved.digital
+- intrepidonline.com
+- neuronwriter.com
