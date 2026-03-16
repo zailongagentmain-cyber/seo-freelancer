@@ -1,6 +1,6 @@
 # SEO Trends 2026 - Latest Knowledge
 
-> Last Updated: March 16, 2026 (Round 20)
+> Last Updated: March 16, 2026 (Round 21)
 
 ## Key Trends
 
@@ -118,6 +118,22 @@
 - Replacing traditional backlinks with local trust signals
 - Geo-tagged images showing work in different neighborhoods
 - AI verifies active local presence through community engagement
+
+### 20. Intent-Driven Keyword Research
+- AI tools moving beyond traditional keyword volume to understanding *how* users phrase questions
+- Targeting clusters of related topics for more natural and effective content
+- Focus on user problems and questions, not just keywords
+
+### 21. Citable Content Architecture
+- Content structured around clear, verifiable claims
+- Supported by evidence and easy for AI to extract and attribute
+- Semantic clarity and consistent terminology essential
+- Strong off-page signals for AI visibility
+
+### 22. Search Everywhere Optimization
+- Managing full organic presence across every platform
+- Beyond Google: YouTube, social media, specialized AI platforms
+- Reputation and authority signals across all digital channels
 
 ---
 
