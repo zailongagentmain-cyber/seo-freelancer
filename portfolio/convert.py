@@ -127,7 +127,7 @@ def convert_file(md_path, template_path, output_path):
     html = html.replace('{{description}}', description)
     
     # Get lang and filename from path
-    lang = 'en' if '/en/' in output_path else 'cn'
+    lang = 'en' if '/en/' in output_path else 'zh-CN'
     filename = os.path.basename(output_path)
     html = html.replace('{{lang}}', lang)
     html = html.replace('{{filename}}', filename)
