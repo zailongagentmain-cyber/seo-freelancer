@@ -4,6 +4,8 @@
 
 In 2026, SEO is undergoing a profound transformation. Artificial intelligence is no longer just a辅助 tool—it fundamentally reshapes how search engines work and how users access information. Traditional keyword ranking strategies are giving way to a new paradigm: building **Entity Authority**.
 
+> 💡 Related: [Entity SEO 2026: Complete Guide](topic21-entity-seo-2026.md) | [E-E-A-T Trust Factors](topic23-eeat-trust-factors-2026.md)
+
 ## Why Keywords Are No Longer King
 
 SEO used to be straightforward: identify target keywords, naturally distribute them across pages, and wait for rankings to improve. Today, Google's AI systems understand relationships between **entities**—your brand, products, services, and their interconnections.
