@@ -136,7 +136,9 @@ Build content around entities, not just keywords:
 
 ## Related Topics
 
-- [Entity SEO 2026](topic21-entity-seo-2026.md)
+- [Entity SEO 2026](topic21-entity-seo-2026.html)
+- [E-E-A-T Trust Factors](topic23-eeat-trust-factors-2026.html)
+- [AI Overview Optimization](topic32-ai-overview-optimization-2026.html)
 - [E-E-A-T Trust Factors](topic23-eeat-trust-factors-2026.md)
 - [AI Overview Optimization](topic32-ai-overview-optimization-2026.md)
 
