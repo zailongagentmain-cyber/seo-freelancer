@@ -31,6 +31,7 @@ Traditional SEO focused on ranking #1 and driving clicks. Now, success is measur
 - Maintain clear authorship with demonstrated expertise credentials
 - Build author pages that highlight qualifications and experience
 - Earn mentions and citations from authoritative sources in your industry
+- See also: [E-E-A-T Trust Factors 2026](topic23-eeat-trust-factors-2026.html)
 
 ### 2. Create Human-First Content
 
@@ -38,6 +39,7 @@ Traditional SEO focused on ranking #1 and driving clicks. Now, success is measur
 - Avoid thin, automated content that lacks unique perspectives
 - Add original research, unique case studies, and novel insights
 - Ensure every piece of content provides value beyond what's already ranking
+- Learn more: [Human vs AI Content Strategy 2026](topic19-human-ai-content-2026.html)
 
 ### 3. Optimize for AI Visibility
 
@@ -45,6 +47,7 @@ Traditional SEO focused on ranking #1 and driving clicks. Now, success is measur
 - Use clear entity relationships and consistent brand information
 - Target being the primary source cited in AI responses
 - Monitor your "AI visibility" as a new critical metric
+- Deep dive: [AI Brand Authority & Citation Strategy](topic56-ai-brand-authority-citation-2026.html)
 
 ### 4. Focus on Conversion Value
 
@@ -52,6 +55,7 @@ Traditional SEO focused on ranking #1 and driving clicks. Now, success is measur
 - Target lower-volume keywords with higher conversion potential
 - Connect SEO data with CRM and revenue analytics
 - Track revenue per organic visit rather than just traffic
+- Related: [Conversion Value Optimization 2026](topic57-conversion-value-optimization-2026.html)
 
 ### 5. Build Multi-Platform Presence
 
@@ -59,6 +63,7 @@ Traditional SEO focused on ranking #1 and driving clicks. Now, success is measur
 - Create content ecosystems around core topics
 - Distribute content in multiple formats (video, text, audio)
 - Ensure consistent brand messaging across all platforms
+- Explore: [Search Everywhere Optimization](topic57-search-everywhere-optimization-2026.html)
 
 ## The Road Ahead
 
