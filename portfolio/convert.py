@@ -101,6 +101,10 @@ def convert_file(md_path, template_path, output_path):
     title_match = re.search(r'^# (.+)$', md_content, re.MULTILINE)
     title = title_match.group(1) if title_match else os.path.basename(md_path)
     
+    # Remove the first heading from content to avoid duplicate with template
+    if title_match:
+        md_content = md_content[:title_match.start()] + md_content[title_match.end():]
+    
     # Extract description from first paragraph (non-heading line, skip blockquote)
     lines = md_content.split('\n')
     description = ""
