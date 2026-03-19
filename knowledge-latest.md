@@ -53,6 +53,20 @@ SEO expanding beyond Google to encompass:
 - Success measured by: conversions, lead quality, customer value
 - Moving beyond traditional metrics: rankings, backlinks
 
+### 11. AI Overviews & Declining CTR
+- Google's AI Overviews fundamentally changing user search behavior
+- Organic CTR drop of ~34.5% due to AI Overviews
+- More users finding answers directly in AI summaries without visiting websites
+
+### 12. Zero-Click Search Dominance
+- Zero-click searches now account for significant portion of all Google queries
+- Content strategy must focus on earning inclusion in AI-generated answers
+
+### 13. GEO (Generative Engine Optimization)
+- Shift from traditional SEO to "Generative Engine Optimization"
+- Optimize for AI models to cite brand in generated answers
+- Target platforms: Google AI Overviews, ChatGPT, Perplexity, Copilot
+
 ## Action Items
 1. Create content demonstrating genuine expertise (human-AI hybrid)
 2. Optimize for multiple AI platforms beyond Google
