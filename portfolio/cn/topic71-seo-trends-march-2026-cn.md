@@ -1,6 +1,4 @@
-# SEO Trends March 2026 - Update
-
-## Key Insights (Week of March 19)
+## 关键洞察 (2026年3月周)
 
 ### 1. SEO Splits: Humans vs. AI Agents
 The industry is fragmentating into two distinct strategic problems:

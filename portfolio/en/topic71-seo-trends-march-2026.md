@@ -1,5 +1,3 @@
-# SEO Trends March 2026 - Update
-
 ## Key Insights (Week of March 19)
 
 ### 1. SEO Splits: Humans vs. AI Agents
