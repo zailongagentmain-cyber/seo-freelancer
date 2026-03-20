@@ -43,6 +43,30 @@
 - Mobile-first indexing continues to strengthen
 - JSON-LD and FAQ schema increasingly important
 
+### 9. Video SEO & Short-Form Content Dominance
+- YouTube Shorts, TikTok, Instagram Reels becoming search destinations
+- Video content indexed by AI engines for content extraction
+- Optimize video titles, descriptions, chapters for AI discovery
+- Transcripts and captions critical for accessibility and AI parsing
+
+### 10. Reddit & Quora in AI Citations
+- AI search engines heavily cite Reddit, Quora, StackExchange
+- "Reddit-washing": brands engaging authentically in communities
+- E-E-A-T boosted by community participation and expertise demonstration
+- Monitor brand mentions in discussion forums
+
+### 11. Multi-Modal Search Optimization
+- Users searching with images, voice, text simultaneously
+- Optimize for visual search (Google Lens, Pinterest Lens)
+- Image SEO: alt text, filenames, structured data, compression
+- Cross-modal content strategy (text + image + video)
+
+### 12. AI-Powered SEO Tools Revolution
+- All major SEO platforms integrating AI features
+- Automated content optimization, internal linking suggestions
+- Predictive analytics for ranking fluctuations
+- AI-generated SEO audits and recommendations
+
 ---
 
 ## Action Items
@@ -53,6 +77,9 @@
 4. Monitor AI search brand mentions
 5. Optimize for direct-answer formats
 6. Focus on E-E-A-T signals
+7. Develop video content strategy with proper SEO
+8. Engage authentically in Reddit/Quora communities
+9. Implement multi-modal content optimization
 
 ---
 
