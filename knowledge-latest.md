@@ -18,26 +18,42 @@
 - Optimize for voice search and AI assistants
 - FAQ, step-by-step guides, data tables increase inclusion likelihood
 
-### 4. Local SEO Evolution
+### 4. Perplexity & ChatGPT Search Evolution
+- Perplexity Enterprise launched, B2B search demand growing
+- ChatGPT Search integrating real-time web results
+- Structured content gets priority in AI citations
+
+### 5. Local SEO Revolution
 - Hyper-personalization based on user behavior, demographics, intentions
 - Cross-platform visibility beyond Google (Instagram, TikTok, voice search)
 - Dynamic Google Business Profile as real-time micro-website
 
-### 5. Human-AI Hybrid Content Creation
+### 6. Human-AI Hybrid Content Creation
 - AI assists with ideation, optimization, data analysis
 - Humans focus on storytelling, brand authenticity, empathy
 - Emphasis on valuable, trustworthy content over volume
 
-### 6. Brand Building & Trust Signals
+### 7. Brand Building & Trust Signals
 - AI evaluates trust signals across the web
 - Brand reputation, author expertise, reviews, mentions matter
 - Strong digital footprint signals authority to AI systems
 
-### 7. Semantic Depth & Topic Authority
-- Move beyond exact keyword matches
-- Focus on understanding problems users try to solve
-- Build comprehensive topic coverage with related sub-questions
+### 8. Technical SEO Updates
+- INP (Interaction to Next Paint) replaced FID as Core Web Vital
+- Mobile-first indexing continues to strengthen
+- JSON-LD and FAQ schema increasingly important
 
-### 8. Omnichannel Search
-- SEO expanding beyond Google to social media, video (YouTube, TikTok)
-- AI systems reference visual and social content as authoritative sources
+---
+
+## Action Items
+
+1. Audit existing content for AI citability
+2. Strengthen FAQ and How-to structured data
+3. Build digital authority (media coverage, expert citations)
+4. Monitor AI search brand mentions
+5. Optimize for direct-answer formats
+6. Focus on E-E-A-T signals
+
+---
+
+*Last Updated: March 20, 2026*

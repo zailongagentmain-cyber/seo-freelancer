@@ -1,62 +1,59 @@
 # SEO Trends March 2026 - Update
 
-## Key Insights (Week of March 19)
+## Key Insights (Week of March 20)
 
-### 1. SEO Splits: Humans vs. AI Agents
-The industry is fragmentating into two distinct strategic problems:
-- **Traditional SEO**: Focus on attracting human clicks for browsing, comparison, purchasing
-- **AI Search Optimization**: Supplying information that AI agents can find, trust, and utilize—often without users ever directly visiting a website
+### 1. AI Overviews & Zero-Click Searches
+- Google's AI Overviews appearing in ~50% of all Google searches
+- AI-generated summaries reduce organic CTR by up to 34.5% for top results
+- Content cited within AI Overviews can see increase in impressions
+- Need to optimize content to appear in concise, high-authority AI summaries
 
-### 2. Search Everywhere Optimization
-SEO expanding beyond Google to encompass:
-- Social media platforms
-- Video platforms (YouTube)
-- Forums (Reddit, Quora)
-- AI platforms (ChatGPT, Claude, Gemini)
+### 2. GEO (Generative Engine Optimization) 
+- Focus on structuring content to be prominently featured in AI-generated responses
+- Key characteristics: structured content, precise answers, unique information, E-E-A-T signals
+- Success metrics evolving to include AI visibility scores and citation frequency
 
-### 3. Agentic Commerce & AI Ads
-- AI agents completing entire tasks (search, compare, transact on behalf of users)
-- AI ads becoming more deeply integrated and conversational
-- Sponsored recommendations within AI chat threads
-- Paid citations in AI Overviews
+### 3. Answer Engine Optimization (AEO)
+- Target direct-answer formats where AI selects single authoritative source
+- Optimize for voice search and AI assistants
+- FAQ, step-by-step guides, data tables increase inclusion likelihood
 
-### 4. Brand Building, Trust & Authority as Core Signals
-- E-E-A-T more critical than ever
-- AI algorithms evaluate trust signals across the web
-- Prioritizing content from strong, credible brands with consistent multi-platform presence
+### 4. Perplexity & ChatGPT Search Evolution
+- Perplexity Enterprise launched, B2B search demand growing
+- ChatGPT Search integrating real-time web results
+- Structured content gets priority in AI citations
 
-### 5. Shift from Keywords to Intent, Context & Semantic Depth
-- Traditional keyword density diminishing
-- AI-driven algorithms interpret user intent at granular level
-- Focus on: precise context-rich answers, semantic depth, comprehensive thematic coverage
+### 5. Local SEO Revolution
+- Hyper-personalization based on user behavior, demographics, intentions
+- Cross-platform visibility beyond Google (Instagram, TikTok, voice search)
+- Dynamic Google Business Profile as real-time micro-website
 
-### 6. Structured Data & Machine Readability
-- Schema markup, entity tagging, knowledge graph optimization vital
-- Easier AI models can comprehend meaning and relationships = higher visibility
+### 6. Human-AI Hybrid Content Creation
+- AI assists with ideation, optimization, data analysis
+- Humans focus on storytelling, brand authenticity, empathy
+- Emphasis on valuable, trustworthy content over volume
 
-### 7. Content Usefulness & Human-AI Hybrid Approach
-- AI assesses content based on helpfulness and value, not just length
-- Human-AI hybrid: AI assists ideation/optimization, human drives strategy/storytelling
+### 7. Brand Building & Trust Signals
+- AI evaluates trust signals across the web
+- Brand reputation, author expertise, reviews, mentions matter
+- Strong digital footprint signals authority to AI systems
 
-### 8. Predictive SEO & Personalization
-- Predictive analytics forecasting shifts in search behavior
-- Real-time personalization making "Position 1" concept obsolete
-- Individualized intent and relevance becoming key
+### 8. Technical SEO Updates
+- INP (Interaction to Next Paint) replaced FID as Core Web Vital
+- Mobile-first indexing continues to strengthen
+- JSON-LD and FAQ schema increasingly important
 
-### 9. SEOs as "Product Engineers"
-- Most successful SEO teams leveraging AI to build marketing solutions
-- Looking less like writers, more like product engineers
-- Automation crucial for AI visibility monitoring, content optimization, technical fixes
-
-### 10. Holistic SEO & Integrated Strategies
-- Success requires integrated approach: editorial, IT, UX, PR, product management
-- Success measured by: conversions, lead quality, customer value
-- Moving beyond traditional metrics: rankings, backlinks
+---
 
 ## Action Items
-1. Create content demonstrating genuine expertise (human-AI hybrid)
-2. Optimize for multiple AI platforms beyond Google
-3. Build strong brand authority across platforms
-4. Implement comprehensive structured data
-5. Focus on semantic depth and intent-based content
-6. Measure success by business outcomes, not just rankings
+
+1. Audit existing content for AI citability
+2. Strengthen FAQ and How-to structured data
+3. Build digital authority (media coverage, expert citations)
+4. Monitor AI search brand mentions
+5. Optimize for direct-answer formats
+6. Focus on E-E-A-T signals
+
+---
+
+*Last Updated: March 20, 2026*
