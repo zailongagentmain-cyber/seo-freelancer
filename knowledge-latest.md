@@ -1,4 +1,4 @@
-# SEO Trends March 2026 - Update (Round 63)
+# SEO Trends March 2026 - Update (Round 64)
 
 ## Key Insights (Week of March 22)
 
@@ -11,7 +11,7 @@
 
 ### 2. AI Search Evolution & Zero-Click Discovery
 - AI-powered search engines now handle over 40% of global search queries
-- AI Overviews appearing in roughly 64.7% of informational queries
+- AI Overviews appearing in roughly 30-40% of all search queries (up from previous estimates)
 - Zero-click searches becoming the norm: ~60% of Google searches end without a click
 - Success metric shifting from rankings to AI citations and mentions
 
@@ -46,6 +46,7 @@
 - Strong technical SEO foundations critical: crawlability, indexation, Core Web Vitals
 - Structured data makes content machine-readable for LLM crawlers
 - Server-side rendering important as LLMs may not render JavaScript
+- Content versioning and "last verified" dates help AI systems understand current information
 
 ### 9. Conversational & Intent-Led SEO
 - Search becoming more conversational and personalized
@@ -67,6 +68,18 @@
 - Focus on neighborhood-specific content and directories
 - AI building sophisticated profiles for neighborhood rankings
 
+### 13. New Metrics for Success (March 2026 Update)
+- Traditional metrics like traffic and rankings no longer sufficient
+- Essential KPIs: AI overview citations, share of voice in AI answers, brand mentions
+- Conversion rates from organic search along with engagement metrics
+- Tools for citation tracking and predictive query analysis becoming crucial
+
+### 14. Content Optimization for AI Systems
+- **Concise Summaries**: Clear summary at top of every page for readers and AI agents
+- **Direct Answers**: Content that directly answers real customer questions
+- **Claim-Based Architecture**: Structure content around clear, verifiable claims
+- **Machine-Readable Structure**: Simple structures, direct facts, schema markup, high citation density
+
 ---
 
 ## Action Items
@@ -84,4 +97,4 @@
 
 ---
 
-*Last Updated: March 22, 2026 (Round 63)*
+*Last Updated: March 22, 2026 (Round 64)*
