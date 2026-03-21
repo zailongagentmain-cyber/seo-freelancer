@@ -53,6 +53,18 @@
 - Author credentials, citations, brand mentions matter more
 - Build digital footprint across industry publications
 
+### 11. Multi-Platform AI Search Visibility
+- SEO no longer solely about Google rankings
+- Must be visible in AI-driven platforms: SGE, Microsoft Copilot, ChatGPT Search
+- Content optimization for AI citation becoming critical
+- Omnichannel presence essential for brand visibility
+
+### 12. Agentic Commerce Optimization
+- AI agents performing tasks: product search, comparison, transactions
+- Optimize for machine readability and API compatibility
+- Brand offerings must be parseable by AI agents
+- New KPIs: conversions, lead quality, sales pipeline impact
+
 ---
 
 ## Action Items
@@ -68,4 +80,4 @@
 
 ---
 
-*Last Updated: March 20, 2026*
+*Last Updated: March 21, 2026*
