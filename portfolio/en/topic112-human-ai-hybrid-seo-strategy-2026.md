@@ -22,7 +22,7 @@ The SEO landscape has fundamentally shifted. AI-generated answers, AI agents, an
 
 - **Strategic Vision**: Understanding business goals and crafting long-term SEO roadmaps
 - **Creative Storytelling**: Building brand narratives that resonate emotionally with audiences
-- **E-E-A-T Demonstration**: Authentic expertise, experience, and trust-building
+- **E-E-A-T Demonstration**: Authentic [E-E-A-T signals](topic23-eeat-trust-factors-2026.html), experience, and trust-building
 - **Ethical Judgment**: Navigating grey areas and making values-based decisions
 - **Relationship Building**: Connecting with influencers, partners, and communities
 - **Crisis Management**: Handling reputation issues and unexpected algorithm updates
@@ -102,6 +102,12 @@ Traditional rankings remain relevant, but they no longer tell the complete story
 - **Content Performance**: How AI-assisted content compares to purely human-created content
 - **Workflow Efficiency**: Time saved through AI automation vs. quality maintained
 - **ROI Attribution**: Connecting SEO activities to business outcomes
+
+## Related Topics
+
+- [AI Search Optimization 2026](topic41-ai-search-optimization-2026.html) - AI-powered search strategies
+- [Agentic Commerce SEO](topic109-agentic-commerce-ai-task-automation-seo-2026.html) - AI agents in e-commerce
+- [Holistic SEO Integration](topic110-holistic-seo-integration-2026.html) - Breaking down silos
 
 ## Common Mistakes to Avoid
 
