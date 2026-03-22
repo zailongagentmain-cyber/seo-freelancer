@@ -173,12 +173,12 @@ By focusing on brand authority, cross-platform presence, and genuine audience en
 
 ## Related Topics
 
-- [AI Search Citation Optimization 2026](/portfolio/topic102-ai-search-citation-optimization-2026.html)
-- [E-E-A-T Trust Factors for SEO 2026](/portfolio/topic23-eeat-trust-factors-2026.html)
-- [Multi-Platform SEO Strategy 2026](/portfolio/topic63-multi-platform-seo-strategy-2026.html)
+- [AI Search Citation Optimization 2026](./topic102-ai-search-citation-optimization-2026.html)
+- [E-E-A-T Trust Factors for SEO 2026](./topic23-eeat-trust-factors-2026.html)
+- [Multi-Platform SEO Strategy 2026](./topic63-multi-platform-seo-strategy-2026.html)
 
 ---
 
 *Ready to build your brand for SEO success in 2026? Start implementing these strategies today and watch your search visibility grow alongside your brand authority.*
 
-**[← Back to Portfolio](/portfolio/index.html)**
+**[← Back to Portfolio](../index.html)**

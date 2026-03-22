@@ -173,12 +173,12 @@ ChatGPT、Google Gemini和Perplexity AI等AI驱动的搜索系统不只是爬取
 
 ## 相关主题
 
-- [2026年AI搜索引用优化](/portfolio/topic102-ai-search-citation-optimization-2026.html)
-- [2026年E-E-A-T信任因素](/portfolio/topic23-eeat-trust-factors-2026.html)
-- [2026年多平台SEO策略](/portfolio/topic63-multi-platform-seo-strategy-2026.html)
+- [2026年AI搜索引用优化](./topic102-ai-search-citation-optimization-2026-cn.html)
+- [2026年E-E-A-T信任因素](./topic23-eeat-trust-factors-2026-cn.html)
+- [2026年多平台SEO策略](./topic63-multi-platform-seo-strategy-2026-cn.html)
 
 ---
 
 *准备好在2026年建立你的品牌以获得SEO成功了吗？立即开始实施这些策略，看着你的搜索可见性随着品牌权威一起增长。*
 
-**[← 返回作品集](/portfolio/index.html)**
+**[← 返回作品集](../index.html)**
