@@ -1,55 +1,31 @@
-# SEO Trends 2026 - Latest Research
+# SEO Trends 2026 - Latest Research (Round 79)
 
-## Key Insights (March 2026 - Round 77)
-
-### 1. March 2026 Core Update - Double Impact
-- Broad core update rolled out in early March, completing around March 20-21
-- First-ever Discover-specific core update finished in late February/early March
-- Over 55% of monitored websites experienced ranking fluctuations within two weeks
-- Strong emphasis on content quality, E-E-A-T signals, and technical performance
-
-### 2. AI Overviews & Zero-Click Searches
-- AI Overviews increasingly prevalent, providing instant AI-generated answers at SERP top
-- Zero-click searches rising significantly - users find answers without visiting websites
-- Organic CTR for queries with AI Overviews has dropped substantially
-- AI-referred traffic is higher quality: better dwell time and conversion rates
-
-### 3. Intent-First Optimization
-- AI search engines prioritize understanding user intent, context, and behavior
-- Content must answer "why" and "how" not just "what"
-- Focus on solving specific user problems rather than keyword stuffing
-
-### 4. GEO (Generative Engine Optimization)
-- Optimize content to be cited by AI search engines (Google AI Overviews, ChatGPT, Perplexity, Gemini)
-- Structured data (FAQPage, Organization, Article schema) is critical
-- Building topic authority through content clusters and FAQ lists
-- Entity authority: consistent brand mentions, author bios, Wikipedia presence
-- Content freshness - AI systems exhibit recency bias
-- New metrics: AI citation frequency, share of voice in AI answers, AI-referred traffic via GA4
-
-### 5. Local SEO: Search Everywhere Optimization
-- Beyond traditional Google rankings to encompass all discovery touchpoints
-- Google Business Profile serves as primary landing page for local brands
-- "Ask Maps" feature (Gemini AI) - complex questions about places within Maps
-- FACTS Framework: Freshness, Authority, Consistency, Trust, Semantic Relevance
-- Diversified visibility across AI summaries, map packs, voice, social, video
-
-### 6. Enhanced E-E-A-T 2.0
-- Real-world expertise demonstration required
-- Clear authorship signals rewarded
-- AI classifiers now detect writing patterns and content structure
-- Human authenticity stronger ranking signal
-
-### 7. Brand Visibility in AI Era
-- Success measured by AI overview citations, share of voice in AI answers
-- Building topical authority crucial for AI trust signals
-- Earned media and third-party mentions increasingly important
-
-### 8. Content Structure for AI Extraction
-- Clear headings, bullet points, short paragraphs
-- Direct answers to FAQ-style questions
-- Schema markup essential for AI context understanding
+**Date:** March 23, 2026  
+**Round:** 79
 
 ---
 
-*Source: Web search, March 23, 2026, Round 77*
+## Key Insights
+
+1. **GPT-5.4 & Gemini 3.1 Released**
+   OpenAI released GPT-5.4 on March 5, 2026 with a 1.05 million-token context window, improved reasoning, and agentic workflows. Google unveiled Gemini 3.1 Flash-Lite in early March 2026, designed for high-speed, cost-efficient developer workloads.
+
+2. **AI Overviews Impact on Organic CTR**
+   AI Overviews reduce organic CTR by an average of 34.5%. Approximately 60% of Google searches now end without a click to an external website, significantly changing how users consume information via search.
+
+3. **GEO (Generative Engine Optimization)**
+   GEO is emerging as a critical discipline — optimizing for visibility in AI answers and summaries across platforms. Brands featured in AI Overviews see noticeably higher organic and paid CTR, making AI citation optimization a new SEO priority.
+
+4. **Multi-Platform Visibility Strategy**
+   Local SEO success now requires diversification across social media (YouTube, Reddit), AI chatbots, and voice assistants. The FACTS framework — Freshness, Authority, Consistency, Trust, Semantic Relevance — guides effective multi-platform strategy.
+
+5. **Holistic SEO Integration**
+   Editorial, IT, UX, PR, and product management must work together to orchestrate the entire user experience across channels. Silos are being replaced by integrated cross-functional teams in high-performing SEO organizations.
+
+---
+
+## Source Attribution
+Research findings synthesized from industry reports and updates covering March 2026. Model releases: OpenAI GPT-5.4 (March 5, 2026), Google Gemini 3.1 Flash-Lite (early March 2026). CTR and search behavior data: industry benchmarks.
+
+---
+*End of Round 79 Research*
