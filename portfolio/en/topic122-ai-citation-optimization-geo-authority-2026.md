@@ -64,7 +64,7 @@ Every few years, a new acronym arrives promising to revolutionize digital market
 
 When you rank #1 on Google, only one result wins the top spot. But when an AI generates an answer, it typically cites 5, 10, sometimes 20 sources. The real estate for citations is *expanding* even as traditional organic positions shrink. This is not a zero-sum game — it's a parallel opportunity with different rules.
 
-For related deep-dives, see our guide on [semantic SEO strategy](topic31) and [building topical authority in competitive niches](topic48).
+For related deep-dives, see our guide on [semantic SEO strategy](topic31-zero-click-seo-2026.html) and [building topical authority in competitive niches](topic48-answer-engine-optimization-2026.html).
 
 ---
 
@@ -108,7 +108,7 @@ AI models don't just match keywords — they evaluate semantic depth. Content th
 
 **Tactic:** Move beyond surface-level content. Answer not just *what* but *why* and *how*. Anticipate follow-up questions. Structure content so an AI can extract discrete, citable facts.
 
-For more on semantic content strategy, read our piece on [semantic SEO and entity optimization](topic32).
+For more on semantic content strategy, read our piece on [semantic SEO and entity optimization](topic32-ai-overview-optimization-2026.html).
 
 ---
 
@@ -167,7 +167,7 @@ AI Overviews often pull from content that already ranked well for featured snipp
 - Use FAQ sections that mirror how users actually phrase queries
 - Claim the "position zero" and let AI do the rest
 
-For more on technical optimization tactics, see our guide on [advanced SEO auditing](topic83) and [mastering featured snippets](topic114).
+For more on technical optimization tactics, see our guide on [advanced SEO auditing](topic83-ai-overviews-zero-click-seo-2026.html) and [mastering featured snippets](topic114-answer-engine-geo-2026.html).
 
 ---
 
@@ -218,4 +218,4 @@ Start building content that is worth citing. The future of search is not a resul
 
 ---
 
-*Ready to evolve your content strategy for the AI era? Explore our complete guides on [semantic SEO](topic31), [topical authority](topic48), [entity optimization](topic32), [technical SEO auditing](topic83), and [featured snippet mastery](topic114).*
+*Ready to evolve your content strategy for the AI era? Explore our complete guides on [semantic SEO](topic31-zero-click-seo-2026.html), [topical authority](topic48-answer-engine-optimization-2026.html), [entity optimization](topic32-ai-overview-optimization-2026.html), [technical SEO auditing](topic83-ai-overviews-zero-click-seo-2026.html), and [featured snippet mastery](topic114-answer-engine-geo-2026.html).*
