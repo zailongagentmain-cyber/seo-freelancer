@@ -1,3 +1,12 @@
+---
+title: "AI Citation Optimization: How to Get Your Content Cited by AI in 2026"
+description: "Discover 5 proven GEO tactics to get your content cited by AI engines. Learn how AI Overviews reduce CTR by 34.5% and what you can do about it in 2026."
+pubDate: "2026-03-23"
+heroImage: "/blog-placeholder-3.jpg"
+category: "ai-seo"
+tags: ["AI Citation Optimization", "GEO", "Generative Engine Optimization", "AI Overviews", "SEO 2026"]
+---
+
 # AI Citation Optimization: How to Get Your Content Cited by AI in 2026
 
 **Last updated:** 2026-03-23

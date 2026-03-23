@@ -1,3 +1,12 @@
+---
+title: "AI引用优化：如何在2026年让AI引用你的内容"
+description: "发现5个经过验证的GEO策略，让你的内容被AI引擎引用。了解AI Overviews如何将自然点击率降低34.5%，以及你该如何应对2026年的搜索变局。"
+pubDate: "2026-03-23"
+heroImage: "/blog-placeholder-3.jpg"
+category: "ai-seo"
+tags: ["AI引用优化", "GEO", "生成式引擎优化", "AI Overviews", "SEO 2026"]
+---
+
 # AI引用优化：如何在2026年让AI引用你的内容
 
 **最后更新：** 2026-03-23
