@@ -1,6 +1,6 @@
 ---
 title: "Multimodal AI Search: Mastering Visual, Voice, and Video SEO in 2026"
-description: "Round 97 LEARNER: Multimodal AI search optimization — mastering visual, voice, and video SEO across text, image, video, and voice modalities in 2026."
+description: "Multimodal AI search optimization — mastering visual, voice, and video SEO across text, image, video, and voice modalities in 2026."
 ---
 
 # Multimodal AI Search: Mastering Visual, Voice, and Video SEO in 2026
