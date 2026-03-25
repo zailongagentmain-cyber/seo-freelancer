@@ -1,159 +1,145 @@
-# knowledge-latest.md — Round 107
+# knowledge-latest.md — Round 108
 
 **Date:** March 26, 2026
-**Round:** 107
-**Topic:** topic146 - Google March 2026 Spam Update & AI Content Detection: Zero-Tolerance SEO
+**Round:** 108
+**Topic:** topic147 - GEO: Generative Engine Optimization — How to Rank in AI Answers & Overviews
 
 ---
 
 ## 一、核心主题
 
-### 事件时间线（极其重要）
+### 什么是 GEO（Generative Engine Optimization）？
 
-2026年3月24日，Google正式推出了一次独立的**垃圾内容 Spam Update**，在**24小时内完成推送**（3月25日结束）。这是近年来速度最快的spam更新。
+GEO 是一种新兴的 SEO 实践，专注于**优化内容被 AI 语言模型和生成式搜索系统引用**。主要目标平台包括：
+- Google AI Overviews（AI 概览）
+- ChatGPT（SearchGPT）
+- Perplexity
+- Gemini
+- Claude 等 AI 助手
 
-同时，**March 2026 Core Update** 在此前一个19天的窗口期内完成推送，两者叠加，对搜索生态造成了显著影响。
-
-**关键数据：**
-- Spam Update 完成时间：2026年3月25日（昨日）
-- Core Update 推送周期：19天
-- 受影响网站类型：AI批量内容农场、thin content、关键词堆砌型站点
-
----
-
-## 二、Spam Update 2026 重点打击对象
-
-### 1. AI批量生成内容（核心目标）
-- 大规模AI生成、未经人类编辑的内容
-- 只有"看似专业"但没有真实经验的内容
-- Google的AI现在能识别"技能展示"vs"技能声称"的差异
-- **判断标准**："是否展示了真正的技能，而非只是声称有技能"
-
-### 2. 关键词填充和内容单薄
-- 大规模覆盖无关关键词
-- 内容深度不足、缺乏独特见解
-- 重复性高的"内容模板"文章
-
-### 3. 内容更新作弊
-- 只改日期不改内容本质的"伪更新"
-- 新的"更新归属"机制：实质更新才被认可
-
-### 4. 用户体验干扰
-- 过多弹窗、广告
-- 页面加载超过2秒
-- 移动端体验差的网站
+**背景数据：** 2026年初，近 **60% 的搜索以零点击结束**，用户直接在 AI 摘要中获得答案。GEO 已成为内容营销的必修课。
 
 ---
 
-## 三、AI内容检测新机制（重点）
+## 二、AI Overviews 工作机制
 
-### Google如何检测AI内容
+### 触发逻辑
+1. AI 从可访问的网页中提取相关内容
+2. 评估内容的权威性、可信度、时效性
+3. 合成多源信息生成综合答案
+4. 直接在搜索结果页展示，无需点击
 
-**不再只看"是否AI生成"**，而是：
-
-1. **技能展示测试（Skill Demonstration Test）**
-   - 内容是否展示了真实可验证的操作经验？
-   - 是否有第一手的测试数据、截图、案例？
-   - 作者背景是否与内容主题匹配？
-
-2. **意图覆盖评估（Intent Coverage Assessment）**
-   - 是否覆盖了用户搜索意图的完整路径？
-   - 是否提供了其他文章没有的独特价值？
-
-3. **更新真实性验证（Freshness Verification）**
-   - 实质性更新 vs. 仅改日期的"假更新"
-   - Google现在能追踪内容的版本历史
-
-4. **E-E-A-T信号强化**
-   - Experience：需要可验证的真实世界经验
-   - Expertise：需要具体的资质、认证、实战案例
-   - Authoritativeness：需要行业内其他权威引用
-   - Trustworthiness：透明的来源、更新历史
+### 零点击搜索的影响
+- 传统有机流量下降
+- 被引用成为新的"品牌曝光"方式
+- 品牌信任度和转化率更重要
 
 ---
 
-## 四、存活策略：Zero-Tolerance SEO
+## 三、GEO 五大优化策略
 
-### 策略1：内容必须是"技能展示"而非"技能声称"
+### 策略 1：答案优先结构化（Answer-First Structured Content）
 
-**错误示范：**
-> "SEO很重要，你需要关注关键词研究"
+**核心原则：** 前 200 词内直接给出答案
 
-**正确示范：**
-> "我测试了17个SEO工具，以下是每个工具在2026年3月的真实排名变化数据..."
+- 每个 H2/H3 段落开头先给结论，再展开
+- 使用问答式标题（如"如何..."、"为什么..."）
+- bullet points、numbered lists、表格代替长段落
+- FAQ 区直接覆盖常见问题
 
-### 策略2：实质更新机制
+### 策略 2：E-E-A-T 权威信号
 
-更新内容时，必须包含：
-- 新的数据点（2026年3月最新数据）
-- 新的案例或测试结果
-- 更新的行业趋势分析
-- 不要只改文章日期，要改实质内容
+- **原创数据**：发布独家研究、统计数据
+- **专家背书**：清晰的作者简介和资质
+- **第三方引用**：争取权威媒体/论坛引用你的内容
+- **引用权威来源**：内嵌高质量外链
 
-### 策略3：EEAT密集型内容结构
+### 策略 3：理解 AI 查询意图
 
-每篇文章需要包含：
-- **Experience**：具体项目经历（如"我在3个月内测试了..."）
-- **Expertise**：可验证的专业背景（如LinkedIn链接、专业资质）
-- **Authoritativeness**：行业权威引用（非匿名"专家说"）
-- **Trustworthiness**：透明的数据来源和更新历史
+- 目标信息型、长尾问题型、多轮对话型关键词
+- 自然会话式写作风格（voice search 友好）
+- 从关键词→主题→知识图谱思维升级
 
-### 策略4：Core Web Vitals优先
+### 策略 4：技术优化
 
-关键指标（2026年标准）：
-- LCP < 2.0秒（更严格）
-- INP < 200ms
-- CLS < 0.1
-- 移动优先索引
+- **Schema Markup**：FAQPage、HowTo、Article、Person、Organization
+- **AI 爬虫可访问性**：检查 robots.txt 是否阻止 GPTBot
+- **内容新鲜度**：定期更新，AI 有强烈的新近偏好
+- **内链建设**：描述性锚文本建立主题深度信号
 
----
+### 策略 5：多元化内容格式
 
-## 五、24小时内发生的事情
-
-### 3月24日
-- Google宣布March 2026 Spam Update开始推送
-- 目标：打击利用AI批量生成内容的网站
-- 同时Core Update进入最后阶段
-
-### 3月25日（昨日）
-- Spam Update完成（24小时极速完成）
-- Core Update完成（19天）
-- 大量SEO论坛报告排名波动
-- AI内容农场站点流量显著下降
-
-### 3月26日（今日）
-- 开始评估损失/收益
-- 制定应对策略
-- 最佳行动时机：立即优化现有内容
+- 文字文章（主流）
+- 视频+字幕（AI 可抓取语音）
+- 图片+详细 Alt 文本
+- 数据可视化（图表、信息图）
+- 结构化数据（JSON-LD）
 
 ---
 
-## 六、文章结构建议
+## 四、AI Overviews 特殊考量
 
-**Title:** "Google March 2026 Spam Update & AI Content Detection: Zero-Tolerance SEO Playbook"
+### 触发频率
+- 高权重网站：几乎所有相关查询都可能触发
+- 长尾问题、信息型查询更易触发
+- 本地搜索和电商搜索也已开始覆盖
 
-**目标读者：** SEO从业者、内容创作者、网站站长
-
-**Hook:** "就在昨天，Google在24小时内完成了一次spam更新，大量AI内容农场站点被清退。这是2026年最激进的一次内容质量行动。"
-
-**结构：**
-1. 时间线：发生了什么（3月24-25日的完整记录）
-2. Spam Update vs Core Update：两者的区别
-3. Google的AI内容检测新机制（4个核心测试）
-4. Zero-Tolerance SEO：5步存活策略
-5. 内容审计清单（逐项检查）
-6. 30天重建计划
-7. CTA
-
-**关键词：** Google March 2026 Spam Update, AI content detection, zero-tolerance SEO, spam update 2026, thin content penalty, E-E-A-T 2026, SEO content quality, AI generated content
-
-**字数目标：** 3000-3500词（EN）/ 2500-2800字（CN）
+### AI 引用来源归因
+- Google Search Console 已于 2025年6月 集成 AI Overview 数据
+- 第三方工具：LLMRefs、ClickRank、Conductor 等追踪 AI 引用
+- 品牌在论坛（Reddit、Quora）的讨论也会影响 AI 引用判断
 
 ---
 
-## 七、关键引用来源
+## 五、GEO vs 传统 SEO 关键差异
 
-1. Search Engine Journal - "Google March 2026 Spam Update Complete in 24 Hours"
-2. Search Engine Land - "Google's March 2026 Core Update + Spam Update"
-3. SEJ Vendor - Algorithm update coverage
-4. Digital Roots Media - March 2026 update analysis
+| 维度 | 传统 SEO | GEO |
+|------|----------|-----|
+| 目标 | 排名 → 点击 | 引用 → 品牌曝光 |
+| 核心指标 | 排名、CTR | AI 引用率、品牌提及 |
+| 内容策略 | 关键词密度 | 答案完整度、权威性 |
+| 技术重点 | 外链、速度 | Schema、爬虫可访问性 |
+| 成功衡量 | 流量 | 品牌认知度、转化路径 |
+
+---
+
+## 六、30天 GEO 行动计划
+
+### Week 1：审计与结构改造
+- [ ] 审计现有内容的前200词是否直接给出答案
+- [ ] 将密集段落改为 bullet points 和 lists
+- [ ] 添加 FAQ 区（5-10 个问题）
+
+### Week 2：E-E-A-T 强化
+- [ ] 完善所有文章的作者简介
+- [ ] 添加原创数据或案例研究
+- [ ] 实施 Article + Person + Organization Schema
+
+### Week 3：技术优化
+- [ ] 检查并修复 robots.txt（允许 GPTBot）
+- [ ] 提交更新到 Google Index
+- [ ] 建立主题集群内链结构
+
+### Week 4：监控与迭代
+- [ ] GSC 查看 AI Overview 曝光数据
+- [ ] 用工具追踪品牌在 AI 答案中的引用
+- [ ] 根据数据迭代内容策略
+
+---
+
+## 七、GEO 必测指标
+
+1. **AI Overview 出现率**：相关查询有多少触发了 AI 概览
+2. **品牌引用率**：你的品牌/内容被 AI 答案引用的频率
+3. **零点击搜索曝光**：品牌在 AI 层级的可见度
+4. **富媒体参与度**：视频、图表的 AI 抓取和展示
+5. **Schema 覆盖率**：核心页面 Schema 完整度
+
+---
+
+## 八、延伸话题
+
+- Perplexity SEO：如何在 AI 答案引擎中获得引用
+- SearchGPT 影响：ChatGPT Search 对 SEO 的影响
+- 品牌声音（Brand Voice）作为排名信号
+- AI 生成内容检测与反检测策略
