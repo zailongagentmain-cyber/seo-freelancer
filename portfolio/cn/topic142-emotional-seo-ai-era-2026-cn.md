@@ -191,7 +191,7 @@ Affect 维度评估：
 
 - "I Failed 5 Times Before Finding THIS Approach — And It Finally Worked"
 - "Why Your 'Perfect' Content Keeps Failing Google's Emotional Test"
-- "The Hidden Psychological Reason You're Not Ranking (And It’s Not Technical)"
+- "The Hidden Psychological Reason You're Not Ranking (And It's Not Technical)"
 
 ### 文章段落模板
 
@@ -255,5 +255,5 @@ Affect 维度评估：
 - searchengineland.com — Emotional SEO coverage
 - semrush.com — Emotion AI Tool and sentiment analysis
 - nngroup.com — Emotional design principles
--Google E-E-A-T guidelines 2026
+- Google E-E-A-T guidelines 2026
 - contentmarketinginstitute.com — Emotional content strategy
