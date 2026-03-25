@@ -1,8 +1,6 @@
-# knowledge-latest.md — Round 111
+# Agentic SEO: 面向 AI 代理、后端信号与机器对机器网络的网络优化
 
-**Date:** March 26, 2026
-**Round:** 111
-**Topic:** topic150 - Agentic SEO: Optimizing Websites for AI Agents, Back-end Signals & The Machine-to-Machine Web
+**更新日期:** 2026年3月26日 | **作者:** 龙雅人
 
 ---
 
@@ -73,7 +71,7 @@ Agentic SEO 是优化网站以被 AI 代理"理解、使用、执行"的实践�
 
 后端 SEO 是 Agentic SEO 的核心差异。它关注的是"机器如何读取和操作网站"，而非"人类如何阅读网站"。
 
-**关键要素**：
+**关键要素**:
 
 **3.1.1 API 可发现性**
 - 公开 API 端点应有 `robots.txt` 标注（允/禁 AI 爬虫）
@@ -174,7 +172,7 @@ Agentic SEO 是优化网站以被 AI 代理"理解、使用、执行"的实践�
 
 **标题**：核心问题 + 直接答案
 ```
-"如何[做某事]：[X]步完整指南（2026年）"
+"[如何做某事]：[X]步完整指南（2026年）"
 ```
 
 **前 200 词必须包含**：
@@ -242,7 +240,7 @@ Allow: /
 | 结构化数据覆盖 | 20% | 关键页面 100% Schema = 20分 |
 | 无障碍设计 | 15% | WCAG 2.1 AA 合规 = 15分 |
 | 表单语义化 | 15% | 所有 input 有 label + name = 15分 |
-| 页面加载速度 | 15% | LCP < 2.0s = 15分 |
+| 页面加载速度 | 15% | LCP < 1.5s = 15分 |
 | 内容提取难度 | 15% | 前 200 词包含核心答案 = 15分 |
 
 ### 5.4 Core Web Vitals 2026 代理版
@@ -306,7 +304,7 @@ Spam 更新是 Google 为 Agentic AI 时代铺路：
 ### Week 3：内容改造
 - [ ] 重写前 200 词：直接答案式开头
 - [ ] 将 3 篇核心文章改造为"代理优先格式"
-- [ ] 添加 FAQPage Schema 到所有产品页
+- [ ] 为所有产品页添加 FAQPage Schema
 - [ ] 创建代理可引用的原创数据/研究
 
 ### Week 4：监控与迭代
