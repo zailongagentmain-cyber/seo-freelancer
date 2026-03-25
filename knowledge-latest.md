@@ -1,335 +1,195 @@
-# knowledge-latest.md — Round 111
+# knowledge-latest.md — Round 112
 
 **Date:** March 26, 2026
-**Round:** 111
-**Topic:** topic150 - Agentic SEO: Optimizing Websites for AI Agents, Back-end Signals & The Machine-to-Machine Web
+**Round:** 112
+**Topic:** topic151 - GEO: Generative Engine Optimization — How to Get Cited in AI Responses
 
 ---
 
 ## 一、核心主题
 
-### Agentic AI 的崛起与 SEO 的范式转移
+### 从 SEO 到 GEO：优化内容被 AI 引用
 
-2026年3月24日，Google 发布了最新 Spam 更新，进一步清理低质量内容。这只是表象——更深层的趋势是：**AI 正在从"答案提供者"进化为"行动执行者"（Agent）**。
+2026年3月，SEO 领域正在经历一场根本性转变：传统的**搜索引擎优化**正在让位于**生成式引擎优化（Generative Engine Optimization，GEO）**。
 
-**Agentic AI** 是指能够自主规划、执行多步骤任务的 AI 系统：
-- OpenAI 的 Operator / Agents
-- Google Gemini 的深度推理能力
-- Microsoft Copilot Agents
-- Claude 的 Computer Use / Artifacts
+**背景数据**：
+- 预计到2026年，传统搜索引擎流量将下降 **25%**，被 AI 聊天机器人接管大量查询
+- Google AI Overviews 正在扩展，AI Mode 将进一步影响核心搜索体验
+- 大量搜索现在产生"零点击"——答案直接出现在 SERP 的 AI 摘要中
 
-这意味着搜索引擎优化的对象正在从"人类读者"扩展到"AI 代理"。SEO 的定义需要从 **Search Engine Optimization** 升级为 **Search Everywhere Agent Optimization**。
-
-### 什么是 Agentic SEO？
-
-Agentic SEO 是优化网站以被 AI 代理"理解、使用、执行"的实践。AI 代理不再只是读取网页内容——它们会：
-- 自主导航网站（就像用户一样）
-- 填写表单、点击按钮、执行交易
-- 调用 API 获取实时数据
-- 在后台数据库中读写记录
-- 组合多个工具完成任务
-
-这要求网站在后端、API、数据结构层面也必须"AI 友好"。
+**核心问题**：如何让 AI 代理在生成回答时引用你的内容？
 
 ---
 
-## 二、AI 代理如何与网站交互
+## 二、GEO vs 传统 SEO
 
-### 2.1 代理的网络行为模式
-
-**传统爬虫**：GET 请求 → 下载 HTML → 解析内容 → 提取链接
-
-**AI 代理行为**：
-1. **规划阶段**：代理分析用户意图，制定执行计划
-2. **探索阶段**：导航网站，寻找相关页面（像用户一样点击）
-3. **数据提取**：从页面提取结构化数据（价格、日程、规格）
-4. **操作执行**：注册账号、填写订单、提交搜索查询
-5. **结果整合**：将多源信息整合后呈现给用户
-
-### 2.2 代理使用的关键技术
-
-| 技术 | 说明 | SEO 关联 |
-|------|------|---------|
-| **DOM 解析** | 代理直接解析页面 DOM 结构 | 语义化 HTML 更易解析 |
-| **API 调用** | 代理直接调用网站后端 API | API 文档 = 新的 SEO 对象 |
-| **表单自动填写** | 代理模拟用户输入 | 表单结构影响代理体验 |
-| **无头浏览器** | 代理渲染 JavaScript 页面 | JavaScript SEO 仍然重要 |
-| **Cookie/会话管理** | 代理维持登录状态 | 个性化内容需考虑代理身份 |
-
-### 2.3 代理发现的网站类型
-
-**代理友好网站特征**：
-- 清晰的信息架构（代理知道在哪找什么）
-- 结构化数据完备（Schema = 代理的"规范说明书"）
-- API 文档开放（代理可以直接调用）
-- 无障碍设计完善（代理使用与视障用户相同的辅助技术）
-- 加载速度快（代理有时间预算）
+| 维度 | 传统 SEO | GEO（生成式引擎优化） |
+|------|---------|---------------------|
+| 目标 | 搜索排名 #1 | AI 响应中的引用/提及 |
+| 评估指标 | CTR、排名位置 | 引用率、提及量 |
+| 优化对象 | Google 爬虫 | AI 模型（GPT-4o、Gemini、Claude 等） |
+| 核心策略 | 关键词布局、外链 | 内容权威性、引用可验证性、结构化数据 |
+| 内容特征 | 关键词密集 | 事实准确、来源透明、上下文丰富 |
 
 ---
 
-## 三、Agentic SEO 的技术支柱
+## 三、GEO 的七大核心策略
 
-### 3.1 后端 SEO（Back-end SEO）
+### 1. 引用优化（Citation Optimization）
 
-后端 SEO 是 Agentic SEO 的核心差异。它关注的是"机器如何读取和操作网站"，而非"人类如何阅读网站"。
+AI 模型倾向于引用**权威来源**来支持事实陈述。
 
-**关键要素**：
+**操作方法**：
+- 在内容中嵌入可验证的统计数据和来源引用
+- 使用语气强烈的措辞（"according to X research", "data shows"）增加被引用概率
+- 引用权威机构（政府数据、学术论文、行业报告）而非匿名来源
+- **注意**：研究表明，包含来源归因的句子被引用率显著更高
 
-**3.1.1 API 可发现性**
-- 公开 API 端点应有 `robots.txt` 标注（允/禁 AI 爬虫）
-- OpenAPI/Swagger 文档应完整且最新
-- API 应返回结构化数据（JSON > HTML）
-- GraphQL 端点应有 schema introspection
+### 2. 统计强化（Statistics Enhancement）
 
-**3.1.2 数据库可访问性**
-- 实时数据（库存、价格、日程）应可通过 API 获取
-- 代理需要"活的数据"而非"过时的快照"
-- 数据更新频率应标注（Last-Modified / Cache-Control）
+研究显示，包含**量化统计数据**的内容更容易被 AI 引用。
 
-**3.1.3 无头浏览器兼容性**
-- 重要内容不应完全依赖 JavaScript 渲染
-- 关键操作路径应有 SSR（服务端渲染）版本
-- 代理在使用无头浏览器时，行为应与普通爬虫兼容
+**操作方法**：
+- 在文章中加入具体数字（"93% of..." 而不是 "most"）
+- 使用精确数字而非模糊表达
+- 每篇核心文章至少包含 3-5 个可验证的关键数据点
+- 数据要有来源标注（即使是估算也要说明来源）
 
-### 3.2 结构化数据的新优先级
+### 3. 主题权威性（Topic Authority）
 
-在 Agentic SEO 时代，Schema Markup 不再只是"帮助 Google 理解内容"——它是**代理的指令手册**。
+AI 模型会评估来源的**主题权威性**。
 
-**代理最依赖的 Schema 类型**：
+**操作方法**：
+- 围绕核心主题建立完整的内容体系（ topical cluster ）
+- 成为特定细分领域的权威（而不是泛泛覆盖所有话题）
+- 创建"权威页面"——深入、长篇、引用丰富的内容
+- 内部链接策略：权威页面链接到相关子话题，子话题链接回权威页面
 
-```json
-// Product Schema — 代理知道如何处理产品
-{
-  "@type": "Product",
-  "name": "...",
-  "price": "...",
-  "availability": "...",
-  "review": [...]
-}
+### 4. 语义相关性（Semantic Relevance）
 
-// Event Schema — 代理知道如何注册/购票
-{
-  "@type": "Event",
-  "startDate": "...",
-  "location": "...",
-  "offers": {...}
-}
+GEO 依赖**语义匹配**而非关键词匹配。
 
-// FAQPage Schema — 代理提取直接答案
-{
-  "@type": "FAQPage",
-  "mainEntity": [
-    {"@type": "Question", "acceptedAnswer": {...}}
-  ]
-}
-```
+**操作方法**：
+- 使用自然语言写作，覆盖主题的多维度语义
+- 使用同义词、相关概念、上下游术语
+- 回答问题的多个变体（who, what, where, when, why, how）
+- 覆盖查询的**实体和关系**而非仅关键词
 
-**代理优先读取的 Schema 属性**：
-- `price` / `availability` → 代理决定是否推荐
-- `aggregateRating` → 代理排序依据
-- `hasMenu` → 餐厅代理必读
-- `duration` → 视频/课程代理参考
+### 5. 格式优化（Format Optimization）
 
-### 3.3 信息架构的代理兼容性
+AI 优先读取特定格式的内容。
 
-**传统信息架构**：人类导航友好 → 面包屑 + 侧边栏 + 搜索框
+**操作方法**：
+- **列表格式**（Numbered lists）被 AI 高度引用——"10 ways to..."类型标题
+- **定义块**（Definition blocks）：用简洁语言定义关键术语
+- **对比表格**（Comparison tables）：帮助 AI 理解实体间关系
+- **FAQ 架构**：覆盖用户问题的所有维度
+- **分步指南**：结构清晰的任务指引
 
-**代理友好信息架构**：
-- URL 结构语义化（`/products/red-shoes/` 而非 `/p?id=123`）
-- 页面层级扁平（代理越深越难发现深层内容）
-- 每个页面有 `<link rel="canonical">`（代理去重）
-- sitemap.xml 完整且更新及时
-- `<meta name="robots" content="index, follow">` 默认友好
+### 6. 引用来源建设（Source Citation Building）
 
-### 3.4 表单与交互优化（代理操作体验）
+成为其他权威网站的**被引用来源**。
 
-代理经常需要填写表单：搜索、注册、订购、查询。
+**操作方法**：
+- 主动向行业媒体报道、研究机构提供数据
+- 在社交平台分享原创数据和洞察（增加被发现概率）
+- 参与播客、采访、行业活动（建立权威背书）
+- 创建可嵌入的数据可视化（供他人引用）
 
-**表单 Agentic SEO 最佳实践**：
-- 每个 `<input>` 有明确的 `label` 属性
-- `name` 属性语义化（`name="email"` 而非 `name="field_1"`）
-- `autocomplete` 属性完整（`autocomplete="email"` 帮助代理预填）
-- 表单提交后有明确的成功/失败反馈
-- 关键操作有备用接口（API 端点可替代表单提交）
+### 7. 结构化数据与 Schema（Structured Data）
 
-**无障碍（Accessibility）= 代理可操作性**：
-- 图像有 `alt` 文本（代理理解图像内容）
-- 按钮有文本标签（`<button>搜索</button>` 而非空按钮）
-- 焦点顺序合理（键盘导航 = 代理导航）
-- ARIA 属性标注动态内容区域
+Schema 帮助 AI **理解内容上下文**。
+
+**关键 Schema 类型**：
+- **Article Schema**：明确文章类型（NewsArticle、TechArticle、BlogPosting）
+- **FAQ Schema**：覆盖常见问题（直接进入 AI 答案）
+- **HowTo Schema**：分步说明（被 AI 用于任务指引）
+- **SpeakableSpecification**：标记 AI 可自动播报的内容部分
+- **Citation Schema**（如有）：声明引用来源关系
 
 ---
 
-## 四、内容策略：代理生成内容 vs 人类原生内容
+## 四、GEO 与 Agentic SEO 的关系
 
-### 4.1 AI 代理的内容消费模式
+> **Agentic SEO** = 让 AI 代理能够理解和使用你的网站
+> **GEO** = 让 AI 在生成回答时引用你的内容
 
-代理阅读内容的方式与人类不同：
-- **扫描深度**：代理通常只读前 200-300 词
-- **信息密度**：高密度结构化内容 > 叙述性散文
-- **引用偏好**：段落首句 = 核心结论（AI 代理倾向引用）
-- **格式敏感**：表格、列表、代码块比段落更易被提取
+两者互补：Agentic SEO 确保代理能"行动"，GEO 确保内容被"引用"。
 
-### 4.2 代理优化的内容写作公式
-
-**标题**：核心问题 + 直接答案
-```
-"如何[做某事]：[X]步完整指南（2026年）"
-```
-
-**前 200 词必须包含**：
-- 核心答案（第一句即结论）
-- 关键数字/日期（代理提取用于比较）
-- 主要步骤概览（代理决定是否深入）
-
-**内容结构**：
-```
-H2: 核心问题（代理直接引用）
-H3: 子话题（代理提取为列表项）
-H2: 第二问题
-  表格：对比数据（代理提取）
-  代码块：操作指令（代理执行）
-H2: FAQ（代理提取为 AI 答案）
-```
-
-### 4.3 人类内容仍然是差异化因素
-
-Google March 2026 Spam 更新明确打击"为 AI 代理设计但不提供真实价值"的内容。代理时代，真正的差异化是：
-
-- **真实体验分享**：第一手操作经验（代理无法捏造）
-- **原创数据研究**：代理会引用，原创数据 = 权威信号
-- **独特观点角度**：有立场的分析 vs. 中立的信息汇编
-- **社区验证**：用户评论、案例研究、第三方背书
+**Agentic SEO 是后端，GEO 是前端**：
+- Agentic SEO：API 可发现性、表单语义化、无障碍设计、Schema（机器可读）
+- GEO：引用优化、统计数据、权威性、格式优化（内容被优先抽取）
 
 ---
 
-## 五、技术检查清单（Agentic SEO Audit）
+## 五、AI 引用检测工具
 
-### 5.1 爬虫权限矩阵
-
-```bash
-# robots.txt — 确保 AI 代理可访问关键路径
-User-agent: GPTBot
-Allow: /api/
-Allow: /products/
-Allow: /search?q=
-
-User-agent: Operator
-Allow: /
-
-User-agent: ComputerUse
-Allow: /
-
-User-agent: Claude
-Allow: /
-```
-
-### 5.2 API SEO 清单
-
-| 检查项 | 重要性 | 操作 |
-|--------|--------|------|
-| OpenAPI 文档存在且可访问 | ⭐⭐⭐ | 创建 Swagger/OpenAPI 文档 |
-| API 返回结构化 JSON | ⭐⭐⭐ | 规范化 API 响应格式 |
-| API 端点在 sitemap.xml | ⭐⭐ | 添加 API 端点到 sitemap |
-| API 有 rate limit 说明 | ⭐⭐ | 在 API 文档中标注限制 |
-| API 认证方式明确 | ⭐⭐ | OAuth / API Key 文档完整 |
-
-### 5.3 代理可操作性评分（0-100）
-
-| 维度 | 权重 | 评分标准 |
-|------|------|---------|
-| API 可发现性 | 20% | 有完整 OpenAPI 文档 = 20分 |
-| 结构化数据覆盖 | 20% | 关键页面 100% Schema = 20分 |
-| 无障碍设计 | 15% | WCAG 2.1 AA 合规 = 15分 |
-| 表单语义化 | 15% | 所有 input 有 label + name = 15分 |
-| 页面加载速度 | 15% | LCP < 2.0s = 15分 |
-| 内容提取难度 | 15% | 前 200 词包含核心答案 = 15分 |
-
-### 5.4 Core Web Vitals 2026 代理版
-
-代理对页面性能的要求比人类更严格——代理有时间预算（通常 5-30 秒）。
-
-| 指标 | 人类标准 | 代理标准 |
-|------|---------|---------|
-| LCP | < 2.5s | < 1.5s |
-| INP | < 200ms | < 100ms |
-| CLS | < 0.1 | < 0.05 |
-| TTFB | < 800ms | < 200ms |
+| 工具 | 用途 |
+|------|------|
+| Google AI Overviews | 检查你的内容是否进入 AI 摘要 |
+| Bing Chat / Copilot | 检查 Microsoft AI 引用来源 |
+| Perplexity Citations | 检查 Perplexity 引用了你哪些内容 |
+| Claude citations | 检查 Claude 引用来源（可通过 API 分析） |
+| SEOWind / Clearscope GEO | GEO 内容评分与优化建议 |
+| Semrush Bio Space | 品牌在 AI 平台（包括 Reddit、Quora）的提及追踪 |
 
 ---
 
-## 六、Google March 2026 Spam 更新解析
+## 六、GEO 内容检查清单
 
-### 6.1 更新背景
-
-- **发布时间**：2026年3月24日开始推送
-- **类型**：全语言 Spam 更新
-- **预计完成**：约 1 周
-- **目标**：打击利用算法漏洞获取排名的低质量内容
-
-### 6.2 Spam 更新重点打击对象
-
-1. **纯 AI 生成内容**：无独特价值、仅用于填充搜索结果
-2. **内容农场模式**：大量页面互相链接、制造权威假象
-3. **标题党优化**：Clickbait 标题 + 低质量内容
-4. **关键词覆盖作弊**：用同义词/翻译填充意图而非真正回答
-5. **过时内容重发布**：未更新仅改日期的失效内容
-
-### 6.3 Agentic SEO 视角的解读
-
-Spam 更新是 Google 为 Agentic AI 时代铺路：
-- **清理噪音**：代理在执行任务时需要可靠的信息源
-- **提升信噪比**：代理才能高效地完成任务
-- **标准化内容格式**：代理需要一致性来提取信息
-
-**对 Agentic SEO 的直接启示**：
-- 内容必须"代理可用"——有结构、能提取、被信任
-- 后端必须"代理可操作"——API 清晰、操作安全
-- 架构必须"代理可发现"——扁平、快速、语义化
+- [ ] 包含至少 3-5 个可验证的统计数据（带来源标注）
+- [ ] 使用语气强烈的归因句式（"according to", "research shows"）
+- [ ] 覆盖主题的完整语义范围（同义词、相关概念）
+- [ ] 使用列表格式、定义块、对比表格
+- [ ] 嵌入 FAQ 或 HowTo 结构
+- [ ] 添加 Article + FAQ + SpeakableSpecification Schema
+- [ ] 建立主题权威性（cluster 内容结构）
+- [ ] 主动建立被引用关系（投稿、数据分享）
 
 ---
 
-## 七、30天 Agentic SEO 执行计划
+## 七、关键趋势与时间节点
 
-### Week 1：审计与基准
-- [ ] 完成 Agentic SEO Audit（代理可操作性评分）
-- [ ] 审计所有 Product/Event/FAQ 页面的 Schema 覆盖率
-- [ ] 检查 robots.txt 是否允许主要 AI 爬虫
-- [ ] 测量 Core Web Vitals 代理标准
-
-### Week 2：技术优化
-- [ ] 为关键页面添加 OpenAPI 文档或 REST 端点
-- [ ] 优化表单：label + name + autocomplete 全覆盖
-- [ ] 提交更新后的 sitemap.xml（含 API 端点）
-- [ ] 验证无障碍设计 WCAG 2.1 AA 合规
-
-### Week 3：内容改造
-- [ ] 重写前 200 词：直接答案式开头
-- [ ] 将 3 篇核心文章改造为"代理优先格式"
-- [ ] 添加 FAQPage Schema 到所有产品页
-- [ ] 创建代理可引用的原创数据/研究
-
-### Week 4：监控与迭代
-- [ ] 监控 March 2026 Spam 更新对流量的影响
-- [ ] 追踪 AI 代理来源的流量（新增 AI Referrer 维度）
-- [ ] 对比 Week 1 和 Week 4 的 Agentic SEO 评分
-- [ ] 制定 Q2 Agentic SEO 路线图
+| 时间 | 事件 | 影响 |
+|------|------|------|
+| 2024-2025 | AI Overviews 推出并扩展 | 零点击增加 |
+| 2026 年初 | Google AI Mode 发布 | AI 搜索体验深化 |
+| 2026 年 3 月 | Google Spam 更新 | 低质量 AI 内容被打击 |
+| 2026 年中（预计） | 传统搜索流量下降 25% | GEO 成为必争之地 |
+| 持续 | AI 代理崛起 | Agentic SEO + GEO 双轨并行 |
 
 ---
 
-## 八、话题延续与关联
+## 八、行动建议
 
-- **承接 Round 110（Search Everywhere Optimization）**：SEO 无处不在扩展到 AI 代理场景
-- **承接 Round 109（GPT-5.4 LLM SEO）**：50 万 token 模型使代理能理解完整网站
-- **新增维度**：后端 SEO / API SEO / 无障碍设计
+### 立即执行（1-2周）
+1. 为现有核心文章添加统计引用和来源标注
+2. 添加 FAQ Schema 到前 10 篇核心文章
+3. 检查是否进入 Google AI Overviews（如有内容被引用，记录模式）
+
+### 短期（1个月）
+1. 审核所有文章格式（列表、定义块、对比表格）
+2. 建立主题权威性 cluster 结构
+3. 开始主动投稿、建立被引用关系
+
+### 中期（3个月）
+1. 追踪 AI 平台引用数据（Perplexity、Bing Chat）
+2. 迭代 GEO 内容策略
+3. 评估 Agentic SEO + GEO 双轨效果
 
 ---
 
-## 九、延伸阅读方向
+## 九、信息来源
 
-- OpenAI Operator 官方文档与 SEO 影响
-- Google Gemini 深度推理模式的爬虫行为分析
-- WCAG 2.2 无障碍新标准与 AI 代理的交集
-- API SEO：面向开发者的内容营销新战场
+- Semrush: "SEO Trends 2026" (semrush.com)
+- Search Engine Land: "GEO and the Future of Search"
+- Hatsoff Digital: "March 2026 SEO Developments"
+- Exposure Ninja: "SEO in the Age of AI"
+- Revved Digital: "Search Everywhere Optimization 2026"
+- Fullcast: "E-E-A-T and AI Content Quality"
 
-topic150
+---
+
+## 十、主题标签
+
+`#GEO` `#GenerativeEngineOptimization` `#AIOverviews` `#ZeroClick` `#SEOTrends2026` `#AgenticSEO` `#ContentOptimization` `#SchemaMarkup`
