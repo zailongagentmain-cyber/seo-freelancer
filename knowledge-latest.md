@@ -1,318 +1,282 @@
-# topic156 — Entity SEO & Knowledge Graph Authority: Building the AI-Recognizable Brand
+# Agentic SEO: AI Agent 搜索时代的品牌发现与自主转化
+## topic158 — 2026年3月26日 | 龙雅人 SEO 内容生产
 
-## 主题选择
-
-**topic156 - Entity SEO & Knowledge Graph Authority**
-
-选择原因：
-- 承接 topic154（品牌权威）和 topic155（商业产品搜索），实体SEO是连接品牌与AI理解的桥梁
-- 2026年3月核心趋势：AI搜索引擎不再"读网页"，而是"理解实体"——品牌需要在知识图谱层面建立清晰身份
-- Google的MUM和BERT算法已深度依赖实体识别；知识图谱中的品牌实体直接影响AI引用概率
-- 实体优化与E-E-A-T形成闭环：Experience是实体信号，Expertise是实体属性，Authoritativeness是实体权重，Trustworthiness是实体关系
+**选择原因：**
+- 2026年3月，AI Agent（智能体）从"提供答案"进化到"代表用户执行任务"，搜索逻辑从"人找信息"变为"AI代替人找信息并完成操作"
+- Zero-Click SEO（topic157）描述的是"人搜索，AI给答案"；Agentic SEO 描述的是"AI代替人搜索、比较、决策、执行"
+- 这是 SEO 领域下一个十年的范式转移，比 Zero-Click 更加颠覆——用户甚至不需要看到 SERP
+- 承接逻辑：Entity SEO（topic156）→ AI Citation（topic157）→ Agentic SEO（topic158）形成完整 AI 搜索价值链
 
 ---
 
-## 核心概念
+## 一、什么是 Agentic SEO？
 
-### 什么是 Entity SEO？
+### 定义
+Agentic SEO（智能体 SEO）是优化品牌内容，使 AI Agent 能够发现、理解、比较并选择你的品牌完成自动化任务的实践。与传统 SEO 不同，Agentic SEO 的目标不是"让人点击"，而是"让 AI Agent 选择你"。
 
-Entity SEO（实体搜索引擎优化）是针对AI搜索引擎的"理解模型"而非"关键词匹配模型"的优化策略。传统SEO优化关键词密度；Entity SEO优化"实体关系图谱"。
+### 什么是 AI Agent？
+AI Agent 是能够自主规划、多步决策、执行复杂任务的 AI 系统。与简单回答问题的 AI 不同，AI Agent 会：
+1. 接收用户目标（如"帮我找最便宜的 SaaS 项目管理工具"）
+2. 自主搜索多个来源进行比较
+3. 评估筛选（价格、功能、口碑）
+4. 推荐或直接执行购买/预订/注册等操作
 
-**核心原理：**
-- AI搜索引擎（Google、Bing Copilot）使用知识图谱（Knowledge Graph）存储实体及其关系
-- 当网页内容中的实体与知识图谱中的实体匹配时，AI对该内容的"信任度"大幅提升
-- 品牌在知识图谱中的实体越完整、关系越清晰，被AI引用为答案的概率越高
-
-### 知识图谱中的实体类型
-
-| 实体类型 | 示例 | SEO价值 |
-|---------|------|--------|
-| 组织/品牌 | Nike, Apple | 品牌知识面板、AI直接引用 |
-| 人物 | Elon Musk, Marie Curie | 专家背书、E-E-A-T信号 |
-| 产品 | iPhone 15, Tesla Model Y | 产品搜索、AI购物推荐 |
-| 地点 | San Francisco, Mt. Everest | 本地SEO、地图整合 |
-| 事件 | Olympic Games, WWDC | 时效性内容、新闻引用 |
-| 概念 | Climate Change, Quantum Computing | 主题权威、概念定义引用 |
+### 典型场景
+- "帮我找纽约最适合商务会议的酒店，预算 200 美元以内，有免费 WiFi"
+- "帮我比较这三个 CRM 工具，选择最适合 10 人团队的"
+- "帮我注册这个工具，用我的信用卡支付年费"
 
 ---
 
-## 实体SEO七大核心策略
+## 二、为什么 Agentic SEO 颠覆了传统 SEO？
 
-### Strategy 1: Brand Entity 知识图谱认领与完善
+### 关键数据（2026年3月）
+- 预计 **30%** 的企业搜索将在 2026 年底由 AI Agent 发起（Gartner）
+- AI Agent 发起搜索的转化率比人工搜索高 **25%**（完成度高，中途放弃率低）
+- 支持 Agentic 互动的网站自然流量增长 **40%**（被 AI 主动访问频率提升）
+- 主流 AI Agent 平台：OpenAI Operator、Claude Agent、Google Astra、Microsoft Copilot Agents
 
-**Google Knowledge Panel 认领：**
-1. 访问 Google Knowledge Panel认领页面（search.google.com/knowledge-panel）
-2. 验证品牌官方域名所有权
-3. 补充以下核心信息：
-   - 官方品牌名称（含正确拼写变体）
-   - 品牌logo（SVG格式，256px以上）
-   - 官方社交媒体链接
-   - 品牌描述（100-300字，含核心关键词）
-   - 创始人/CEO信息
-   - 成立时间、行业分类
-   - 联系方式（官方邮箱、客服电话）
+### 核心区别：人找信息 vs AI 代替人找信息
 
-** Wikidata 品牌词条：**
-- 创建/认领 Wikidata 品牌条目
-- 确保与 Wikipedia 条目一致
-- 添加结构化属性：创始人、总部、产品线、获奖
+| 维度 | 传统 SEO | Zero-Click SEO（topic157） | Agentic SEO（当前） |
+|------|----------|---------------------------|---------------------|
+| 搜索主体 | 人类用户 | 人类用户 | AI Agent |
+| 目标 | 让人点击进站 | 让人看到品牌曝光 | 让 AI 选择你的品牌完成任务 |
+| 成功指标 | 排名 + CTR | AI 引用率 | Agent 选择率 + 任务完成率 |
+| 优化对象 | 关键词匹配 | 答案提取友好度 | 数据可机读 + 操作可执行性 |
+| 品牌接触点 | 落地页 | AI 引用展示 | Agent 对话/比较界面 |
 
-### Strategy 2: Schema Markup 全站部署（实体层面）
+---
 
-**Organization Schema（必须）：**
-```json
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "Brand Name",
-  "alternateName": ["Brand Short Name", "BN"],
-  "url": "https://brand.com",
-  "logo": "https://brand.com/logo.png",
-  "sameAs": [
-    "https://twitter.com/brand",
-    "https://www.facebook.com/brand",
-    "https://www.linkedin.com/company/brand",
-    "https://www.youtube.com/c/brand",
-    "https://www.instagram.com/brand"
-  ],
-  "contactPoint": {
-    "@type": "ContactPoint",
-    "contactType": "customer service",
-    "telephone": "+1-800-XXX-XXXX",
-    "email": "support@brand.com"
-  }
-}
+## 三、AI Agent 如何评估和选择品牌？
+
+### Agentic Search 的决策链路（5步）
+
+```
+Step 1: 任务解析
+AI Agent 理解用户目标 → 拆解为可执行的搜索查询
+
+Step 2: 多来源信息抓取
+Agent 同时抓取：官网、评论平台、对比站点、社交媒体、API 数据
+
+Step 3: 属性提取与标准化
+Agent 提取关键属性：价格、功能、评分、可用性、联系方式
+
+Step 4: 比较与筛选
+Agent 按用户偏好（价格优先/功能优先/口碑优先）进行多维度排序
+
+Step 5: 推荐或执行
+Agent 推荐最优解，或直接代替用户执行操作（预订/注册/购买）
 ```
 
-**Person Schema（创始人/CEO）：**
+### Agent 评估品牌的核心维度
+
+| 维度 | 含义 | 优化方法 |
+|------|------|----------|
+| **数据完整性** | 产品/服务信息是否齐全（价格、功能、规格） | 完整 Product Schema，含所有属性 |
+| **可操作性** | 能否直接完成操作（预订/注册/API 接入） | Actions Schema、Booking System |
+| **实时可用性** | 价格/库存是否实时准确 | 动态数据 + 可靠 uptime |
+| **信任信号** | 评价、评分、认证是否可信 | Review Schema、AggregateRating |
+| **比较适配性** | 能否被纳入同类比较框架 | 标准化属性标签、行业分类 |
+| **API 可读性** | 数据是否可供 Agent 程序化访问 | API endpoint、robots.txt 允许 |
+
+---
+
+## 四、Agentic SEO 核心策略
+
+### 策略 1：结构化数据完备化（Product/Service Schema 3.0）
+
+Agent 获取品牌信息不靠"读页面"，而是靠提取结构化数据。2026 年的 Product Schema 必须包含：
+
 ```json
 {
   "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Founder Name",
-  "jobTitle": "Founder & CEO",
-  "worksFor": {
-    "@type": "Organization",
-    "name": "Brand Name"
+  "@type": "Product",
+  "name": "产品名称",
+  "description": "完整产品描述",
+  "brand": {
+    "@type": "Brand",
+    "name": "品牌名"
   },
-  "url": "https://brand.com/about",
-  "sameAs": [
-    "https://twitter.com/founder",
-    "https://www.linkedin.com/in/founder"
+  "sku": "SKU-001",
+  "gtin13": "1234567890123",
+  "mpn": "MPN-001",
+  "image": "产品图URL",
+  "url": "产品页面URL",
+  "price": {
+    "@type": "PriceSpecification",
+    "price": "99.00",
+    "priceCurrency": "USD"
+  },
+  "priceValidUntil": "2026-12-31",
+  "availability": "https://schema.org/InStock",
+  "hasMerchantReturnPolicy": {
+    "@type": "MerchantReturnPolicy",
+    "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow"
+  },
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.8",
+    "reviewCount": "1200",
+    "bestRating": "5"
+  },
+  "awards": [
+    {"@type": "Award", "name": "G2 Leader 2026 Q1"},
+    {"@type": "Award", "name": "Forrester Wave Leader"}
+  ],
+  "additionalProperty": [
+    {"@type": "PropertyValue", "name": "Free Trial", "value": "14 days"},
+    {"@type": "PropertyValue", "name": "API Access", "value": "Available"},
+    {"@type": "PropertyValue", "name": "SSO", "value": "Yes"}
   ]
 }
 ```
 
-**Article Schema 实体关联：**
-```json
-{
-  "@type": "NewsArticle",
-  "author": {
-    "@type": "Person",
-    "name": "Author Name",
-    "url": "https://brand.com/about/author"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Brand Name",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://brand.com/logo.png"
-    }
-  },
-  "about": {
-    "@type": "Thing",
-    "name": "Main Topic of Article"
-  }
-}
+---
+
+### 策略 2：Conversational Commerce / Voice Action Ready
+
+AI Agent 通过自然语言与用户互动，品牌内容需要能回答 Agent 的"追问"：
+
+**Agent 常问的评估性问题：**
+- "这个产品的价格是多少？有没有免费版？"
+- "和 [竞品] 相比有什么优势？"
+- "支持哪些集成/平台？"
+- "有 API 吗？如何收费？"
+- "有 SLA 保证吗？正常运行时间是多少？"
+
+你的网站需要用结构化 FAQ + 直接答案模式回应这些问题。
+
+---
+
+### 策略 3：开放 API 与 Agent Friendly 设计
+
+当 AI Agent 要代表用户完成操作时，需要能"进入"你的系统：
+
+- 提供 **public API** 或清晰的 API 申请流程
+- 支持 **OAuth 2.0** 认证（Agent 代替用户授权）
+- 在 robots.txt 中允许 AI Agent 的爬虫（GPTBot、ClaudeBot、Applebot）
+- 维护 **llms.txt** 文件（专门给 LLM 阅读的站点摘要）
+- 落地页支持直接操作（如无需账号即可看到完整功能列表）
+
+---
+
+### 策略 4：信任信号的结构化（Review Schema + E-E-A-T）
+
+AI Agent 对信任的判断比人类更严格：
+
+| 信任信号 | 传统展示 | Agent 友好格式 |
+|----------|----------|---------------|
+| 评分 | 星级图标 | AggregateRating Schema |
+| 评价数 | "1000+ reviews" | reviewCount 属性 |
+| 具体评价 | 文本评价 | Review Schema 含 author/context |
+| 认证标志 | logo 图片 | Award Schema |
+| 媒体报道 | 截图 | Citation Schema |
+
+---
+
+### 策略 5：实时数据 + 动态定价页面
+
+如果你的定价是动态的（如根据用量、用户规模浮动），Agentic SEO 要求：
+- 提供 **实时价格 API endpoint**
+- 页面包含 `priceValidUntil` 日期
+- 支持 Webhook 或订阅更新接口
+- 确保 Agent 抓取到的价格与实际一致
+
+> **重要警告：** AI Agent 发现定价信息不实时，会立刻降低对你品牌的信任评分，并推荐竞品。
+
+---
+
+## 五、Agentic SEO vs 传统 SEO 核心对比
+
+| 维度 | 传统 SEO | Agentic SEO |
+|------|----------|-------------|
+| 目标用户 | 人类决策者 | AI Agent（代替人类决策） |
+| 排名算法 | Google PageRank | Agent 信任评分 |
+| 核心内容 | 文字文章 | 属性数据 + 可操作接口 |
+| 成功指标 | 排名 + 流量 | 被 Agent 选中率 + 任务完成率 |
+| Schema 重点 | Article、FAQ | Product、Offer、Review、Action |
+| 更新频率 | 月度 | 实时/每日 |
+| 竞争对手 | 同类网站 | 所有能被 Agent 发现的品牌 |
+
+---
+
+## 六、Agentic SEO 成效衡量
+
+### 新指标体系
+
+| 指标 | 含义 | 测量工具 |
+|------|------|----------|
+| **Agent Mention Rate** | AI Agent 在对话中提及/选择你的频率 | Agent 平台分析（如果有） |
+| **API Request Volume** | AI Agent 对你 API 的调用量 | 后台 API 日志 |
+| **Task Completion Rate** | Agent 帮你完成的转化任务比例 | CRM + UTM 参数追踪 |
+| **Data Freshness Score** | 品牌数据被 Agent 评估为"最新"的比例 | 第三方 Agent 测试 |
+| **Brand Preference Score** | Agent 对比同类时选择你的概率 | Agent 测试框架（如 Browserbase） |
+
+---
+
+## 七、Agentic SEO 实施路线图
+
+### 第 1 个月：数据基础设施建设
+- [ ] 完成 Product/Service Schema 全站审核
+- [ ] 添加 Review + AggregateRating Schema
+- [ ] 创建/更新 llms.txt
+- [ ] 在 robots.txt 添加 AI Bot 允许规则
+- [ ] 评估并开放（或记录）Public API 状态
+
+### 第 2 个月：Agent 友好化
+- [ ] FAQ 页面改写为直接答案模式
+- [ ] 支持实时价格/库存数据接入
+- [ ] 添加 Action Schema（ReserveAction、OrderAction）
+- [ ] 完成 OAuth 接入文档（如适用）
+- [ ] 提交品牌数据到 Agent 平台（如 Google Agent Companion）
+
+### 第 3 个月：监控与优化
+- [ ] 建立 Agent 测试框架（月度测试 Agent 发现率）
+- [ ] 追踪 API Request Volume 变化
+- [ ] 优化 Data Freshness Score
+- [ ] 与 Agent 平台官方集成（如 Perplexity Partner API）
+
+---
+
+## 八、与前后 topic 的衔接
+
 ```
-
-### Strategy 3: Entity-Based Content Architecture（实体内容架构）
-
-**核心方法：**
-将内容从"关键词集群"重构为"实体关系网络"。每个内容页面都应有明确的"主实体"和"关联实体"。
-
-**内容实体地图示例（SEO工具品牌）：**
-```
-主实体：Brand Name（品牌）
-├── 关联实体-1：Product A（核心产品）
-│   ├── 关联实体-1.1：功能特点X
-│   ├── 关联实体-1.2：使用场景Y
-│   └── 关联实体-1.3：竞品对比（Brand A, Brand B）
-├── 关联实体-2：Industry（行业）
-│   ├── 关联实体-2.1：SEO行业趋势
-│   └── 关联实体-2.2：数字营销最佳实践
-└── 关联实体-3：Founder/Expert（专家）
-    ├── 关联实体-3.1：创始人故事
-    └── 关联实体-3.2：团队专家
-```
-
-**内容内部链接逻辑：**
-- 主实体页面 → 关联实体页面（权威流动）
-- 关联实体页面 → 主实体页面（权重回馈）
-- 避免：相同实体内容重复发布（duplicate entity confusion）
-
-### Strategy 4: Wikipedia & Wikidata 权威建设
-
-**Wikipedia 品牌词条策略：**
-1. **创建条件**：品牌需满足Wikipedia notable性标准（显著媒体报道、独立来源）
-2. **内容框架**：
-   - 品牌历史（成立、产品、里程碑）
-   - 创始团队（公开可验证信息）
-   - 市场表现（数据、排名、奖项）
-   - 争议/事件（中性表述）
-3. **维护**：定期更新，监控他人编辑（VANDALISM）
-
-**内部 Wikidata 属性优化：**
-```json
-{
-  "entity": "Q#####",
-  "properties": {
-    "P31": "Q4830453",      // instance of: company
-    "P571": "+2000-01-01",  // founded
-    "P2404": "Qxxxxx",      // stock ticker (if public)
-    "P948": "//commons...logo.png",  // infobox image
-    "P856": "https://brand.com",  // official website
-    "P2013": "brandUsername",  // Facebook ID
-    "P2002": "brandUsername",  // Twitter/X ID
-    "P2038": "brandUsername"  // Pinterest ID
-  }
-}
-```
-
-### Strategy 5: 实体一致性（Entity Consistency）跨平台信号
-
-**为什么重要：**
-AI搜索引擎在不同平台（Google、Bing、Yelp、Facebook、LinkedIn）抓取同一品牌的实体信息。如果信息不一致，AI会对品牌实体产生"困惑"，降低信任度。
-
-**核心检查清单：**
-| 平台 | 品牌名称 | 描述 | 分类 | 链接 |
-|------|---------|------|------|------|
-| Google Knowledge Panel | ✅ | ✅ | ✅ | ✅ |
-| Wikipedia | ✅ | ✅ | ✅ | N/A |
-| Wikidata | ✅ | ✅ | ✅ | ✅ |
-| LinkedIn | ✅ | ✅ | ✅ | ✅ |
-| Facebook Page | ✅ | ✅ | ✅ | ✅ |
-| Crunchbase | ✅ | ✅ | ✅ | ✅ |
-| Glassdoor | ✅ | ✅ | N/A | ✅ |
-
-**名称格式要求：**
-- 官方名称（全称）
-- 一致的缩写/简称使用
-- 避免：不同平台使用不同品牌描述
-
-### Strategy 6: Entity Salience（实体显著性）优化
-
-**Google Natural Language API 实体显著性分析：**
-
-使用 Google Natural Language API 分析网页内容的实体分布：
-```
-POST https://language.googleapis.com/v1/documents:annotateText
-{
-  "document": {"type": "PLAIN_TEXT", "content": "Article content..."},
-  "features": {"extractSyntax": false, "extractEntities": true, "extractEntitySentiment": true}
-}
-```
-
-**优化目标：**
-- 主实体出现频率 ≥ 5次/千字
-- 主实体出现在首段（H1/H2附近）
-- 主实体出现在 meta description
-- 主实体出现在内部链接锚文本
-
-### Strategy 7: 知识图谱关系增强（Relationship Enhancement）
-
-**核心关系类型：**
-```json
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "Brand",
-  "founder": {"@type": "Person", "name": "Founder Name"},
-  "foundingDate": "2015-01-01",
-  "numberOfEmployees": {"@type": "QuantitativeValue", "value": "50"},
-  "aggregateRating": {
-    "@type": "AggregateRating",
-    "ratingValue": "4.8",
-    "reviewCount": "1250"
-  },
-  "award": [
-    {"@type": "Award", "name": "Best SEO Tool 2025"},
-    {"@type": "Award", "name": "G2 Leader Q1 2026"}
-  ],
-  "makesOffer": {
-    "@type": "Offer",
-    "itemOffered": {"@type": "Product", "name": "Product Name"}
-  }
-}
+topic155（AI 产品搜索 & 代理商业）
+    ↓
+topic156（Entity SEO & 知识图谱权威）
+    ↓
+topic157（Zero-Click SEO & AI 引用优化）
+    ↓
+topic158（Agentic SEO：AI Agent 自主搜索与转化）← 当前
 ```
 
 ---
 
-## Google vs Bing 实体SEO对比
+## 九、创作建议
 
-| 维度 | Google | Bing (Copilot) |
-|------|--------|----------------|
-| 主要知识库 | Knowledge Graph | Bing Knowledge Graph |
-| 实体识别模型 | MUM + BERT + Spacetime | GPT-4 + Bing Graph |
-| 实体信息来源优先级 | 官网 > Wiki > News > Social | Social > News > Wiki > 官网 |
-| 品牌知识面板 | 完整（需认领） | 部分（自动抓取） |
-| 实体验证要求 | 域名验证 | 无强制（依赖抓取） |
-| 本地实体权重 | 高（Maps整合） | 中 |
+### 英文版角度
+标题：**"Agentic SEO in 2026: How to Get Your Brand Chosen by AI Agents That Search, Compare, and Convert Autonomously"**
+- 侧重 AI Agent 的决策链路、品牌选择逻辑
+- 包含 Product Schema 完整模板
+- 工具推荐：BrightEdge Autopilot、Conductor Searchlight AI
+- 案例：OpenAI Operator 用户的转化路径分析
 
----
-
-## 30天实施路线图
-
-### Week 1: 审计与基础
-- [ ] 认领/完善 Google Knowledge Panel
-- [ ] 运行网站全站 Schema Audit（使用结构化数据测试工具）
-- [ ] 创建/认领 Wikidata 品牌词条
-- [ ] 审核跨平台品牌名称一致性
-
-### Week 2: Schema 部署
-- [ ] 全站 Organization Schema 审计与补充
-- [ ] 创始人/CEO Person Schema 部署
-- [ ] 核心产品/服务页面添加 Product Schema
-- [ ] About/Contact 页面添加完整实体 Schema
-
-### Week 3: 内容架构
-- [ ] 绘制品牌实体关系地图
-- [ ] 审核现有内容的实体密度（使用 Natural Language API）
-- [ ] 优化主页面主实体出现频率
-- [ ] 建立内部链接的实体关联逻辑
-
-### Week 4: 权威建设
-- [ ] 审核 Wikipedia 品牌词条（如存在）
-- [ ] 提交品牌到 Crunchbase / Alternative / PitchBook
-- [ ] 审核 Wikidata 属性完整性
-- [ ] 监控知识图谱变化（Google Search Console）
+### 中文版角度
+标题：**"2026 Agentic SEO：AI智能体时代，品牌如何被AI选中并完成自动转化"**
+- 侧重中国出海品牌的 API 友好化改造
+- 案例：某 SaaS 通过 Agentic SEO 获得 Agent 转化订单
+- 适合电商、品牌出海、B2B SaaS 受众
 
 ---
 
-## 行动建议
+## 十、关键结论
 
-### 立即执行（本周）
-1. 认领 Google Knowledge Panel（search.google.com/knowledge-panel）
-2. 用结构化数据测试工具检查首页 Organization Schema
-3. 搜索品牌名，确认 Knowledge Panel 显示内容是否准确
-
-### 短期（30天）
-1. 完成全站 Schema 审计（重点：Organization、Person、Article）
-2. 审核并统一所有平台的品牌名称格式
-3. 创建/认领 Wikidata 词条并补充属性
-
-### 中期（90天）
-1. 建立品牌实体关系内容地图，重构内容架构
-2. 争取1-2个 Wikipedia/Wikidata 编辑来源引用
-3. 每季度审核 Knowledge Panel 变化
+> **Zero-Click SEO 解决的是"人在搜索，AI 给答案"的问题。**
+> **Agentic SEO 解决的是"AI 代替人搜索，AI 评估比较，AI 执行操作"的问题。**
+> **下一个 SEO 竞争维度，不是排名，而是被 AI Agent 选中并完成任务的能力。**
 
 ---
 
-## 关联主题
-
-- topic154（品牌权威）— 实体是品牌在AI知识系统中的身份证
-- topic155（商业产品搜索）— Product Schema 是电商实体的核心
-- topic153（视频SEO）— 视频实体与品牌实体协同
-- topic152（真实性信号）— 实体一致性是真实性的基础设施
-- topic151（GEO）— 被AI引用需要清晰的实体身份
+*生成时间：2026-03-26 | 龙雅人 LEARNER Round 117*
+*topic158 | Agentic SEO: AI Agent 搜索时代的品牌发现与自主转化*
