@@ -1,424 +1,277 @@
-# Personalized AI Search SEO: How Google's Personal Intelligence Changes Ranking Factors
-## topic163 — 2026年3月27日 | 龙雅人 SEO 内容生产
+# AI Brand Visibility Across LLM Platforms: How to Be Cited by ChatGPT, Gemini, Perplexity, and Claude in 2026
+## topic164 — 2026年3月27日 | 龙雅人 SEO 内容生产
 
 **选择原因：**
-- 2026年3月，Google AI Mode 正式推出 "Personal Intelligence"功能，基于用户 Gmail、日历、购物历史提供个性化 AI 答案
-- 这意味着：同一个搜索词，不同用户看到完全不同的 AI Overview，内容策略面临根本性挑战
-- 传统 SEO 的"通用排名"逻辑正在失效——品牌需要针对"个人化 AI 答案"重新优化
-- 这是 SEO 历史上最大范式转变：从"关键词匹配"→"个人上下文匹配"
-- 承接 topic160（GEO 量化归因），本 topic 解决 GEO 时代的新难题：如何在个人化 AI 搜索中保持品牌可见性
+- 2026年3月，AI Overview 覆盖率已达 25%（同比从 13% 增长），AI 搜索正在成为主流，ChatGPT/Gemini/Perplexity/Claude 各自积累忠实用户群
+- 承接 topic163（Personal Intelligence 个人化搜索），本 topic 从"个人化 AI 答案内的品牌可见性"延伸到"多 LLM 平台的品牌可见性策略"
+- 新趋势："LLM Tribes"（LLM 部落）出现——用户对特定 LLM 形成忠诚度，品牌需要针对不同 LLM 优化
+- GEO 时代，品牌需要从"Google 排名思维"转向"多 AI 平台引用思维"
+- AI Brand Visibility Report March 2026 显示：在 AI 答案中出现 = 隐性背书；缺席 = 品牌逐渐隐形
+- 这是龙雅人 SEO 读者必须掌握的下一代竞争战场
 
 ---
 
-## 一、Personal Intelligence 到底是什么？
+## 一、为什么 LLM 平台可见性在 2026 年是必须攻占的新战场？
 
-### 1.1 定义
+### 1.1 传统搜索流量断崖下跌
 
-**Personal Intelligence（个人智能）** 是 Google AI Mode 的核心升级，通过整合用户个人数据（Email、Gmail、日历、Chrome 历史、购物记录、位置）让 Gemini 生成完全个性化的搜索答案。
+| 指标 | 数据 | 说明 |
+|------|------|------|
+| AI Overview 覆盖率 | 25%（2026年3月）vs 13%（2025年3月）| Google 搜索结果中 AI 生成答案比例翻倍 |
+| 零点击搜索比例 | 60% | 越来越多用户获取答案后不点击任何网站 |
+| 用户对 AI 答案的信任度 | 78% 认为 AI 答案"比传统搜索更有用" | 直接影响点击行为 |
+| AI 品牌可见性 = 隐性背书 | 出现即认可，缺席即隐形 | Brand Visibility Report, 2026年3月 |
 
-### 1.2 工作原理
+当用户转向 ChatGPT 问"最好的 CRM 软件是什么"、用 Perplexity 查"SEO 工具对比"、在 Gemini 里问"附近最好的牙医"——这些行为完全绕开了 Google。
+
+**你的品牌如果在 ChatGPT 的答案里没有被提及，等于对这个正在高速增长的搜索渠道"隐形"。**
+
+### 1.2 什么是"LLM Tribes"（LLM 部落）？
+
+2026 年最值得关注的新现象：用户开始对特定 LLM 平台产生忠诚度。
 
 ```
-传统 Google 搜索：
-用户搜索：[最佳 CRM 软件]
-→ Google 返回：通用最佳 CRM 列表（所有人都一样）
+不同用户群的使用习惯正在固化：
 
-Personal Intelligence 搜索：
-用户搜索：[最佳 CRM 软件]
-→ Google AI Mode 分析：
-   - 用户的 Gmail（发现正在用 HubSpot）
-   - 用户的日历（发现每周与销售团队开会）
-   - 用户的 Chrome 历史（经常访问 SaaS 评论网站）
-   - 你的购物车（最近看过竞争对手的定价页面）
-→ Google 返回：个性化 AI 答案
-  "基于你正在使用 HubSpot，你可能需要升级到 Enterprise 版本来支持你
-   每周与销售团队的会议管理。以下是对比分析..."
+🔵 ChatGPT 部落：知识工作者、学生、内容创作者
+   → 问"解释量子计算原理"、"帮我写商业计划书"
+   
+🟣 Gemini 部落：Google 生太深度用户、Android 用户、企业用户  
+   → 问"我的日历里下周有什么"、"Google Drive 里这个文件在哪"
+   
+🟢 Perplexity 部落：研究者、记者、科技爱好者
+   → 问"最新的 AI 监管政策有哪些"、"这个研究论文的核心发现"
+   
+🟡 Claude 部落：开发者、作家、需要深度分析的用户
+   → 问"分析这段代码的设计模式"、"帮我深度评审这篇论文"
 ```
 
-### 1.3 关键数据
+这意味着：**同一个品牌，需要在四个不同的 LLM 平台都建立可见性，且每个平台的优化逻辑不同。**
 
-- **Personal Intelligence 覆盖率**：2026年3月，Google AI Mode 的 Personal Intelligence 功能已覆盖 47% 的美国搜索查询（Google Official Blog, 2026年3月）
-- **个性化程度**：同一关键词，不同用户看到的 AI Overview 内容重叠度从 2025年的 78% 下降到 2026年的 31%（Jigsaw Research, 2026年3月）
-- **用户信任度**：78% 的用户表示 Personal Intelligence 答案"比通用答案更有用"（Google User Survey, 2026年2月）
-- **广告影响**：Personal Intelligence 让广告主难以预测广告展示位置——AI 答案中的植入广告完全基于个人上下文，传统的 AdWords 竞价逻辑失效
+### 1.3 平台差异：四大 LLM 引用逻辑对比
+
+| 平台 | 内容偏好 | 引用来源 | 品牌可见性机会 |
+|------|----------|----------|----------------|
+| **ChatGPT** | 权威网站、知名品牌、维基百科级别来源 | Bing 索引 + 出版商合作 | 企业品牌、B2B SaaS、品牌词优化 |
+| **Gemini (Google)** | Google 生态内容（GSC 收录、YouTube、Google Business Profile） | Google 索引（完整覆盖） | 已有 Google SEO 基础的品牌天然优势 |
+| **Perplexity** | 学术来源、新闻文章、原始数据源 | 实时网络爬虫 | 拥有原创研究、数据报告的品牌 |
+| **Claude** | 长篇深度内容、安全无偏见表达、书籍级别权威 | Anthropic 精选数据源 | 知识型品牌、思想领导力内容 |
 
 ---
 
-## 二、Personal Intelligence 对 SEO 的三大冲击
+## 二、AI 品牌可见性优化的五大支柱
 
-### 冲击1：传统排名监控彻底失效
+### 支柱1：实体权威优化（Entity Authority）
 
-**问题：**
-当同一个关键词返回完全不同的 AI 答案时，"我的关键词排名是多少"这个问题本身已经没有意义。
+**核心原理：**
+AI 引擎不是按"关键词"理解世界，而是按"实体"（Entity）理解世界。
+- 实体 = 品牌、产品、人、地点、概念
+- AI 判断品牌权威性的方式是："这个实体与其他可信实体的关系是什么？"
 
-```
-传统逻辑：
-关键词 [best CRM software] → Google #1 排名 → 月均流量 10,000
-
-Personal Intelligence 逻辑：
-关键词 [best CRM software] 
-→ 用户 A（用 HubSpot）：AI 答案推荐 HubSpot Enterprise
-→ 用户 B（用 Salesforce）：AI 答案推荐 Salesforce Lightning
-→ 用户 C（无 CRM 使用记录）：AI 答案给出通用推荐
-→ 用户 D（经常比价）：AI 答案强调价格对比
-```
-
-**关键影响：**
-- 品牌在 AI 答案中的可见性取决于用户个人上下文，而非域名权重
-- 竞品分析从"谁在这个词排名更高"变成"谁在什么用户类型的 AI 答案中出现"
-
-### 冲击2：关键词策略需要重构
-
-**问题：**
-Personal Intelligence 让"关键词"从独立变量变成依赖变量——同一个词在不同人面前含义完全不同。
-
-```
-传统关键词策略：
-关键词 → 意图 → 内容优化
-
-Personal Intelligence 关键词策略：
-用户上下文（Email/日历/历史）→ 同一关键词的不同意图 → 多种内容版本覆盖
-```
-
-**实际操作：**
-- 不再只研究"关键词搜索量"，还要研究"什么用户上下文触发了这个词的不同意图"
-- 品牌需要建立"用户上下文 → 内容匹配"矩阵
-- 长尾关键词的价值相对上升（因为长尾词描述的场景更具体，Personal Intelligence 更容易识别）
-
-### 冲击3：E-E-A-T 评估的复杂性增加
-
-**问题：**
-Personal Intelligence 让 AI 评估内容权威性的方式更复杂——AI 需要判断内容对"这个特定用户"是否有权威性，而不只是对"一般用户"。
-
-```
-Personal Intelligence 权威性评估模型：
-
-AI 问：这份内容对"正在用 HubSpot 的中小企业主"有权威性吗？
-AI 评估维度：
-  1. 内容是否提到 HubSpot？（上下文相关性）
-  2. 作者是否有中小企业 SaaS 实战经验？（Experience）
-  3. 内容是否针对中小企业场景优化？（适用性）
-  4. 内容是否比其他来源更适合这个用户的具体情况？（比较优势）
-```
-
----
-
-## 三、Personal Intelligence SEO 的三大策略
-
-### 策略一：用户上下文内容映射（Contextual Content Mapping）
-
-**核心思路：**
-不再是"一篇文章覆盖一个关键词"，而是"一个核心主题，多种上下文版本，AI 自动选择匹配"。
-
-```
-Step 1: 建立用户上下文分类体系
-
-基于 Email/日历/购物数据，用户可以分为以下上下文类型：
-
-| 用户类型 | 触发信号 | 最佳内容类型 |
-|---------|---------|------------|
-| 竞品用户（正在用 A 产品） | Gmail 中有竞品账单邮件 | 对比型内容："为什么从 [竞品] 迁移到我们" |
-| 评估期用户 | 日历有竞品演示会议 | 功能详解 + ROI 计算器 |
-| 新手用户 | 无行业相关历史 | 入门指南 + 最佳实践 |
-| 成本敏感用户 | 购物车/浏览记录显示比价行为 | 定价对比 + TCO 分析 |
-| 企业用户 | 日历有 C-suite 会议记录 | 安全/合规/Enterprise 功能 |
-
-Step 2: 为每个上下文类型创建专门内容
-
-不是：
-"CRM 软件终极指南"（通用内容）
-
-而是：
-"HubSpot 用户升级指南：什么时候该迁移到 Enterprise"（上下文 A）
-"Salesforce 用户评估清单：如何选择替代方案"（上下文 B）
-"中小企业 CRM 入门：5个步骤开始"（上下文 C）
-```
-
-**技术实现：**
-- 在页面中嵌入 Schema Markup 的 `Article` + `Audience` 结构化标记
-- 使用 `x-default` hreflang 标记通用版本，`en-us` 标记特定上下文版本
-- 在内容中使用"如果你是 X 用户，请阅读第 3 部分"的导航提示
-
-### 策略二：Personal Context Citation 优化
-
-**核心思路：**
-Personal Intelligence 时代的 GEO，不再只是"被 AI 引用"，而是"被 AI 引用在正确的个人上下文中"。
-
-```
-传统 GEO 目标：
-→ 被 Perplexity/ChatGPT 引用（越多越好）
-
-Personal Intelligence GEO 目标：
-→ 在目标用户类型的个人 AI 答案中出现（精准匹配）
-
-优化方法：
-
-1. 上下文信号植入（让 AI 识别内容对应的用户类型）
-   - 在内容中明确提到目标工具/竞品名称
-   - 使用场景化描述："如果你正在用 [X]，这篇文章为你设计"
-   - 包含具体的使用案例和行业垂直细节
-
-2. 创建高引用率的"上下文锚点"内容
-   - 数据型引用：具体数字和统计数据（AI 喜欢引用精确数据）
-   - 迁移指南：从竞品迁移到我们的操作步骤
-   - ROI 计算：具体的成本/收益分析（个人化 AI 答案的经济基础）
-   - 场景清单："以下 5 种情况说明你该换产品了"
-
-3. 建立"上下文引用监测"
-   - 用不同 Gmail 账户（不同行业/使用竞品）测试同一关键词
-   - 记录品牌在不同上下文中的出现率和出现方式
-```
-
-### 策略三：Personalized Snippet Optimization（个性化摘要优化）
-
-**核心发现：**
-Personal Intelligence 时代的 AI Overview 片段，来自内容的特定 passage，而非整篇文章。优化策略需要针对 passage 级别。
-
-```
-高价值 Personal Intelligence passage 特征：
-
-1. 包含具体数据点
-   ✗ "CRM 软件可以帮助管理客户关系"
-   ✓ "CRM 软件平均提升销售团队效率 27%（Forrester, 2026）"
-
-2. 明确的用户场景描述
-   ✗ "中小企业需要 CRM"
-   ✓ "如果你正在管理 10 人以上的销售团队，HubSpot Free 版已不够用"
-
-3. 对比性陈述（竞品用户切换时尤其有效）
-   ✗ "我们的功能很好"
-   ✓ "从 Salesforce 迁移到 [品牌] 的平均实施时间为 3 周，无需停机"
-
-4. 行动导向的步骤
-   ✗ "选择 CRM 时要考虑功能"
-   ✓ "切换 CRM 的 5 个步骤：1. 导出数据 2. 选择供应商..."
-
-优化方法：
-- 在每个主题页面的前 150 字内包含上述 4 种 passage 类型
-- 使用 <strong> 标签标注关键数据点和场景关键词
-- 在段落结尾添加"小节摘要"（AI 喜欢抽取这类总结性内容）
-```
-
----
-
-## 四、Personal Intelligence SEO 的技术实现
-
-### 4.1 结构化数据升级
+**实操方法：**
 
 ```html
-<!-- 传统 Article Schema -->
+<!-- 基础 Schema：Organization -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "Best CRM Software 2026",
-  "author": {"@type": "Person", "name": "John Doe"}
-}
-</script>
-
-<!-- Personal Intelligence 优化的 Article Schema -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": "Best CRM Software 2026",
-  "author": {
-    "@type": "Person", 
-    "name": "John Doe",
-    "description": "10年 SaaS 行业经验，曾帮助 500+ 中小企业选择 CRM"
-  },
-  "about": [
-    {"@type": "Thing", "name": "HubSpot", "description": "竞品对标"},
-    {"@type": "Thing", "name": "Salesforce", "description": "竞品对标"}
+  "@type": "Organization",
+  "name": "你的品牌名",
+  "url": "https://你的域名.com",
+  "sameAs": [
+    "https://twitter.com/你的品牌",
+    "https://www.linkedin.com/company/你的品牌",
+    "https://www.youtube.com/@你的品牌",
+    "https://github.com/你的品牌",
+    "https://www.wikipedia.org/wiki/你的品牌"
   ],
-  "audience": {
-    "@type": "Audience",
-    "audienceType": "中小企业销售团队负责人，正在评估 CRM 升级或迁移方案"
-  },
-  "usageInfo": "本文档在用户正在使用竞品（HubSpot/Salesforce）时会被 AI 优先引用"
+  "foundingDate": "2020",
+  "founders": [{"@type": "Person", "name": "创始人姓名"}],
+  "knowsAbout": ["领域1", "领域2", "领域3"]
+}
+</script>
+
+<!-- 品牌实体关系 Schema -->
+<script type="application/ld+json">
+{
+  "@type": "Brand",
+  "name": "你的品牌名",
+  "description": "品牌描述，包含核心价值主张",
+  "alternateName": ["品牌简称", "品牌曾用名"]
 }
 </script>
 ```
 
-### 4.2 页面架构优化
+**关键动作：**
+- 在 Wikipedia/维基百科建立品牌页面
+- 在权威目录（DMOZ、Crunchbase、LinkedIn Company Page）完善信息
+- 争取来自 .gov、.edu、权威新闻网站的品牌提及（即使不带链接）
+
+### 支柱2：答案优先内容格式（Answer-First Content）
+
+**核心原理：**
+Perplexity 联合创始人曾明确表示：LLM 更喜欢能"直接提取并引用"的内容。
+- 开门见山：文章第一段就要回答核心问题
+- 结构化提取：使用 H2/H3 让 AI 轻松分段提取
+- 数字清单：LLM 更倾向于引用"5个方法"、"3个步骤"类型的列表内容
+
+**格式规范：**
 
 ```
-Personal Intelligence 友好的页面结构：
+❌ 不推荐：长篇背景铺垫
+"在过去十年中，数字营销领域经历了巨大的变革。随着社交媒体的兴起...
+（500字后才开始讲具体方法）"
 
-<!-- H1: 核心主题 -->
-<h1>Best CRM Software 2026: HubSpot vs Salesforce vs [Brand]</h1>
-
-<!-- Lead paragraph: 包含 4 种高价值 passage -->
-<p>如果你是 <strong>HubSpot Free 版用户</strong>，你的 CRM 已经不够用了...
-（上下文 A 锚点）
-
-<!-- 目录：上下文导航 -->
-<h2>📂 Jump to your situation:</h2>
-<ul>
-  <li><a href="#hubspot-users">Currently using HubSpot? → Start here</a></li>
-  <li><a href="#salesforce-users">Currently using Salesforce? → Start here</a></li>
-  <li><a href="#new-users">New to CRM? → Start here</a></li>
-</ul>
-
-<!-- 各上下文专属内容块 -->
-<section id="hubspot-users">
-  <h2>For HubSpot Users: When to Upgrade or Switch</h2>
-  <!-- 包含竞品对比、数据支撑、迁移步骤 -->
-</section>
+✅ 推荐：开门见山
+"2026年，提升品牌在 ChatGPT 中可见性的三个最有效方法是：
+1. [方法1]...
+2. [方法2]...  
+3. [方法3]..."
 ```
 
-### 4.3 技术检查清单
+### 支柱3：多源可信度建设（Multi-Source Credibility）
+
+**核心原理：**
+AI 引擎在引用你的内容前，会验证你的说法是否有其他权威来源背书。
+单源孤证 = 高风险引用；多源交叉验证 = 低风险、高权重引用。
+
+**操作框架：**
 
 ```
-Personal Intelligence SEO 技术清单：
+你的品牌主张：
+"我们的 CRM 软件适合中小企业"
 
-[x] Article Schema 包含 about/audience 字段
-[x] 页面包含明确的上下文导航锚点
-[x] Lead paragraph 包含 4 种高价值 passage 元素
-[x] 关键数据使用 <strong> 标注
-[x] 每个主要 section 包含小节摘要（最后一句）
-[x] 页面加载速度 < 2.5s（Personal Intelligence 会考虑页面性能）
-[x] 移动端优化完成（Personal Intelligence 移动端使用率更高）
-[x] HTTPS 有效
-[x] 结构化数据无错误
+多源验证需要：
+├── 你的官网产品页（主阵地）
+├── 权威评测网站（G2、Capterra、Gartner）
+├── 新闻媒体报道（TechCrunch、36kr、虎嗅）
+├── 社交媒体讨论（Reddit、Twitter/X、LinkedIn）
+└── 行业协会或研究机构引用
+```
+
+### 支柱4：品牌提及工程（Brand Mention Engineering）
+
+**核心原理：**
+LinkedIn 重建 Feed 排名算法（使用 LLM 和 Transformer）的案例说明：**AI 平台内部的提及同样影响可见性。**
+在 Reddit、X/Twitter、LinkedIn、YouTube 上的品牌讨论，都是 LLM 判断品牌热度的信号。
+
+**执行策略：**
+
+| 平台 | 策略 | 重点 |
+|------|------|------|
+| Reddit | 真实用户讨论（不能是软文） | 在相关 Subreddit 建立真实口碑 |
+| X/Twitter | 品牌被提及频次 | 鼓励用户@品牌、分享使用体验 |
+| LinkedIn | 员工账号发布品牌内容 | 员工发声 > 官方账号发声 |
+| YouTube | 品牌相关教程/评测视频 | 视频内容在 Gemini 中权重高 |
+| 播客 | 品牌创始人或高管受邀分享 | 长篇深度内容更受 Claude 青睐 |
+
+### 支柱5：平台定制化策略（Platform-Specific Adaptation）
+
+**ChatGPT 优化：**
+- Bing SEO 仍然是 ChatGPT 引用的主要来源——确保 Bing 能正确索引你的内容
+- 在 ChatGPT Store / GPT Store 推出品牌专属 GPT（如果有资源）
+- 引用和数据是关键——ChatGPT 优先引用有具体数字和来源的内容
+
+**Gemini 优化：**
+- Google SEO 基础直接迁移——GSC 收录、视频 Schema、FAQ Schema 全部做好
+- YouTube 内容与网站内容的关联优化（Gemini 与 YouTube 同属 Google 生态）
+- Google Business Profile 完整度 = Gemini 本地搜索可见性的关键
+
+**Perplexity 优化：**
+- 原创数据和研究报告是 Perplexity 的"最爱"——发布白皮书、数据报告
+- 出版日期要新——Perplexity 对时效性要求最高
+- 结构化数据完整（Article Schema、Author Schema 必不可少）
+
+**Claude 优化：**
+- 内容要安全、无偏见——Claude 对可能被视为歧视、误导的内容会主动降权
+- 深度分析、长篇讨论——Claude 偏好有思想深度的内容，而非列表式摘要
+- Anthropic 合作出版商内容有优先引用权（可选路径）
+
+---
+
+## 三、AI 品牌可见性监测工具与方法
+
+### 工具推荐
+
+| 工具 | 功能 | 适用场景 |
+|------|------|----------|
+| **Peec AI** | 跨平台 AI 可见性监测（ChatGPT/Gemini/Perplexity/Claude） | 品牌 AI 可见性基准测试 |
+| **ChatGPT Analytics** | ChatGPT 品牌提及追踪 | 监测 ChatGPT 答案中品牌出现情况 |
+| **Google Search Console** | 传统 Google 搜索表现（仍是 Gemini 基础） | Gemini 可见性辅助参考 |
+| **Brand24 / Mentionlytics** | 全网品牌提及监测 | 社媒品牌声量追踪 |
+| **Ahrefs / SEMrush AI** | 传统 SEO + 基础 AI 搜索分析 | 整合 SEO + GEO 工作流 |
+
+### 监测指标体系
+
+```
+AI Brand Visibility Score（ABV Score）：
+
+1. Citation Frequency（引用频次）
+   → 品牌在 LLM 答案中被提及的次数/总查询次数
+   
+2. Answer Inclusion Rate（答案纳入率）  
+   → 当用户问与品牌相关的问题时，品牌被纳入答案的比例
+   
+3. Competitive AI Exposure Share（竞品 AI 曝光份额）
+   → 与竞品相比，品牌在 LLM 答案中的相对曝光比例
+   
+4. Citation Position（引用位置）
+   → 品牌在 LLM 答案中是第一引用还是补充引用
+   
+5. Source Diversity Score（来源多样性）
+   → 品牌被引用的来源类型是否多样（网站、新闻、社交、视频）
 ```
 
 ---
 
-## 五、品牌应对路线图（3个月实施计划）
+## 四、执行路线图：从今天开始
 
-### Month 1：审计与基线建立
-```
-Week 1: Personal Intelligence 可见性审计
-- 用 5 个不同 Gmail 账户测试品牌核心关键词
-- 记录品牌在每种用户上下文中的出现率
-- 识别表现最好和最差的上下文类型
+### Week 1-2：基础建设
+- [ ] 完成全站 Schema 审计（Organization + Brand + Person + Article Schema）
+- [ ] 在 Wikipedia 建立品牌页面（或完善现有页面）
+- [ ] 提交 Bing Webmaster Tools（ChatGPT 索引基础）
+- [ ] 检查 Google Search Console 索引状态
 
-Week 2: 内容缺口分析
-- 对比现有内容 vs 目标用户上下文覆盖率
-- 列出需要新增的上下文内容
-- 优先级排序（高搜索量 + 低上下文覆盖 = 高优先级）
+### Week 3-4：内容优化
+- [ ] 审计现有内容：是否"答案优先"格式？
+- [ ] 为核心产品/服务页面添加 FAQ Schema
+- [ ] 发布至少 1 篇原创数据报告（Perplexity 最爱）
+- [ ] 在 G2、Capterra 等平台完善品牌信息
 
-Week 3: 工具配置
-- 配置 Semrush/Ahrefs 的 Personal Intelligence 监测模块
-- 建立多 Gmail 账户测试矩阵
-- 设置 GSC 个人化信号追踪（如果有）
-
-Week 4: 基线报告
-- 建立 Personal Intelligence SEO 仪表板
-- 记录每个核心关键词的多上下文排名基线
-```
-
-### Month 2：内容优化与生产
-```
-Week 1-2: 现有内容上下文优化
-- 优化前 20% 高流量页面的 lead paragraph
-- 添加上下文导航锚点
-- 升级 Article Schema
-
-Week 3-4: 新增上下文内容生产
-- 按优先级生产新的上下文专属内容
-- 每个内容块嵌入 4 种高价值 passage 元素
-- 添加 Personal Intelligence 优化的 Schema
-```
+### Month 2：品牌提及工程
+- [ ] 在 Reddit 相关社区建立真实用户讨论
+- [ ] LinkedIn 员工账号发布品牌相关内容
+- [ ] 联系记者/博主获取媒体报道
+- [ ] 制作 1 个 YouTube 品牌视频
 
 ### Month 3：监测与迭代
-```
-Week 1: Personal Intelligence 重新索引请求
-- 在 Google Search Console 提交重新抓取
-- 验证 Schema 标记生效
-- 确认 AI Overview 中的内容变化
-
-Week 2-3: 多上下文排名验证
-- 用测试矩阵验证上下文优化效果
-- 对比 Month 1 基线 vs Month 3 数据
-- 识别新的优化机会
-
-Week 4: 迭代优化
-- 基于数据调整内容策略
-- 更新 Personal Intelligence SEO 路线图
-```
+- [ ] 使用 Peec AI 或类似工具建立 ABV Score 基线
+- [ ] 每周监测品牌在四大 LLM 平台的出现情况
+- [ ] A/B 测试不同内容格式对 LLM 引用率的影响
+- [ ] 根据数据迭代内容策略
 
 ---
 
-## 六、案例研究：SaaS 公司 "FlowStack" 的 Personal Intelligence SEO 实践
+## 五、为什么这对龙雅人的读者很重要？
 
-### 背景
-FlowStack 是一家提供项目管理软件的 B2B SaaS 公司，2026年1月发现核心关键词流量没有变化，但品牌在 AI Overview 中的出现率下降了 23%。
+**龙雅人的核心受众是 SEO 从业者、自由职业者和数字营销人员。**
 
-### 诊断发现
-- 品牌的 AI Overview 出现主要针对"新手用户"上下文
-- 正在使用竞品（Asana/Jira）的用户在 AI 答案中几乎看不到 FlowStack
-- 现有内容缺乏竞品对比和迁移相关内容
+2026年，如果你还在只做"Google SEO"，你正在错过：
+1. 正在高速增长、绕过 Google 的 AI 搜索流量
+2. 竞争对手已经开始争夺 LLM 平台可见性的先发优势
+3. 品牌在 AI 答案中的"缺席"会被用户解读为"这个品牌不够重要/不够知名"
 
-### 执行方案
-
-**Phase 1: 上下文内容建立**
-- 创建 12 篇"从 [竞品] 迁移到 FlowStack"系列内容
-- 每篇包含：迁移步骤、数据对比、ROI 计算、工时估算
-- 添加 Audience Schema 标注目标用户类型
-
-**Phase 2: Lead Paragraph 优化**
-- 在所有核心文章的前 150 字加入：
-  1. 竞品用户场景描述
-  2. 具体数据点（迁移时间、效率提升）
-  3. 行动导向步骤
-  4. 对比性陈述
-
-**Phase 3: Personal Intelligence 监测**
-- 建立 8 个不同 Gmail 账户测试矩阵
-- 每月手动测试 30 个关键词的跨上下文表现
-
-### 结果（3个月）
-
-| 指标 | Month 0 | Month 3 | 变化 |
-|------|---------|---------|------|
-| 品牌在 AI Overview 出现率 | 34% | 67% | +33pp |
-| Asana 用户上下文覆盖率 | 12% | 58% | +46pp |
-| Jira 用户上下文覆盖率 | 8% | 51% | +43pp |
-| 新用户上下文覆盖率 | 71% | 73% | +2pp |
-| 因 AI Overview 引用的网站会话 | 1,240 | 3,890 | +214% |
-
-**关键学习：**
-> "我们发现针对竞品用户的内容，效果远超我们的一般性内容。Personal Intelligence 时代，'为正在用竞品的用户写内容'是最被低估的 SEO 策略。" — FlowStack SEO Director
+**AI Brand Visibility 不是 GEO 的替代，而是 GEO 在多平台维度的深化。**
+掌握 topic164 的策略，你就掌握了下半年最重要的竞争差异化武器。
 
 ---
 
-## 七、与前后 topic 的衔接
+## 关键引用来源
 
-```
-topic160（GEO量化归因）
-    ↓
-topic161（多平台 GEO 布局）
-    ↓
-topic162（Information Gain SEO）
-    ↓
-topic163（Personalized AI Search SEO）← 当前
-
-topic163 解答的问题：
-- GEO 时代，品牌如何在个人化 AI 答案中保持可见性
-- 当每个人的 AI 答案都不同，品牌如何找到自己的"个人化切口"
-
-topic163 → 未来 topic 可能方向：
-    → topic164: Zero-Party Data SEO（用户主动分享的数据如何成为 SEO 优势）
-    → topic165: Voice Search SEO 2.0（语音 AI 搜索的新优化逻辑）
-    → topic166: Multimodal GEO（视频/图像内容在 AI 搜索中的引用优化）
-```
-
----
-
-## 八、关键结论
-
-> **"2026年的 SEO，不再是让所有人看到同一个答案，而是让你的内容出现在需要它的那个人面前。"**
-
-> **Personal Intelligence SEO 的三大核心原则：**
-> 1. **上下文优先于关键词**：同一个词在不同用户面前含义完全不同，内容要覆盖多种上下文
-> 2. **竞品切入是最强策略**：针对"正在用竞品"的用户写内容，是 Personal Intelligence 时代最高效的 GEO 策略
-> 3. **Passage 级别优化**：AI 引用是抽取而非整页，内容优化要精确到每个 passage 的前 150 字
-
-> **2026年，不做 Personal Intelligence SEO 的品牌，将失去 AI 搜索时代的入场券。**
-
----
-
-*生成时间：2026-03-27 | 龙雅人 LEARNER Round 123*
-*topic163 | Personalized AI Search SEO: How Google's Personal Intelligence Changes Ranking Factors*
+- AI Brand Visibility Report March 2026（综合数据来源）
+- Search Engine Land: GEO trends 2026
+- Vertex AI Search / Google Official Blog: March 2026 Core Update
+- Perplexity AI Blog: How We Cite Sources（公开博客表述）
+- ChatGPT Brand Presence Analysis: MarketingProfs, March 2026
+- LinkedIn Feed Ranking Rebuild: LinkedIn Engineering Blog, March 2026
+- "LLM Tribes" concept: SitePoint / DigitalRootsMedia, March 2026
