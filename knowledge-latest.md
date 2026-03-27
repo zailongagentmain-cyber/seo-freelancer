@@ -1,277 +1,135 @@
-# AI Brand Visibility Across LLM Platforms: How to Be Cited by ChatGPT, Gemini, Perplexity, and Claude in 2026
-## topic164 — 2026年3月27日 | 龙雅人 SEO 内容生产
+# SEO 知识库最新动态 — Round 126
 
-**选择原因：**
-- 2026年3月，AI Overview 覆盖率已达 25%（同比从 13% 增长），AI 搜索正在成为主流，ChatGPT/Gemini/Perplexity/Claude 各自积累忠实用户群
-- 承接 topic163（Personal Intelligence 个人化搜索），本 topic 从"个人化 AI 答案内的品牌可见性"延伸到"多 LLM 平台的品牌可见性策略"
-- 新趋势："LLM Tribes"（LLM 部落）出现——用户对特定 LLM 形成忠诚度，品牌需要针对不同 LLM 优化
-- GEO 时代，品牌需要从"Google 排名思维"转向"多 AI 平台引用思维"
-- AI Brand Visibility Report March 2026 显示：在 AI 答案中出现 = 隐性背书；缺席 = 品牌逐渐隐形
-- 这是龙雅人 SEO 读者必须掌握的下一代竞争战场
+**更新时间：** 2026-03-27
+**对应 Topic：** topic166 — The Information Gain Era: How Google's March 2026 Core Update Rewards Fresh, Original Insights
 
 ---
 
-## 一、为什么 LLM 平台可见性在 2026 年是必须攻占的新战场？
+## 一、核心发现：March 2026 Google Core Update 五大变化
 
-### 1.1 传统搜索流量断崖下跌
+### 变化 1：Information Gain（信息增益）成为核心排名信号
 
-| 指标 | 数据 | 说明 |
-|------|------|------|
-| AI Overview 覆盖率 | 25%（2026年3月）vs 13%（2025年3月）| Google 搜索结果中 AI 生成答案比例翻倍 |
-| 零点击搜索比例 | 60% | 越来越多用户获取答案后不点击任何网站 |
-| 用户对 AI 答案的信任度 | 78% 认为 AI 答案"比传统搜索更有用" | 直接影响点击行为 |
-| AI 品牌可见性 = 隐性背书 | 出现即认可，缺席即隐形 | Brand Visibility Report, 2026年3月 |
+| 维度 | 2025 年排名逻辑 | 2026 年（信息增益时代）|
+|------|----------------|------------------------|
+| 核心指标 | 关键词匹配度 + 外链数量 | **内容对搜索结果的"信息增量"** |
+| 内容价值判断 | 满足搜索意图 | **在同类内容中提供额外新信息** |
+| 重复内容处理 | 降权 | **直接不收录或大幅降权** |
+| 内容深度 | 越长越好（部分适用） | **"有独特价值的长" > 无意义堆砌** |
 
-当用户转向 ChatGPT 问"最好的 CRM 软件是什么"、用 Perplexity 查"SEO 工具对比"、在 Gemini 里问"附近最好的牙医"——这些行为完全绕开了 Google。
+**什么是 Information Gain？**
+Google 的信息增益模型核心是：搜索引擎对比已有内容，当你的内容能为同一个查询提供**已有网页没有的信息**时，获得额外权重。
 
-**你的品牌如果在 ChatGPT 的答案里没有被提及，等于对这个正在高速增长的搜索渠道"隐形"。**
+**实操含义：**
+- 复制/改写竞品内容 = 零信息增益 = 无排名机会
+- 原创数据、原创案例、独家采访、独特视角 = 高信息增益 = 排名优势
+- 即使你的页面综合质量不如竞品，只要在某个子话题有"独家信息"，该子话题词可能带来源源不断的流量
 
-### 1.2 什么是"LLM Tribes"（LLM 部落）？
+### 变化 2：Author Authority（作者权威）权重显著提升
 
-2026 年最值得关注的新现象：用户开始对特定 LLM 平台产生忠诚度。
+| 信号 | 2025 年权重 | 2026 年权重 |
+|------|------------|-------------|
+| 文章作者个人品牌 | 低-中 | **高** |
+| 作者 E-E-A-T 透明度 | 可选 | **必需（无作者信息 = 降权）** |
+| 作者社交可验证性 | 低 | **中高（LinkedIn/维基可查证）** |
+| 作者历史内容权威性 | 低 | **高（Google 要求作者有"出版历史"）** |
+
+**Google 的逻辑：**
+AI 能识别内容是谁写的。Google 的倒查系统会验证作者是否有真实姓名、真实经历、真实出版历史。
+
+**被降权的典型：**
+- 作者名为 "SEO Expert"（匿名或化名）
+- 作者页无照片、无经历、无社交验证
+- 作者没有在其他平台发布的证据
+
+**受奖励的典型：**
+- 作者页包含真实姓名、真实头像、真实职场经历
+- 作者在 LinkedIn 有完整的职业档案
+- 作者在 Google 上有其他可信来源的档案（Wikipedia、权威媒体报道等）
+
+### 变化 3：AI-Generated Content 检测进入新阶段
+
+Google 在 2026 年的 AI 内容检测已经能识别：
+- 统计特征：AI 内容特有的"词汇分布"
+- 结构特征：无意义的"首先...其次...最后..."过度使用
+- 语义空洞：看起来正确但缺乏实践验证的泛泛而谈
+- 经验缺失：没有第一人称实践经历的内容（尤其是评测/教程类）
+
+**受影响的几种情况：**
+
+| 内容类型 | 2025 年风险 | 2026 年风险 | 建议 |
+|----------|------------|------------|------|
+| 纯 AI 改写/伪原创 | 中 | **极高** | 必须加入人工经验和独特数据 |
+| AI 辅助写作（有人工校验） | 低-中 | **低** | 保持，说明 AI 使用情况 |
+| 100% 人工写作 | 无 | 无 | 继续保持 |
+| AI + 第一手实践数据 | 低 | **加分项** | AI 提速 + 真实数据 = 最优解 |
+| "我的 AI 使用体验" 评测 | 中 | **高** | 必须有真实使用截图/日志证明 |
+
+### 变化 4：Intent Fit（意图匹配）判断更精准
+
+Google 2026 年的意图识别已进入"多意图并存"阶段：
+
+- 搜索词"best CRM software"：
+  - 意图1：了解市场上的主要选项（信息型）
+  - 意图2：比较功能/价格（比较型）
+  - 意图3：准备购买（交易型）
+  - 意图4：找工作/招聘（职位型）
+
+Google 现在会根据用户会话历史、搜索上下文、用户画像动态判断最可能意图，同一词不同用户看到不同排序。
+
+**对 SEO 的影响：**
+- 单一页面同时满足所有意图越来越难
+- 需要"意图聚类"策略：同一核心词群，做不同意图版本的页面
+- 页面级别的意图优化 > 站点级别的关键词布局
+
+### 变化 5：Search Everywhere Optimization（搜索无处不在）
+
+2026 年的"SEO"定义已经从"Google 排名"扩展到：
 
 ```
-不同用户群的使用习惯正在固化：
-
-🔵 ChatGPT 部落：知识工作者、学生、内容创作者
-   → 问"解释量子计算原理"、"帮我写商业计划书"
-   
-🟣 Gemini 部落：Google 生太深度用户、Android 用户、企业用户  
-   → 问"我的日历里下周有什么"、"Google Drive 里这个文件在哪"
-   
-🟢 Perplexity 部落：研究者、记者、科技爱好者
-   → 问"最新的 AI 监管政策有哪些"、"这个研究论文的核心发现"
-   
-🟡 Claude 部落：开发者、作家、需要深度分析的用户
-   → 问"分析这段代码的设计模式"、"帮我深度评审这篇论文"
+SEO 2026 = Google 搜索 + YouTube 搜索 + Reddit 搜索 + TikTok 搜索 
+         + AI 平台可见性（ChatGPT/Gemini/Perplexity/Claude）
+         + 语音搜索 + 社交搜索 + 本地搜索
 ```
 
-这意味着：**同一个品牌，需要在四个不同的 LLM 平台都建立可见性，且每个平台的优化逻辑不同。**
+**多平台可见性矩阵：**
 
-### 1.3 平台差异：四大 LLM 引用逻辑对比
-
-| 平台 | 内容偏好 | 引用来源 | 品牌可见性机会 |
-|------|----------|----------|----------------|
-| **ChatGPT** | 权威网站、知名品牌、维基百科级别来源 | Bing 索引 + 出版商合作 | 企业品牌、B2B SaaS、品牌词优化 |
-| **Gemini (Google)** | Google 生态内容（GSC 收录、YouTube、Google Business Profile） | Google 索引（完整覆盖） | 已有 Google SEO 基础的品牌天然优势 |
-| **Perplexity** | 学术来源、新闻文章、原始数据源 | 实时网络爬虫 | 拥有原创研究、数据报告的品牌 |
-| **Claude** | 长篇深度内容、安全无偏见表达、书籍级别权威 | Anthropic 精选数据源 | 知识型品牌、思想领导力内容 |
+| 平台 | 流量类型 | 优化重点 |
+|------|----------|----------|
+| Google 传统结果 | 信息型 + 商业型 | 技术 SEO + 内容 E-E-A-T |
+| Google AI Overview | 快速答案型 | FAQ Schema + 开门见山式内容 |
+| YouTube | 教程/视觉型 | 视频缩略图优化 + 标题关键词 |
+| Reddit | 口碑/经验型 | 真实讨论（非软文） |
+| TikTok | 娱乐/发现型 | 短视频 + 热门话题 |
+| ChatGPT/Gemini | 品牌背书型 | Bing SEO + 品牌 Schema + 品牌提及 |
+| Perplexity | 研究/数据型 | 原创数据报告 + 学术引用 |
 
 ---
 
-## 二、AI 品牌可见性优化的五大支柱
+## 二、March 2026 Spam Update 警示
 
-### 支柱1：实体权威优化（Entity Authority）
+Google 在 2026-03-24 发布了全球 Spam Update，重点打击：
+- **Scaled low-value pages**：批量生成的低价值内容
+- **Manipulative publishing**：操控排名的出版行为
+- **Artificial link tactics**：人工操控外链
+- **Misleading content**：误导性搜索驱动内容
 
-**核心原理：**
-AI 引擎不是按"关键词"理解世界，而是按"实体"（Entity）理解世界。
-- 实体 = 品牌、产品、人、地点、概念
-- AI 判断品牌权威性的方式是："这个实体与其他可信实体的关系是什么？"
-
-**实操方法：**
-
-```html
-<!-- 基础 Schema：Organization -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "name": "你的品牌名",
-  "url": "https://你的域名.com",
-  "sameAs": [
-    "https://twitter.com/你的品牌",
-    "https://www.linkedin.com/company/你的品牌",
-    "https://www.youtube.com/@你的品牌",
-    "https://github.com/你的品牌",
-    "https://www.wikipedia.org/wiki/你的品牌"
-  ],
-  "foundingDate": "2020",
-  "founders": [{"@type": "Person", "name": "创始人姓名"}],
-  "knowsAbout": ["领域1", "领域2", "领域3"]
-}
-</script>
-
-<!-- 品牌实体关系 Schema -->
-<script type="application/ld+json">
-{
-  "@type": "Brand",
-  "name": "你的品牌名",
-  "description": "品牌描述，包含核心价值主张",
-  "alternateName": ["品牌简称", "品牌曾用名"]
-}
-</script>
-```
-
-**关键动作：**
-- 在 Wikipedia/维基百科建立品牌页面
-- 在权威目录（DMOZ、Crunchbase、LinkedIn Company Page）完善信息
-- 争取来自 .gov、.edu、权威新闻网站的品牌提及（即使不带链接）
-
-### 支柱2：答案优先内容格式（Answer-First Content）
-
-**核心原理：**
-Perplexity 联合创始人曾明确表示：LLM 更喜欢能"直接提取并引用"的内容。
-- 开门见山：文章第一段就要回答核心问题
-- 结构化提取：使用 H2/H3 让 AI 轻松分段提取
-- 数字清单：LLM 更倾向于引用"5个方法"、"3个步骤"类型的列表内容
-
-**格式规范：**
-
-```
-❌ 不推荐：长篇背景铺垫
-"在过去十年中，数字营销领域经历了巨大的变革。随着社交媒体的兴起...
-（500字后才开始讲具体方法）"
-
-✅ 推荐：开门见山
-"2026年，提升品牌在 ChatGPT 中可见性的三个最有效方法是：
-1. [方法1]...
-2. [方法2]...  
-3. [方法3]..."
-```
-
-### 支柱3：多源可信度建设（Multi-Source Credibility）
-
-**核心原理：**
-AI 引擎在引用你的内容前，会验证你的说法是否有其他权威来源背书。
-单源孤证 = 高风险引用；多源交叉验证 = 低风险、高权重引用。
-
-**操作框架：**
-
-```
-你的品牌主张：
-"我们的 CRM 软件适合中小企业"
-
-多源验证需要：
-├── 你的官网产品页（主阵地）
-├── 权威评测网站（G2、Capterra、Gartner）
-├── 新闻媒体报道（TechCrunch、36kr、虎嗅）
-├── 社交媒体讨论（Reddit、Twitter/X、LinkedIn）
-└── 行业协会或研究机构引用
-```
-
-### 支柱4：品牌提及工程（Brand Mention Engineering）
-
-**核心原理：**
-LinkedIn 重建 Feed 排名算法（使用 LLM 和 Transformer）的案例说明：**AI 平台内部的提及同样影响可见性。**
-在 Reddit、X/Twitter、LinkedIn、YouTube 上的品牌讨论，都是 LLM 判断品牌热度的信号。
-
-**执行策略：**
-
-| 平台 | 策略 | 重点 |
-|------|------|------|
-| Reddit | 真实用户讨论（不能是软文） | 在相关 Subreddit 建立真实口碑 |
-| X/Twitter | 品牌被提及频次 | 鼓励用户@品牌、分享使用体验 |
-| LinkedIn | 员工账号发布品牌内容 | 员工发声 > 官方账号发声 |
-| YouTube | 品牌相关教程/评测视频 | 视频内容在 Gemini 中权重高 |
-| 播客 | 品牌创始人或高管受邀分享 | 长篇深度内容更受 Claude 青睐 |
-
-### 支柱5：平台定制化策略（Platform-Specific Adaptation）
-
-**ChatGPT 优化：**
-- Bing SEO 仍然是 ChatGPT 引用的主要来源——确保 Bing 能正确索引你的内容
-- 在 ChatGPT Store / GPT Store 推出品牌专属 GPT（如果有资源）
-- 引用和数据是关键——ChatGPT 优先引用有具体数字和来源的内容
-
-**Gemini 优化：**
-- Google SEO 基础直接迁移——GSC 收录、视频 Schema、FAQ Schema 全部做好
-- YouTube 内容与网站内容的关联优化（Gemini 与 YouTube 同属 Google 生态）
-- Google Business Profile 完整度 = Gemini 本地搜索可见性的关键
-
-**Perplexity 优化：**
-- 原创数据和研究报告是 Perplexity 的"最爱"——发布白皮书、数据报告
-- 出版日期要新——Perplexity 对时效性要求最高
-- 结构化数据完整（Article Schema、Author Schema 必不可少）
-
-**Claude 优化：**
-- 内容要安全、无偏见——Claude 对可能被视为歧视、误导的内容会主动降权
-- 深度分析、长篇讨论——Claude 偏好有思想深度的内容，而非列表式摘要
-- Anthropic 合作出版商内容有优先引用权（可选路径）
+**结论：没有捷径，只有authentic, high-quality content才是唯一出路。**
 
 ---
 
-## 三、AI 品牌可见性监测工具与方法
+## 三、Round 126 Topic 选定
 
-### 工具推荐
+**Topic 166: The Information Gain Era: How Google's March 2026 Core Update Rewards Fresh, Original Insights**
 
-| 工具 | 功能 | 适用场景 |
-|------|------|----------|
-| **Peec AI** | 跨平台 AI 可见性监测（ChatGPT/Gemini/Perplexity/Claude） | 品牌 AI 可见性基准测试 |
-| **ChatGPT Analytics** | ChatGPT 品牌提及追踪 | 监测 ChatGPT 答案中品牌出现情况 |
-| **Google Search Console** | 传统 Google 搜索表现（仍是 Gemini 基础） | Gemini 可见性辅助参考 |
-| **Brand24 / Mentionlytics** | 全网品牌提及监测 | 社媒品牌声量追踪 |
-| **Ahrefs / SEMrush AI** | 传统 SEO + 基础 AI 搜索分析 | 整合 SEO + GEO 工作流 |
+**为什么选这个 Topic：**
+1. March 2026 Core Update 是最新、最热门的事件，读者关注度高
+2. Information Gain 是 Google 未来 1-2 年排名的核心逻辑转变
+3. 承接 topic165（Agentic GEO），形成了"算法理解 → 策略执行"的完整链条
+4. 龙雅人受众（SEO从业者）急需理解这次更新带来的实操变化
+5. 原创性强：这是一个全新的主题，没有直接竞品文章
 
-### 监测指标体系
-
-```
-AI Brand Visibility Score（ABV Score）：
-
-1. Citation Frequency（引用频次）
-   → 品牌在 LLM 答案中被提及的次数/总查询次数
-   
-2. Answer Inclusion Rate（答案纳入率）  
-   → 当用户问与品牌相关的问题时，品牌被纳入答案的比例
-   
-3. Competitive AI Exposure Share（竞品 AI 曝光份额）
-   → 与竞品相比，品牌在 LLM 答案中的相对曝光比例
-   
-4. Citation Position（引用位置）
-   → 品牌在 LLM 答案中是第一引用还是补充引用
-   
-5. Source Diversity Score（来源多样性）
-   → 品牌被引用的来源类型是否多样（网站、新闻、社交、视频）
-```
-
----
-
-## 四、执行路线图：从今天开始
-
-### Week 1-2：基础建设
-- [ ] 完成全站 Schema 审计（Organization + Brand + Person + Article Schema）
-- [ ] 在 Wikipedia 建立品牌页面（或完善现有页面）
-- [ ] 提交 Bing Webmaster Tools（ChatGPT 索引基础）
-- [ ] 检查 Google Search Console 索引状态
-
-### Week 3-4：内容优化
-- [ ] 审计现有内容：是否"答案优先"格式？
-- [ ] 为核心产品/服务页面添加 FAQ Schema
-- [ ] 发布至少 1 篇原创数据报告（Perplexity 最爱）
-- [ ] 在 G2、Capterra 等平台完善品牌信息
-
-### Month 2：品牌提及工程
-- [ ] 在 Reddit 相关社区建立真实用户讨论
-- [ ] LinkedIn 员工账号发布品牌相关内容
-- [ ] 联系记者/博主获取媒体报道
-- [ ] 制作 1 个 YouTube 品牌视频
-
-### Month 3：监测与迭代
-- [ ] 使用 Peec AI 或类似工具建立 ABV Score 基线
-- [ ] 每周监测品牌在四大 LLM 平台的出现情况
-- [ ] A/B 测试不同内容格式对 LLM 引用率的影响
-- [ ] 根据数据迭代内容策略
-
----
-
-## 五、为什么这对龙雅人的读者很重要？
-
-**龙雅人的核心受众是 SEO 从业者、自由职业者和数字营销人员。**
-
-2026年，如果你还在只做"Google SEO"，你正在错过：
-1. 正在高速增长、绕过 Google 的 AI 搜索流量
-2. 竞争对手已经开始争夺 LLM 平台可见性的先发优势
-3. 品牌在 AI 答案中的"缺席"会被用户解读为"这个品牌不够重要/不够知名"
-
-**AI Brand Visibility 不是 GEO 的替代，而是 GEO 在多平台维度的深化。**
-掌握 topic164 的策略，你就掌握了下半年最重要的竞争差异化武器。
-
----
-
-## 关键引用来源
-
-- AI Brand Visibility Report March 2026（综合数据来源）
-- Search Engine Land: GEO trends 2026
-- Vertex AI Search / Google Official Blog: March 2026 Core Update
-- Perplexity AI Blog: How We Cite Sources（公开博客表述）
-- ChatGPT Brand Presence Analysis: MarketingProfs, March 2026
-- LinkedIn Feed Ranking Rebuild: LinkedIn Engineering Blog, March 2026
-- "LLM Tribes" concept: SitePoint / DigitalRootsMedia, March 2026
+**文章角度建议：**
+- 开门见山：什么是 Information Gain，Google 怎么计算
+- 实操手册：如何让现有内容通过"信息增益"审计
+- 工具/清单：Information Gain 自检清单（可做成 SEO Audit Checklist）
+- 案例：对比"有信息增益"vs"无信息增益"的内容表现差异
