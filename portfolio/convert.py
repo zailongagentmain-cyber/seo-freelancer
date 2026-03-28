@@ -113,8 +113,13 @@ def convert_file(md_path, template_path, output_path):
     # Extract title from frontmatter or first heading
     title = frontmatter.get('title', '')
     if not title:
-        title_match = re.search(r'^# (.+)$', md_content, re.MULTILINE)
-        title = title_match.group(1) if title_match else os.path.basename(md_path)
+        # Try Topic field in frontmatter (markdown bold format)
+        topic_match = re.search(r'^\*\*Topic:\*\* (.+)$', md_content, re.MULTILINE)
+        if topic_match:
+            title = topic_match.group(1)
+        else:
+            title_match = re.search(r'^# (.+)$', md_content, re.MULTILINE)
+            title = title_match.group(1) if title_match else os.path.basename(md_path)
 
     # Remove the first heading from content to avoid duplicate with template
     title_match = re.search(r'^# (.+)$', md_content, re.MULTILINE)
@@ -127,8 +132,8 @@ def convert_file(md_path, template_path, output_path):
         lines = md_content.split('\n')
         for line in lines:
             line = line.strip()
-            # Skip headings, blockquotes, code blocks, empty lines
-            if line and not line.startswith('#') and not line.startswith('```') and not line.startswith('>') and not line.startswith('|') and not line.startswith('-') and len(line) > 20:
+            # Skip headings, blockquotes, code blocks, empty lines, metadata (bold tags)
+            if line and not line.startswith('#') and not line.startswith('```') and not line.startswith('>') and not line.startswith('|') and not line.startswith('-') and not line.startswith('**') and len(line) > 20:
                 # Clean markdown formatting and take first 160 chars
                 desc = re.sub(r'[*_`\[\](){}]', '', line)
                 description = desc[:160]
