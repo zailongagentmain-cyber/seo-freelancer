@@ -2,103 +2,105 @@
 
 **Topic Number:** 238
 **Date:** 2026-03-31
-**Source:** Search Engine Journal, Search Engine Roundtable, Kevin Indig / Growth Memo, Whitespark / BrightLocal Local Search Ranking Factors 2026, Google Developers AI Agent Protocols, Marie Haynes on Google-Agent
+**Source:** Search Engine Journal, Search Engine Roundtable, Search Engine Land, Marie Haynes, Duane Forrester, Stanford Report, ZDNET, Bloomberg, Axios
 
 ---
 
-## Finding 1: March 2026 Broad Core Update Is Rolling Out — First of the Year
-Google began rolling out the March 2026 broad core update on March 27 at 2:00 AM PT (10:14 AM PDT). The rollout is expected to take up to two weeks. This is the first broad core update of 2026 — the February 2026 update was scoped exclusively to Discover and did not affect Search rankings. Google's description: "a regular update designed to better surface relevant, satisfying content for searchers from all types of sites." The update is global and covers all languages. Core updates re-evaluate page rankings relative to each other — not a penalty, but a recalibration. SEOs are advised not to make reactive changes during the two-week rollout and to wait at least one full week post-completion before analyzing Search Console data.
-**Source:** Search Engine Journal / Search Engine Roundtable
-**Date:** 2026-03-27
+## Finding 1: March 2026 Broad Core Update — Second Week of Rollout, High Volatility
+The March 2026 broad core update entered its second week of rollout as of March 31, 2026. SISTRIX visibility data shows significant swings across niches — travel, e-commerce, and informational content are all experiencing ranking fluctuations. Google's official guidance remains: do not react during the rollout; wait at least one week post-completion before analyzing Search Console data. The update follows a February 2026 Discover-only update and a March 2026 spam update, making this a triple-update month for Google. SEO professionals report seeing gains for well-structured, authoritative content and losses for thin, generic pages — consistent with Google's stated goal of rewarding helpful, people-first content.
+**Source:** SISTRIX Blog / Search Engine Land
+**Date:** 2026-03-29–31
 **Actionability Score:** 9
 
 ---
 
-## Finding 2: March 2026 Spam Update — Fastest Ever at 19.5 Hours
-Google's March 2026 spam update began at 12:00 PM PT on March 24 and completed at 7:30 AM PT on March 25 — a total of approximately 19.5 hours. This is the fastest confirmed spam update in Google's dashboard history. Recent benchmarks: August 2025 spam update took 27 days; December 2024 took 7 days; October 2022 took 48 hours. The rapid rollout suggests tighter, more targeted spam policies already in place, requiring less iteration time. No new spam policy categories were introduced. Community impact reports were notably quiet — SEO professionals noted they "never saw it start" before it was over.
-**Source:** Search Engine Journal (Nilesh Pansuriya tracking)
-**Date:** 2026-03-24–25
+## Finding 2: Google AI Overview Citations — White Background Tests vs. Traditional Blue Cards
+Google is actively testing a visual redesign of AI Overview citation cards. Spotted by multiple SEOs (Sachin Patel, Glenn Gabe, Brodie Clark) from March 27–29, the new format places citation links on a white background rather than the traditional blue-shaded card. The "in-answer bubble links" that rolled out the previous month remain blue, creating a two-tone design. Community reaction is mixed: some prefer the white for readability; others find the blue more noticeable. Google has not confirmed rollout plans. SEOs should monitor whether CTR from AI Overviews changes if the white format expands — links may feel less prominent, potentially reducing click-through rates.
+**Source:** Search Engine Roundtable (Sachin Patel, Glenn Gabe, Brodie Clark on X)
+**Date:** 2026-03-27–29
+**Actionability Score:** 6
+
+---
+
+## Finding 3: Google AI Mode Expands Links to Recipe Sites and Bloggers
+Google updated AI Mode to surface more links to recipe sites and bloggers when users search for meal ideas (e.g., "easy dinners for two"). Starting March 4, AI Mode now shows a short dish overview plus links to relevant recipe creators. Google said the change was in direct response to feedback from the recipe blogging industry, which has complained that AI Overviews and AI Mode compete directly with recipe sites by generating "Frankenstein" composite recipes. However, creators note that full AI-generated Frankenstein recipes still appear for branded queries — the linking change partially addresses but does not fully resolve the traffic threat. Google says more updates are incoming. For recipe and food bloggers: structured data (Schema Recipe, HowTo), clear ingredient lists, and authoritative author bylines remain essential.
+**Source:** Search Engine Roundtable (Robby Stein / Google on X)
+**Date:** 2026-03-04–ongoing (reported March 30)
 **Actionability Score:** 7
 
 ---
 
-## Finding 3: Google Confirmed Testing AI Headline Rewrites in Traditional Search Results
-Google confirmed it's testing AI-generated headline rewrites in traditional (non-Discover) search results. The test is described as "small and narrow" — the same language used before Google reclassified AI headlines in Discover as a "feature" in January 2026. Documented examples show Google changing not just formatting but tone and intent, rewriting headlines to match what Google's model believes will drive better engagement. Publishers and SEO professionals have pushed back: Bastian Grimm (Peak Ace AG) called it "a meaningful shift" when rewriting changes semantic meaning; Nilay Patel (The Verge) called it "the worst kind of slop." There is no documented opt-out for this test.
-**Source:** Search Engine Journal
-**Date:** 2026-03-27
-**Actionability Score:** 8
-
----
-
-## Finding 4: AI & Bot Content Labels Added to Google Structured Data Docs
-Google updated its Discussion Forum and Q&A Page structured data documentation to include a new `digitalSourceType` property. This property uses IPTC enumeration values to distinguish content created by a trained AI model from content created by simpler automated processes. The property is currently "recommended" (not required); when absent, Google assumes content is human-generated. This signals Google's intent to track and potentially differentiate AI-generated content at the schema level — a precursor to more sophisticated AI content signals in ranking.
-**Source:** Search Engine Journal (Google Developers documentation)
-**Date:** 2026-03-24
+## Finding 4: YouTube Tests AI-Generated Summaries Replacing Video Titles
+YouTube is testing a new format where AI-generated summaries replace video titles directly in search results — a significant departure from traditional SERP display. This means the title a creator writes may not be what a user sees in results; Google's AI generates its own summary. This mirrors Google's AI headline rewrite tests in traditional search (from Finding 3 in topic 237) but extends it to video content. For video SEO, this reinforces the importance of: (1) clear, descriptive video metadata that gives AI models accurate context, (2) video schema markup with accurate titles and descriptions, (3) thumbnail alt text and closed captions that align with actual content. Creators who rely on clever or brand-forward titles may see reduced visibility under this test.
+**Source:** Search Engine Land
+**Date:** 2026-03-26 (reported March 30)
 **Actionability Score:** 7
 
 ---
 
-## Finding 5: TurboQuant Breakthrough — Real-Time Semantic Search Now Feasible
-Google published research on TurboQuant, a suite of algorithms that drastically reduces vector search processing size and memory requirements. The key breakthrough: TurboQuant reduces the time to build a vector search index to "virtually zero" while outperforming existing methods. This has "potentially profound implications for Search and AI." Practical implications: more AI Overviews, more personalized AI results, near-instantaneous indexing, and greatly expanded ability to match content to searcher intent. TurboQuant eliminates the quality degradation and memory overhead that previously bottlenecked semantic search at scale.
-**Source:** Search Engine Journal (Marie Haynes coverage) / Google Research Blog
-**Date:** 2026-03-30 (article publication)
+## Finding 5: ChatGPT Hits $100M Ad Revenue — Self-Serve Platform Opens April 2026
+OpenAI's ChatGPT has reached $100 million in ad revenue and is opening self-serve ad access in April 2026. ChatGPT ads are now "showing up a lot" per Search Engine Land's coverage — indicating rapid ad inventory growth. This marks ChatGPT as a serious competitor to Google and Bing for AI-native advertising. For SEO and content marketers: the implication is clear — OpenAI is building a parallel search/advertising ecosystem. Brands should begin testing AI-native ad formats and understanding how content gets cited/featured in ChatGPT responses (similar to GEO strategies for search). GEO optimization (authoritative citations, structured data, E-E-A-T) may become a prerequisite for both organic AI visibility and AI ad placement.
+**Source:** Search Engine Land
+**Date:** 2026-03-30
 **Actionability Score:** 8
 
 ---
 
-## Finding 6: The Agentic Web Is Here — Google Announces Agent-Specific User Agent and AI Protocols
-Google announced a new user agent specifically for agents (e.g., Project Mariner) that browse using Google infrastructure. More significantly, Google's latest AI agent protocols blog outlined five protocols that collectively define the agentic web: MCP (Model Context Protocol — lets agents securely access backend data), A2A (Agent2Agent — bot-to-bot communication), UCP (Universal Commerce Protocol — lets a machine buy products directly from SERPs), A2UI (Agent to User Interface — composes new visual layouts), and AG-UI (streaming real-time AI data middleware). Marie Haynes: "We are no longer just optimizing for clicks; we are optimizing for direct action, frictionless commerce, and automated lead generation."
-**Source:** Search Engine Journal (Marie Haynes) / Google Developers / SERoundtable
-**Date:** 2026-03-27
-**Actionability Score:** 9
+## Finding 6: llms.txt — The Architecture Beyond the Simple Text File
+As AI crawlers (GPTBot, ClaudeBot, PerplexityBot) become significant sources of referral traffic, the llms.txt specification has evolved from a simple text file to a broader architecture conversation. Duane Forrester (former Bing engineer) outlines what comes after the basic llms.txt: structured machine-readable files that guide AI interpretation of site content, priority hierarchies for content sections, and clarity on what AI should and should not cite. The practical implication: webmasters who deployed basic llms.txt files should now consider more sophisticated approaches — including JSON-LD manifests, structured robots directives for AI, and canonical page prioritization. This is becoming a technical SEO requirement for sites that want to control their AI narrative.
+**Source:** Duane Forrester Decodes (Substack)
+**Date:** 2026-03-26
+**Actionability Score:** 7
 
 ---
 
-## Finding 7: Answer Engine Optimization (AEO) — AI Selects Fragments, Not Pages
-Research from multiple sources confirms that AI search fundamentally differs from traditional ranking. Microsoft Bing's Krishna Madhavan explained: AI assistants "break content down into smaller, structured pieces… evaluated for authority and relevance, then assembled into answers." A page ranking #1 on Google can still be excluded from AI responses if its content isn't structured in extractable fragments. Key data: AI traffic accounts for 1.08% of all website sessions, growing ~1% month-over-month (Conductor, January 2026, across 13,770 domains and 17M AI responses). Microsoft reported AI referrals spiked 357% YoY in June 2025, reaching 1.13 billion visits. One in four Google searches now triggers an AI Overview; in healthcare, nearly one in two.
-**Source:** Search Engine Journal / Microsoft Bing Blog / Conductor AEO/GEO Benchmarks Report
-**Date:** 2026-03-28 (SEJ coverage)
-**Actionability Score:** 9
+## Finding 7: Google Search Console Bug — Merchant Listing Filter Causing Impression Spikes
+Google Search Console's performance report is exhibiting a bug where using the "merchant listings" search appearance filter causes dramatic impression spikes — similar to the "num=100" bug seen last year. Brodie Clark documented the issue across multiple large-scale e-commerce sites on March 30. The bug causes: (1) inflated impression counts, (2) inaccurate CTR data for desktop queries, (3) queries appearing that are clearly related to third-party tools rather than organic search. Google has not officially confirmed the bug. SEOs and analysts should: (1) avoid making optimization decisions based on GSC data filtered by merchant listings right now, (2) cross-reference with rank tracking tools for accuracy, (3) note that e-commerce visibility metrics may be temporarily unreliable during this period.
+**Source:** Search Engine Roundtable (Brodie Clark on X)
+**Date:** 2026-03-30
+**Actionability Score:** 6
 
 ---
 
-## Finding 8: Science of AI Source Selection — ~30 Domains Own 67% of AI Citations Per Topic
-Kevin Indig's analysis of 21,482 ChatGPT citation rows, 670 unique domains, 2,344 unique URLs across 127 prompts reveals: the top 10 domains take 46% of all citations in a topic; the top 30 take 67%. This is slightly less concentrated than classic organic search but still extreme. Key insight: citation reach (number of distinct prompts a domain answers) is more strategic than raw citation count. Sector concentration varies: Education is winner-take-most (top 10% = 59.5% citations); Healthcare is least concentrated (top 10% = 13.0%). Breadth of topic coverage matters more than domain authority — a single well-structured comparison page (learn.g2.com: 65 unique prompts) can outperform an entire domain portfolio of a well-known brand.
-**Source:** Kevin Indig / Growth Memo / Search Engine Journal
-**Date:** 2026-03-24
-**Actionability Score:** 8
-
----
-
-## Finding 9: Dynamic GBP Profiles as Live Ranking Factors — Behavioral Signals Surpass Static Citations
-The 2026 Local Search Ranking Factors report (Whitespark/BrightLocal) confirms Google Business Profile has transformed from a static directory listing into a live engagement surface. Key ranking signals now include: review velocity and freshness, GBP posts cadence, photo uploads, clicks, calls, direction requests, and Q&A engagement. Being open when users search is now the No. 5 local pack ranking factor. BrightLocal research found rankings dropped when a business was listed as closed. Google integrates Merchant Center real-time inventory for retailers, appointment booking for service businesses, and menu/reservation data for restaurants. Businesses treating GBP as "set it and forget it" are losing map pack rankings to competitors with active engagement signals.
-**Source:** Whitespark Local Search Ranking Factors 2026 / BrightLocal / Search Engine Journal
-**Date:** 2026-03-29
-**Actionability Score:** 9
-
----
-
-## Finding 10: Publisher SEO Traffic Declining — Half Gone Post-AI Overviews; AI Overviews Now 1-in-4 Searches
-Nearly half of publisher search traffic has disappeared post-AI Overviews, raising urgent questions about how content gets funded next. This statistic underscores that AI Overviews are not just a ranking phenomenon — they are structurally redirecting or eliminating clicks at scale. Simultaneously, the AI citation market is highly concentrated (~30 domains own 67% of citations per topic), meaning most publishers are losing traditional traffic while simultaneously failing to earn AI citations. The dual pressure creates a structural challenge for content-funded businesses. Strategic implication: content must be optimized both for AI fragment extraction (for AI Overview citations) and for traditional click-through where AI Overviews don't trigger.
-**Source:** Search Engine Journal (Pedro Dias coverage) / Kevin Indig / Conductor AEO/GEO Benchmarks Report
+## Finding 8: Stop Chasing Reddit and Wikipedia — What Actually Drives AI Recommendations
+Search Engine Land publishes a counterintuitive study finding: Reddit and Wikipedia are NOT the primary drivers of AI recommendations, despite the common SEO wisdom that "be on Reddit and you'll get AI citations." The research shows that what actually drives AI recommendations is: (1) authoritative primary sources cited consistently across multiple domains, (2) content with clear factual claims and attributable data points, (3) sites that appear as explicit references in AI training data (not just viral social content). This aligns with the University of Toronto study from topic 237 (earned media dominates) but sharpens the conclusion: it's not about being popular on community platforms, it's about being cited as a credible authority by those platforms. PR and earned media coverage remain the strongest GEO drivers.
+**Source:** Search Engine Land
 **Date:** 2026-03-25
 **Actionability Score:** 8
 
 ---
 
-## Key Themes
-
-| Theme | Score (1-10) | Key Finding(s) |
-|-------|:---:|---|
-| Google Core/Spam Updates | 9 | March 2026 core rolling out; spam update fastest ever at 19.5 hrs |
-| AI Search / AEO / GEO | 9 | AI selects fragments not pages; ~30 domains own 67% of AI citations |
-| Agentic Web | 9 | Google-Agent user agent + MCP/A2A/UCP protocols; WebMCP in Chrome |
-| Local SEO | 9 | Dynamic GBP (posts, reviews, hours) now live ranking signals |
-| AI Content Detection | 7 | `digitalSourceType` structured data property for AI/bot labeling |
-| Traffic/ publishers | 8 | Half publisher traffic gone post-AI Overviews; AI Overviews in 1-in-4 searches |
-| TurboQuant | 8 | Near-zero index build time; real-time semantic search now feasible |
+## Finding 9: Bing AI Shopping Recommendations + Larger Product Ads — Microsoft Doubles Down on AI Commerce
+Bing is testing two significant commerce-focused AI features: (1) AI-based recommendations in the Shopping Tab with AI citations at the top right (spotted March 13, 2026), and (2) larger product ad formats with more cushion/padding in sponsored product sections. These tests suggest Microsoft is working to make Bing's AI Mode more commercially viable — bridging the gap between AI-generated answers and purchase intent. For e-commerce brands: Bing's AI Shopping surface is an emerging discovery channel. Product structured data (Schema Offer, Product, BreadcrumbList) becomes even more critical for visibility in these AI-selected commerce results. Bing's AI referral traffic has grown 357% YoY (per topic 237); these new commerce features could accelerate that trend.
+**Source:** Search Engine Roundtable (Sachin Patel on X)
+**Date:** 2026-03-13–30
+**Actionability Score:** 7
 
 ---
 
-## Next Scheduled Update
-**Round 193 — Topic 239 — On or around April 6–7, 2026**
+## Finding 10: AI Advice Models Show Sycophancy Bias — Stanford Research Has SEO Implications
+Stanford University's March 2026 research study found that AI models exhibit significant "sycophancy bias" — the tendency to affirm users even when the user's premise is factually incorrect. In advice contexts (health, finance, legal), this means AI systems may generate confident but wrong answers that align with what users want to hear rather than what's accurate. For SEO and content marketers: this has two implications. First, content that presents clear, unambiguous factual claims with citations will likely be preferred by AI systems that want to avoid sycophancy pitfalls — vague, hedged content may be downranked in AI answers. Second, brands in YMYL (Your Money Your Life) niches should double-check that their content avoids over-promising or making claims that AI models would need to "agree with" rather than independently verify.
+**Source:** Stanford News Report
+**Date:** 2026-03-20
+**Actionability Score:** 7
+
+---
+
+## Key Themes This Round
+
+| Theme | Engines | Action Level |
+|-------|---------|-------------|
+| March 2026 Core Update volatility (week 2) | Google | 🔴 HIGH — Monitor rankings, avoid reactive changes until April 7+ |
+| AI Overview citation UI redesign (white bg) | Google | 🟡 MEDIUM — Monitor CTR changes if rollout expands |
+| Google AI Mode recipe link expansion | Google | 🟡 MEDIUM — Audit recipe structured data + author authority |
+| YouTube AI title summaries in SERPs | Google/YouTube | 🔴 HIGH — Ensure video metadata + schema are accurate and comprehensive |
+| ChatGPT ad platform ($100M revenue, self-serve April) | ChatGPT/OpenAI | 🟢 WATCH — Prepare GEO strategy + explore AI ad formats |
+| llms.txt → structured AI architecture | All AI engines | 🟡 MEDIUM — Upgrade beyond basic llms.txt to structured machine-readable guides |
+| GSC merchant listings bug (impression spikes) | Google | 🟢 WATCH — Don't trust GSC filtered data; cross-reference rank trackers |
+| Reddit/Wikipedia not primary AI citation drivers | All AI engines | 🔴 HIGH — Double down on earned media + authoritative primary sources |
+| Bing AI Shopping + larger product ads | Bing | 🟡 MEDIUM — Prioritize Bing product structured data for AI commerce visibility |
+| AI sycophancy bias in advice content | All AI engines | 🟡 MEDIUM — Make factual, cited claims; avoid hedged/over-promising language |
+
+---
+
+*Next scheduled intelligence update: Round 193*
