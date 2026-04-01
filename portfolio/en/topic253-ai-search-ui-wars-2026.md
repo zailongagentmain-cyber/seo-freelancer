@@ -1,6 +1,6 @@
-# Topic 253: AI Search UI Wars — How Google's Interface Experiments Are Reshaping the SERP in April 2026
+# AI Search UI Wars: How Google's Interface Experiments Are Reshaping the SERP in 2026
 
-**Theme: Google is in the middle of an unprecedented SERP redesign experiment — every citation card format, AI Overview placement, and guided-search CTA is a test that directly determines whether publishers get traffic or go extinct. This article covers the 13 newest findings on AI search interface changes, their measurable CTR impact, and what publishers must do to survive the UI wars.**
+**Theme:** Google is in the middle of an unprecedented SERP redesign experiment — every citation card format, AI Overview placement, and guided-search CTA is a test that directly determines whether publishers get traffic or go extinct. This article covers the 13 newest findings on AI search interface changes, their measurable CTR impact, and what publishers must do to survive the UI wars.
 
 ---
 
