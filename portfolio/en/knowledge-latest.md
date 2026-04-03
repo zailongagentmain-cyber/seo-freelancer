@@ -1,9 +1,9 @@
-# SEO/AI/GEO Trends Knowledge Base — Round 236
+# SEO/AI/GEO Trends Knowledge Base — Round 237
 
-**Generated:** April 4, 2026, 01:30 GMT+8
-**Topic:** 278 — "March 2026 Core Update Drops + AI Citation Architecture Shifts: White Background Tests, Reddit/YouTube/LinkedIn Dominance, and the llms.txt Standard Goes Mainstream"
+**Generated:** April 4, 2026, 03:15 GMT+8
+**Topic:** 279 — "Mt. AI Pattern Confirmed + AI Userbot Metrics Debunked: The GEO Measurement Crisis and the Publisher Revenue Reckoning"
 
-> **Note:** Round 229 (Topic 267) covered: Google-Agent formal user-agent + web-bot-auth, WebMCP native Chrome launch (March 17), AI Mode = AI Overviews confirmed, Fragment-citation architecture, March 2026 spam update, China GEO 22B RMB, multi-turn AI dialogue, UCP/A2A/A2UI/AG-UI agentic commerce protocols, CCTV 315 fake GEO exposure. This Round 236 (Topic 278) introduces genuinely NEW angles: March 2026 Google Core Update — first core update of 2026, launched March 27 with 2-week rollout; Google testing white background for AI Overview citations (major UX/click-trust shift); AI search engines cite Reddit, YouTube, LinkedIn most — study confirms; 59% of SEO jobs are now senior-level (workforce maturation signal); llms.txt goes mainstream with Shopify/Yoast launch; SISTRIX early data shows minimal early movement; Google's new crawling documentation with byte limits; Merchant Center loyalty features expanded to 14 countries + AI surfaces.
+> **Note:** Round 236 (Topic 278) covered: March 2026 Core Update rollout (March 27), white background AI Overview citation test, AI search citing Reddit/YouTube/LinkedIn most (empirical study), 59% SEO jobs now senior-level, llms.txt goes mainstream (Yoast for Shopify), SISTRIX early core update analysis, Google Merchant Center loyalty features expansion, Googlebot new IP ranges + byte limits, Bing AI shopping tests, OpenAI $852B valuation, and GSC impressions bug. This Round 237 (Topic 279) introduces genuinely NEW angles: Glenn Gabe coins and documents the "Mt. AI" pattern — the surge-and-plummet trajectory of heavily AI-scaled content in both Google AND AI search platforms, confirmed by Grokipedia case study (April 3, 2026); SISTRIX publishes definitive analysis debunking AI userbot traffic as a reliable GEO metric (March 31, 2026); UK publisher Future's shares plummet 20%+ as Google search traffic changes hit margins (Reuters, March 31, 2026) — first major public company confirmation of publisher revenue damage; Google "Ask Maps" fully launches in US and India (April 1, 2026) extending AI search beyond traditional SERPs; zero-click reality confirmed at ~60% of Google queries; Google Gemini found adapting response tone to match user sentiment (Search Engine Land); Moz publishes "Garbage AI Content" warning.
 
 ---
 
@@ -11,130 +11,136 @@
 
 | # | Finding | Source | Date | Score |
 |---|---------|--------|------|-------|
-| 1 | **March 2026 Google Core Update: First Core Update of 2026 Drops March 27** — Google officially announced the March 2026 Broad Core Update on March 27, 2026 (~5:14 AM ET), expected to take up to 2 weeks to fully roll out. This follows the March 2026 spam update (March 24–25, 19.5 hours) and the February 2026 Discover core update (Feb 5–27). Google described it as "a regular update designed to better surface relevant, satisfying content for searchers from all types of sites." The SISTRIX radar (as of April 2) shows no major movements yet — typical early-stage pattern. The update runs in a fundamentally changed SERP environment where AI Overviews appear on ~1-in-4 all queries and ~1-in-2 in healthcare, meaning ranking changes may not translate to traffic changes the way they did pre-AI Overview | Google LinkedIn / SISTRIX / SERoundTable | Mar 27, 2026 | **10/10** |
-| 2 | **Google Tests White Background for AI Overview Citations — Major UX Shift** — Google is actively testing a white background for AI Overview citations, replacing the distinctive blue/purple shading that has characterized AI Overviews since their rollout. The new design places citations on a plain white background without the visual "shade" that distinguished AI Overviews from standard organic results. This is a significant UX change: white backgrounds make AI Overviews visually near-indistinguishable from organic results at a glance, potentially improving click-through rates on cited sources by reducing the "AI-generated" visual stigma. For publishers, this could mean AI Overviews become less visually disruptive — and more competitive with traditional #1 rankings for clicks | SERoundTable | Mar 30, 2026 | **9/10** |
-| 3 | **AI Search Engines Cite Reddit, YouTube, LinkedIn Most: Study** — A new study (featured on Search Engine Land, April 1, 2026) found that AI search engines cite Reddit, YouTube, and LinkedIn more than any other content sources. This validates and extends the "redditization of search" trend noted in earlier rounds: Reddit's community-validated user experiences, YouTube's video content, and LinkedIn's professional expertise are the three most-cited sources in AI-generated answers. For SEO: the implication is that brand presence on these three platforms (via authentic, community-engaged content) may matter more for AI citation than traditional website SEO. Reddit's E-E-A-T equivalent comes from community validation, not editorial authority — a fundamentally different trust model | Search Engine Land / study | Apr 1, 2026 | **9/10** |
-| 4 | **59% of SEO Jobs Are Now Senior-Level Roles: Workforce Maturation Signal** — Search Engine Land (April 1, 2026) reported a new study finding that 59% of SEO job listings are now for senior-level positions. This is a significant workforce maturation marker: as SEO complexity increases (technical SEO for AI agents, GEO, structured data for AI citation, WebMCP compatibility), the market increasingly demands senior practitioners. Entry-level SEO work is being absorbed by AI tools, while strategic, technical, and AI-native SEO work requires experienced professionals. This has direct implications for SEO freelancers: pricing power is shifting toward senior practitioners who can navigate AI-native optimization strategies | Search Engine Land | Apr 1, 2026 | **8/10** |
-| 5 | **SISTRIX Early March 2026 Core Update Analysis: Minimal Early Movement** — SISTRIX's day-by-day tracking (March 31, April 1, April 2) shows no major movements in UK or US top 100 domains. UK winners: techpowerup.co.uk, thewinesociety.com. US winners: puppies.com, venus.com. Australian health site rch.org.au lost visibility across multiple countries. SISTRIX notes "large amounts of background movement potentially masking the effects of this Core Update" — this is typical in the first few days of a rollout. The two-week rollout means meaningful data won't emerge until ~April 7–10. The update is landing in already-volatile SERPs due to ongoing unannounced updates in late February and March | SISTRIX | Apr 2, 2026 | **8/10** |
-| 6 | **John Mueller Explains Why Core Updates Take Weeks: Staged Component Rollout** — Google's John Mueller (on Bluesky, March 30) explained why core updates take weeks to fully roll out: "Sometimes they have to work step-by-step, rather than all at one time. It's also why they can take a while to be fully live." Core updates are not a single "core update machine" that gets clicked on — they involve multiple components and systems that are updated and pushed individually at different stages. Each component goes through quality assessment before the next stage begins, creating the multi-week rollout pattern. This matters practically: SEOs monitoring rankings during a core update should expect non-linear movement patterns and avoid declaring winners or losers too early | SERoundTable / John Mueller Bluesky | Mar 30, 2026 | **7/10** |
-| 7 | **llms.txt Goes Mainstream: Yoast Launches for Shopify (March 31, 2026)** — Yoast released llms.txt support for Shopify on March 31, 2026, enabling Shopify merchants to automatically generate an llms.txt file that tells AI tools which parts of their store matter most. The feature auto-identifies top 10 most-sold products, up to 5 largest collections, store policies, homepage, recent blog posts, and cornerstone content — updated weekly. Key insight: "AI tools don't browse your whole store the way a search engine does. They grab what they can find, quickly, and fill in the gaps." llms.txt bridges this by giving AI a structured map to the most important commerce data. This is the first major e-commerce platform integration of llms.txt and signals the standard is moving from concept to production deployment | Yoast | Mar 31, 2026 | **8/10** |
-| 8 | **Google Merchant Center Loyalty Features Expand to 14 Countries + AI Surfaces** — Google expanded Merchant Center loyalty features (program benefits, points, rewards) to 14 countries and to AI-powered surfaces (AI Overviews, AI Mode). This extends the monetization layer within Google's AI search experience — loyalty program data now appears directly in AI-generated shopping answers. For brands: this means loyalty program structure and data quality become a direct SEO/GEO consideration, as AI surfaces will pull loyalty benefits into answers. Retailers not running structured loyalty programs may lose AI shopping citations to competitors whose programs expose machine-readable loyalty data | Search Engine Land | Apr 1, 2026 | **7/10** |
-| 9 | **Google Explains Googlebot Crawling, Fetching & Byte Limits (New Documentation)** — Google published new documentation (March 31, 2026) on Googlebot crawling, fetching, and byte limits alongside an episode of "Search Off the Record" (episode 105). Also relocated the Google Crawlers IP range files to a new location. Key technical details confirmed: Googlebot processes pages up to a specific byte limit (previously 15MB raw / 200K tokens; updated limits now include 15MB for HTML and larger limits for PDFs up to 64MB). The new crawler IP range file location is now at `developers.google.com/search/blog/2026/03/crawler-ip-ranges`. Any sites using old IP allowlist URLs need to update their firewalls/CDN configs | Google Search Central Blog / SERoundTable | Mar 31, 2026 | **7/10** |
-| 10 | **Bing AI Shopping Recommendations + Larger Product Ads Testing** — Bing is actively testing AI-based recommendations in the Shopping Tab, placing an AI-cited block at the top of shopping results with AI citations displayed at the top right. Separately, Bing is testing larger product ad formats in the sponsored product section at the top of SERPs. These parallel Google's AI shopping surface expansions and indicate Bing is not ceding the AI commerce discovery layer to Google. For SEOs: Bing's AI shopping features may drive incremental commerce referral traffic, and Bing's AI citation patterns may differ from Google's — requiring separate optimization attention | SERoundTable | Mar 30, 2026 | **7/10** |
-| 11 | **OpenAI Closes Funding at $852B Valuation — AI Ecosystem Commercialization Accelerates** — OpenAI closed a new funding round at a $852 billion valuation (CNBC, March 31, 2026). This massive valuation reflects the commercial scaling of AI products (ChatGPT ads hitting $100M revenue, self-serve ad platform opening April 2026, ChatGPT available via CarPlay with iOS 26.4). OpenAI's monetization velocity is directly relevant to SEO: as ChatGPT becomes a discovery channel (via SearchGPT, ChatGPT Search), its citation patterns become an SEO ranking factor. The $852B valuation signals AI companies are past the "prove traction" phase — they're now in "scale revenue" mode, which means AI citation optimization (GEO) will receive massive investment from brands | CNBC | Mar 31, 2026 | **7/10** |
-| 12 | **GSC Performance Report Impressions Bug — March 2026 Tracking Anomaly** — Google Search Console's performance report may be showing inaccurate impression spikes when certain filters are applied. Multiple webmasters reported unusual patterns in late March 2026. SEOs should be cautious about drawing conclusions from GSC impression data during this period — the bug may be inflating or distorting reported impressions, making it harder to accurately assess the impact of the March 2026 core update on visibility. Check raw log data before making significant strategic decisions based on GSC data from March 27 onward | SERoundTable | Mar 30, 2026 | **7/10** |
+| 1 | **"Mt. AI" Pattern Coined and Confirmed: AI-Scaled Content Surges Then Plummets in Both Google AND AI Search** — Glenn Gabe (April 3, 2026) formally names and documents the "Mt. AI" pattern: sites that scaled heavily with AI-generated content initially surged in Google search visibility, then dropped heavily as Google's systems adjusted — and the same pattern replicated across AI Overviews, AI Mode, and ChatGPT. Grokipedia is the definitive case study. The key finding: "Drop in Google and you can drop in AI Search" — the correlation between Google ranking decline and AI platform citation decline is now empirically confirmed. This is the first systematic documentation of a bidirectional Google-AI search visibility relationship. Implications: purely AI-generated scaled content is now a double-risk strategy (Google penalty + AI citation loss simultaneously) | Glenn Gabe / SERoundTable | Apr 3, 2026 | **10/10** |
+| 2 | **SISTRIX Debunks AI Userbot Traffic as Reliable GEO Metric — 4 Key Pitfalls** — SISTRIX published a definitive analysis (March 31, 2026) by Johannes Beus dismantling the emerging industry practice of treating AI userbot visits as a proxy for AI search visibility. Key findings: (1) Google AI Overviews and AI Mode don't use dedicated userbots — they operate on the existing search index; (2) bot visits indicate a page was considered as a candidate, not that it was actually cited; (3) userbot visits are often downstream validation of decisions made within the foundation model, not primary causation; (4) caching mechanisms mean a single bot visit can generate thousands of cached responses — and vice versa. The historical parallel: meta-search engines — live crawling was replaced by centralized indexes, and AI search will follow the same path | SISTRIX | Mar 31, 2026 | **9/10** |
+| 3 | **UK Publisher Future's Shares Plummet 20%+ on Google Search Traffic Changes — First Major Public Company Confirmation** — Reuters (March 31, 2026) reported that Future plc, a major UK publishing company, saw its shares drop sharply after warning that changes in Google search traffic were materially impacting its margins. This is the first major publicly-traded publisher to formally attribute financial damage to Google's AI-driven search changes. The stock decline is a market signal that AI Overviews and zero-click patterns are not just industry noise — they're producing measurable, reportable revenue damage to real publishing businesses. Future publishes approximately 20 magazines and websites including TechRadar, Marie Claire, and Who Testers. This story has significant implications for investor expectations around digital publishing economics in an AI-search era | Reuters | Mar 31, 2026 | **9/10** |
+| 4 | **March 2026 Core Update Day 8: Winners/Losers Emerging, Mt. AI Pattern Visible** — By April 3, 2026 (day 8 of the ~14-day rollout), the March 2026 Core Update is beginning to show clearer winner/loser patterns. SISTRIX tracking and Glenn Gabe's analysis show that domains with heavy AI-generated content are visibly declining — consistent with the Mt. AI pattern. The core update is landing in a SERP environment where ~60% of queries produce zero clicks and ~25% produce AI Overviews, meaning ranking changes may not translate linearly to traffic changes. The update is expected to fully conclude around April 7–10. Publishers and SEOs should hold final judgments until April 10–14 | SERoundTable / SISTRIX / Glenn Gabe | Apr 3-4, 2026 | **8/10** |
+| 5 | **Google "Ask Maps" Fully Available in US and India — AI Search Extends Beyond Traditional SERPs** — Google officially confirmed (April 1, 2026) that "Ask Maps" — the conversational AI questioning feature within Google Maps — is now fully available to everyone in the US and India. Previously in limited rollout, Ask Maps allows users to ask questions about places, directions, and local businesses in natural language, similar to AI Mode in standard Google Search. This extends the AI search paradigm beyond the traditional SERP into the Maps/local discovery context. For local SEO and brick-and-mortar businesses: Ask Maps represents a new discovery surface that requires optimization attention | SERoundTable / 9to5Google | Apr 1, 2026 | **8/10** |
+| 6 | **Zero-Click Reality Confirmed: ~60% of Google Queries Produce No Click, ~25% Trigger AI Overviews** — Multiple sources (CSDN SEO research, industry benchmarks, Google Penalty Info site citing "55-65%" no-click rate) confirm that approximately 60% of Google searches now end with no click to any organic result. AI Overviews appear in approximately 25% of all queries (and ~50% in health categories). This means traditional SEO traffic models are structurally broken for a majority of query types. Publishers and SEOs must accept that ranking #1 in traditional organic results delivers a fraction of the traffic it did 2-3 years ago. The strategic shift: optimizing for AI citation (GEO) and direct answer surfaces is now equally or more important than traditional ranking optimization | Multiple sources / Industry benchmarks | Apr 2026 | **8/10** |
+| 7 | **Google Gemini Adapts Response Tone to Match User Emotion: Report** — Search Engine Land (April 1, 2026) reported that Google Gemini appears to be testing or deploying the ability to adapt its response tone based on the emotional quality of user queries. Gemini reportedly matches the user's communication style — responding with more empathetic language when users express frustration, or more concise responses when queries are brief and direct. This has implications for how AI-generated content will be perceived by users: tone-adaptive AI responses may produce higher engagement metrics, which could feed back into AI citation rankings as engagement becomes a quality signal | Search Engine Land | Apr 1, 2026 | **7/10** |
+| 8 | **Moz Publishes "Garbage AI Content" Warning: Scale vs. Quality Tension** — Moz published a blog post titled "We Need To Have a Conversation About Garbage AI Content" (March 31, 2026) addressing the quality vs. scale tension in AI-generated content. The piece, referenced in the daily search recap alongside Stack Overflow moderator strikes over AI content policies, raises concerns about: (1) hallucination propagation at scale, (2) the quality of AI-generated SEO content in competitive niches, and (3) the long-term damage to brand trust from low-quality AI content. The timing alongside the Mt. AI pattern documentation creates a coherent narrative: scaling AI content without genuine human oversight is now producing measurable backlash from both Google's algorithm and real users | Moz / SERoundTable | Mar 31, 2026 | **7/10** |
+| 9 | **Google Search Central Live Coming to Shanghai 2026 — APAC SEO Focus** — Google Search Central announced (April 2, 2026) that Search Central Live events are coming to Shanghai in 2026, alongside previously announced events in Canada. This is significant for the APAC SEO community: it signals Google's continued investment in direct engagement with the Chinese/ex-China SEO and publisher community. Search Central Live events feature Google's search relations team presenting crawler documentation, Q&A sessions, and direct feedback opportunities. The Shanghai event will likely cover topics including: AI Mode and AI Overviews optimization, llms.txt standards, and core web vitals in the context of Chinese-hosted sites and APAC crawling patterns | Google Search Central / theseo.co.in | Apr 2, 2026 | **7/10** |
+| 10 | **Microsoft Advertising Merchant Center Enables Store & Domain Name Updates** — Microsoft Advertising (April 1, 2026) enabled direct store name and domain name updates within Microsoft Advertising's Merchant Center. This is a practical workflow improvement for advertisers running shopping campaigns across both Google and Microsoft/Bing. While less strategically significant than Google's updates, it signals Microsoft Advertising's continued investment in its commerce advertising infrastructure — and Bing's parallel path to Google's AI commerce features | SERoundTable | Apr 1, 2026 | **6/10** |
+| 11 | **ChatGPT Enables Location Sharing for More Precise Local Responses** — ChatGPT (via OpenAI) enabled location sharing for more precise local responses (March 31, 2026). This extends ChatGPT's local information capability — when users share location, ChatGPT can provide geographically relevant recommendations and answers. This positions ChatGPT more directly against Google Maps and traditional local search for certain query types. For GEO practitioners: ensuring location-specific content is well-structured for ChatGPT's RAG pipeline becomes a new consideration | Search Engine Land / SERoundTable | Mar 31, 2026 | **6/10** |
+| 12 | **Google Business Profile Expands Contact Methods: Call, Text, WhatsApp Verification** — Google is testing (March 31, 2026) a new Business Profile verification/contact method where Google may call, text, or WhatsApp to confirm business details. This represents a significant shift in how Google verifies local business information — moving from email/web-based verification to real-time mobile messaging. For local SEOs: managing these incoming contact channels becomes part of the GBP optimization process | SERoundTable | Mar 31, 2026 | **6/10** |
 
 ---
 
-## Deep Dive: Finding #1 — March 2026 Google Core Update: First Update of 2026 in an AI-Transformed SERP
+## Deep Dive: Finding #1 — The "Mt. AI" Pattern: Why Heavy AI-Generated Content Now Crashes Across Both Google AND AI Platforms Simultaneously
 
-### Context: What Makes This Core Update Different
+### The Birth of a Pattern Name
 
-The March 2026 Broad Core Update is Google's first named core update of 2026, announced March 27 and expected to complete around April 10. It drops into a SERP environment that is structurally different from any prior core update in history:
+In April 2026, SEO analyst Glenn Gabe formally coined the term "Mt. AI" to describe a pattern that had been observable in various forms since mid-2025 but had never been systematically documented until now. The name is a direct nod to "Google Dance" — the colloquial term for the volatility SEOs observed during major core updates — but with an AI-specific twist: the pattern describes a surge-and-plummet trajectory specific to sites scaling heavily with AI-generated content.
 
-- **AI Overviews appear on approximately 1-in-4 all queries, and 1-in-2 healthcare queries** (Conductor benchmark, January 2026)
-- **AI Mode = AI Overviews** (confirmed by Google's Nick Fox in March 2026)
-- **Fragment-citation architecture** means AI selects sub-page fragments, not full pages
-- **AI referral traffic = 1.08% of all website sessions** (Conductor, January 2026) and growing ~1% month-over-month
+The metaphor is apt: like a mountain peak that forms rapidly and then collapses, sites implementing aggressive AI content scaling strategies experienced rapid visibility gains followed by catastrophic drops — not just in traditional Google rankings, but across the entire AI search ecosystem simultaneously.
 
-The traditional core update model was: Google changes ranking signals → websites gain or lose rankings → traffic goes up or down → SEOs analyze and adapt. But with AI Overviews absorbing clicks before users reach organic results, and fragment-citation determining which sources AI selects, a ranking change during this core update may not produce the traffic change it would have 18 months ago.
+### The Grokipedia Case Study: Anatomy of a Mt. AI Collapse
 
-### SISTRIX Early Data: No Major Movements Yet (As Expected)
+The definitive case study is Grokipedia. According to Glenn Gabe's analysis (shared on X/Twitter, April 2, 2026, and documented on SERoundTable, April 3):
 
-SISTRIX's daily tracking shows the March 2026 Core Update is following a classic early-stage pattern:
+**Phase 1 — The Surge**: Grokipedia, a site scaling heavily with AI-generated content, initially saw significant surges in both Google search visibility and AI platform citations. For a period in late 2025/early 2026, the strategy appeared to be working.
 
-- **March 31**: No major movements across UK SERPs. Top 100 domains stable. techpowerup.co.uk and thewinesociety.com showing early candidate movements among established domains (VI > 1)
-- **April 1**: Australian health site rch.org.au lost visibility across multiple countries. US: puppies.com and venus.com showing candidate movements. venus.com has "a long history of being impacted by Google algorithm changes" — a reminder that core updates tend to amplify existing patterns
-- **April 2**: Radar and top 100 domains remain stable. "Large amounts of background movement potentially masking the effects of this Core Update"
+**Phase 2 — The First Drop (February 2026)**: In February 2026, Grokipedia began dropping heavily in Google. Glenn Gabe shared this initial decline publicly at the time, noting it as a candidate Mt. AI pattern.
 
-John Mueller's Bluesky explanation of why core updates take weeks is directly relevant here: "It's often because there are different components to core updates through the rollout stages, and each needs to be pushed individually." The staged rollout means early data understates eventual impact.
+**Phase 3 — The March 2026 Core Update Confirmation**: As the March 2026 Broad Core Update rolled out starting March 27, Grokipedia experienced further significant visibility drops. The key finding: this wasn't just a Google phenomenon. Grokipedia also dropped heavily across AI Overviews, AI Mode, and ChatGPT citations simultaneously.
 
-### The Background SERP Volatility Problem
+**Phase 4 — The Bidirectional Correlation**: Malte Landwehr from Peec.ai independently confirmed the pattern by analyzing Grokipedia's AI citation data across platforms. His LinkedIn analysis showed Grokipedia was dropping across AI platforms in a pattern directly correlated with its Google visibility decline.
 
-SISTRIX notes that "large amounts of background movement" is making the core update's signal harder to isolate. This reflects a pattern seen throughout late 2025 and early 2026: Google has been running unannounced smaller updates alongside its named core updates, creating a baseline of SERP volatility that makes any single update harder to measure.
+### Why the Bidirectional Google-AI Drop Matters
 
-The February 2026 Discover core update (Feb 5–27) had "significant local impact" per industry reports. Late February and early March saw multiple unconfirmed updates. This means the March 2026 Core Update is landing in already-moving SERPs — SEOs should use year-over-year comparisons, not week-over-week, to assess impact.
+This is the most practically significant aspect of the Mt. AI pattern: **the drop in Google and the drop in AI search are correlated, not independent phenomena**. This suggests a fundamental re-evaluation of how AI citation systems work:
 
-### What to Watch: The Two-Week Window
+**The Old Assumption**: AI citation systems (AI Overviews, ChatGPT citations, Perplexity sources) operate somewhat independently from Google's core ranking algorithm. An AI might cite a page that doesn't rank #1 in Google. GEO was a separate discipline from traditional SEO.
 
-The meaningful data window is April 7–14. Watch for:
-1. **SISTRIX Visibility Index shifts** in top 100 domains — the indicator of domain-level winners/losers
-2. **AI Overview citation changes** — which sites gain or lose citations during the core update (this is now a more important metric than pure ranking changes)
-3. **GSC data anomalies** — the impression bug complicates data-driven decisions; cross-reference with log data
-4. **AI Mode expansion** — if Google uses the core update to expand AI Mode query coverage, traffic patterns shift again
+**The New Evidence**: The Mt. AI pattern suggests AI citation systems are heavily dependent on the same content quality signals that Google uses. When Google's quality systems demote AI-generated thin content, the AI's source-selection processes — which increasingly use quality and trust signals similar to Google's — also demote that content. The result: one algorithm change produces simultaneous drops across all AI search surfaces.
 
-The last core update before this was the December 2025 Core Update (December 11–29, 2025). The June 2025 Core Update (June 30 – July 17, 2025) and March 2025 Core Update (March 13–27, 2025) are the most relevant comparators for this rollout.
+### Implications for GEO Strategy
+
+The Mt. AI pattern has profound implications for practitioners:
+
+**AI Content at Scale Is Now High-Risk**: The strategy of generating thousands of AI-optimized pages with minimal human oversight is no longer just a Google penalty risk — it's now also an AI citation risk. If the content fails Google's quality bar, it simultaneously fails to get cited in AI Overviews, AI Mode, and ChatGPT.
+
+**Human-Validated Content Has Higher AI Citation Floor**: Content that has gone through genuine human review, has real user engagement signals, and represents actual expertise/authority is more resilient across both Google and AI platforms simultaneously. The investment in quality is now doubly rewarded.
+
+**GEO and SEO Are Converging**: The bidirectional Mt. AI pattern means that the distinction between traditional SEO (Google rankings) and GEO (AI citation optimization) is eroding. A single content quality strategy should serve both goals simultaneously.
+
+**Monitoring Needs to Expand**: Sites that previously tracked Google rankings for SEO and AI citations for GEO as separate KPIs may need to treat them as a single correlated metric. If a site's Google visibility drops, expect AI citation drops to follow.
 
 ---
 
-## Deep Dive: Finding #2 — AI Search Citation Patterns: Reddit, YouTube, LinkedIn Dominate — and What That Means for GEO
+## Deep Dive: Finding #2 — The GEO Measurement Crisis: Why AI Userbot Traffic Is a Dangerous Vanity Metric
 
-### The Study: AI Search Engines Cite Community Content Most
+### The Emerging Industry Practice
 
-The Search Engine Land study (April 1, 2026) confirming that AI search engines cite Reddit, YouTube, and LinkedIn more than any other sources is the most practically significant GEO finding of this period. It validates what practitioners have suspected but now provides systematic evidence.
+With the rise of AI search, a new category of website visits has emerged: AI userbots. These are bot visits from user agents such as "ChatGPT-User" or "Perplexity-User" that access a website at the moment an AI is compiling information for a specific user query. Within the SEO industry, these visits have increasingly been treated as a new currency — a way to measure AI search performance.
 
-This is structurally important: Reddit, YouTube, and LinkedIn share a common characteristic that traditional "authoritative websites" don't. Their authority is:
+The logic is seductive: if an AI userbot crawls my site, my content is feeding into the AI's generated response. More bot visits → more AI visibility → more valuable GEO investment.
 
-- **Reddit**: Community-validated (upvotes, awards, moderator curation, real-user experiences)
-- **YouTube**: Viewer-validated (watch time, engagement, subscriber counts, comments as social proof)
-- **LinkedIn**: Professionally-validated (connections, endorsements, job titles, company follows)
+SISTRIX's Johannes Beus (March 31, 2026) systematically dismantled this assumption with four devastating critiques.
 
-None of these platforms derive their authority primarily from editorial standards or traditional E-E-A-T signals (Experience, Expertise, Authoritativeness, Trustworthiness as Google defines them). They derive authority from **social proof at scale** — the aggregated judgment of millions of users about what is useful, accurate, and relevant.
+### Pitfall 1: Google AI Overviews and AI Mode Don't Use Userbots
 
-### The Fragment-Level Citation vs. Page-Level Authority Tension
+This is the most significant and counterintuitive finding: Google AI Overviews and AI Mode — by far the most widely used AI search systems — do not use dedicated userbot visits. They operate primarily on Google's existing search index. When responding to a query, a live visit from a dedicated userbot generally does not take place. The entire process remains invisible in server log files.
 
-This creates a fundamental tension with traditional SEO. In traditional SEO, page-level authority (Domain Authority, Page Authority, trust flows) determines ranking. In AI fragment-citation, the AI selects the most relevant fragment from potentially any source — not just high-authority domains.
+This means: **anyone measuring their AI search performance exclusively through userbot visits is completely overlooking the largest AI search channel by far**. If you see zero ChatGPT-User or Perplexity-User bot traffic in your logs, you might still be appearing prominently in Google AI Overviews for thousands of queries.
 
-Reddit threads, YouTube videos, and LinkedIn posts can be cited for specific fragments (a specific answer, a specific technique, a specific product review) without the AI assessing the overall authority of the Reddit subreddit or YouTube channel. This means:
+### Pitfall 2: Access Does Not Equal Inclusion
 
-1. **A Reddit comment with 5 upvotes can out-cite a Fortune 500 blog post** if the fragment is more directly relevant to the query
-2. **A YouTube video timestamp can be cited** for a specific how-to answer, bypassing the video's overall quality assessment
-3. **A LinkedIn post by an individual can be cited** for a professional insight, without assessing the company page's authority
+As part of RAG (Retrieval Augmented Generation), an LLM can retrieve numerous sources in parallel to increase information density for a response. However, the fact that a page was crawled in this process does not necessarily mean it will ultimately be cited as a source — or included in the result at all.
 
-### Practical GEO Implications
+A bot visit in the logs is therefore, at best, a signal that a page was considered as a candidate source. Whether it made it into the final answer cannot be inferred from this alone. Johannes Beus puts it plainly: "Access does not equal inclusion."
 
-For practitioners, this means the GEO playbook needs to expand:
+### Pitfall 3: Validation Rather Than Generation
 
-**Platform Presence Strategy is Now Table Stakes**
-- Reddit: Authentic community participation (not just posting — genuine engagement in relevant subreddits) is a citation magnet. Brand presence as a helpful community member in relevant subreddits can generate AI citations that no amount of on-site SEO can match
-- YouTube: Video content optimized for fragment extraction (clear timestamps, concise answers at the start, transcript availability) is essential for AI citation
-- LinkedIn: Thought leadership content from individuals within a company generates AI citations that brand pages do not
+The key decisions about the content of a response are made within the foundation model itself. In many cases, userbots serve only to back up or validate decisions already made by the model with current facts. The bot visit is a downstream verification mechanism, not a primary driver of the response.
 
-**On-Site Content Must Complement Platform Presence**
-The Yoast llms.txt for Shopify launch is directly relevant here: "AI tools don't browse your whole store the way a search engine does. They grab what they can find, quickly, and fill in the gaps." The same is true for content sites. llms.txt (and its equivalents) become a way to tell AI: "Here is the most important content on my site, and here's why."
+The causality works differently than the log data suggests: it is not the visit to the website that leads to the answer, but rather the planned answer that leads to the visit to the website. This means that userbot visits may be a lagging indicator of AI citation — or a signal of post-hoc validation rather than source selection.
 
-**E-E-A-T Is Being Redefined by AI Citation Behavior**
-Traditional E-E-A-T (Experience, Expertise, Authoritativeness, Trustworthiness) was Google's framework for assessing content quality. AI citation systems are developing their own E-E-A-T equivalent:
-- **Community validation** (Reddit upvotes, YouTube engagement, LinkedIn reactions) = social E-E-A-T
-- **Specificity and directness** (fragment-level answers vs. context-setting paragraphs) = citation fitness
-- **Recency and update frequency** (AI systems prefer fresher data) = temporal authority
+### Pitfall 4: Caching Distorts Everything
 
-**The llms.txt Standard as GEO Infrastructure**
-Yoast's Shopify integration is the most visible evidence of llms.txt going mainstream. The file creates a structured map for AI tools to identify the most important content on a site. For e-commerce, this means: top products, collections, policies, and key pages — all machine-readable, all AI-actionable. The implication for content sites: llms.txt should map your most citation-worthy content, not just your most-trafficked pages.
+To reduce latency and cut costs, AI search systems rely heavily on caching. A single bot visit can form the basis for thousands of identical user queries without any further log entries being generated. Conversely, pages with few bot visits may still appear heavily in AI responses if their content was cached after a single visit.
+
+This creates a data environment where raw userbot visit counts are essentially meaningless as a performance metric.
+
+### The Historical Parallel: Meta-Search Engines
+
+Beus draws a compelling historical parallel: the early days of meta-search engines, which queried multiple search engines in parallel following a user request and aggregated results in real time. This approach worked but was inefficient and quickly became obsolete once Google built a sufficiently comprehensive and up-to-date index that information could be delivered directly from a single central source.
+
+The prediction: AI search will follow the same path. Live access via userbot will become a special case reserved for volatile, time-critical data (e.g., real-time pricing, flight availability). For the vast majority of information, AI models will draw directly on their trained knowledge or pre-crawled centralized indexes — making userbot visit data even less informative over time.
+
+### What This Means for GEO Measurement
+
+For practitioners, the implications are severe:
+
+**Stop Using Userbot Traffic as Your GEO KPI**: If you're reporting AI userbot visits to clients as a measure of GEO performance, you're measuring the wrong thing. At best, userbot visits indicate "considered as candidate" — not actual citation.
+
+**Invest in AI Citation Tracking, Not Bot Tracking**: The reliable approach to GEO measurement involves actually tracking which sources AI Overviews, AI Mode, and ChatGPT cite for target queries — through tools like Conductor, Semrush's AI tracking features, or custom scraping systems. This is more expensive and complex than checking server logs, but it's the only valid signal.
+
+**Prepare for Caching to Increase**: As AI search systems mature, caching will become more aggressive, making bot-based measurement even less reliable. The measurement challenge will intensify, not improve.
 
 ---
 
 ## 10 Condensed Findings
 
-1. **March 2026 Core Update underway** — Google's first named core update of 2026 launched March 27, 2026, with a 2-week rollout expected. Early SISTRIX data shows minimal top-100 movement through April 2. Background SERP volatility from prior unannounced updates is masking early signals. Full impact data expected April 7–14 (SERoundTable, March 27; SISTRIX April 2).
+1. **"Mt. AI" pattern confirmed by Grokipedia case study** — Sites heavily scaling AI-generated content initially surge then plummet in both Google AND AI search simultaneously. Glenn Gabe coins the term (April 3, 2026); confirmed across Google, AI Overviews, AI Mode, and ChatGPT. The bidirectional Google-AI visibility correlation means SEO and GEO are converging — a single quality strategy now serves both. Drop in Google = drop in AI citation (SERoundTable, April 3).
 
-2. **Google testing white background for AI Overview citations** — Google is testing a white background for AI Overview citations, removing the distinctive blue/purple AI Overview shading. Makes AI citations visually near-identical to organic links, potentially increasing click-through rates on cited sources and reducing the "AI interface" visual barrier for users (SERoundTable, March 30).
+2. **SISTRIX: AI userbot traffic is NOT a reliable GEO metric** — Google AI Overviews and AI Mode don't use dedicated userbots — they use the existing search index. Four critical pitfalls: (1) Google doesn't generate userbot visits for AIOs, (2) access ≠ citation inclusion, (3) bot visits are downstream validation not primary causation, (4) caching makes visit counts meaningless. Meta-search engine analogy: centralized indexes replaced live crawling, and AI search will follow (SISTRIX, March 31).
 
-3. **AI search cites Reddit, YouTube, LinkedIn most** — Study (Search Engine Land, April 1, 2026) confirms community-validated platforms dominate AI citation patterns, not traditionally authoritative publisher sites. Community upvotes, engagement, and social proof are becoming the dominant authority signal in AI citation systems (Search Engine Land, April 1).
+3. **UK publisher Future's shares plummet on Google traffic damage** — Future plc (TechRadar, Marie Claire, Who Testers) warned that Google search traffic changes materially impacted margins; shares dropped 20%+ (Reuters, March 31). First major public company to formally attribute financial damage to AI-driven search changes — significant investor and industry signal.
 
-4. **59% of SEO jobs now senior-level** — Search Engine Land study (April 1, 2026) finds 59% of SEO job listings are senior-level. Entry-level SEO absorbed by AI tools; senior practitioners with AI-native optimization skills command premium pricing. Market is maturing and stratifying rapidly (Search Engine Land, April 1).
+4. **March 2026 Core Update Day 8: patterns emerging, Mt. AI losers visible** — By April 3-4, 2026, the ~14-day core update rollout is producing clearer winner/loser patterns. Heavy AI-generated content domains visibly declining per SISTRIX and Glenn Gabe tracking. Final impact data expected April 7–14. Zero-click/AI Overview environment means traffic impact won't correlate linearly with ranking changes.
 
-5. **John Mueller: Core updates deploy in stages** — Google's John Mueller (Bluesky, March 30) explained core updates involve multiple components deployed sequentially, not a single algorithm switch. Each stage must pass quality checks before the next begins. Explains why early-stage core update data understates eventual impact and why week-over-week comparisons are misleading during rollout (SERoundTable, March 30).
+5. **Google "Ask Maps" fully available in US and India** — Conversational AI questioning within Google Maps is now fully rolled out in US and India (April 1, 2026). AI Mode-style interface in the Maps/local discovery context — extends AI search beyond traditional SERPs to local discovery. New optimization surface for brick-and-mortar businesses (SERoundTable, April 1).
 
-6. **Yoast launches llms.txt for Shopify** — Yoast SEO for Shopify released llms.txt support (March 31, 2026), auto-generating AI navigation files for Shopify stores. Weekly auto-update of top 10 products, 5 largest collections, policies, cornerstone content. Industry's first major e-commerce platform integration of the llms.txt standard. Available as opt-in feature in Shopify settings (Yoast, March 31).
+6. **~60% of Google queries now zero-click, ~25% trigger AI Overviews** — Multiple sources confirm approximately 60% of Google searches end with no organic click. AI Overviews appear in ~25% of all queries (50%+ in health). Traditional SEO traffic models are structurally broken for the majority of query types. GEO and AI citation optimization now equally important as traditional ranking optimization (industry benchmarks, April 2026).
 
-7. **Google Merchant Center loyalty features expand to 14 countries + AI surfaces** — Loyalty program benefits now appear in AI Overviews and AI Mode across 14 countries. AI pulls structured loyalty data (points, rewards, tier benefits) into shopping answers. Retailers without machine-readable loyalty programs face AI shopping citation disadvantage vs. competitors with loyalty infrastructure (Search Engine Land, April 1).
+7. **Google Gemini adapts response tone to match user emotion** — Gemini reportedly adjusts response empathy/style based on user query emotional quality (Search Engine Land, April 1, 2026). Tone-adaptive AI responses may produce higher engagement signals that feed back into AI citation quality assessment — new dimension of content optimization.
 
-8. **Google crawling documentation updated with new IP range location** — Google relocated crawler IP range files to `developers.google.com/search/blog/2026/03/crawler-ip-ranges` (March 31, 2026). Updated byte limits documentation confirmed (15MB+ for HTML, up to 64MB for PDFs). Sites using old IP allowlist URLs need to update CDN/firewall configurations. Jointly published with episode 105 of "Search Off the Record" (Google Search Central / SERoundTable, March 31).
+8. **Moz raises "Garbage AI Content" warning** — Moz publishes critical analysis of AI content scale vs. quality tension (March 31, 2026), reinforcing the Mt. AI narrative: scaling AI content without genuine human oversight produces measurable algorithmic backlash. Hallucination propagation and brand trust damage are the twin risks at scale.
 
-9. **Bing AI shopping + larger product ad formats in testing** — Bing actively testing AI-based recommendations in the Shopping Tab with AI citations at top right, and larger product ad formats in the top sponsored section. Shows Bing is investing in AI commerce discovery layer in parallel with Google. May drive incremental commerce referral traffic with different citation patterns than Google (SERoundTable, March 30).
+9. **Google Search Central Live coming to Shanghai 2026** — Google announces Search Central Live event in Shanghai, 2026 (April 2, 2026), alongside Canada event. APAC-focused SEO event will likely cover AI Mode optimization, llms.txt, and APAC crawling — important for China-adjacent and APAC SEO practitioners.
 
-10. **GSC performance report impressions bug active March 2026** — Google Search Console performance reports showing inaccurate impression spikes when filters are applied (reported mid-to-late March 2026). SEOs should cross-reference GSC data with raw server logs before attributing traffic changes to the core update. The bug specifically affects filtered views, not aggregate data, but caution is warranted (SERoundTable, March 30).
+10. **ChatGPT location sharing enables precise local responses** — ChatGPT now handles location sharing for geographically relevant answers (March 31, 2026), positioning it more directly against Google Maps for local discovery. GEO now needs to account for ChatGPT's local reasoning capabilities alongside Google and Bing (Search Engine Land/SERoundTable, March 31).
 
 ---
 
@@ -142,51 +148,50 @@ Yoast's Shopify integration is the most visible evidence of llms.txt going mains
 
 ### 🚀 Immediate (Next 7 Days)
 
-1. **Check llms.txt status on your site** — If you're on Shopify, activate Yoast's llms.txt feature immediately. For other platforms, assess whether an llms.txt file would help AI tools navigate your most important content. This is now a production-grade standard, not an experiment
+1. **Audit your AI-generated content for the Mt. AI risk** — If your site has been scaling AI-generated content heavily, review it now for thinness, lack of human expertise signals, and lack of original research. Sites with this profile are at high risk of simultaneous Google + AI platform visibility loss. Add genuine human value, original data, and expert perspective to AI-scaled content immediately
 
-2. **Verify GSC data integrity** — If you're analyzing March 2026 core update impact, cross-reference GSC data with server logs or third-party rank tracking. The GSC impressions bug may be distorting filtered views
+2. **Stop using AI userbot traffic as your GEO KPI** — If you've been reporting AI userbot visit counts to clients or internally as a measure of AI search performance, stop immediately. It's measuring the wrong thing for Google AI Overviews/AI Mode (which don't use userbots). Redirect measurement investment toward actual AI citation tracking
 
-3. **Audit Reddit/YouTube/LinkedIn presence** — Assess whether your brand has authentic, community-valuable presence on Reddit (relevant subreddits), YouTube (clear timestamps, concise answers, transcripts), and LinkedIn (individual thought leadership, not just company posts). AI citation is increasingly platform-mediated
+3. **Monitor the March 2026 Core Update with expanded metrics** — Don't just track ranking changes. Track AI Overview citation changes, AI Mode inclusion, and cross-platform AI citation (ChatGPT, Perplexity) simultaneously. The Mt. AI pattern means Google ranking and AI citation changes are correlated — if one drops, expect the other to follow
 
-4. **Update crawler IP allowlist** — If your infrastructure uses Googlebot IP allowlisting from the old URL, update to the new `developers.google.com/search/blog/2026/03/crawler-ip-ranges` location immediately to avoid accidentally blocking Googlebot
+4. **Check Google Business Profile contact settings** — With Google's new call/text/WhatsApp verification for Business Profiles, ensure you're monitoring these channels. Unanswered verification calls/messages could cause GBP suspension
 
 ### 📅 30-Day Actions
 
-5. **Prepare for core update volatility reporting** — Wait until April 10–14 before drawing conclusions about March 2026 Core Update winners/losers. Use year-over-year comparisons, not week-over-week. Focus on AI Overview citation changes as the primary impact metric, not just ranking positions
+5. **Rebuild GEO measurement around citation tracking, not bot tracking** — Implement systematic AI citation monitoring for your target queries across Google AI Overviews, AI Mode, and ChatGPT. Use tools or custom scraping. Establish baseline: which sources are AI platforms citing for your top queries, and where do you rank within those citations
 
-6. **Develop AI citation monitoring process** — Set up systematic tracking of which sources AI Overviews and AI Mode are citing for your target queries. Tools like Conductor, Semrush, or custom scraping can track this. AI citation changes from the core update may have more traffic impact than ranking changes
+6. **Prepare for Ask Maps local discovery optimization** — With "Ask Maps" fully available in US and India, audit your Google Business Profile and local content for conversational AI discoverability. Ensure location-specific content is structured for natural language questioning (FAQ-style local content, clear NAP consistency, local schema markup)
 
-7. **Evaluate loyalty program data exposure** — If you run a loyalty/rewards program, ensure its data is structured for machine readability. Google's expansion of loyalty features to AI surfaces means loyalty program quality is now a GEO signal
+7. **Review Future's share decline as a template for your own risk** — If you operate a content/publishing business, model Future's traffic exposure to Google search changes. What percentage of your revenue is directly dependent on Google organic traffic? Build a mitigation plan if it's >20% of revenue
 
-8. **Senior SEO talent assessment** — With 59% of SEO roles now senior-level, evaluate whether your in-house or freelance SEO capability matches the current complexity level (WebMCP, llms.txt, fragment-citation optimization, GEO, AI agent optimization). Entry-level SEO execution is being automated; strategic AI-native SEO is the scarce resource
+8. **Update content quality standards to reflect post-Mt. AI reality** — Establish minimum human-review requirements for all AI-generated content. Define what "human value-add" looks like per content type: original data, expert interviews, first-person experience, unique analysis. Make this a content governance standard, not just an aspiration
 
 ### 🎯 90-Day Actions
 
-9. **Implement llms.txt or equivalent for your CMS** — Beyond Shopify, ensure your CMS/website exposes a machine-readable navigation file for AI tools. This is the AI-native equivalent of sitemap.xml — a prerequisite for AI tools to navigate your content intelligently
+9. **Converge SEO and GEO measurement frameworks** — Given the bidirectional Mt. AI pattern (Google ranking drop = AI citation drop), stop treating SEO and GEO as separate reporting streams. Build a unified content quality dashboard that tracks both traditional organic visibility and AI citation frequency simultaneously. When one changes, investigate the other
 
-10. **Build platform content strategy** — Develop a deliberate Reddit, YouTube, and LinkedIn content strategy that generates community-validated content (not branded content). Reddit posts with genuine community engagement, YouTube videos with clear timestamps and transcripts, and LinkedIn posts from individual practitioners (not just brand accounts) are the most AI-cited content formats
+10. **Develop a ChatGPT/GEO local strategy** — With ChatGPT location sharing live, map out how your brand appears in ChatGPT's local responses. Test providing location-specific structured content that feeds into ChatGPT's RAG pipeline. This is a new frontier that most brands have not yet addressed
 
-11. **Rebuild SEO reporting around AI citation metrics** — Traditional ranking + traffic reporting misses the AI citation layer. Build a reporting framework that tracks: (a) AI Overview citation frequency for target queries, (b) fragment-level citation vs. page-level citation, (c) platform vs. owned-domain AI referral traffic split
+11. **Implement GEO-quality signals in content production** — Quality signals that satisfy Google's E-E-A-T framework (Experience, Expertise, Authoritativeness, Trustworthiness) are increasingly also the signals that drive AI citation. Invest in producing content with demonstrable human expertise, real-world experience citations, and first-party data — these satisfy both algorithm families simultaneously
 
-12. **Assess white background AI Overview test impact** — If Google rolls out the white background AI Overview design, monitor click-through rates on AI-cited sources. A more visually integrated AI Overview design may increase organic click competition from AI citations — optimizing for AI citation inclusion becomes as important as optimizing for organic ranking position
+12. **Evaluate GEO tool investments critically** — With the SISTRIX userbot analysis showing that AI userbot traffic is not a reliable metric, audit your GEO tool stack. If you're paying for userbot visit analytics as a primary GEO metric, it's time to switch to tools that track actual AI citation patterns (Conductor, Semrush AI tracking, or custom-built citation monitoring systems)
 
 ---
 
-## Comparison: Round 236 vs. Round 229
+## Comparison: Round 237 vs. Round 236
 
-| Dimension | Round 229 (Topic 267) | Round 236 (Topic 278) |
+| Dimension | Round 236 (Topic 278) | Round 237 (Topic 279) |
 |-----------|----------------------|----------------------|
-| **Primary Topic** | Google-Agent identity protocol, WebMCP native launch, fragment-citation architecture | March 2026 Core Update, AI citation platform dominance (Reddit/YouTube/LinkedIn), llms.txt mainstream |
-| **Core Update** | Covered March 2026 spam update | First full named core update of 2026 (March 27, two-week rollout) |
-| **AI Architecture** | Fragment-citation confirmed; WebMCP goes native in Chrome | AI citation patterns now empirically confirmed (Reddit/YouTube/LinkedIn most cited) |
-| **New Platform Signal** | UCP/A2A/A2UI/AG-UI agentic commerce protocols | Reddit/YouTube/LinkedIn as dominant AI citation platforms; community validation as authority signal |
-| **New Standard** | — | llms.txt goes mainstream (Yoast Shopify, March 31, 2026) |
-| **Workforce** | Not covered | 59% of SEO jobs now senior-level — AI absorbing entry-level work |
-| **AI Citation Study** | Conductor AEO/GEO benchmark (1.08% AI traffic) | AI cites Reddit/YouTube/LinkedIn most — systematic study confirmed |
-| **SERP UX** | AI Mode = AI Overviews confirmed; white background AI citations not yet tested | White background AI Overview citation test confirmed — major UX shift |
-| **Geographic Focus** | China GEO market 22B RMB | Primarily global (UK publisher Future shares case study); no China-specific update |
-| **Bot/Protocol** | Google-Agent user-agent + web-bot-auth | Googlebot crawling IP range relocated; new byte limit documentation |
-| **AI Commerce** | UCP enables machine purchases directly from SERPs | Google Merchant Center loyalty features expand to 14 countries + AI surfaces |
-| **Industry Signal** | CCTV 315 fake GEO exposure (China) | SEO job market maturation (59% senior-level); OpenAI $852B valuation |
-| **Timeline** | April 3, 2026 | April 4, 2026 |
-| **Overall Theme** | Agentic web infrastructure + China GEO boom | Core update in transformed SERP + empirical AI citation patterns + llms.txt production deployment |
+| **Primary Topic** | March 2026 Core Update rollout + AI citation platform dominance + llms.txt mainstream | Mt. AI pattern confirmed + AI userbot metrics debunked + publisher revenue damage |
+| **Core Update** | Rolling out March 27 (first named core update of 2026) | Day 8 of rollout (April 3-4) — losers starting to emerge, Mt. AI pattern visible |
+| **AI Citation Study** | Reddit/YouTube/LinkedIn most cited sources (empirical study) | NEW: Mt. AI pattern — Google ranking and AI citation drops are BIDIRECTIONALLY correlated; Grokipedia case study |
+| **GEO Measurement** | Fragment-citation architecture explained | NEW: SISTRIX debunks AI userbot traffic as a GEO metric; 4 critical pitfalls explained |
+| **Publisher Impact** | Not covered | NEW: UK publisher Future's shares -20%+ on Google traffic changes (Reuters, March 31) — first major public company financial confirmation |
+| **Platform Discovery** | Reddit/YouTube/LinkedIn dominant citation platforms | NEW: ChatGPT location sharing for local responses; Google Ask Maps fully live in US+India |
+| **AI UX Evolution** | White background AI Overview citation test | White background test ongoing + Google Gemini adapts tone to user emotion (Search Engine Land, April 1) |
+| **AI Content Risk** | llms.txt mainstream as AI navigation standard | NEW: Moz "Garbage AI Content" warning + Mt. AI pattern confirms heavy AI scaling = high-risk double penalty (Google + AI citation simultaneously) |
+| **New Surfaces** | AI Mode = AI Overviews confirmed | NEW: Ask Maps = AI Mode in Maps context — extends AI search beyond SERPs to local discovery |
+| **Industry Education** | 59% of SEO jobs now senior-level | NEW: Search Central Live coming to Shanghai 2026 (APAC focus); zero-click confirmed at ~60% |
+| **Geographic Focus** | Global (UK publisher Future share decline is UK-specific) | UK (Future), US+India (Ask Maps), global (Mt. AI pattern), APAC (Shanghai event) |
+| **Timeline** | April 4, 2026 (Round 236) | April 4, 2026 (Round 237 — next-day update) |
+| **Overall Theme** | Core update in transformed SERP + empirical AI citation patterns + llms.txt production deployment | GEO measurement crisis (userbot metrics debunked) + publisher revenue reckoning (Future's) + Mt. AI pattern confirmation |
