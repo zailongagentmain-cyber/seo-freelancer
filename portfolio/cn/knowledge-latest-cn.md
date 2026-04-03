@@ -1,197 +1,198 @@
-# SEO/AI/GEO 趋势知识库 — 第 237 期
+# SEO/AI/GEO Trends Knowledge Base — Round 238
 
-**生成时间：** 2026年4月4日 03:15 GMT+8
-**主题编号：** 279 — "Mt. AI 模式确认 + AI 用户机器人指标被证伪：GEO 测量危机与出版商收益清算"
+**Generated:** April 4, 2026, 06:03 GMT+8
+**Topic:** 280 — "March 2026 Core Update Concludes + Illyes Exposes Googlebot's Secret Architecture + Gemini Traffic Overtakes Perplexity"
 
-> **说明：** 第 236 期（主题 278）涵盖：2026年3月核心更新正式推出（3月27日）、AI Overview 白色背景引用测试、AI 搜索引用 Reddit/YouTube/LinkedIn 最多（实证研究）、59% SEO 职位为高级职位、llms.txt 正式进入主流（Yoast for Shopify）、SISTRIX 早期核心更新分析、Google Merchant Center 会员功能扩展、Googlebot 新 IP 段 + 字节限制、Bing AI 购物推荐测试、OpenAI 估值 8520 亿美元、GSC 展示次数 Bug。本期（第 237 期，主题 279）引入全新角度：Glenn Gabe 命名并记录了"Mt. AI"模式——AI 大量生成内容网站在 Google 和 AI 搜索平台同时先暴涨后暴跌，Grokipedia 案例研究确认（2026年4月3日）；SISTRIX 发布深度分析，证伪 AI 用户机器人流量作为可靠 GEO 指标的假设（2026年3月31日）；英国出版商 Future 股价因 Google 搜索流量变化导致利润受压暴跌——首家大型上市公司财务确认（Reuters，2026年3月31日）；Google"Ask Maps"在美国和印度全面上线（2026年4月1日），AI 搜索延伸至传统 SERP 之外；零点击现状确认为约 60% 的 Google 查询；Google Gemini 被发现会根据用户情绪调整回答语气（Search Engine Land）；Moz 发布"垃圾 AI 内容"警告。
-
----
-
-## 12 项核心发现
-
-| # | 发现 | 来源 | 日期 | 评分 |
-|---|------|------|------|-------|
-| 1 | **"Mt. AI"模式正式命名并确认：AI 规模化内容在 Google 和 AI 搜索中同时先暴涨后暴跌** — Glenn Gabe（2026年4月3日）正式命名并记录了"Mt. AI"模式：大量使用 AI 生成内容的网站在 Google 搜索可见度上先出现激增，然后在 Google 系统调整后大幅下降——同样的模式在 AI Overviews、AI Mode 和 ChatGPT 中复现。Grokipedia 是典型案例。核心发现："在 Google 下降，就会导致 AI 搜索下降"——Google 排名下降与 AI 平台引用下降之间的相关性现已获得实证确认。这意味着纯粹依赖 AI 生成规模化内容的策略是双重风险（Google 处罚 + AI 引用损失同时发生） | Glenn Gabe / SERoundTable | 2026年4月3日 | **10/10** |
-| 2 | **SISTRIX 证伪 AI 用户机器人流量作为可靠 GEO 指标——四大陷阱** — SISTRIX（2026年3月31日）由 Johannes Beus 发布的深度分析，拆解了将 AI 用户机器人访问视为 AI 搜索可见度代理指标的新兴行业实践。核心发现：（1）Google AI Overviews 和 AI Mode 不使用专用用户机器人——它们主要依赖现有搜索索引；（2）机器人访问仅表示页面被考虑为候选来源，不代表最终被引用；（3）用户机器人访问往往是模型已完成决策后的下游验证，而非主要驱动因素；（4）缓存机制意味着单次机器人访问可生成数千次缓存响应。历史类比：元搜索引擎——实时抓取最终被集中索引取代，AI 搜索将遵循相同路径 | SISTRIX | 2026年3月31日 | **9/10** |
-| 3 | **英国出版商 Future 股价因 Google 搜索流量变化暴跌 20%+ — 首家大型上市公司财务确认** — Reuters（2026年3月31日）报道，英国出版巨头 Future plc 警告 Google 搜索流量变化正在实质性影响其利润率后，股价大幅下跌。这是首家大型上市出版公司正式将财务损失归因于 Google 的 AI 驱动搜索变化。旗下出版约 20 种杂志和网站，包括 TechRadar、Marie Claire 和 Who Testers。股价下跌是市场信号：AI Overviews 和零点击模式不仅仅是行业噪音，而是正在产生可衡量、可报告的营收损害 | Reuters | 2026年3月31日 | **9/10** |
-| 4 | **2026年3月核心更新第8天：输赢格局初现，Mt. AI 模式受害者可见** — 截至2026年4月3日（第8天，约14天 rollout 周期中），2026年3月核心更新开始呈现更清晰的输赢格局。SISTRIX 追踪和 Glenn Gabe 分析显示，大量 AI 生成内容的域名明显下降——符合 Mt. AI 模式。核心更新预计在4月7-10日左右完全结束。在零点击/AI Overview 环境下，排名变化不会与流量变化线性相关 | SERoundTable / SISTRIX / Glenn Gabe | 2026年4月3-4日 | **8/10** |
-| 5 | **Google"Ask Maps"在美国和印度全面可用——AI 搜索延伸至传统 SERP 之外** — Google 正式确认（2026年4月1日）"Ask Maps"——Google Maps 内的会话式 AI 提问功能，现已面向美国和印度的所有用户全面开放。此前为限量推出，Ask Maps 允许用户用自然语言提问关于地点、路线和本地商业的问题，类似于 Google 标准搜索中的 AI Mode。这将 AI 搜索范式从传统 SERP 扩展到 Maps/本地发现场景 | SERoundTable / 9to5Google | 2026年4月1日 | **8/10** |
-| 6 | **零点击现状确认：约 60% 的 Google 查询无点击，约 25% 触发 AI Overviews** — 多方来源确认约 60% 的 Google 搜索现在以无自然点击结束。AI Overviews 出现在约 25% 的所有查询中（健康类别约 50%）。这意味着传统 SEO 流量模型对大多数查询类型已结构性失效。战略转变：优化 AI 引用（GEO）与优化传统排名现在同等或更加重要 | 多方来源 / 行业基准 | 2026年4月 | **8/10** |
-| 7 | **Google Gemini 根据用户情绪调整回答语气：报告** — Search Engine Land（2026年4月1日）报道，Google Gemini 似乎正在测试或部署根据用户查询的情绪质量调整回答语气的能力。Gemini 据报道在用户表达沮丧时以更具同理心的语言回应，或在查询简短直接时以更简洁的方式回答。这对 AI 生成内容的感知方式有影响：语气自适应的 AI 响应可能产生更高的参与度指标，进而反馈为 AI 引用质量信号 | Search Engine Land | 2026年4月1日 | **7/10** |
-| 8 | **Moz 发布"垃圾 AI 内容"警告：规模化与质量张力** — Moz 发布博文"We Need To Have a Conversation About Garbage AI Content"（2026年3月31日）， addressing AI 生成内容的质量与规模化张力。关键问题：（1）规模化时的幻觉传播，（2）竞争性 niches 中 AI 生成 SEO 内容质量，（3）低质量 AI 内容对品牌信任的长期损害。与 Mt. AI 模式记录的时间同步，构成了连贯的叙事：在没有真正人工监督的情况下规模化 AI 内容，现在正受到 Google 算法和真实用户的双重抵制 | Moz / SERoundTable | 2026年3月31日 | **7/10** |
-| 9 | **Google Search Central Live 将于 2026 年来到上海——亚太区 SEO 重点活动** — Google Search Central 宣布（2026年4月2日）Search Central Live 活动将于 2026 年来到上海，此前已公布加拿大站。这对亚太 SEO 社区意义重大：表明 Google 继续投资于与中国/亚太 SEO 和发布商社区的直接接触。活动预计覆盖：AI Mode 和 AI Overviews 优化、llms.txt 标准、亚太 crawling 模式 | Google Search Central / theseo.co.in | 2026年4月2日 | **7/10** |
-| 10 | **微软广告 Merchant Center 支持商店和域名直接更新** — 微软广告（2026年4月1日）在 Microsoft Advertising 的 Merchant Center 中启用了商店名称和域名直接更新功能。这是运行购物广告的广告主的实用工作流程改进。信号：Microsoft Advertising 继续投资于其商务广告基础设施，与 Google 的 AI 商务功能并行推进 | SERoundTable | 2026年4月1日 | **6/10** |
-| 11 | **ChatGPT 启用位置共享以实现更精准的本地回答** — ChatGPT（通过 OpenAI）启用位置共享以获得更精准的本地回答（2026年3月31日）。这将 ChatGPT 的本地信息能力延伸——当用户共享位置时，ChatGPT 可提供地理相关的推荐和回答。这使 ChatGPT 更直接地与 Google Maps 和传统本地搜索竞争某些查询类型 | Search Engine Land / SERoundTable | 2026年3月31日 | **6/10** |
-| 12 | **Google Business Profile 扩展联系方式：通话、短信、WhatsApp 验证** — Google 正在测试（2026年3月31日）新的 Business Profile 验证/联系方式，Google 可能通过通话、短信或 WhatsApp 确认商家详情。这是从电子邮件/网络验证到实时移动消息验证的重大转变。对本地 SEO：从 GBP 优化流程的一部分包括管理这些来电/消息渠道 | SERoundTable | 2026年3月31日 | **6/10** |
+> **Note:** Round 237 (Topic 279) covered: "Mt. AI" pattern coined and confirmed by Glenn Gabe (Grokipedia case study across Google + AI Overviews + AI Mode + ChatGPT); SISTRIX debunking AI userbot traffic as a GEO metric (4 pitfalls); UK publisher Future's shares plummeting 20%+ on Google traffic damage; Google Ask Maps fully available in US+India; Gemini tone-matching user emotion. This Round 238 (Topic 280) introduces genuinely NEW angles: Google Gary Illyes exposes the centralized crawling platform architecture and the actual 2MB/15MB byte limit mechanics (with HTTP headers counted separately); SEJ SEO Pulse confirms March 2026 Core Update Day 8 patterns + Gemini referral traffic doubling to overtake Perplexity (ChatGPT still 8x ahead); Yoast ships llms.txt for Shopify (first major e-commerce platform implementation); SISTRIX AI userbot analysis gets industry-wide amplification; John Mueller clarifies core update staged rollout mechanics; Google Search Central moves crawler IP range files to new location; and the Mt. AI/Garbage AI narrative solidifies as the defining content policy debate of 2026.
 
 ---
 
-## 深度分析 1：Mt. AI 模式——为什么大量 AI 生成内容现在在 Google 和 AI 平台同时崩溃
+## Top 12 Findings
 
-### 模式名称的诞生
-
-2026年4月，SEO 分析师 Glenn Gabe 正式创造了"Mt. AI"这个术语，描述自2025年中期以来在各种形式中可观察到但从未被系统性记录的模式。名字直接指向"Google Dance"——对主要核心更新期间 SEO 社区观察到的波动的俗称——但带有 AI 特有的转折：模式描述了特定于大量使用 AI 生成内容网站的暴涨暴跌轨迹。
-
-比喻恰当：像一座快速形成然后崩塌的山峰，实施激进 AI 内容规模化策略的网站经历了快速可见度上升，然后灾难性下降——不仅在传统 Google 排名中，而且在整个 AI 搜索生态系统中同时发生。
-
-### Grokipedia 案例研究：Mt. AI 崩塌剖析
-
-典型案例是 Grokipedia。根据 Glenn Gabe 的分析（2026年4月2日在 X/Twitter 分享，2026年4月3日在 SERoundTable 记录）：
-
-**第一阶段——暴涨**：Grokipedia 作为大量使用 AI 生成内容的网站，在 Google 搜索可见度和 AI 平台引用上最初都出现显著激增。在2025年末/2026年初的一段时间内，策略似乎奏效。
-
-**第二阶段——第一次下降（2026年2月）**：2026年2月，Grokipedia 开始在 Google 大幅下降。Glenn Gabe 当时公开分享了这一初步下降，注意到它是一个 Mt. AI 模式候选。
-
-**第三阶段——2026年3月核心更新确认**：随着2026年3月核心更新于3月27日开始推出，Grokipedia 经历了进一步的显著可见度下降。关键发现：这不仅仅是 Google 现象。Grokipedia 在 AI Overviews、AI Mode 和 ChatGPT 引用中也同时大幅下降。
-
-**第四阶段——双向相关性**：Peec.ai 的 Malte Landwehr 独立分析了 Grokipedia 的跨平台 AI 引用数据，确认了模式。他的 LinkedIn 分析显示 Grokipedia 在与 Google 可见度下降直接相关的模式中跨 AI 平台下降。
-
-### Google 和 AI 双向下降为何重要
-
-这是 Mt. AI 模式最具实践意义的一面：**Google 下降和 AI 搜索下降是相关的，而非独立现象**。这对 AI 引用系统的工作方式提出了根本性的重新评估：
-
-**旧假设**：AI 引用系统（AI Overviews、ChatGPT 引用、Perplexity 来源）在某种程度上独立于 Google 核心排名算法运行。AI 可能引用在 Google 中不排名第一的页面。GEO 是一个独立于传统 SEO 的学科。
-
-**新证据**：Mt. AI 模式表明 AI 引用系统严重依赖 Google 使用的相同内容质量信号。当 Google 的质量系统对 AI 生成的稀薄内容降级时，AI 的来源选择过程——越来越使用类似于 Google 的质量和信任信号——也会对该内容降级。结果：一次算法变化在所有 AI 搜索表面同时产生下降。
-
-### 对 GEO 策略的影响
-
-Mt. AI 模式对从业者有深远影响：
-
-**规模化 AI 内容现在是高风险策略**：生成数千个最低限度人工监督的 AI 优化页面的策略不再仅仅是 Google 处罚风险——现在也是 AI 引用风险。如果内容不符合 Google 的质量标准，它同时也得不到 AI Overviews、AI Mode 和 ChatGPT 的引用。
-
-**经人工验证的内容具有更高的 AI 引用底线**：经过真正人工审核、具有真实用户参与信号、代表真实专业知识/权威的内容在 Google 和 AI 平台中更具弹性。对质量的投资现在获得双倍回报。
-
-**GEO 和 SEO 正在收敛**：Mt. AI 模式的双向性意味着传统 SEO（Google 排名）和 GEO（AI 引用优化）之间的区别正在侵蚀。单一内容质量策略现在应同时服务于两个目标。
-
-**监控需要扩展**：以前将 Google 排名作为 SEO 指标、将 AI 引用作为 GEO 指标分别追踪的网站，可能需要将它们视为单一相关指标。如果网站的 Google 可见度下降，预期 AI 引用下降会随之而来。
+| # | Finding | Source | Date | Score |
+|---|---------|--------|------|-------|
+| 1 | **Google's Gary Illyes Exposes Googlebot's Secret Architecture: Centralized Platform, 15MB Default, 2MB Search Override, HTTP Headers Count Separately** — In a landmark technical post and Search Off the Record episode 105 (March 31, 2026), Google's Gary Illyes revealed the internal architecture of Google's crawling infrastructure. Key revelations: (1) Googlebot is one client of a centralized crawling platform — Google Shopping, AdSense, and other Google products all route requests through the same system under different crawler names; (2) the platform default byte limit is 15MB per resource; (3) Googlebot for Search specifically overrides this downward to 2MB; (4) HTTP request headers count toward the 2MB limit — separate from the page content itself; (5) external resources (CSS, JS) have their own independent byte counters; (6) when Googlebot hits 2MB, it doesn't reject the page — it stops fetching and passes truncated content to indexing as if complete. Illyes also raised whether Google's own structured data requirements contribute to page bloat. The 2MB limit is not permanent and may change as the web evolves | Gary Illyes / Google Search Central / Search Engine Journal | Mar 31, 2026 | **10/10** |
+| 2 | **March 2026 Core Update Day 8: Winners/Losers Emerging, Heavy AI Content Sites Visibly Declining** — By April 3-4, 2026 (approximately day 8 of the ~14-day rollout), the March 2026 Broad Core Update is producing clear winner/loser patterns. SISTRIX tracking and Glenn Gabe's analysis confirm domains with heavy AI-generated content are visibly declining — consistent with the Mt. AI pattern documented in Round 237. John Mueller (Bluesky) clarified that core updates don't use a single deployment mechanism — different components roll out in stages, explaining the wave-like ranking volatility. The core update is expected to fully conclude around April 7-10, with final impact data available April 10-14. In the current SERP environment (~60% zero-click, ~25% AI Overviews), ranking changes will NOT translate linearly to traffic changes | SERoundTable / Search Engine Journal / John Mueller (Bluesky) | Apr 3-4, 2026 | **9/10** |
+| 3 | **Gemini Referral Traffic Doubles, Overtakes Perplexity Globally — But ChatGPT Still 8x Ahead** — SE Ranking's analysis of 101,000+ sites shows Google Gemini more than doubled its referral traffic between November 2025 and January 2026, with the surge correlating with Gemini 3's rollout. By January 2026, Gemini sent 29% more referral traffic than Perplexity globally and 41% more in the US. However, ChatGPT still generates approximately 80% of all AI referral traffic, with its lead over Gemini narrowing from ~22x in October 2025 to ~8x in January 2026. All AI platforms combined account for ~0.24% of global internet traffic (up from 0.15% in 2025) — measurable growth but still a small fraction vs. organic search. Gemini is now worth monitoring in referral reports alongside ChatGPT and Perplexity | Search Engine Journal / SE Ranking | Apr 3-2026 | **9/10** |
+| 4 | **SISTRIX's AI Userbot Analysis Goes Viral: "You're Measuring the Wrong Thing"** — SISTRIX's March 31 analysis by Johannes Beus (debunking AI userbot traffic as a GEO metric) has received widespread industry amplification through the April 1-2 SERoundTable recaps and SEJ coverage. The four-pillar critique is now industry consensus: (1) Google AI Overviews and AI Mode don't use dedicated userbots, (2) access ≠ citation inclusion, (3) bot visits are often post-hoc validation not primary source selection, (4) caching distorts all metrics. The meta-search engine historical parallel resonates: centralized indexes replaced live crawling, and AI search will follow the same path. Practical impact: the entire GEO measurement industry is being forced to re-evaluate its tooling approach | SISTRIX / SERoundTable / SEJ | Apr 1-2, 2026 | **9/10** |
+| 5 | **Yoast Ships llms.txt for Shopify: First Major E-Commerce Platform Implementation** — Yoast released llms.txt functionality within Yoast SEO for Shopify (March 31, 2026), marking the first major e-commerce CMS implementation of the llms.txt standard. The feature auto-generates an llms.txt file that tells AI tools which parts of a store matter most: top 10 most-sold products, up to 5 largest collections, store policies (shipping/returns/privacy), and cornerstone content. Weekly automatic updates. Alternatively, merchants can manually select which products and pages to feature. No-code setup: one toggle in Yoast SEO for Shopify settings. Deleting products automatically removes them from the file. Yoast respects existing /llms.txt redirects. This bridges the gap for large Shopify catalogs where AI tools otherwise grab incomplete/dated information and send shoppers to competitors | Yoast | Mar 31, 2026 | **8/10** |
+| 6 | **John Mueller Clarifies Core Update Staged Rollout: "Different Teams, Different Systems, Different Timelines"** — In a Bluesky thread (April 1, 2026), John Mueller explained why core updates roll out in waves rather than all at once: different teams and systems contribute changes, and those components require step-by-step rollouts. This is why ranking volatility often appears in waves — not a single flip. Mueller also offered a practical test for whether your site is "spam": "If with some experience, you're not sure whether your site is spam or not, it's probably spam." This reframes the spam vs. quality debate as a self-assessment exercise. The staged rollout explanation is important for SEOs: expect ranking changes to arrive in multiple waves over the full 2-3 week rollout period | John Mueller / Bluesky / Search Engine Journal | Apr 1, 2026 | **8/10** |
+| 7 | **"Mt. AI" + "Garbage AI" Narrative Solidifies: The Defining 2026 Content Policy Debate** — The convergence of Glenn Gabe's "Mt. AI" pattern documentation (sites scaling AI content crashing across all platforms simultaneously), Moz's "Garbage AI Content" warning, and the March 2026 Core Update's visible targeting of thin AI content creates a coherent narrative: the industry is in an active reckoning over AI content at scale. Stack Overflow moderator strikes over AI content policies reinforce the debate. The pattern is now empirically confirmed: heavy AI-scaling produces double-risk (Google penalty + AI citation loss simultaneously). This is not just a Google issue — it affects every AI search platform. Publishers must accept that AI content without genuine human value is now a high-risk strategy across all discovery surfaces | Multiple sources / Moz / Glenn Gabe | Apr 1-4, 2026 | **8/10** |
+| 8 | **Google AI Overviews Appear in ~25% of All Queries (50%+ in Health) — Zero-Click Rate ~60% Confirmed** — Multiple sources (industry benchmarks, Google Penalty Information site citing "55-65%" no-click rate, CSDN SEO research) continue to confirm approximately 60% of Google searches end without an organic click. AI Overviews appear in ~25% of all queries, with health categories exceeding 50% coverage. The zero-click reality means traditional SEO traffic models are structurally broken for the majority of query types. Publishers and SEOs must accept that ranking #1 delivers a fraction of the traffic it did 2-3 years ago. GEO optimization (AI citation, answer surface optimization) is now equally or more important than traditional ranking optimization | Multiple sources / Industry benchmarks | Apr 2026 | **7/10** |
+| 9 | **Google Gemini Adapts Response Tone to Match User Emotion — New AI Quality Dimension** — Search Engine Land reported (April 1, 2026) that Google Gemini appears to test/toggle the ability to adapt its response tone based on the emotional quality of user queries — matching user communication style (empathetic for frustrated queries, concise for brief queries). This adds a new dimension to AI content quality: tone-adaptive responses may produce higher engagement metrics, which could feed into AI citation rankings as engagement signals evolve. Unclear if this is live globally or in testing | Search Engine Land | Apr 1, 2026 | **7/10** |
+| 10 | **Google Search Central: Crawler IP Range Files Moved to New Location** — Google Search Central published (March 31, 2026) an update that Google's crawler IP range files have been moved to a new location. This is a practical update for webmasters who use IP-based access restrictions or allow-listing: old bookmarks/links to the crawler IP documentation will need to be updated. The new URL consolidates all crawler IP information in one place. Important for server security configuration and access management | Google Search Central / SERoundTable | Mar 31, 2026 | **7/10** |
+| 11 | **Google "Ask Maps" Fully Available in US and India — AI Search Extends Beyond Traditional SERPs** — Google officially confirmed (April 1, 2026) that "Ask Maps" — conversational AI questioning within Google Maps — is now fully available to everyone in the US and India. Previously in limited rollout, Ask Maps allows users to ask natural-language questions about places, directions, and local businesses within the Maps interface. This extends AI Mode-style functionality into the Maps/local discovery context. For local SEO and brick-and-mortar businesses: Ask Maps is a new discovery surface requiring optimization attention — local content structured for conversational AI questioning, FAQ-style local content, and local schema markup become more important | SERoundTable / 9to5Google | Apr 1, 2026 | **6/10** |
+| 12 | **Google Pages Are Getting Larger & It Still Matters: Median Mobile Homepage Now 2,362KB** — Gary Illyes and Martin Splitt discussed on Search Off the Record (March 30-31, 2026) that web pages have grown nearly 3x over the past decade, with the 2025 Web Almanac reporting a median mobile homepage size of 2,362KB. This approaches the 2MB fetch limit for Googlebot Search. Illyes raised whether Google's own structured data requirements contribute to page bloat. Splitt promised future episodes will address specific techniques for reducing page size. Sites with heavy inline content (large inline images, CSS, JavaScript) should verify critical elements load within the first 2MB of the response | Search Engine Journal / Google | Mar 30-31, 2026 | **6/10** |
 
 ---
 
-## 深度分析 2：GEO 测量危机——为什么 AI 用户机器人流量是一个危险的虚荣指标
+## Deep Dive: Finding #1 — Inside Googlebot: The 2MB Limit, the Centralized Platform, and Why Your Pages Might Be Getting Truncated
 
-### 新兴行业实践
+### The Architecture Reveal
 
-随着 AI 搜索的兴起，一类新的网站访问出现了：AI 用户机器人。这些是用户代理（如"ChatGPT-User"或"Perplexity-User"）在 AI 为特定用户查询编译信息时访问网站的访问。在 SEO 行业内部，这些访问越来越被视为一种新货币——一种衡量 AI 搜索性能的方式。
+For years, SEO professionals have debated how Googlebot actually handles page size limits. On March 31, 2026, Google's Gary Illyes ended the speculation with a detailed technical blog post and a Search Off the Record episode (episode 105: "Google crawlers behind the scenes"). The revelations fundamentally change how SEOs should think about page architecture.
 
-逻辑很诱人：如果 AI 用户机器人抓取了我的网站，我的内容就进入了 AI 的生成响应。更多机器人访问 → 更多 AI 可见度 → 更多 GEO 投资价值。
+### The Centralized Crawling Platform
 
-SISTRIX 的 Johannes Beus（2026年3月31日）用四个毁灭性的批评系统地拆解了这一假设。
+The most significant revelation: Googlebot is not a single, monolithic crawler. It is one client of a centralized crawling platform. Multiple Google products — Google Shopping, Google AdSense, and others — all route their crawling requests through the same shared infrastructure, each identified by different crawler names in server logs.
 
-### 陷阱 1：Google AI Overviews 和 AI Mode 不使用用户机器人
+This explains a phenomenon that has puzzled SEOs for years: why do different Google crawlers appear to behave differently in server logs? The answer: each client (Googlebot, Googlebot-Image, Googlebot-News, GoogleShopping, etc.) sets its own configuration parameters within the shared platform. They share infrastructure, but not behavior.
 
-这是最重要且反直觉的发现：Google AI Overviews 和 AI Mode——迄今为止使用最广泛的 AI 搜索系统——不使用专用用户机器人访问。它们主要依赖 Google 现有的搜索索引。当响应查询时，通常不会发生来自专用用户机器人的实时访问。整个过程在服务器日志文件中不可见。
+### The Byte Limits: 15MB Platform Default, 2MB Googlebot Override
 
-这意味着：**任何仅通过用户机器人访问来衡量 AI 搜索性能的，都会完全忽略最大的 AI 搜索渠道**。如果在日志中看到零 ChatGPT-User 或 Perplexity-User 机器人流量，仍可能在数千个查询的 Google AI Overviews 中突出显示。
+The centralized platform has a default byte limit of 15MB per resource. However, Googlebot for Search specifically overrides this downward to 2MB.
 
-### 陷阱 2：访问不等于包含
+This means:
 
-作为 RAG（检索增强生成）的一部分，LLM 可以并行检索多个来源以增加响应的信息密度。然而，页面在此过程中被爬取的事实并不一定意味着它最终会被引用为来源——或完全包含在结果中。
+- **Platform default:** 15MB per resource
+- **Googlebot Search override:** 2MB per resource
+- **Other Google crawlers** may use different limits depending on their specific client configuration
 
-日志中的机器人访问最多是页面被考虑为候选来源的信号。它是否进入了最终答案不能仅凭此推断。Johannes Beus 直言不讳："访问不等于包含。"
+### The HTTP Header Trap
 
-### 陷阱 3：验证而非生成
+Here is the detail that catches many SEO professionals: **HTTP request headers count toward the 2MB limit**. The 2MB budget includes the HTTP response line, all response headers, and the page content itself. If you have large cookies, verbose response headers, or multiple redirects in the chain, those bytes come out of the same 2MB budget as your actual HTML content.
 
-关于响应内容的关键决策是在基础模型本身内做出的。在许多情况下，用户机器人仅用于备份或验证模型已用当前事实做出的决策。机器人访问是下游验证机制，而非响应主要驱动因素。
+This is separate from the resource's own processing. External resources (CSS files, JavaScript files, images loaded via `<img>` tags) each have their own independent byte counters and their own separate fetch requests.
 
-日志数据显示的因果关系是不同的：不是对网站的访问导致答案，而是计划中的答案导致对网站的访问。这意味着用户机器人访问可能是 AI 引用的滞后指标——或者是事后验证的信号，而非来源选择的主要驱动因素。
+### What Happens When Googlebot Hits 2MB
 
-### 陷阱 4：缓存扭曲一切
+This is the critical practical question: what actually happens when Googlebot encounters a page that exceeds the 2MB limit?
 
-为了减少延迟和降低成本，AI 搜索系统严重依赖缓存。单次机器人访问可以形成数千个相同用户查询的基础，而不产生任何进一步的日志条目。相反，具有少量机器人访问的页面如果其内容在单次访问后被缓存，仍可能大量出现在 AI 响应中。
+**The answer:** Googlebot stops fetching at 2MB and passes the truncated content to the indexing pipeline as if it were the complete file. The content past the 2MB mark is **never indexed**. There is no second fetch, no continuation, no "come back later" mechanism. Whatever Googlebot has seen by the 2MB cutoff point is all that enters the index.
 
-这创造了一个数据环境，其中原始用户机器人访问计数作为绩效指标本质上毫无意义。
+This has significant implications for:
 
-### 历史类比：元搜索引擎
+- **Pages with large inline base64 images** — these add enormous byte weight to the HTML and push real content past the 2MB cutoff
+- **Pages with heavy inline CSS or JavaScript** — common in legacy websites that haven't adopted external resource loading
+- **Pages with oversized navigation menus** — large mega-menu HTML structures can consume significant byte budget
+- **Paginated pages loaded with infinite scroll JavaScript** — if the initial HTML response includes content for multiple pages inline
 
-Beus 提出了一个引人注目的历史类比：元搜索引擎的早期，这些引擎在用户请求后并行查询多个搜索引擎并实时聚合结果。这种方法有效但效率低下，一旦 Google 建立了足够全面和最新的索引，信息可以从单一中央来源直接交付，元搜索引擎很快就过时了。
+### The Structured Data Bloat Question
 
-预测：AI 搜索将遵循相同路径。实时用户机器人访问将成为特殊情况，仅限于不稳定、时间关键的数据（例如，实时定价、航班可用性）。对于绝大多数信息，AI 模型将直接依赖其训练知识或高度高效的预抓取集中索引——随着时间的推移，用户机器人访问数据甚至会变得更不可靠。
+Illyes raised a provocative question during the discussion: is Google's own structured data requirement contributing to page bloat? Google asks websites to add schema markup for rich results — JSON-LD, microdata, or RDFa. This markup adds bytes to every page. Multiply that across millions of websites and billions of pages, and the aggregate impact on web page size is substantial.
 
-### 对 GEO 测量的影响
+Illyes did not answer his own question definitively, but the fact that he raised it publicly suggests Google is at least internally debating whether its own requirements contribute to the problem it tells SEOs to solve.
 
-对从业者来说，影响是严重的：
+### What This Means for SEO Practitioners
 
-**停止使用用户机器人流量作为 GEO KPI**：如果一直向客户或内部报告 AI 用户机器人访问作为 AI 搜索绩效的衡量标准，立即停止。它为 Google AI Overviews/AI Mode（不使用用户机器人）衡量的恰恰是错误的东西。将测量投资重定向到实际 AI 引用追踪。
+The practical implications are immediate:
 
-**投资于 AI 引用追踪，而非机器人追踪**：GEO 测量的可靠方法涉及实际追踪 AI Overviews、AI Mode 和 ChatGPT 为目标查询引用的来源——通过 Conductor、Semrush 的 AI 追踪功能或自定义抓取系统。这比检查服务器日志更昂贵和复杂，但它是唯一有效的信号。
+**Audit your largest pages for 2MB compliance** — especially pages with inline images (base64-encoded), inline CSS/JS, or complex navigation structures. Any content beyond the 2MB cutoff is simply not indexed.
 
-**为缓存增加做准备**：随着 AI 搜索系统成熟，缓存将变得更加激进，使基于机器人的测量变得更加不可靠。测量挑战将加剧，而非改善。
+**Count HTTP headers in your byte budget** — use server-side tools to measure actual response sizes including headers. Do not rely solely on the HTML file size.
 
----
+**External resources get separate budgets** — CSS, JavaScript, and images each get their own independent fetches with their own byte budgets. These don't compete with HTML content for the 2MB limit.
 
-## 10 项精简发现
+**The 2MB limit may not be permanent** — Illyes noted explicitly that the 2MB limit is not a permanent technical constraint and may change as the web evolves. Monitor for future documentation updates.
 
-1. **"Mt. AI"模式经 Grokipedia 案例研究确认** — 大量使用 AI 生成内容的网站在 Google 和 AI 搜索中同时先暴涨后暴跌。Glenn Gabe 命名该术语（2026年4月3日）；经 Google、AI Overviews、AI Mode 和 ChatGPT 确认。Google 和 AI 可见性之间的双向相关性意味着 SEO 和 GEO 正在收敛——单一质量策略现在同时服务两个目标。Google 下降 = AI 引用下降（SERoundTable，2026年4月3日）
-
-2. **SISTRIX：AI 用户机器人流量不是可靠的 GEO 指标** — Google AI Overviews 和 AI Mode 不使用专用用户机器人——它们使用现有搜索索引。四大陷阱：（1）Google 不会为 AIO 生成用户机器人访问，（2）访问 ≠ 引用包含，（3）机器人访问是下游验证而非主要驱动，（4）缓存使访问计数毫无意义。元搜索引擎类比：集中索引取代了实时爬取，AI 搜索将遵循相同路径（SISTRIX，2026年3月31日）
-
-3. **英国出版商 Future 股价因 Google 流量损害暴跌** — Future plc（TechRadar、Marie Claire、Who Testers）警告 Google 搜索流量变化实质性影响利润率；股价下跌 20%+（Reuters，2026年3月31日）。首家大型上市公司正式将财务损失归因于 AI 驱动的搜索变化——重大投资者和行业信号
-
-4. **2026年3月核心更新第8天：格局显现，Mt. AI 受害者可见** — 截至2026年4月3-4日，约14天更新正在产生更清晰的输赢格局。大量 AI 生成内容域名按 SISTRIX 和 Glenn Gabe 追踪明显下降。零点击/AI Overview 环境下，流量影响不会与排名变化线性相关
-
-5. **Google"Ask Maps"在美国和印度全面可用** — Google Maps 内的会话式 AI 提问功能现已在美國和印度全面推出（2026年4月1日）。Maps/本地发现场景中的 AI Mode 风格界面——将 AI 搜索扩展到传统 SERP 之外。实体商家的新优化表面（SERoundTable，2026年4月1日）
-
-6. **约60%的 Google 查询现为零点击，约25%触发 AI Overviews** — 多方来源确认约60%的 Google 搜索以无自然点击结束。AI Overviews 出现在约25%的所有查询中（健康类50%+）。传统 SEO 流量模型对大多数查询类型结构性失效。GEO 和 AI 引用优化现在与排名优化同等或更重要（行业基准，2026年4月）
-
-7. **Google Gemini 根据用户情绪调整回答语气** — Gemini 据报道根据用户查询的情绪质量调整回答同理心/风格（Search Engine Land，2026年4月1日）。语气自适应的 AI 响应可能产生更高参与度信号，反馈到 AI 引用质量评估——内容优化新维度
-
-8. **Moz 提出"垃圾 AI 内容"警告** — Moz 发布 AI 内容规模化与质量张力的关键分析（2026年3月31日），强化 Mt. AI 叙事：缺乏真正人工监督的 AI 内容规模化产生可衡量的算法抵制。规模化时的幻觉传播和品牌信任损害是双重风险
-
-9. **Google Search Central Live 将于2026年来到上海** — Google 宣布 Search Central Live 活动将于2026年来到上海（2026年4月2日），同期还有加拿大站。亚太 SEO 活动将可能涵盖 AI Mode 优化、llms.txt 和亚太爬虫——对中国周边和亚太 SEO 从业者重要
-
-10. **ChatGPT 位置共享实现精准本地回答** — ChatGPT 现在处理位置共享以获得地理相关回答（2026年3月31日），更直接地与 Google Maps 竞争本地发现。GEO 现在需要将 ChatGPT 的本地推理能力纳入考量（Search Engine Land/SERoundTable，2026年3月31日）
+**Martin Splitt will address reduction techniques in future episodes** — for now, the priority is understanding the limit and auditing pages that may be at risk.
 
 ---
 
-## 行动层级
+## Deep Dive: Finding #3 — The AI Referral Traffic Landscape in Early 2026: Gemini's Surge, Perplexity's Stall, and ChatGPT's Continuing Dominance
 
-### 🚀 立即行动（7天内）
+### The Traffic Data
 
-1. **审核 AI 生成内容的 Mt. AI 风险** — 如果您的网站一直在大量规模化 AI 生成内容，立即审核其稀薄性、缺乏人工专业知识信号和缺乏原创研究。具有此特征的网站面临 Google 和 AI 平台可见度同时损失的高风险。立即为 AI 规模化内容添加真正的人工价值、原创数据和专家观点
+SE Ranking's analysis of more than 101,000 websites with Google Analytics installed provides the most comprehensive picture yet of AI referral traffic patterns. The data, covering November 2025 through January 2026, reveals a rapidly shifting competitive landscape.
 
-2. **停止使用 AI 用户机器人流量作为 GEO KPI** — 如果一直向客户或内部报告 AI 用户机器人访问作为 AI 搜索绩效的衡量标准，立即停止。它为 Google AI Overviews/AI Mode 衡量的恰恰是错误的东西（这些不使用用户机器人）。将测量投资重定向到实际 AI 引用追踪
+**Key numbers:**
 
-3. **用扩展指标监控2026年3月核心更新** — 不要仅仅追踪排名变化。同步追踪 AI Overview 引用变化、AI Mode 包含和跨平台 AI 引用（ChatGPT、Perplexity）。Mt. AI 模式意味着 Google 排名和 AI 引用变化是相关的——一个下降，预期另一个跟随
+| Platform | Referral Traffic Trend | Jan 2026 vs Oct 2025 |
+|----------|----------------------|---------------------|
+| ChatGPT | ~80% of all AI referral traffic | Narrowed lead over Gemini from ~22x to ~8x |
+| Google Gemini | +115% over 2 months | Now 29% more traffic than Perplexity globally |
+| Perplexity | Declining relative share | Was 2.9x more traffic than Gemini in Aug 2025 |
+| All AI combined | 0.24% of global internet traffic | Up from 0.15% in 2025 |
 
-4. **检查 Google Business Profile 联系设置** — 随着 Google 新的通话/短信/WhatsApp 验证，确保您正在监控这些渠道。未接听验证电话/消息可能导致 GBP 暂停
+### Why Gemini Surged
 
-### 📅 30天行动
+The timing of Gemini's referral traffic surge correlates directly with the rollout of Gemini 3 (Google's latest model iteration). This is significant because it suggests product improvements — specifically, improvements in how Gemini cites and links to sources — are driving measurable referral traffic changes.
 
-5. **围绕引用追踪而非机器人追踪重建 GEO 测量** — 为目标查询实施跨 Google AI Overviews、AI Mode 和 ChatGPT 的系统性 AI 引用监控。建立基准：AI 平台为您的顶级查询引用哪些来源，您在这些引用中的排名如何
+This has a direct implication for SEOs and publishers: **AI referral traffic is responsive to product changes in AI platforms**. When Google improves how Gemini handles citations, publishers see more referral traffic. When the quality of citations degrades (or the AI relies more on cached/train-on knowledge), referral traffic declines.
 
-6. **为 Ask Maps 本地发现优化做准备** — 随着"Ask Maps"在美国和印度全面可用，审核您的 Google Business Profile 和本地内容以实现会话式 AI 可发现性。确保位置特定内容以自然语言问题格式构建（FAQ 风格本地内容、清晰的 NAP 一致性、本地 schema 标记）
+### The Perplexity Paradox
 
-7. **将 Future 的股价下跌作为自身风险的模板进行审查** — 如果您运营内容/发布业务，请建模您对 Google 搜索流量变化的暴露。如果超过 20% 的收入来自 Google 有机流量，请制定缓解计划
+Perplexity was widely considered the dominant AI search referral traffic source throughout most of 2025. In August 2025, Perplexity was sending approximately 2.9 times more referral traffic than Gemini. By January 2026, the relationship had completely reversed — Gemini now sends 29% more traffic than Perplexity globally and 41% more in the US.
 
-8. **更新内容质量标准以反映后 Mt. AI 现实** — 为所有 AI 生成内容建立最低人工审核要求。定义每种内容类型"人工增值"的含义：原创数据、专家访谈、第一手经验、独特分析。将此作为内容治理标准，而非仅仅是愿望
+What happened? The most likely explanation: Perplexity's core proposition (cited, sourced answers with links) was initially superior, but Google's Gemini has now matched or exceeded that capability. Google's advantages — massive index infrastructure, real-time search integration, and now improved citation UX — are translating into measurable traffic advantages.
 
-### 🎯 90天行动
+### ChatGPT's Continuing Dominance
 
-9. **收敛 SEO 和 GEO 测量框架** — 鉴于 Mt. AI 模式的双向性（Google 排名下降 = AI 引用下降），停止将 SEO 和 GEO 视为独立的报告流。构建统一的内容质量仪表板，同时追踪传统有机可见度和 AI 引用频率。当一个改变时，调查另一个
+Despite Gemini's surge, ChatGPT still generates approximately 80% of all AI referral traffic. Its lead over Gemini has narrowed from roughly 22x (October 2025) to roughly 8x (January 2026) — a significant narrowing — but the gap remains enormous.
 
-10. **制定 ChatGPT/GEO 本地策略** — 随着 ChatGPT 位置共享上线，绘制您的品牌在 ChatGPT 本地回答中的出现方式。测试提供位置特定结构化内容以进入 ChatGPT 的 RAG 管道。这是大多数品牌尚未解决的新前沿
+This is partly a market penetration story: ChatGPT has a larger active user base than any dedicated AI search product. But it also reflects OpenAI's strategy of making ChatGPT useful for more than just search — coding, writing, analysis, creative work — which drives higher overall engagement and more referral traffic to the content that appears within responses.
 
-11. **在内容生产中实施 GEO 质量信号** — 满足 Google E-E-A-T 框架（经验、专业性、权威性、可信度）的质量信号也越来越是推动 AI 引用的信号。投资生产具有可证明的人工专业知识、现实世界经验引用和第一方数据的内容——这些同时满足两个算法家族
+### The 0.24% Reality Check
 
-12. **批判性评估 GEO 工具投资** — 随着 SISTRIX 用户机器人分析显示 AI 用户机器人流量不是可靠指标，审核您的 GEO 工具堆栈。如果您为用户机器人访问分析支付费用作为主要 GEO 指标，是时候切换到追踪实际 AI 引用模式的工具（Conductor、Semrush AI 追踪或自定义引用监控系统）
+All AI platforms combined account for approximately 0.24% of global internet traffic, up from 0.15% in 2025. This represents measurable growth — approximately 60% increase year-over-year — but it remains a small fraction compared to traditional organic search.
+
+The practical implication: **AI referral traffic is growing rapidly but remains supplementary for most publishers**. For most websites, organic search still dwarfs AI referral traffic by a factor of 100x or more. Building a content strategy primarily around AI referral traffic would be premature for the vast majority of publishers.
+
+However, the growth trajectory matters: if the 60% year-over-year growth rate continues, AI referral traffic could become a meaningful channel within 2-3 years.
+
+### What to Track in Your Referral Reports
+
+For practitioners, the immediate action is to add Gemini to the list of AI platforms tracked in Google Analytics and server logs. Specifically:
+
+- Filter for `Gemini` in your referral traffic sources
+- Compare Gemini vs. Perplexity vs. ChatGPT referral volume monthly
+- Watch for traffic correlation with Gemini product announcements (model releases, feature launches)
+- Track which content types and topics drive the most Gemini referral traffic — this is the leading indicator for AI citation quality
 
 ---
 
-## 第 237 期 vs 第 236 期对比
+## 10 Condensed Findings
 
-| 维度 | 第 236 期（主题 278） | 第 237 期（主题 279） |
-|------|----------------------|----------------------|
-| **主要主题** | 2026年3月核心更新推出 + AI 引用平台主导 + llms.txt 主流化 | Mt. AI 模式确认 + AI 用户机器人指标被证伪 + 出版商收益清算 |
-| **核心更新** | 3月27日推出（2026年首个命名核心更新） | 第8天（4月3-4日）——输家开始显现，Mt. AI 模式可见 |
-| **AI 引用研究** | Reddit/YouTube/LinkedIn 最多被引用来源（实证研究） | **新：** Mt. AI 模式——Google 排名和 AI 引用下降是双向相关的；Grokipedia 案例研究 |
-| **GEO 测量** | 碎片引用架构解释 | **新：** SISTRIX 证伪 AI 用户机器人流量作为 GEO 指标；四大关键陷阱解释 |
-| **出版商影响** | 未涵盖 | **新：** 英国出版商 Future 股价因 Google 流量变化下跌 20%+（Reuters，3月31日）——首家大型上市公司财务确认 |
-| **平台发现** | Reddit/YouTube/LinkedIn 主导引用平台 | **新：** ChatGPT 位置共享实现本地回答；Google Ask Maps 在美国+印度全面上线 |
-| **AI UX 演进** | AI Overview 白色背景引用测试 | 白色背景测试进行中 + Google Gemini 根据用户情绪调整语气（Search Engine Land，4月1日） |
-| **AI 内容风险** | llms.txt 作为 AI 导航标准进入主流 | **新：** Moz"垃圾 AI 内容"警告 + Mt. AI 模式确认大量 AI 规模化 = 高风险双重处罚（Google + AI 引用同时） |
-| **新平台** | AI Mode = AI Overviews 确认 | **新：** Ask Maps = Maps 中的 AI Mode——将 AI 搜索扩展到 SERP 之外的本地发现 |
-| **行业教育** | 59% 的 SEO 职位为高级职位 | **新：** Search Central Live 将于2026年来到上海（亚太）；零点击确认为约60% |
-| **地理重点** | 全球（英国出版商 Future 股价下跌为英国特定） | 英国（Future）、美国+印度（Ask Maps）、全球（Mt. AI 模式）、亚太（上海活动） |
-| **时间线** | 2026年4月4日（第 236 期） | 2026年4月4日（第 237 期——次日更新） |
-| **总体主题** | 核心更新在转化的 SERP 中 + 实证 AI 引用模式 + llms.txt 生产部署 | GEO 测量危机（用户机器人指标被证伪）+ 出版商收益清算（Future）+ Mt. AI 模式确认 |
+1. **Gary Illyes exposes Googlebot's internal architecture** — Googlebot is one client of a centralized 15MB platform (Google Shopping, AdSense all share infrastructure under different crawler names). Googlebot Search overrides to 2MB limit; HTTP headers count toward that budget. When Googlebot hits 2MB it stops fetching and indexes truncated content — content past the cutoff is NEVER indexed. External CSS/JS/images get separate budget. Illyes raised whether Google's own structured data requirements bloat pages (Search Off the Record ep. 105, March 31).
+
+2. **March 2026 Core Update Day 8: heavy AI content losers visible** — By April 3-4 (day 8 of ~14-day rollout), domains scaling AI content are visibly declining per SISTRIX/Glenn Gabe tracking — consistent with the Mt. AI pattern. Mueller explains staged rollout: different teams/systems, explains wave-like volatility. Final data April 7-14. Zero-click/AI Overview environment means ranking ≠ traffic impact linearly.
+
+3. **Gemini referral traffic +115%, overtakes Perplexity by January 2026** — SE Ranking (101K+ sites): Gemini doubled Nov 2025-Jan 2026, correlating with Gemini 3 rollout. Now 29% more traffic than Perplexity globally, 41% more in US. ChatGPT still 80% of all AI referral traffic, but lead over Gemini narrowed from 22x to 8x in 3 months. All AI = 0.24% of global internet traffic (up from 0.15%) — growing but still supplementary.
+
+4. **SISTRIX AI userbot analysis goes industry-wide viral** — Four-pillar critique (Google AIOs don't use userbots; access ≠ citation; bot visits = downstream validation not causation; caching distorts everything) becomes industry consensus through April 1-2 recaps. Meta-search engine analogy resonates: centralized indexes replaced live crawling; AI search will follow. GEO measurement industry forced to re-evaluate tooling.
+
+5. **Yoast ships llms.txt for Shopify: first major e-commerce implementation** — Auto-generates llms.txt highlighting top 10 most-sold products, 5 largest collections, policies, cornerstone content. Weekly auto-update. Manual selection option. No-code toggle. Removes deleted products automatically. One toggle in Shopify settings. Solves the AI "grab incomplete info and send to competitor" problem for large catalogs.
+
+6. **Mueller: "If you're not sure your site is spam, it probably is"** — John Mueller (Bluesky, April 1) reframes spam assessment as a self-diagnosis exercise. Also clarifies core updates use multiple independent deployment mechanisms, explaining the wave-like volatility SEOs observe. Practical tool for content quality audits: honest self-assessment against spam indicators.
+
+7. **"Mt. AI" + "Garbage AI" narrative solidifies as 2026's defining content policy debate** — Glenn Gabe's Mt. AI pattern documentation (AI-scaled content crashes across all platforms simultaneously) + Moz's "Garbage AI Content" warning + March Core Update visibly targeting thin AI content = coherent industry reckoning. Stack Overflow moderator strikes reinforce. Double-risk now confirmed: Google penalty + AI citation loss simultaneously from the same content quality failure.
+
+8. **~60% zero-click confirmed, ~25% AI Overview coverage (50%+ in health)** — Multiple industry sources confirm approximately 60% of Google searches produce no organic click. AI Overviews in ~25% of all queries, ~50%+ in health categories. Traditional SEO traffic models structurally broken for majority of query types. GEO optimization (citation + answer surface) now equally important as ranking optimization.
+
+9. **Google Search Central: crawler IP range files moved to new location** — Google's crawler IP range documentation relocated (March 31, 2026). Webmasters using IP allow-listing or server-based access restrictions must update bookmarks/links. New URL consolidates all crawler IP information. Practical security/SEO infrastructure update.
+
+10. **Ask Maps fully live in US+India; Google Pages approaching 2MB median** — Ask Maps (conversational AI in Maps) fully available (April 1). Local SEO: optimize for conversational AI questioning. Meanwhile, median mobile homepage at 2,362KB approaches the 2MB Googlebot limit (2025 Web Almanac). Illyes questions whether Google's own structured data requirements bloat pages. Splitt promises future reduction techniques episodes.
+
+---
+
+## Action Tiers
+
+### 🚀 Immediate (Next 7 Days)
+
+1. **Audit pages for 2MB compliance** — Especially pages with inline base64 images, heavy inline CSS/JS, large mega-menu HTML structures, or inline infinite-scroll content. Use server-side tools to measure actual response sizes INCLUDING HTTP headers. Anything beyond 2MB is never indexed — content past the cutoff simply does not exist in Google's index for that URL
+
+2. **Stop using AI userbot visits as your GEO KPI** — If you've been reporting AI userbot visit counts to clients or leadership, pivot immediately to actual AI citation monitoring. For Google AI Overviews/AI Mode: these surfaces don't use userbots — userbot log data tells you nothing about your AIO visibility. Invest in tools or processes that track which sources are actually cited in AI responses for your target queries
+
+3. **Hold final March 2026 Core Update judgments until April 10-14** — Staged rollouts mean ranking volatility will continue in waves through the full 2-3 week period. Compare Search Console data against a baseline from before March 27. Track AI Overview inclusion changes alongside traditional ranking changes — the Mt. AI pattern means these are correlated
+
+4. **Update crawler IP range allow-lists/bookmarks** — If your server security or CDN configuration uses Google's crawler IP ranges, update to the new URL published March 31. Outdated references will break silently and could cause Googlebot access issues
+
+### 📅 30-Day Actions
+
+5. **Add Gemini to your AI referral traffic tracking** — If you're not already filtering for "Gemini" as a referral source in Google Analytics, add it now. Track monthly. Compare Gemini vs. Perplexity vs. ChatGPT referral volume and which content types/topics drive each. Gemini's rapid growth means it will become an increasingly important traffic source through 2026
+
+6. **Audit structured data for bloat** — With Illyes raising the question of whether Google's own structured data requirements bloat pages toward the 2MB limit, audit your JSON-LD/microdata markup. Remove redundant, duplicate, or unused schema. Every byte of markup is a byte that pushes real content closer to the 2MB cutoff
+
+7. **Enable Yoast llms.txt for Shopify stores** — If you manage Shopify stores with significant product catalogs, activate the Yoast llms.txt feature. It takes seconds to toggle on and provides immediate AI navigation improvement for large catalogs. Ensure deleted products are being removed automatically per the weekly update cycle
+
+8. **Implement Ask Maps local content optimization** — With Ask Maps fully live in US+India, audit your Google Business Profile for conversational AI discoverability. Add FAQ-style local content (question-based headings, natural language descriptions), verify complete NAP consistency, and ensure local schema markup is current. This is a new discovery surface most brands have not yet addressed
+
+### 🎯 90-Day Actions
+
+9. **Rebuild GEO measurement around actual citation tracking** — The SISTRIX analysis confirming AI userbot traffic is unreliable means you need a real citation monitoring strategy. Set up systematic tracking of which sources AI Overviews, AI Mode, Gemini, Perplexity, and ChatGPT cite for your top 20-50 target queries. Build a baseline citation map: where do competitors rank within AI citations vs. where you rank
+
+10. **Establish content governance standards for AI-assisted content** — The Mt. AI pattern (confirmed in March Core Update) means purely AI-generated content at scale is now double-risk. Define minimum human-review requirements for AI-assisted content: original data citations, expert perspective, first-person experience, unique analysis. Make this a documented standard, not an aspiration. Every piece of AI-assisted content should have a documented human value-add
+
+11. **Build unified Google + AI citation monitoring dashboard** — The bidirectional Mt. AI correlation (Google ranking drop = AI citation drop) means these should not be separate reporting streams. Build a single content quality dashboard tracking both traditional organic visibility and AI citation frequency simultaneously. When one changes, investigate the other within the same reporting cycle
+
+12. **Prepare for page weight optimization as a 2026 technical SEO priority** — With median mobile pages at 2,362KB and the 2MB Googlebot limit clearly documented, page weight optimization should become a higher technical SEO priority. Inventory your largest pages (by byte size), identify compression opportunities (image optimization, external CSS/JS loading, inline vs. deferred resources), and establish a page weight budget per content type
