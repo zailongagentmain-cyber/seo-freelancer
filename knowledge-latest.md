@@ -1,126 +1,112 @@
-# Topic 289: The AI–SEO Collision — When Trust, Traffic, and Talent All Shift at Once
+# Knowledge Latest — Round 251
 
-**Theme:** The week of April 3–5, 2026 produced a rare convergence: new GEO tooling from Bing, a battle between WordPress and Cloudflare over open-source CMS territory, an unprecedented AI-driven jobs bloodbath in tech, and growing evidence that Google's zero-click SERPs are becoming a permanent structural reality — not a temporary disruption. SEOs are being squeezed from three sides: AI is stealing clicks, AI is stealing jobs, and the platforms that host both are fighting over who controls publishing infrastructure. The practical implication: survival now requires stacking traditional SEO authority with AI-citation visibility and authentic audience trust simultaneously.
-
----
-
-## 10 Findings
-
-### 1. Bing Webmaster Tools Launches Public AI Performance Dashboard for GEO Tracking (NOVEL)
-
-**Deep Dive:** Bing officially launched its "AI Performance" report in public preview (announced February 10, 2026, now broadly available), giving publishers the first mainstream webmaster-tool view into how their content performs as citations across Microsoft Copilot, Bing AI-generated summaries, and partner integrations. The dashboard shows Total Citations (raw citation count in AI answers), Average Cited Pages (unique pages cited per day), Grounding Queries (the phrases the AI used to retrieve content), and per-URL citation activity over time. This is the first tool from a major search engine that treats AI citation as a first-class SEO metric. Unlike Copilot in Bing Webmaster Tools (which assists with Q&A and optimization), AI Performance is purely observational — it tells publishers what AI is already citing, not how to rank in it.
-
-**Source:** Bing Webmaster Blog — [Introducing AI Performance in Bing Webmaster Tools Public Preview](https://blogs.bing.com/webmaster/february-2026/introducing-ai-performance-in-bing-webmaster-tools-public-preview)
-
-**Practical Implication:** SEOs and content teams should immediately log into Bing Webmaster Tools and activate the AI Performance report. The grounding query data alone reveals which topics trigger Bing's AI citation machinery — a direct GEO opportunity map that has no equivalent on Google Search Console.
+> **Topic:** Answer Engine Optimization, Entity Architecture & the AI Poisoning Backlash
+> **Theme:** From llms.txt to 4-layer machine-readable content stack; GEO credibility crisis after央视 3.15
+> **Tags:** `aeo` `entity-architecture` `machine-readable-stack` `geo-poisoning` `zero-click-economics` `march-core-update`
+> **Generated:** April 5, 2026
 
 ---
 
-### 2. SEJ: "The 5-Pillar Framework For AI Content That Audiences Actually Trust" (NOVEL)
+## 10 Key Findings
 
-**Deep Dive:** Greg Jarboe published a major framework article on SEJ (April 4, 2026) arguing that the content marketing industry's obsession with AI-powered volume has created a trust crisis that is now structural, not stylistic. The five pillars are: (1) AI-powered content strategy (not reactive generation), (2) visceral storytelling, (3) multimodal optimization, (4) audience psychology and analytics, and (5) ethics and authenticity. Jarboe identifies three simultaneous eroding forces: algorithmic gatekeeping (platform AI filters now actively suppressing low-quality AI content), the "authenticity crisis" as audiences in 2026 can detect "slop" instantly, and general audience sophistication from having seen tens of thousands of AI-generated pieces. The article argues the fundamental shift is from "random generation" to an "architectural framework" — build the strategy deeply first, then use AI to execute.
+### Finding 1 — Answer Engine Optimization (AEO) Is Now a Dedicated Discipline, Not Just SEO's Cousin
 
-**Source:** Search Engine Journal — [The 5-Pillar Framework For AI Content That Audiences Actually Trust](https://www.searchenginejournal.com/the-5-pillar-framework-for-ai-content-that-audiences-actually-trust/568860/) (April 4, 2026)
+AEO has crystallized from a buzzword into a structured practice with its own methodology. The core insight: in an AI-driven SERP, winning is no longer about ranking first — it's about being the **cited source** inside the AI's response. Slobodan Manic (SEJ, April 2, 2026) maps the full AEO workflow: (1) AI systems select content based on **entity clarity, semantic specificity, and information gain** — not keyword density; (2) citation patterns favor content with clear FAQ schema,HowTo markup, and structured Q&A formats; (3) brands that appear as the named source in a ChatGPT or Gemini answer see compounding visibility returns; (4) Tom Capper identifies the four biggest mistakes in AEO prompt tracking — measuring impressions instead of citation frequency, ignoring brand mention context, not tracking multi-turn queries, and treating all AI platforms as equivalent. AEO is now a channel that demands its own KPIs, tooling, and content workflows separate from traditional SEO.
 
-**Practical Implication:** Content teams relying on raw AI output volume should expect continued rank suppression as platform filters improve. The competitive advantage has shifted to first-principles strategy and authentic voice — not generation speed. Audit existing content stacks against the "authenticity" pillar before scaling further.
-
----
-
-### 3. AI Accounted for 25% of All U.S. Job Cuts in March 2026 — Up From 10% in February
-
-**Deep Dive:** According to outplacement firm Challenger, Gray & Christmas, AI led all employer-cited reasons for U.S. job cuts in March 2026, accounting for 15,341 of 60,620 total announced layoffs — precisely 25%, up from roughly 10% in February 2026. Total Q1 2026 cuts reached 217,362 (the lowest Q1 since 2022), but AI's share surged to 13% year-to-date versus just 5% for all of 2025. Tech companies led with 18,720 cuts in March alone (52,050 YTD), up 40% from the same period in 2025 — the highest YTD total since 2023. Dell and Oracle were major contributors; Meta is cutting Reality Labs roles to redirect budget toward AI. Andy Challenger noted: "Companies are shifting budgets toward AI investments at the expense of jobs... Other industries are testing the limits of this new technology, and while it can't replace jobs completely, it is costing jobs."
-
-**Source:** Search Engine Journal — [AI Leads All Reasons For U.S. Job Cuts In March, Report Says](https://www.searchenginejournal.com/ai-leads-all-reasons-for-u-s-job-cuts-in-march-report-says/571065/) (April 3, 2026)
-
-**Practical Implication:** SEO agencies and freelancers face structural pressure: clients may reduce human-led SEO budgets while expecting AI-level output. This is both a threat (fewer SEO projects) and an opportunity (AI-competent SEO talent is now cheaper to hire; clients更需要战略咨询而非执行外包).
+> *Source:* [SEJ — Answer Engine Optimization: How To Get Your Content Into AI Responses](https://www.searchenginejournal.com/answer-engine-optimization-how-to-get-your-content-into-ai-responses/)
 
 ---
 
-### 4. John Mueller: Splitting Sitemaps Into Multiple Files Has Legitimate Technical Justifications
+### Finding 2 — The 4-Layer Machine-Readable Content Stack Is the New SEO Architecture
 
-**Deep Dive:** Google Search Relations team lead John Mueller responded to an SEO question on Reddit explaining why websites might use multiple XML sitemap files instead of one monolithic file. His documented reasons include: grouping different URL types for tracking (e.g., separate product detail vs. category sitemaps mapped to the Page Indexing Report), splitting by content freshness (evergreen content in a separate file — theoretically allowing search engines to crawl less frequently changed sitemaps less often), proactively splitting to avoid hitting the 50,000 URL cap, and hreflang sitemaps that consume disproportionate space. Mueller also noted that some sitemap splitting is unintentional — automated systems sometimes generate splits without deliberate purpose. Enterprise SEOs have independently confirmed that keeping sitemaps well under 50k lines improves indexing reliability.
+Duane Forrester (SEJ, April 2, 2026) delivers the definitive piece on why llms.txt is just a starting point. The full stack has four layers: **(1) JSON-LD fact sheets as machine-facing data** — pages with valid structured data are **2.3× more likely** to appear in AI Overviews; **(2) Entity relationship graphs** — expressing how products, features, people, and versions connect (llms.txt is flat and relationship-free; AI agents doing comparison queries need graph context); **(3) Content API endpoints** — versioned, programmatic access to FAQs, specs, and comparisons (a dynamic pricing page rendered in JS is opaque to AI agents; raw JSON endpoints are not); **(4) Provenance metadata** — timestamps, authorship, and source chains that let RAG systems verify and cite facts. The Model Context Protocol (MCP, adopted by Anthropic, OpenAI, Google DeepMind, and the Linux Foundation) is the architectural template for this layer. An audit of CDN logs across 1,000 Adobe Experience Manager domains found LLM-specific bots were **essentially absent** from llms.txt requests — the standard is real but adoption is still early.
 
-**Source:** Search Engine Journal — [Google Answers Why Some SEOs Split Their Sitemap Into Multiple Files](https://www.searchenginejournal.com/google-answers-why-some-seos-split-their-sitemap-into-multiple-files/571097/) (April 3, 2026)
-
-**Practical Implication:** Sitemap architecture is a low-cost, high-signal optimization lever. Large sites should proactively split sitemaps by content type and freshness cycle. At minimum, keep total line count well below 50k to ensure consistent indexing — this is now a confirmed best practice from a Google Search Relations lead.
+> *Source:* [SEJ — Llms.txt Was Step One. Here's The Architecture That Comes Next](https://www.searchenginejournal.com/llms-txt-was-step-one-heres-the-architecture-that-comes-next/570925/)
 
 ---
 
-### 5. Matt Mullenweg Declares War on Cloudflare's EmDash: "Keep WordPress Out Of Your Mouth"
+### Finding 3 — GEO Poisoning Exposed by央视 3.15: The Dark Side of the Citation Economy
 
-**Deep Dive:** In a sharply worded blog post (April 3, 2026), WordPress co-founder Matt Mullenweg responded to Cloudflare's announcement of EmDash — a new open-source CMS Cloudflare positioned as "the spiritual successor to WordPress" — by invoking the Will Smith Oscars slap metaphor and demanding Cloudflare stop using the WordPress name for promotion. Mullenweg accused Cloudflare of building EmDash primarily to sell more infrastructure services and lock users into their platform. He praised Cloudflare's engineering while simultaneously arguing EmDash is a vendor-lock-in tool disguised as an open-source project. The exchange escalated publicly with Cloudflare's CEO responding on Twitter. Mullenweg later softened the post but maintained the core criticism. The incident underscores a broader CMS-platform war: Cloudflare, Netlify, and Vercel are increasingly building open-source publishing layers to capture the web infrastructure market WordPress once dominated.
+China's 2026央视 3.15 Gala (April 1, 2026) aired an investigative report exposing a GEO manipulation产业链 (gray chain): reporters created a **completely fictitious product**, then used GEO service providers to batch-generate fake review content — and within **72 hours**, multiple mainstream AI models (including Chinese domestic LLMs) cited this non-existent product as a **recommended choice**. The scandal reveals a fundamental vulnerability: when AI models cite sources without robust fact-verification pipelines, the GEO game becomes less about earning citations through quality content and more about flooding the training corpus with manipulated signals. For SEO professionals, the implication is a coming regulatory and platform-level crackdown on synthetic citation networks — similar to how Google's spam updates targeted link schemes. Brand reputation in AI citations is now a security problem, not just a marketing one.
 
-**Source:** Search Engine Journal — [Mullenweg To Cloudflare: Keep WordPress Out Of Your Mouth](https://www.searchenginejournal.com/mullenweg-to-cloudflare-keep-wordpress-out-of-your-mouth/571119/) (April 3, 2026)
-
-**Practical Implication:** For SEO consultants managing client sites: CMS infrastructure choices increasingly affect SEO outcomes (edge caching, CDN rendering, Core Web Vitals). Be aware of vendor-lock-in risks when recommending or implementing platform-based CMS solutions. If clients are considering EmDash or similar tools, evaluate crawling, rendering, and indexing implications before migration.
+> *Source:* [新浪新闻 — 向AI投毒被曝光,GEO生意却更好了?](https://k.sina.com.cn/article_5953740931_162dee08306702ybbe.html)
 
 ---
 
-### 6. Zero-Click SERPs: 55–65% of Google Searches Now End With No Organic Click
+### Finding 4 — Google's March 2026 Core Update: Spam Pre-Clearance + Staged Multi-System Rollout Is Now the Standard Pattern
 
-**Deep Dive:** Updated analysis on Google Penalty Info (April 2026) confirms that roughly 55–65% of Google searches now end with no click to any organic result. Multiple independent clickstream studies converge: SparkToro/Datos found 58.5% of U.S. and 59.7% of EU Google searches in 2024 resulted in zero clicks; mobile zero-click rates exceed 75%. For queries where AI Overviews appear specifically, organic CTR drops 58–61% and paid CTR drops approximately 68%. The driving forces are: featured snippets, People Also Ask, knowledge panels, and AI Overviews absorbing intent within the SERP itself; mobile-first user behavior accepting the first answer seen; and alternative sources (AI chatbots, social platforms) intercepting research-phase queries before they reach organic results.
+John Mueller clarified (April 1, 2026) that Google's core updates involve **multiple independent systems deploying in stages**, not a single coordinated switch. The March 2026 Spam Update completed in under 20 hours — the fastest ever — and likely acted as a **pre-clearance mechanism**: Google removed low-quality content before the core algorithm shift, a pattern last seen in the 2003 Florida update era. Roger Montti (SEJ) notes this two-phase approach (spam purge → core adjustment) is becoming the permanent operating model. For SEOs, the practical implication: volatility during a core update may reflect not one algorithm change but several overlapping system changes with different completion timelines. Recovery requires waiting for **all phases** to fully deploy, not just the first signal of turbulence.
 
-**Source:** Google Penalty Info — [AI Stealing Clicks](https://www.google-penalty.com/ai-stealing-clicks.html) (April 2026 update)
-
-**Practical Implication:** Traditional organic CTR benchmarks are obsolete for queries in AI-heavy SERP categories. SEO strategy must now include GEO (Generative Engine Optimization) as a parallel track — optimizing for AI citation, not just ranking position. Brand visibility in AI answers is becoming the new "impression share" metric.
+> *Source:* [SEJ — Google Answers Why Core Updates Can Roll Out In Stages](https://www.searchenginejournal.com/google-answers-why-core-updates-can-roll-out-in-stages/571003/)
 
 ---
 
-### 7. Google March 2026 Core Update: Rolling Out With Expanded AI Overviews Integration
+### Finding 5 — Evergreen Content Economics Have Collapsed: The Tiered Micro-Conversion Framework Replaces Traffic Goals
 
-**Deep Dive:** Google's March 2026 Core Update began rollout on March 9, 2026 and is now fully complete as of April 3–5 reporting window. The update appears to be tightening signals around content quality and authoritativeness while simultaneously being tightly integrated with AI Overviews expansion. Gary Illyes separately clarified Googlebot's crawling and byte limits (the 2MB per-file processing limit discussed in round 248), and Gemini referral traffic data shows it doubling from baseline — confirming Gemini is growing as a discovery channel, not just a chatbot. The March Spam Update (completed March 25, 2026) was noted as the fastest rolling out update in recent memory, suggesting Google's infrastructure can now process large-scale classifier updates in under 48 hours.
+Harry Clarkson-Bennett (SEJ, April 1, 2026) delivers a blunt autopsy of the evergreen content model: "done to death." The 2,000-word article updated annually no longer yields indefinite traffic because AI summarizes it for free. The Reuters Institute 2026 report shows publishers are **-32 percentage points** on evergreen investment. The replacement framework: **Tier 1** = direct revenue conversions; **Tier 2** = registrations, free subscriptions, social shares, links; **Tier 3** = page views and engagement. Micro-conversions replace clicks as the primary KPI. Content must justify its existence in the customer journey. Information gain and audience resonance are the new currency. The counter-intuitive insight: **brand visibility in AI citations is a byproduct of quality, not a direct target** — chasing citations without first building a quality brand is the wrong sequence.
 
-**Source:** Search Engine Journal — [Google Core Update, Crawl Limits & Gemini Traffic Data – SEO Pulse](https://www.searchenginejournal.com/seo-pulse-google-core-update-crawl-limits-gemini-traffic-data/571089/) (April 3, 2026)
-
-**Practical Implication:** Sites that experienced ranking volatility during the March core update should now be seeing stabilization or further movement as the rollout completes. The dual message is clear: invest in E-E-A-T signals AND ensure your content is cited in AI Overviews — the core update and the AI layer are now the same algorithm.
+> *Source:* [SEJ — How To Do Evergreen Content In 2026 And Beyond](https://www.searchenginejournal.com/how-to-do-evergreen-content-in-2026-and-beyond/570903/)
 
 ---
 
-### 8. AI-Generated "Slop" Is Now Detectable By General Audiences — Trust Signals Shift From Quality to Authenticity
+### Finding 6 — AI Overviews Are More Likely to Surface Negative Brand Information Than ChatGPT
 
-**Deep Dive:** Multiple converging data points across Q1 2026 confirm that general web audiences — not just SEO professionals — can now reliably identify AI-generated content. SEJ's reporting on the "slop" phenomenon documents that consumers in 2026 have accumulated enough exposure to recognize formulaic AI writing patterns, generic structure, and lack of genuine perspective. Google's platform-level filters are simultaneously suppressing low-quality AI content independent of any core update. The result is a two-layer quality filter: algorithmic (Google's classifiers) and human (audience trust response). Content that passes both filters requires first-person perspective, real expertise citation, and unique structural voice — not just keyword optimization.
+A March-April 2026 study (cited by SearchEngineNews.com) found that **AI Overviews are significantly more likely to surface negative brand information** compared to equivalent ChatGPT responses. This is a distinct brand-safety risk: it's not enough to optimize for whether AI cites you — you must optimize for **how AI frames that citation**. A brand's GEO strategy must account for Google's specific framing logic, which differs materially from other AI platforms. Brand safety in AI Overviews is now a separate discipline from traditional online reputation management.
 
-**Source:** Search Engine Journal — [The 5-Pillar Framework For AI Content That Audiences Actually Trust](https://www.searchenginejournal.com/the-5-pillar-framework-for-ai-content-that-audiences-actually-trust/568860/) (April 4, 2026); [Why Agentic AI Shopping Feels Unnatural And May Not Threaten SEO](https://www.searchenginejournal.com/why-agentic-ai-shopping-feels-unnatural-and-may-not-threaten-seo/571122/) (April 3, 2026)
-
-**Practical Implication:** Retroactively auditing and upgrading "thin AI content" published between 2023–2025 should be a Q2 priority for any site that experienced HCU-style penalties or gradual traffic erosion. Original reporting, proprietary data, and named expert attribution are now minimum table stakes — not differentiators.
+> *Source:* [SearchEngineNews.com — AI Overviews More Likely to Criticize Brands Than ChatGPT](https://www.searchenginenews.com/)
 
 ---
 
-### 9. Enterprise SEO Accountability Gap: Who Owns SEO Is Killing Performance
+### Finding 7 — Enterprise SEO Accountability Gap = Visibility Gap Through Omission (Not Ranking Decline)
 
-**Deep Dive:** A SEJ analysis published April 1, 2026 (carried into the April 3–5 window) documents the growing "accountability gap" in enterprise SEO: as SEO responsibilities have diffused across content, product, PR, and paid teams, no single owner is accountable for organic search performance. This creates a coordination failure where technical SEO, content strategy, link building, and AI/GEO optimization are managed in silos with misaligned KPIs. The article notes that enterprises that have appointed a dedicated "SEO Chief" or unified Head of Organic Search have consistently outperformed those where SEO is a shared function. The accountability gap is especially acute for AI citation strategy — it spans content (what to write), technical (how to mark up for AI retrieval), and PR (how to build authority signals).
+Bill Hunt's enterprise SEO accountability analysis (SEJ, April 2026) makes a critical distinction: in traditional SEO, the accountability gap caused **ranking volatility** — recoverable through iteration. In AI search, it is **fatal and irreversible**. AI systems decide whether a brand is a coherent, trustworthy source **before** retrieval. If one department fragments entities, constrains content, or breaks structured data templates, the AI doesn't partially penalize — it **excludes entirely**. Once a competitor's narrative hardens in the AI's context, it persists. The gap now manifests as a **visibility gap through omission**, not ranking decline. Enterprise SEO ownership structures that diffuse responsibility across siloed teams are now structurally incompatible with AI-era visibility.
 
-**Source:** Search Engine Journal — [Who Owns SEO In The Enterprise? The Accountability Gap That Kills Performance](https://www.searchenginejournal.com/who-owns-seo-enterprise-accountability-gap-kills-performance/570903/) (April 1, 2026)
-
-**Practical Implication:** Freelancers and agencies serving enterprise clients should position themselves as the accountable SEO owner or wrapper around fragmented internal teams — not just a tactical execution layer. GEO coordination in particular requires someone who can bridge content, technical, and authority-building functions.
+> *Source:* [SEJ — Who Owns SEO In The Enterprise? The Accountability Gap That Kills Performance](https://www.searchenginejournal.com/who-owns-seo-in-the-enterprise-the-accountability-gap-that-kills-performance/566095/)
 
 ---
 
-### 10. ChatGPT Ads Open to Self-Serve: The Paid Search Paradigm Expands Into AI Chat
+### Finding 8 — AI Is the #1 Cited Cause of U.S. Job Cuts (25% of All March Layoffs), Reshaping SEO Labor
 
-**Deep Dive:** OpenAI opened self-serve ChatGPT Ads access in early April 2026, allowing brands to place ads within ChatGPT's conversational interface. SEJ's analysis (April 3, 2026) evaluates whether ChatGPT Ads represent a genuine acquisition channel or a "brand tax" — a visibility play with unclear ROI. Early data suggests ChatGPT's ad format differs fundamentally from search ads: intent signals are weaker in conversational contexts, audience targeting is behavioral/inferential rather than keyword-based, and measurement is still maturing. The ad format is optimized for awareness-stage brand messaging rather than bottom-funnel conversion — meaning SEO and GEO remain primary performance channels while ChatGPT Ads complement at the top.
+Challenger, Gray & Christmas (SEJ, April 2, 2026) reported AI led **all cited reasons** for U.S. job cuts in March 2026 at **25% of total** — the first time AI has topped the monthly layoff reasons chart. The SEO labor market is being reshaped simultaneously: AI-assisted content creation and automated link building are displacing traditional SEO copywriter and content strategist roles, while simultaneously **raising the bar** for what "human-quality, expert-led content" must look like to compete. The net effect is a polarization: junior/quantity-focused SEO roles declining; strategy, brand voice, and E-E-A-T leadership roles growing.
 
-**Source:** Search Engine Journal — [ChatGPT Ads: New Acquisition Channel Or Just Another Brand Tax?](https://www.searchenginejournal.com/chatgpt-ads-new-acquisition-channel-or-just-another-brand-tax/571042/) (April 3, 2026)
-
-**Practical Implication:** For now, ChatGPT Ads should be tested cautiously with awareness-focused creative and clear attribution tracking — do not allocate significant conversion budgets until the channel matures. The bigger opportunity is the organic side: optimizing brand mentions within ChatGPT's answer corpus, which operates on citation logic similar to Bing's new AI Performance dashboard.
+> *Source:* [SEJ — AI Leads All Reasons For U.S. Job Cuts In March](https://www.searchenginejournal.com/ai-leads-all-reasons-for-u-s-job-cuts-in-march-report-says/571065/)
 
 ---
 
-## Sources Table
+### Finding 9 — llms.txt Audit Reality: AI Crawlers Are Not Showing Up (Yet), But the Strategic Question Remains
 
-| # | Source | Article Title | Date | Link |
-|---|--------|--------------|------|------|
-| 1 | Bing Webmaster Blog | Introducing AI Performance in Bing Webmaster Tools Public Preview | Feb 10, 2026 (available Apr 2026) | [Link](https://blogs.bing.com/webmaster/february-2026/introducing-ai-performance-in-bing-webmaster-tools-public-preview) |
-| 2 | Search Engine Journal | The 5-Pillar Framework For AI Content That Audiences Actually Trust | Apr 4, 2026 | [Link](https://www.searchenginejournal.com/the-5-pillar-framework-for-ai-content-that-audiences-actually-trust/568860/) |
-| 3 | Search Engine Journal | AI Leads All Reasons For U.S. Job Cuts In March, Report Says | Apr 3, 2026 | [Link](https://www.searchenginejournal.com/ai-leads-all-reasons-for-u-s-job-cuts-in-march-report-says/571065/) |
-| 4 | Search Engine Journal | Google Answers Why Some SEOs Split Their Sitemap Into Multiple Files | Apr 3, 2026 | [Link](https://www.searchenginejournal.com/google-answers-why-some-seos-split-their-sitemap-into-multiple-files/571097/) |
-| 5 | Search Engine Journal | Mullenweg To Cloudflare: Keep WordPress Out Of Your Mouth | Apr 3, 2026 | [Link](https://www.searchenginejournal.com/mullenweg-to-cloudflare-keep-wordpress-out-of-your-mouth/571119/) |
-| 6 | Google Penalty Info | AI Stealing Clicks | Apr 2026 (updated) | [Link](https://www.google-penalty.com/ai-stealing-clicks.html) |
-| 7 | Search Engine Journal | Google Core Update, Crawl Limits & Gemini Traffic Data – SEO Pulse | Apr 3, 2026 | [Link](https://www.searchenginejournal.com/seo-pulse-google-core-update-crawl-limits-gemini-traffic-data/571089/) |
-| 8 | Search Engine Journal | Why Agentic AI Shopping Feels Unnatural And May Not Threaten SEO | Apr 3, 2026 | [Link](https://www.searchenginejournal.com/why-agentic-ai-shopping-feels-unnatural-and-may-not-threaten-seo/571122/) |
-| 9 | Search Engine Journal | Who Owns SEO In The Enterprise? The Accountability Gap That Kills Performance | Apr 1, 2026 | [Link](https://www.searchenginejournal.com/who-owns-seo-enterprise-accountability-gap-kills-performance/570903/) |
-| 10 | Search Engine Journal | ChatGPT Ads: New Acquisition Channel Or Just Another Brand Tax? | Apr 3, 2026 | [Link](https://www.searchenginejournal.com/chatgpt-ads-new-acquisition-channel-or-just-another-brand-tax/571042/) |
+An independent audit of CDN logs across **1,000 Adobe Experience Manager domains** found LLM-specific bots were essentially absent from llms.txt requests — Google's crawler still accounts for the vast majority of file fetches. This data point is frequently cited as evidence llms.txt is premature. But Duane Forrester's counterpoint is more nuanced: **the standards landscape is still forming, and early architectural investment defines the patterns that become standards**. The question isn't whether llms.txt is being crawled today — it's whether your brand's machine-readable infrastructure is ready for when AI systems *do* standardize on it. The competitive moat is built now, not when adoption is universal.
+
+> *Source:* [SEJ — Llms.txt Was Step One](https://www.searchenginejournal.com/llms-txt-was-step-one-heres-the-architecture-that-comes-next/570925/)
 
 ---
 
-*Topic 289 | April 4–5, 2026 | Research: web search + SEJ RSS + Bing Webmaster Blog + Google Penalty Info*
+### Finding 10 — Content–Brand Separation Is the Hidden Killer of AI Citations
+
+A recurring structural theme across multiple April 2026 SEJ articles: **AI systems evaluate brands, not pages**. Content that exists without a clear brand entity anchor, authorship chain, and organizational context is invisible to citation-ranking systems. The old SEO playbook separated "content strategy" from "brand building" as distinct disciplines with separate KPIs. The new reality: **entity-authoritative content** — where every piece of content is unambiguously tied to a named, verifiable organization with a clear expertise graph — is the only content that earns reliable AI citations. Content without an entity is content without a future in AI search.
+
+> *Source:* [SEJ — Multiple articles across April 2026 SEJ coverage](https://www.searchenginejournal.com/)
+
+---
+
+## Summary
+
+The SEO+AI landscape in early April 2026 is defined by three converging themes. **First**, the discipline has matured: AEO is now a distinct practice with its own KPIs, separate from traditional SEO, centered on earning citations rather than rankings. **Second**, the infrastructure gap is widening: llms.txt is a starting point, not a destination — the competitive edge belongs to brands building the 4-layer machine-readable content stack (JSON-LD facts, entity graphs, API endpoints, provenance metadata). **Third**, a credibility crisis is emerging: the央视 3.15 GEO poisoning exposé reveals that AI citation systems are vulnerable to manipulation, which will trigger platform-level crackdowns and shift the value proposition toward genuine E-E-A-T authority rather than synthetic citation signals. The practical playbook: build entity-anchored content, invest in machine-readable architecture, track AI citation framing (not just frequency), and prepare for a multi-phase recovery process following core updates.
+
+---
+
+## 中文导读
+
+**本周核心趋势：** Answer Engine Optimization（AEO）从概念走向实操；4层机器可读内容架构成为新SEO基础设施标准；央视3.15曝光GEO污染产业链，引发AI引用信任危机。
+
+**1. AEO成为独立学科：** SEO的目标从"排名"转向"被AI引用"。核心指标是引用频率（citation frequency）而非展示次数，需要独立的工具和工作流。
+
+**2. 机器可读内容4层架构：** llms.txt只是起点。真正的AI友好架构包含4层：①结构化JSON-LD数据（有效结构化数据的页面进入AI Overview的概率高2.3倍）；②实体关系图（产品、特性、人员之间的关联）；③内容API端点（版本化、程序化访问）；④来源元数据（时间戳、作者、出处链）。MCP（Model Context Protocol）正成为这一层的事实标准。
+
+**3. GEO污染产业链曝光：** 央视3·15报道：记者虚构产品，通过GEO服务商批量生成虚假评测，72小时内多家国内AI大模型将该不存在的产品列为推荐首选。这揭示了AI引用系统的根本性漏洞，并将触发平台级监管打压。
+
+**4. 长青内容经济崩塌：** AI摘要使传统"写一篇2000字文章、每年更新"模式失效。新的内容价值框架分为3层：一层直接驱动收入；二层驱动注册、社交分享和外链；三层才是页面浏览量。微转化取代点击成为核心KPI。
+
+**5. 企业SEO责任缺口 = AI沉默性排斥：** 在AI搜索时代，责任缺口不再表现为排名波动，而是**被AI完全排除**。竞争对手的叙事一旦固化在AI上下文中，就难以撼动。企业SEO不能有部门孤岛。
+
+**一句话总结：** 2026年SEO的核心竞争已从"关键词排名"转向"AI引用质量 + 机器可读性基础设施"，品牌必须建立实体锚定、结构化数据、API化内容的能力，否则将被AI沉默性排除。
