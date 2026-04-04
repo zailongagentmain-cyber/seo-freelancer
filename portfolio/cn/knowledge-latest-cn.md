@@ -1,7 +1,7 @@
-# SEO/AI/GEO Trends Knowledge Base — Round 244
+# SEO/AI/GEO Trends Knowledge Base — Round 245
 
-**Generated:** April 4, 2026, 13:50 GMT+8
-**Topic:** 285 — "SISTRIX AI Overview Germany CTR Study (265M Lost Clicks/Month, 60% Position-1 CTR Drop) + Google Wins AI Search (Gemini 3x Traffic, ChatGPT Ads) + Mt. AI Grokipedia Collapse + AI Userbot 4-Pitfall Reframe + March 2026 Core Update Rolling"
+**Generated:** April 4, 2026, 18:10 GMT+8
+**Topic:** 286 — "March 2026 Core Update Rolling (April 3-4), Illyes Googlebot 2MB Limit Clarification + Mt. AI GEO Architecture (llms.txt → JSON-LD → Entity Graph → Provenance), ChatGPT Ads Low CTR vs $100M Pilot, Evergreen Content Disruption, AI Job Cuts as Top Layoff Reason"
 
 ---
 
@@ -9,146 +9,209 @@
 
 | # | Finding | Source | Score |
 |---|---------|--------|-------|
-| 1 | AI Overviews Germany: Position-1 CTR drops from 27% to 11% (~60% loss); 265M organic clicks lost/month in Germany | SISTRIX | 10/10 |
-| 2 | Google AI Mode reaches 100M+ MAU in US/India; Gemini tripled web traffic H2 2025 while ChatGPT stagnant at ~6B visits | SISTRIX | 9/10 |
-| 3 | OpenAI introducing ChatGPT Ads; $111B cumulative losses projected to 2030; 3-5x cost disadvantage vs Google | SISTRIX | 9/10 |
-| 4 | Grokipedia "Mt. AI" collapse: AI-generated content site surges then drops across Google AND AI Overviews/AI Mode/ChatGPT simultaneously | SERoundTable/Glenn Gabe | 9/10 |
-| 5 | Google March 2026 Core Update actively rolling out as of April 3-4; industry in volatility | SERoundTable | 8/10 |
-| 6 | AI Userbot access ≠ AI citation: Google AIO/AI Mode run on existing index, bots validate not generate | SISTRIX Beus | 8/10 |
-| 7 | SISTRIX Q1 2026 Changelog: AI Mode prompt monitoring, improved brand recognition, Onpage Pro overhaul, Looker Studio connector, prompt DB coming | SISTRIX | 7/10 |
-| 8 | AIO category impact varies: parenting/health portals lose 24%+ clicks; recipes only 1%; news/media 7.37% | SISTRIX | 8/10 |
-| 9 | AIO cache & validation distortion: 1 bot visit can serve 1000s of queries; few visits ≠ low AI presence | SISTRIX Beus | 7/10 |
-| 10 | AI Overviews at ~20% of DE keywords; 78.6% appear above organic SERPs; Longtail 30% rate | SISTRIX | 7/10 |
+| 1 | March 2026 Core Update actively rolling as of April 3-4; up to 2-week rollout; Mueller confirms multi-team, staged deployment | SEJ/Google | 9/10 |
+| 2 | Illyes clarifies Googlebot 2MB byte limit: headers count toward limit, external resources get separate counters, truncation = permanent content loss | SEJ/Illyes | 9/10 |
+| 3 | Duane Forrester's 4-layer GEO architecture: llms.txt → JSON-LD machine layer → entity graph → provenance (far beyond simple TOC) | SEJ/Duane Forrester | 9/10 |
+| 4 | llms.txt audit: LLM bots essentially absent from CDN logs (1,000 AEM domains); Googlebot dominates — raises serious llms.txt ROI question | SEJ/AEM audit | 8/10 |
+| 5 | ChatGPT Ads pilot: $100M annualized revenue in 6 weeks, 600+ advertisers; but CTR as low as 0.91% vs 6.4% Google benchmark; self-serve launching April | SEJ/Reuters | 8/10 |
+| 6 | Grokipedia continues dropping post-March 2026 Core Update; same pattern across Google, AI Overviews, AI Mode, and ChatGPT — "Mt. AI" confirmed | SERoundTable/Glenn Gabe | 8/10 |
+| 7 | Evergreen content losing value: -32pp in publisher plans; AI effective at summarizing bread-and-butter content; "antithesis to AI slop" framing | SEJ | 7/10 |
+| 8 | Mueller answers sitemap splitting: group by content type, split by freshness (theoretical recrawl benefit), avoid 50k URL cap, hreflang sitemaps | SEJ/Mueller | 7/10 |
+| 9 | AI leads all cited reasons for US job cuts in March 2026 at 25% of total (Challenger report) — SEO/disruption context | SEJ/Matt Southern | 7/10 |
+| 10 | ChatGPT Ads economics: $50K-$100K Criteo commitments, premium CPMs, ~80% SMB interest; self-serve expansion signals broader monetization push | SEJ/Reuters | 7/10 |
 
 ---
 
-## Deep Dive 1: SISTRIX AI Overview Germany CTR Study
+## Deep Dive 1: March 2026 Core Update — Rolling Now (April 3-4)
 
-**Source:** SISTRIX Blog, Johannes Beus, February 25, 2026
-**Data scope:** 100 million keywords, Germany
+**Source:** SEJ, Google, April 3-4 2026
+**Data scope:** Live rollout — day 1-2
+
+### Status
+- Google began rolling out March 2026 Core Update this week (March 27 start)
+- As of April 3-4: **actively rolling** — industry volatility high
+- Rollout may take up to 2 weeks total
+- Spam update completed in under 20 hours (March 25) — precursor to core update
+- Last broad core update: December 29, 2025 (3-month gap)
+
+### Mueller: Multi-Team, Staged Deployment
+John Mueller (Google Search Relations) clarified on Bluesky:
+- Core updates don't use a single deployment mechanism
+- Different teams/systems contribute changes
+- Components require step-by-step rollouts
+- Explains wave-like volatility pattern (not one-shot)
+
+### Industry Impact
+- Roger Montti notes spam update proximity may not be coincidence — spam clearing logically precedes quality reassessment
+- Ranking changes expected throughout early April
+- Google recommendation: wait at least 1 week after rollout finishes before analyzing Search Console data
+- Compare against baseline period before March 27
+
+---
+
+## Deep Dive 2: Illyes Clarifies Googlebot 2MB Limit — Technical Deep Dive
+
+**Source:** Google Blog "Inside Googlebot", SEJ reporting, April 1-2 2026
+**Data scope:** Official Google documentation + podcast
+
+### The 2MB Limit — What It Actually Means
+- Googlebot is ONE client of a centralized crawling platform (15MB default)
+- Google Shopping, AdSense, other products route through same system under different crawler names
+- **HTTP request headers count toward the 2MB limit**
+- **External resources (CSS, JS, images) each get separate byte counters**
+- 2MB limit is a **Search-specific override** of the platform's 15MB default
+- When Googlebot hits 2MB: it **stops fetching and passes truncated content to indexing as if complete** — anything past 2MB is NEVER indexed
+
+### Illyes + Splitt Page Weight Discussion
+- Median mobile homepage: 845 KB (2015) → 2,362 KB (2025) — ~3x growth (Web Almanac 2025)
+- Illyes publicly questions whether Google's own structured data recommendations contribute to page bloat
+- Splitt promises future episode on reduction techniques
+- 2MB limit is a policy, not a permanent technical floor — may change as web evolves
+
+### SEO Implications
+- **Cyrus Shepard (Zyppy SEO):** If very large pages have content not getting indexed, check page size
+- Large inline base64 images, heavy inline CSS/JS, oversized nav menus are primary culprits
+- Structured data bloat is now an Illyes-raised concern — worth auditing
+
+---
+
+## Deep Dive 3: GEO Architecture Beyond llms.txt — 4-Layer Stack
+
+**Source:** SEJ, Duane Forrester, April 2, 2026
+
+### The Honest Problem With llms.txt
+- llms.txt is a table of contents — flat, no relationship model
+- Cannot express: Product A belongs to Family B, Feature X deprecated in v3.2, Person Z is spokesperson for Topic Q
+- **Critical audit finding:** 1,000 AEM domain CDN logs — LLM bots essentially absent from llms.txt requests; Googlebot dominates
+- Maintenance burden: every strategic change requires updating both live site AND the file
+- Better approach: draw from authoritative data sources programmatically
+
+### The 4-Layer Architecture
+**Layer 1: JSON-LD as Machine-Facing Fact Layer**
+- Pages with valid structured data: **2.3x more likely to appear in Google AI Overviews**
+- Princeton GEO research: clear structural signals → **up to 40% higher visibility in AI-generated responses**
+- Treat JSON-LD as machine-facing fact layer, not rich-snippet play
+- Precision required on: product attributes, pricing states, feature availability, organizational relationships
+
+**Layer 2: Entity Relationship Mapping**
+- Express the graph, not just nodes
+- Products → Categories → Industry Solutions → Use Cases → Authoritative Source
+- Implement as JSON-LD graph extension OR headless CMS endpoint
+- Eliminates flat-list hallucinations during AI comparison queries
+
+**Layer 3: Content API Endpoints + Model Context Protocol**
+- Programmatic, authoritative access to brand information
+- Structured APIs replace static file maintenance
+- Headless CMS as source of truth (no second content layer to maintain)
+
+**Layer 4: Provenance Metadata**
+- Timestamps, authorship, source chains
+- Trust signals that travel with content through AI pipelines
+- Longato AEM audit: provenance signals increasingly critical for AI citation decisions
+
+### Strategic Implication
+- llms.txt is a starting point, not a destination
+- Standards landscape still forming — early architectural thinkers will define future patterns
+- The question is not whether to build it, but how to prioritize the layers
+
+---
+
+## Deep Dive 4: ChatGPT Ads — $100M Pilot vs 0.91% CTR
+
+**Source:** SEJ, Reuters, eMarketer, April 2-3 2026
 
 ### The Numbers
-- ~20% of German keywords trigger AI Overviews
-- Position 1 CTR: **27% → 11%** (nearly 60% decline)
-- Overall organic CTR: 57% → 33% (nearly half of all organic clicks lost on AIO SERPs)
-- Total organic clicks lost: **265 million/month in Germany**
-- Average click loss across all keywords: **6.6%** (but massive variance by category)
+- **$100M+ annualized revenue** in first 6 weeks of US pilot (Reuters)
+- **600+ advertisers** in pilot
+- **$50K-$100K** Criteo commitment ranges reported (premium pricing)
+- **~80% of SMBs** signaled interest in ChatGPT Ads
+- Self-serve advertiser capabilities: launching April 2026
+- Expansion into additional countries beyond US
 
-### Category-Level Impact (huge variance)
-| Category | Monthly Click Loss |
-|----------|-------------------|
-| Parenting/Baby portals | 24%+ |
-| Wikipedia | 31.6M clicks (5.56%) |
-| Health portals | 30%+ |
-| News & Media | 7.37% |
-| Recipes | 1.07% |
-| Shopping/Transactional | Minimal |
+### The CTR Problem
+- Reported CTR: **as low as 0.91%** in ChatGPT (SEJ/eMarketer)
+- Google Search benchmark: **6.4% average CTR**
+- ChatGPT Ads CTR is approximately **7x lower** than Google Search
+- This is the critical gap: momentum vs. proven channel value
 
-### Why Informational = Maximum Pain
-- Google serves AIO for informational queries (health, parenting, DIY)
-- Google holds back on transactional/shopping queries
-- 78.6% of AIOs appear above organic results
-- Longtail keywords: ~30% AIO rate
-
-### SEO Implication
-This is the most concrete CTR-impact data released by a major SEO tool vendor. The "6.6% average" masks catastrophic sector-level losses. Sites in informational categories face a structural challenge: they compete directly with Google's AI answer while losing the click.
+### Strategic Assessment
+- Pilot was clearly designed to be controlled, premium, brand-friendly (not ad-influences-answers)
+- Premium CPMs and high barriers = not broad mid-market onboarding
+- 0.91% CTR raises serious efficiency questions for performance advertisers
+- $100M annualized sounds impressive but annualized ≠ $100M booked revenue (6-week pilot data annualized)
+- For SEO/GEO professionals: ChatGPT Ads doesn't change AI citation dynamics — it adds a paid layer on top of an existing discovery behavior
 
 ---
 
-## Deep Dive 2: Google Wins AI Search — SISTRIX OMT Summit Analysis
+## Deep Dive 5: Grokipedia — Continuing "Mt. AI" Collapse Post-Core Update
 
-**Source:** SISTRIX Blog, OMT Summit Düsseldorf, March 2026
+**Source:** SERoundTable, Glenn Gabe, April 2-3 2026
 
-### Three Pillars of Google's AI Search Victory
+### The Pattern
+- Grokipedia surged initially after scaling AI-generated content
+- Then dropped heavily in Google (February 2026)
+- Now: **continuing to drop with March 2026 Core Update**
+- Same trajectory confirmed across: **Google Search, AI Overviews, AI Mode, ChatGPT**
 
-#### 1. Usage (Who has the users?)
-- **AI Overviews:** 2B+ monthly users (mid-2025)
-- **AI Mode:** 100M+ MAU in US + India; 3x more relevant than Perplexity at launch
-- **Gemini web traffic:** tripled H2 2025
-- **ChatGPT:** stagnant at ~6B monthly visits
-- **Android integration:** Gemini pre-installed on new Android phones, auto-updates on older devices
+### Glenn Gabe's "Mt. AI" Thesis — Confirmed
+> "Drop in Google and you can drop heavily in AI Search."
+- AI platforms (ChatGPT, AI Mode, AI Overviews) appear to run on existing Google index signals
+- Sites that violate Google's quality signals likely face simultaneous penalties across all AI surfaces
+- Favicon also gone missing (unrelated to algorithm, but compound reputational damage in SERPs)
 
-#### 2. Economics (Who can afford it?)
-- **Google TPUs:** operate at near-manufacturing cost; NVIDIA charges 70-80% gross margins
-- **OpenAI:** uses NVIDIA GPUs in Microsoft Azure; $111B projected losses through 2030
-- **Google's estimated 3-5x cost advantage** over OpenAI per query
-- **Google takes data for free** as the traffic provider; OpenAI pays expensive publisher deals
-- **ChatGPT introducing ads** to fund operations
-
-#### 3. Integration (Who owns the ecosystem?)
-- Gemini natively integrated: Gmail, Docs, Sheets, YouTube, Photos, Calendar, Maps
-- ChatGPT integration with Google Workspace requires "30+ admin steps"
-- Anthropic (Claude) and Midjourney now also using Google's TPUs
-
-### Strategic Implication for SEOs
-Google isn't just winning — it's creating a self-reinforcing moat: own the users, own the infrastructure, own the ecosystem. The CTR data (265M lost clicks/month) is the visible symptom of this structural shift.
+### Lesson for SEOs
+- AI-generated content scaling without genuine E-E-A-T signals is a high-risk strategy
+- The "surge then drop" pattern is now documented across multiple AI platforms simultaneously
+- "Beware Mt. AI" — Glenn Gabe's framing is becoming industry standard
 
 ---
 
-## 10 Condensed Findings
+## Comparison vs Topic 285
 
-1. **AIO Position-1 CTR crash:** 27% → 11% (~60% loss); 265M organic clicks/month vaporized in Germany alone (SISTRIX, 100M keyword dataset)
-
-2. **Google AI Mode hits 100M+ MAU** in US/India; Gemini tripled web traffic H2 2025 while ChatGPT flat at ~6B visits (SISTRIX)
-
-3. **ChatGPT introduces ads** — OpenAI's $111B projected losses through 2030 force monetization; Google's 3-5x cost advantage is structural (SISTRIX)
-
-4. **"Mt. AI" confirmed:** Grokipedia drops simultaneously in Google search visibility AND AI Overviews AND AI Mode AND ChatGPT; Glenn Gabe coins "Mt. AI" — AI content sites surge then crater (SERoundTable/Glenn Gabe, April 2-3, 2026)
-
-5. **March 2026 Core Update actively rolling out** as of April 3-4; first core update of the year (Google/SERoundTable)
-
-6. **AIO/AI Mode don't use userbots** — run on existing Google index; userbot access = validation, not generation (SISTRIX Beus, March 30, 2026)
-
-7. **Bot access ≠ citation** — LLM retrieves many sources but filters/weights in final step; access in logs ≠ content in answer (SISTRIX Beus)
-
-8. **AIO caching distorts measurement** — 1 bot visit can serve 1000s of identical queries; few visits ≠ low AI presence (SISTRIX Beus)
-
-9. **AIO informational categories hit hardest:** parenting 24%+, health 30%+, recipes only 1.07%; transactional largely spared (SISTRIX)
-
-10. **SISTRIX Q1 2026:** AI Mode added to prompt monitoring, improved brand recognition in AI, Onpage Pro fully redesigned, Looker Studio connector, prompt database in development (SISTRIX)
-
----
-
-## Comparison vs Topic 284
-
-| Topic 284 | Topic 285 |
+| Topic 285 | Topic 286 |
 |-----------|-----------|
-| Illyes Inside Googlebot: 15MB centralized platform, 2MB override confirmed | NEW: AIO Germany CTR study — 60% Position-1 CTR drop, 265M lost clicks/month |
-| Mueller: Core update = multi-team staged deployment | NEW: Google AI Mode 100M+ MAU, Gemini 3x traffic, ChatGPT ads |
-| "Deck clearer" spam update hypothesis | NEW: "Mt. AI" Grokipedia collapse — AI content drops in Google AND all AI surfaces |
-| 4-Layer GEO architecture (JSON-LD, entity mapping, API, provenance) | NEW: AI Userbot 4 pitfalls — AIO/AI Mode don't use userbots, cache distorts measurement |
-| Illyes + Splitt: 845KB → 2,362KB median page weight, structured data bloat | NEW: SISTRIX Q1 2026 changelog — AI Mode monitoring, Onpage Pro overhaul |
-| Agentic AI shopping not an SEO threat | Same theme: AI Search ecosystem still evolving; Google winning structurally |
-| March 2026 Core Update ~April 7-8 completion | NEW: March 2026 Core Update actively rolling out April 3-4 (confirmed) |
-
-**Overlap:** March 2026 Core Update timeline refined. "Agentic AI shopping" theme carried forward.
-**No overlap on:** All SISTRIX data (CTR, cost advantage, userbot pitfalls), Mt. AI collapse, ChatGPT ads, AI Mode MAU numbers.
-
----
-
-## Action Framework
-
-### Immediate (this week)
-- **Audit your AIO exposure:** Use SISTRIX or similar to identify what % of your keywords trigger AI Overviews
-- **If informational content:** Assess CTR decline and considerGEO/structured data optimizations to get cited inside AIOs
-- **Monitor March 2026 Core Update volatility:** Track rank fluctuations daily
-
-### Short-term (this month)
-- **Stop measuring AI visibility by userbot traffic alone** — this data is misleading (caching, validation-only role)
-- **Prepare for ChatGPT Ads** — monitor how ads integration affects user behavior and publisher traffic
-- **Category-level AIO strategy:** Differentiate transactional (low AIO risk) vs informational (high AIO risk) content
-
-### Long-term (Q2 2026)
-- **Accept Google's structural AI search dominance** — 2B+ AIO users, TPUs at cost, ecosystem lock-in
-- **Shift from ranking metrics to mention/citation metrics** inside AI answers
-- **Prepare prompt monitoring** — SISTRIX prompt DB launch imminent; competitor prompt tracking becomes viable
+| SISTRIX Germany AIO CTR data (265M lost clicks) | March 2026 Core Update rolling live |
+| Gemini tripled traffic, ChatGPT stagnant | Illyes 2MB Googlebot limit — technical deep dive |
+| ChatGPT Ads cost disadvantage framing | ChatGPT Ads $100M pilot — CTR vs revenue paradox |
+| Grokipedia initial collapse report | Grokipedia continuing to drop post-update |
+| AI userbot ≠ AI citation (SISTRIX Beus) | llms.txt → 4-layer GEO architecture (Duane Forrester) |
+| AIO category variance (health 24%+, recipes 1%) | Evergreen content disruption (-32pp publisher shift) |
+| SISTRIX Q1 Changelog | Mueller sitemap splitting rationale |
+| AIO cache distortion (1 bot visit = 1000s queries) | AI leads job cuts at 25% (Challenger, March 2026) |
+| 60% Position-1 CTR drop in Germany | Structured data → 2.3x AIO inclusion rate |
+| Google March Core Update starting | Self-serve ChatGPT Ads launching April |
 
 ---
 
-## Data Quality Notes
+## Key Quotes
 
-- **SISTRIX Germany CTR data:** Strong methodology (100M keywords), Germany-only; US rates likely differ (AIO more mature in US)
-- **Google AI Mode MAU:** 100M cited for US/India combined; Google's tendency to understate user bases noted
-- **OpenAI $111B loss projection:** Cite as "industry estimates" not confirmed figures
-- **Grokipedia "Mt. AI":** Glenn Gabe's analytical framing, not Google's terminology
-- **ChatGPT Ads:** SISTRIX reporting; OpenAI has not made formal announcement as of writing
+### Mueller on Core Update Staging (Bluesky)
+> "One is about spam, one is not about spam. If with some experience, you're not sure whether your site is spam or not, it's unfortunately probably spam."
+
+### Illyes on 2MB Limit
+> "When Googlebot hits 2MB, it stops fetching and passes the truncated content to indexing as if it were the complete file. Anything past 2MB is never indexed."
+
+### Duane Forrester on GEO Architecture
+> "llms.txt is a table of contents. That is a starting point, not a destination."
+
+### SEJ on Evergreen Content Crisis
+> "Fair to say the majority of evergreen content will not drive the value it did five years ago. The antithesis to AI slop will help your business be profitable."
+
+---
+
+## Sources
+- SEJ: Google Core Update, Crawl Limits & Gemini Traffic Data (April 4, 2026)
+- SEJ: ChatGPT Ads — New Acquisition Channel Or Just Another Brand Tax? (April 3, 2026)
+- SEJ: Llms.txt Was Step One — Here's The Architecture That Comes Next (April 2, 2026)
+- SEJ: Google Answers Why Some SEOs Split Their Sitemap Into Multiple Files (April 3, 2026)
+- SEJ: How To Do Evergreen Content In 2026 (April 1, 2026)
+- SEJ: AI Leads All Reasons For U.S. Job Cuts In March (April 2, 2026)
+- SERoundTable: Grokipedia Continues To Drop in Search And AI Search (April 3, 2026)
+- Google Blog: Inside Googlebot (via SEJ reporting)
+- Reuters: OpenAI Ads Pilot Exceeds $100M Annualized Revenue (March 26, 2026)
+- eMarketer: OpenAI ChatGPT Ads CTR data
+- AEM CDN Audit: Longato.ch llms.txt analysis
+
+---
+
+*GenDate: 2026-04-04 18:10 GMT+8 — Round 245, Topic 286*
