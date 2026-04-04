@@ -1,7 +1,7 @@
-# SEO/AI/GEO Trends Knowledge Base — Round 245
+# SEO/AI/GEO Trends Knowledge Base — Round 246
 
-**Generated:** April 4, 2026, 18:10 GMT+8
-**Topic:** 286 — "March 2026 Core Update Rolling (April 3-4), Illyes Googlebot 2MB Limit Clarification + Mt. AI GEO Architecture (llms.txt → JSON-LD → Entity Graph → Provenance), ChatGPT Ads Low CTR vs $100M Pilot, Evergreen Content Disruption, AI Job Cuts as Top Layoff Reason"
+**Generated:** April 4, 2026, 19:20 GMT+8
+**Topic:** 287 — "Training Data Cutoff As Ranking Architecture, Gemini Traffic Overtakes Perplexity, Illyes Questions Structured Data Bloat, Florida-Style AI Reset Debate, Cutoff-Aware Content Calendaring"
 
 ---
 
@@ -9,209 +9,205 @@
 
 | # | Finding | Source | Score |
 |---|---------|--------|-------|
-| 1 | March 2026 Core Update actively rolling as of April 3-4; up to 2-week rollout; Mueller confirms multi-team, staged deployment | SEJ/Google | 9/10 |
-| 2 | Illyes clarifies Googlebot 2MB byte limit: headers count toward limit, external resources get separate counters, truncation = permanent content loss | SEJ/Illyes | 9/10 |
-| 3 | Duane Forrester's 4-layer GEO architecture: llms.txt → JSON-LD machine layer → entity graph → provenance (far beyond simple TOC) | SEJ/Duane Forrester | 9/10 |
-| 4 | llms.txt audit: LLM bots essentially absent from CDN logs (1,000 AEM domains); Googlebot dominates — raises serious llms.txt ROI question | SEJ/AEM audit | 8/10 |
-| 5 | ChatGPT Ads pilot: $100M annualized revenue in 6 weeks, 600+ advertisers; but CTR as low as 0.91% vs 6.4% Google benchmark; self-serve launching April | SEJ/Reuters | 8/10 |
-| 6 | Grokipedia continues dropping post-March 2026 Core Update; same pattern across Google, AI Overviews, AI Mode, and ChatGPT — "Mt. AI" confirmed | SERoundTable/Glenn Gabe | 8/10 |
-| 7 | Evergreen content losing value: -32pp in publisher plans; AI effective at summarizing bread-and-butter content; "antithesis to AI slop" framing | SEJ | 7/10 |
-| 8 | Mueller answers sitemap splitting: group by content type, split by freshness (theoretical recrawl benefit), avoid 50k URL cap, hreflang sitemaps | SEJ/Mueller | 7/10 |
-| 9 | AI leads all cited reasons for US job cuts in March 2026 at 25% of total (Challenger report) — SEO/disruption context | SEJ/Matt Southern | 7/10 |
-| 10 | ChatGPT Ads economics: $50K-$100K Criteo commitments, premium CPMs, ~80% SMB interest; self-serve expansion signals broader monetization push | SEJ/Reuters | 7/10 |
+| 1 | Training data cutoff creates two-tier AI memory architecture — parametric (confident, no attribution) vs retrieval-augmented (hedged, cited) — with direct implications for content strategy | SEJ | 9/10 |
+| 2 | Cutoff-aware content calendaring: foundational brand content must precede training windows; time-sensitive content must target retrieval-layer optimization only | SEJ | 9/10 |
+| 3 | Gemini referral traffic +115% (Nov 2025–Jan 2026), overtaking Perplexity globally (+29%) and in the US (+41%); correlated with Gemini 3 launch | SE Ranking/SEJ | 8/10 |
+| 4 | Google Illyes publicly questions whether Google's own structured data recommendations contribute to page bloat — structural data bloat now an Illyes-raised concern | SEJ/Illyes+Splitt | 8/10 |
+| 5 | SEJ poses "Are We Due Another Florida-Style Update?": AI-scaled low-value content echoing pre-Panda content farm conditions; rolling corrections may not keep pace | SEJ | 8/10 |
+| 6 | March 2026 Core Update rolling through April; Mueller confirms multi-team staged deployment; ranking volatility continuing into early April | SEJ/Google | 8/10 |
+| 7 | Perplexity RAG-native by design — live retrieval on every query vs selective retrieval in ChatGPT/Gemini/Claude/Copilot; fundamentally different citation architecture | SEJ | 8/10 |
+| 8 | Cutoff dates vary dramatically by platform: GPT-5 (Aug 2025), GPT-4o (Oct 2023), Gemini 3 (Jan 2025), Claude gen (Jan 2026) — same content gets different treatment across platforms | SEJ | 7/10 |
+| 9 | AI-generated content at scale produces "readable, technically correct, but interchangeable" content — mirrors Panda-era content farms at higher quality/harder-to-filter | SEJ | 7/10 |
+| 10 | Google Discover testing "News Showcase" label — expanded publisher card format with short description + expand option; signals Discover as publisher traffic surface | SERoundTable/Damien | 7/10 |
 
 ---
 
-## Deep Dive 1: March 2026 Core Update — Rolling Now (April 3-4)
+## Deep Dive 1: Training Data Cutoff As A Ranking Architecture — The Two-Tier Memory Model
 
-**Source:** SEJ, Google, April 3-4 2026
-**Data scope:** Live rollout — day 1-2
+**Source:** SEJ, April 4, 2026
+**Data scope:** Platform architecture analysis, AI citation dynamics
 
-### Status
-- Google began rolling out March 2026 Core Update this week (March 27 start)
-- As of April 3-4: **actively rolling** — industry volatility high
-- Rollout may take up to 2 weeks total
-- Spam update completed in under 20 hours (March 25) — precursor to core update
-- Last broad core update: December 29, 2025 (3-month gap)
+### The Core Insight: Two Architectures, One Answer
+Every AI system operates with two fundamentally different memory architectures separated by the training data cutoff date:
 
-### Mueller: Multi-Team, Staged Deployment
-John Mueller (Google Search Relations) clarified on Bluesky:
-- Core updates don't use a single deployment mechanism
-- Different teams/systems contribute changes
-- Components require step-by-step rollouts
-- Explains wave-like volatility pattern (not one-shot)
+**Parametric Memory** — content internalized into model weights during training. The model "recalls" rather than "retrieves." Responses are confident, fast, unqualified, and carry no attribution. The model isn't consulting a source — it's synthesizing from internalized representations.
 
-### Industry Impact
-- Roger Montti notes spam update proximity may not be coincidence — spam clearing logically precedes quality reassessment
-- Ranking changes expected throughout early April
-- Google recommendation: wait at least 1 week after rollout finishes before analyzing Search Console data
-- Compare against baseline period before March 27
+**Retrieval-Augmented Memory (RAG)** — content fetched at inference time from a live index. When a query touches post-cutoff territory or triggers the model's search function, a retriever collects documents, compresses relevant passages, and injects them into the context window. Responses carry attribution language ("according to recent reports," "sources indicate") — a structurally different epistemic register.
 
----
+The practical example from SEJ: Ask an AI about Salesforce's CRM market position (well-represented in training data) → confident, unqualified synthesis. Ask about a product positioning shift from six months ago, post-cutoff → hedged retrieval answer with caveats and citations. **Both appear, but they sound completely different to users.**
 
-## Deep Dive 2: Illyes Clarifies Googlebot 2MB Limit — Technical Deep Dive
+### Platform Cutoff Dates — Critical Variance
 
-**Source:** Google Blog "Inside Googlebot", SEJ reporting, April 1-2 2026
-**Data scope:** Official Google documentation + podcast
+| Platform | Model | Knowledge Cutoff |
+|----------|-------|----------------|
+| ChatGPT (GPT-5 flagship) | GPT-5 series | August 2025 |
+| ChatGPT (older interface) | GPT-4o (widely deployed via API) | October 2023 |
+| Google Gemini | Gemini 3 / 3.1 | January 2025 |
+| Claude | Sonnet 4.6 generation | August 2025 (knowledge), January 2026 (training) |
+| Microsoft Copilot | Bing-grounded | Configurable; off by default in US government cloud |
+| Perplexity | RAG-native (Vespa AI) | Irrelevant — live retrieval on every query |
 
-### The 2MB Limit — What It Actually Means
-- Googlebot is ONE client of a centralized crawling platform (15MB default)
-- Google Shopping, AdSense, other products route through same system under different crawler names
-- **HTTP request headers count toward the 2MB limit**
-- **External resources (CSS, JS, images) each get separate byte counters**
-- 2MB limit is a **Search-specific override** of the platform's 15MB default
-- When Googlebot hits 2MB: it **stops fetching and passes truncated content to indexing as if complete** — anything past 2MB is NEVER indexed
+**Strategic implication:** Your brand's content strategy cannot treat "AI search" as a monolith. A prospective buyer's AI use case may have a completely different memory architecture than what your marketing team tested.
 
-### Illyes + Splitt Page Weight Discussion
-- Median mobile homepage: 845 KB (2015) → 2,362 KB (2025) — ~3x growth (Web Almanac 2025)
-- Illyes publicly questions whether Google's own structured data recommendations contribute to page bloat
-- Splitt promises future episode on reduction techniques
-- 2MB limit is a policy, not a permanent technical floor — may change as web evolves
+### The Confidence Advantage of Pre-Cutoff Content
+When models operate within parametric knowledge, they don't need to retrieve, attribute, or hedge. Academic research confirms: when parametric confidence is high, retrieval often isn't triggered at all. High-confidence parametric responses don't include attribution constructs — they just answer.
 
-### SEO Implications
-- **Cyrus Shepard (Zyppy SEO):** If very large pages have content not getting indexed, check page size
-- Large inline base64 images, heavy inline CSS/JS, oversized nav menus are primary culprits
-- Structured data bloat is now an Illyes-raised concern — worth auditing
+This creates a structural advantage for content that:
+1. Exists clearly in training data
+2. Was well-cited and well-distributed at time of training
+3. Was published long enough before a training window to be included
+
+### Cutoff-Aware Content Calendaring — The New Fourth Axis
+Traditional content calendaring operates on three axes: audience timing, seasonal relevance, channel cadence. **Cutoff-aware content calendaring adds a fourth: anticipated model training windows.**
+
+**Foundational brand content** (positioning papers, capabilities briefs, category-defining pieces) should be published and amplified well in advance of known or suspected training windows. These assets benefit from parametric embedding — once internalized, they present with confident, unattributed authority.
+
+**Time-sensitive content** (product updates, pricing announcements, event coverage) is inherently post-cutoff territory and must succeed in the retrieval layer: proper indexing, chunk-level machine-readable structure, citation-friendly formatting. These require entirely different distribution strategies.
 
 ---
 
-## Deep Dive 3: GEO Architecture Beyond llms.txt — 4-Layer Stack
+## Deep Dive 2: Gemini Traffic Overtakes Perplexity — AI Referral Landscape Shifts
 
-**Source:** SEJ, Duane Forrester, April 2, 2026
-
-### The Honest Problem With llms.txt
-- llms.txt is a table of contents — flat, no relationship model
-- Cannot express: Product A belongs to Family B, Feature X deprecated in v3.2, Person Z is spokesperson for Topic Q
-- **Critical audit finding:** 1,000 AEM domain CDN logs — LLM bots essentially absent from llms.txt requests; Googlebot dominates
-- Maintenance burden: every strategic change requires updating both live site AND the file
-- Better approach: draw from authoritative data sources programmatically
-
-### The 4-Layer Architecture
-**Layer 1: JSON-LD as Machine-Facing Fact Layer**
-- Pages with valid structured data: **2.3x more likely to appear in Google AI Overviews**
-- Princeton GEO research: clear structural signals → **up to 40% higher visibility in AI-generated responses**
-- Treat JSON-LD as machine-facing fact layer, not rich-snippet play
-- Precision required on: product attributes, pricing states, feature availability, organizational relationships
-
-**Layer 2: Entity Relationship Mapping**
-- Express the graph, not just nodes
-- Products → Categories → Industry Solutions → Use Cases → Authoritative Source
-- Implement as JSON-LD graph extension OR headless CMS endpoint
-- Eliminates flat-list hallucinations during AI comparison queries
-
-**Layer 3: Content API Endpoints + Model Context Protocol**
-- Programmatic, authoritative access to brand information
-- Structured APIs replace static file maintenance
-- Headless CMS as source of truth (no second content layer to maintain)
-
-**Layer 4: Provenance Metadata**
-- Timestamps, authorship, source chains
-- Trust signals that travel with content through AI pipelines
-- Longato AEM audit: provenance signals increasingly critical for AI citation decisions
-
-### Strategic Implication
-- llms.txt is a starting point, not a destination
-- Standards landscape still forming — early architectural thinkers will define future patterns
-- The question is not whether to build it, but how to prioritize the layers
-
----
-
-## Deep Dive 4: ChatGPT Ads — $100M Pilot vs 0.91% CTR
-
-**Source:** SEJ, Reuters, eMarketer, April 2-3 2026
+**Source:** SE Ranking (101K+ sites with GA installed), SEJ, January 2026
+**Data scope:** Global AI referral traffic, November 2025–January 2026
 
 ### The Numbers
-- **$100M+ annualized revenue** in first 6 weeks of US pilot (Reuters)
-- **600+ advertisers** in pilot
-- **$50K-$100K** Criteo commitment ranges reported (premium pricing)
-- **~80% of SMBs** signaled interest in ChatGPT Ads
-- Self-serve advertiser capabilities: launching April 2026
-- Expansion into additional countries beyond US
+- **Gemini referral traffic: +115%** combined increase over two months (Nov 2025–Jan 2026)
+- Jump correlates with **Gemini 3 launch** (December 2025)
+- In January 2026: Gemini sent **29% more referral traffic than Perplexity globally**, **41% more in the US**
+- ChatGPT still generates ~80% of all AI referral traffic
+- ChatGPT's lead over Gemini narrowed from ~22x (October 2025) to ~8x (January 2026)
+- All AI platforms combined: ~0.24% of global internet traffic (up from 0.15% in 2025)
 
-### The CTR Problem
-- Reported CTR: **as low as 0.91%** in ChatGPT (SEJ/eMarketer)
-- Google Search benchmark: **6.4% average CTR**
-- ChatGPT Ads CTR is approximately **7x lower** than Google Search
-- This is the critical gap: momentum vs. proven channel value
+### Why This Matters for SEO/GEO Professionals
+In August 2025, Perplexity was sending ~2.9x more referral traffic than Gemini. That relationship reversed completely by January 2026. Gemini is now worth watching alongside ChatGPT and Perplexity in your referral analytics — it's no longer a marginal traffic source.
 
-### Strategic Assessment
-- Pilot was clearly designed to be controlled, premium, brand-friendly (not ad-influences-answers)
-- Premium CPMs and high barriers = not broad mid-market onboarding
-- 0.91% CTR raises serious efficiency questions for performance advertisers
-- $100M annualized sounds impressive but annualized ≠ $100M booked revenue (6-week pilot data annualized)
-- For SEO/GEO professionals: ChatGPT Ads doesn't change AI citation dynamics — it adds a paid layer on top of an existing discovery behavior
+Note: SE Ranking sells AI visibility tracking tools, so treat the specific numbers as directional rather than definitive.
 
 ---
 
-## Deep Dive 5: Grokipedia — Continuing "Mt. AI" Collapse Post-Core Update
+## Deep Dive 3: Illyes Questions Google's Own Structured Data — Page Bloat Debate
 
-**Source:** SERoundTable, Glenn Gabe, April 2-3 2026
+**Source:** SEJ, "Google: Pages Are Getting Larger & It Still Matters", March 30–31, 2026; Search Off the Record podcast
 
-### The Pattern
-- Grokipedia surged initially after scaling AI-generated content
-- Then dropped heavily in Google (February 2026)
-- Now: **continuing to drop with March 2026 Core Update**
-- Same trajectory confirmed across: **Google Search, AI Overviews, AI Mode, ChatGPT**
+### The Issue
+- Median mobile homepage: 845 KB (2015) → 2,362 KB (2025) — nearly 3x growth (Web Almanac 2025)
+- Gary Illyes (Google Search team) publicly asked whether **structured data that Google itself asks websites to add** is contributing to page bloat
+- Martin Splitt (Google Developer Advocate) announced a future episode on specific reduction techniques
+- The 15MB platform default and 2MB Googlebot Search override were discussed
 
-### Glenn Gabe's "Mt. AI" Thesis — Confirmed
-> "Drop in Google and you can drop heavily in AI Search."
-- AI platforms (ChatGPT, AI Mode, AI Overviews) appear to run on existing Google index signals
-- Sites that violate Google's quality signals likely face simultaneous penalties across all AI surfaces
-- Favicon also gone missing (unrelated to algorithm, but compound reputational damage in SERPs)
+### SEO Implication
+This is notable because it's a Google employee raising a concern about Google's own recommendations. If Google concludes that its structured data requirements are inflating pages beyond the 2MB truncation threshold, it could:
+1. Change how much structured data it processes
+2. Modify recommendations for schema markup
+3. Affect sites that rely heavily on rich results via extensive structured data
 
-### Lesson for SEOs
-- AI-generated content scaling without genuine E-E-A-T signals is a high-risk strategy
-- The "surge then drop" pattern is now documented across multiple AI platforms simultaneously
-- "Beware Mt. AI" — Glenn Gabe's framing is becoming industry standard
+Cyrus Shepard (Zyppy SEO) recommended checking page size when very large pages have content not getting indexed.
 
 ---
 
-## Comparison vs Topic 285
+## Deep Dive 4: "Are We Due Another Florida-Style Update?" — AI Content Farm 2.0
 
-| Topic 285 | Topic 286 |
+**Source:** SEJ, April 4, 2026 (article written days before March 24 Core Update began rolling)
+
+### The Parallel
+The article draws a direct line between conditions before Panda (2011) and the current wave of AI-generated content:
+- Cost/effort to produce content has dropped dramatically
+- Content follows identical structures, covers identical points, reaches identical conclusions
+- Result: readable, technically correct, but **interchangeable and lacking depth/originality**
+- Current wave mirrors Panda-era content farms at **larger scale and higher baseline quality** — making it both more effective and harder to filter
+
+### The Counterargument — Rolling Correction
+Google's current approach (Helpful Content System + SpamBrain + continuous core updates) creates rolling rather than event-based corrections. March 2024 core update exemplified this: some sites lost, some improved, many had mixed results over time. This approach maintains balance continuously rather than resetting in one moment.
+
+### The Risk
+The critical question: **Can continuous evaluation keep pace with AI content production speed?** A gap between content production and content assessment allows low-value pages to gain visibility before being filtered. If users encounter repetitive/shallow content consistently, trust in results declines — which threatens Google's revenue model.
+
+### The Case For A Major Reset
+SEJ's assessment: a scenario exists where Google introduces a more aggressive update recalibrating quality thresholds broadly and quickly. Google trains on a subset of quality content it knows is created to the highest standards (disclosed at Search Central Live Bangkok 2025). Such an update "would likely follow a period where search results feel consistently weak or repetitive" — and we may be entering that period.
+
+---
+
+## Deep Dive 5: Perplexity — RAG-Native Architecture Makes It Fundamentally Different
+
+**Source:** SEJ, "When The Training Data Cutoff Becomes A Ranking Factor", April 4, 2026
+
+### Perplexity's Unique Design
+Perplexity operates RAG-native by design, running a live retrieval pipeline on essentially every query through a distributed index built on Vespa AI, with real-time web crawling supplemented by external search APIs. For Perplexity, **the training cutoff is largely irrelevant** because the system routes around it by default.
+
+### Practical Consequences
+- Perplexity citations tend to be **current and attributed** — no cutoff gap
+- ChatGPT, Gemini, Claude, and Copilot responses **vary between confident parametric synthesis and hedged retrieval** depending on query type and platform configuration
+- Perplexity is the only major AI search platform where freshness is architecturally guaranteed, not optional
+
+### Strategic Implication
+If your GEO strategy focuses on Perplexity, retrieval-layer optimization (indexing, schema, citation-friendly formatting) is the only game. For other platforms, you need both a parametric strategy (foundational content published before training windows) AND a retrieval strategy (time-sensitive content optimized for real-time indexing).
+
+---
+
+## Comparison vs Topic 286
+
+| Topic 286 | Topic 287 |
 |-----------|-----------|
-| SISTRIX Germany AIO CTR data (265M lost clicks) | March 2026 Core Update rolling live |
-| Gemini tripled traffic, ChatGPT stagnant | Illyes 2MB Googlebot limit — technical deep dive |
-| ChatGPT Ads cost disadvantage framing | ChatGPT Ads $100M pilot — CTR vs revenue paradox |
-| Grokipedia initial collapse report | Grokipedia continuing to drop post-update |
-| AI userbot ≠ AI citation (SISTRIX Beus) | llms.txt → 4-layer GEO architecture (Duane Forrester) |
-| AIO category variance (health 24%+, recipes 1%) | Evergreen content disruption (-32pp publisher shift) |
-| SISTRIX Q1 Changelog | Mueller sitemap splitting rationale |
-| AIO cache distortion (1 bot visit = 1000s queries) | AI leads job cuts at 25% (Challenger, March 2026) |
-| 60% Position-1 CTR drop in Germany | Structured data → 2.3x AIO inclusion rate |
-| Google March Core Update starting | Self-serve ChatGPT Ads launching April |
+| March 2026 Core Update rolling live | March 2026 Core Update still rolling into April |
+| Illyes 2MB limit — headers count, truncation permanent | Illyes questions whether Google's own structured data causes page bloat |
+| Duane Forrester 4-layer GEO: llms.txt → JSON-LD → Entity Graph → Provenance | Training data cutoff as the fundamental organizing principle for GEO strategy |
+| llms.txt audit: LLM bots essentially absent from CDN logs | Perplexity RAG-native: fundamentally different citation architecture |
+| ChatGPT Ads $100M pilot, 0.91% CTR vs 6.4% Google | Gemini +115% referral traffic, overtaking Perplexity (Nov–Jan) |
+| Grokipedia continuing Mt. AI collapse post-update | "Are We Due Another Florida-Style Update?" — AI content farm 2.0 risk |
+| Evergreen content -32pp publisher shift | Cutoff-aware content calendaring: new fourth axis for strategy |
+| Mueller sitemap splitting rationale | Cutoff dates vary by platform: GPT-4o Oct 2023, GPT-5 Aug 2025, Gemini Jan 2025 |
+| SISTRIX Germany AIO CTR data | Perplexity live retrieval = guaranteed freshness vs others' selective retrieval |
+| AIO cache distortion (1 bot visit = 1000s queries) | Google Discover "News Showcase" label test — new publisher surface |
 
 ---
 
 ## Key Quotes
 
-### Mueller on Core Update Staging (Bluesky)
-> "One is about spam, one is not about spam. If with some experience, you're not sure whether your site is spam or not, it's unfortunately probably spam."
+### SEJ on Two-Tier Memory Architecture
+> "Content published before that line is baked into the model's weights, always accessible, confident, and unreferenced. Content published after that line only surfaces when the model retrieves it in real time, which introduces a different retrieval path, a different confidence profile, and, critically, different presentation behavior in synthesized answers."
 
-### Illyes on 2MB Limit
-> "When Googlebot hits 2MB, it stops fetching and passes the truncated content to indexing as if it were the complete file. Anything past 2MB is never indexed."
+### SEJ on Cutoff-Aware Calendaring
+> "Parametric memory is everything you learned in school, internalized and available instantly. Retrieval is picking up your phone to look something up. Both produce answers, but the confidence signature and attribution behavior are structurally different."
 
-### Duane Forrester on GEO Architecture
-> "llms.txt is a table of contents. That is a starting point, not a destination."
+### SEJ on Florida-Style Reset Risk
+> "A gap can form between content production and content assessment, which allows low-value pages to gain visibility before being properly filtered. Users may encounter repetitive or shallow content across similar queries, which reduces trust in the results over time."
 
-### SEJ on Evergreen Content Crisis
-> "Fair to say the majority of evergreen content will not drive the value it did five years ago. The antithesis to AI slop will help your business be profitable."
+### SEJ on Defensibility Over Efficiency
+> "Content that performs well now tends to offer something that cannot be easily replicated. This often includes real experience, a clear and informed perspective, or genuinely useful insight that goes beyond standardized output."
+
+---
+
+## Novel Insights
+
+1. **Training cutoff creates a confidence hierarchy in AI answers** — pre-cutoff content gets confident, unattributed synthesis; post-cutoff content gets hedged, attributed retrieval responses. This two-tier architecture is the organizing principle for GEO strategy, not a footnote.
+
+2. **Illyes questioning Google's own structured data** — this is the same Google that publishes structured data recommendations. The fact that a Google Search team member publicly questions whether those recommendations contribute to page bloat (potentially triggering the 2MB truncation limit) is a significant signal for sites heavy on schema markup.
+
+3. **Perplexity is architecturally unique** — it's the only major AI search platform that runs live retrieval on every query. Its citation freshness is structurally guaranteed, making it the only platform where cutoff timing is irrelevant. This has direct implications for channel-specific GEO strategy.
+
+4. **AI content farm 2.0 conditions are building** — the SEJ "Florida-style update" article frames the risk clearly: higher quality, larger scale, harder to filter than the Panda era. If rolling corrections can't keep pace, a major recalibration event becomes more likely.
+
+5. **Gemini has become a real referral traffic competitor** — going from 2.9x less than Perplexity (August 2025) to overtaking it (January 2026) in under 6 months. Gemini tracking deserves dedicated monitoring in analytics.
+
+6. **Cutoff-aware content calendaring is a new strategic discipline** — understanding which content type should be published when relative to AI model training cycles is now a meaningful competitive advantage in GEO execution.
 
 ---
 
 ## Sources
-- SEJ: Google Core Update, Crawl Limits & Gemini Traffic Data (April 4, 2026)
-- SEJ: ChatGPT Ads — New Acquisition Channel Or Just Another Brand Tax? (April 3, 2026)
-- SEJ: Llms.txt Was Step One — Here's The Architecture That Comes Next (April 2, 2026)
-- SEJ: Google Answers Why Some SEOs Split Their Sitemap Into Multiple Files (April 3, 2026)
-- SEJ: How To Do Evergreen Content In 2026 (April 1, 2026)
-- SEJ: AI Leads All Reasons For U.S. Job Cuts In March (April 2, 2026)
-- SERoundTable: Grokipedia Continues To Drop in Search And AI Search (April 3, 2026)
-- Google Blog: Inside Googlebot (via SEJ reporting)
-- Reuters: OpenAI Ads Pilot Exceeds $100M Annualized Revenue (March 26, 2026)
-- eMarketer: OpenAI ChatGPT Ads CTR data
-- AEM CDN Audit: Longato.ch llms.txt analysis
+
+- SEJ: When The Training Data Cutoff Becomes A Ranking Factor (April 4, 2026) — https://www.searchenginejournal.com/when-the-training-data-cutoff-becomes-a-ranking-factor/570438/
+- SEJ: Google Core Update, Crawl Limits & Gemini Traffic Data – SEO Pulse (April 3, 2026) — https://www.searchenginejournal.com/seo-pulse-google-core-update-crawl-limits-gemini-traffic-data/571089/
+- SEJ: Are We Due Another Florida-Style Update? (April 4, 2026) — https://www.searchenginejournal.com/are-we-due-another-florida-style-update/570102/
+- SEJ: Google: Pages Are Getting Larger & It Still Matters (March 30, 2026) — https://www.searchenginejournal.com/google-pages-are-getting-larger-it-still-matters/570875/
+- SEJ: Google Explains Googlebot Byte Limits And Crawling Architecture (March 31, 2026) — https://www.searchenginejournal.com/google-explains-googlebot-byte-limits-and-crawling-architecture/570961/
+- SEJ: Google Gemini Sends More Traffic To Sites Than Perplexity: Report — https://www.searchenginejournal.com/google-gemini-sends-more-traffic-to-sites-than-perplexity-report/570714/
+- SEJ: Google Begins Rolling Out March 2026 Core Update (March 27, 2026) — https://www.searchenginejournal.com/google-begins-rolling-out-march-2026-core-update/570657/
+- SEJ: Google Answers Why Core Updates Can Roll Out In Stages (April 1, 2026) — https://www.searchenginejournal.com/google-answers-why-core-updates-can-roll-out-in-stages/571003/
+- SE Ranking: AI Referral Traffic Analysis (via SEJ reporting, January 2026)
+- SERoundTable: Google News Showcase Label In Discover Feed — https://www.seroundtable.com/news-showcase-label-tested-in-google-discover-41085.html
+- arXiv: Dynamic Retrieval research (referenced in SEJ article) — https://arxiv.org/abs/2509.06472
 
 ---
 
-*GenDate: 2026-04-04 18:10 GMT+8 — Round 245, Topic 286*
+*GenDate: 2026-04-04 19:20 GMT+8 — Round 246, Topic 287*
