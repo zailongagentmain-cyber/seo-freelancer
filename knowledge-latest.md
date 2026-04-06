@@ -1,7 +1,7 @@
-# Knowledge File — Round 265 (topic293)
+# Knowledge File — Round 267 (topic295)
 
-**Topic:** March 2026 Core Update Nears Completion, Googlebot 2MB Byte Limit Explained, llms.txt Beyond → Machine-Readable Brand API Stack, MCP/A2A/NLWeb/AGENTS.md — The Agentic Web Standards, AI Shopping Fails to Threaten SEO
-**Round:** 265
+**Topic:** March 2026 Core Update Completing, Google Gemma 4 Open Source Under Apache 2.0, AI Content Trust 5-Pillar Framework, Gemini Overtakes Perplexity, MCP/A2A/NLWeb Standards Deep Dive
+**Round:** 267
 **Date:** April 6, 2026
 **Status:** LEARNER Complete
 
@@ -9,200 +9,202 @@
 
 ## Executive Summary
 
-Round 265 arrives at the likely completion window of the March 2026 Core Update (~April 6–10). The update is in its final stages, and SEO professionals are beginning to assess its impact. Three major developments frame this cycle: (1) **Google's Gary Illyes clarified the 2MB Googlebot byte limit** — explaining that it's a Search-specific override of a 15MB platform default, and that content past the limit is simply never indexed rather than rejected; (2) **The post-llms.txt architecture debate has crystallized** — industry voices are pushing beyond the flat file approach toward a layered machine-readable content stack: JSON-LD fact sheets, entity relationship graphs, provenance APIs, and AI-specific endpoints; (3) **The agentic web standards landscape is taking shape** — MCP (Model Context Protocol), A2A (Agent-to-Agent), NLWeb, and AGENTS.md are emerging as competing/adjacent protocols that publishers and brands need to understand. Additional developments include ChatGPT Ads launching as a new acquisition channel, the WordPress/Cloudflare EmDash drama, and evidence that AI agentic shopping still feels unnatural to users and poses less SEO threat than feared.
+Round 267 arrives on the expected completion date of the March 2026 Core Update (April 6–10). Four major developments frame this cycle: (1) **The March 2026 Core Update is entering its final stages** — the rollout began March 27 with expected completion around April 6–10, and SEO professionals are beginning to assess its impact; (2) **Google released Gemma 4** — a four-size open-weight model family under the Apache 2.0 license with native function calling and JSON output, marking a significant shift toward agentic workflows in open-source AI; (3) **A 5-pillar framework for AI content trust** has emerged as consumer skepticism toward AI-generated content grows, providing a structural approach to creating content that audiences actually trust; (4) **Gemini's referral traffic more than doubled** and overtook Perplexity globally in January 2026, reversing the previous trend. Additional developments include the deepening MCP/A2A/NLWeb standards landscape and the WordPress vs. Cloudflare EmDash drama.
 
 ---
 
 ## 10 Key Findings
 
-### Finding 1: March 2026 Core Update — Likely Completion Window (April 6–10)
-**Source:** Search Engine Journal / Search Engine Roundtable / The HOTH
-**Date:** April 4–6, 2026 (rollout started March 27; expected completion ~2 weeks)
+### Finding 1: March 2026 Core Update — Completing This Week (April 6–10)
+**Source:** Search Engine Journal / The HOTH / Search Engine Roundtable
+**Date:** April 4–6, 2026
 
-The March 2026 Core Update is approaching its expected completion window:
+The March 2026 Core Update is entering its final days:
 
 - Google began rolling out the March 2026 Core Update on March 27 — the first broad core update of 2026
 - The rollout was expected to take up to two weeks, putting completion at approximately April 6–10
-- Glenn Gabe and other rank trackers have been documenting significant ranking movements throughout the rollout
-- John Mueller clarified on Bluesky that core updates don't follow a single deployment mechanism — different teams and systems contribute changes that require step-by-step rollouts over weeks
-- Roger Montti noted the proximity of the March spam update (completed in under 20 hours, March 24–25) may have fed into the broader quality assessment
-- SEO professionals are reporting that the wave-like volatility pattern continues as different Google systems contribute to the rollout at different times
-- Google recommends waiting **at least one full week after the rollout finishes** before analyzing Search Console data — meaningful analysis not possible until approximately April 13–17
+- Glenn Gabe and other rank trackers documented significant ranking movements throughout the rollout
+- John Mueller clarified on Bluesky that core updates don't follow a single deployment mechanism — different teams and systems contribute changes requiring step-by-step rollouts over weeks
+- Roger Montti noted the proximity of the March spam update (completed in under 20 hours, March 24–25) may have fed into broader quality assessment
+- Google recommends waiting **at least one full week after rollout finishes** before analyzing Search Console data — meaningful analysis not possible until approximately April 13–17
+- The December 2025 core update was the previous broad core update — this is the most significant ranking recalibration in over three months
 
-**Why it matters:** The December 2025 core update was the previous broad core update. Sites haven't had their rankings recalibrated since late December 2025. The completion of this update represents the most significant recalibration of Google Search rankings in over three months.
-
----
-
-### Finding 2: Gary Illyes Explains Googlebot's 2MB Byte Limit — Content Past Limit Is Never Indexed
-**Source:** Search Engine Journal / LinkedIn (Cyrus Shepard)
-**Date:** April 3–4, 2026
-
-Google's Gary Illyes, an analyst on Google's Search team, published a detailed blog post explaining how Googlebot works within Google's broader crawling infrastructure:
-
-- **Googlebot is one client of a centralized crawling platform** — Google Shopping, AdSense, and other products all route requests through the same system under different crawler names
-- **The 2MB limit is a Search-specific override** of the platform's 15MB default — other crawlers in Google's ecosystem may have different limits
-- **HTTP request headers count toward the 2MB limit** — this is often overlooked by SEO professionals
-- **External resources (CSS, JavaScript) get their own separate byte counters** — they don't count against the page's fetch budget
-- **When Googlebot hits 2MB, it doesn't reject the page** — it stops fetching and passes the truncated content to indexing as if it were complete; anything past 2MB is simply never indexed
-- **The 15MB platform default and 2MB Googlebot override** explains why different Google crawlers behave differently in server logs — each client sets its own configuration
-- Illyes noted the 2MB limit is **not permanent and may change** as the web evolves
-
-Cyrus Shepard commented on LinkedIn: "If you notice certain content not getting indexed on VERY LARGE PAGES, you probably want to check your size."
-
-**Why it matters:** Large pages with heavy inline base64 images, oversized CSS/JavaScript, or bloated navigation menus may have content that is simply never indexed. This is a technical SEO issue that could cause important content to be invisible to Google.
+**Why it matters:** Sites haven't had their rankings recalibrated since late December 2025. The completion of this update represents the most significant recalibration of Google Search rankings in over three months.
 
 ---
 
-### Finding 3: Pages Are Getting Larger — 3x Growth in a Decade, and Illyes Questions Structured Data Bloat
-**Source:** Search Engine Journal (Search Off the Record podcast)
+### Finding 2: Google Releases Gemma 4 — Apache 2.0, 4 Sizes, Native Function Calling
+**Source:** CSDN / Search Engine Journal
 **Date:** April 2–4, 2026
 
-Gary Illyes and Martin Splitt, Developer Advocate at Google, discussed page weight growth on a recent Search Off the Record podcast episode:
+Google DeepMind released Gemma 4, a new family of open-weight models:
 
-- **Web pages have grown nearly 3x over the past decade** — the 2025 Web Almanac reports a median mobile homepage size of 2,362 KB
-- The 15MB default applies across Google's broader crawling systems, with individual clients like Googlebot for Search overriding it downward to 2MB
-- Illyes **raised whether structured data that Google asks websites to add is contributing to page bloat** — this is a significant admission from a Google engineer
-- Pages that were 2MB+ but safely below the platform's 15MB default are now affected by Googlebot's 2MB Search-specific limit
-- The implication: as Google asks for more structured data (JSON-LD, schema.org markup), pages grow, and Googlebot's more restrictive limit catches more content
+- **Apache 2.0 license** — fully open, commercial use allowed, freely deployable
+- **4 model sizes**: E2B (2B params, mobile/IoT), E4B (4B params, edge devices), 26B MoE (mixture-of-experts, workstation), 31B Dense (server/high-performance)
+- **Built on Gemini 3 research** — shares underlying architecture with Google's flagship closed model
+- **Native function calling, structured JSON output, native system instructions** — all Gemma 4 models now ship with agentic capabilities out of the box
+- **128K context window** — long document processing capability
+- **Multimodal** — text, image, and audio processing
+- **Significance for SEO and content**: The combination of Apache 2.0 licensing + native function calling + JSON output means Gemma 4 can be deployed as a local SEO content agent — generating structured data, schema markup, and article drafts entirely on-device without API costs
+- CSDN bloggers noted the shift toward agentic workflows as the most important Gemma 4 characteristic
 
-**Why it matters:** Publishers adding extensive structured data markup need to be aware that this contributes to byte count. The 2MB Googlebot limit means content past that threshold is never indexed — including structured data that may be used for AI Overviews. There's a tension between Google's demand for more structured data and its own indexing limits.
-
----
-
-### Finding 4: Beyond llms.txt — The Machine-Readable Brand Content Stack Takes Shape
-**Source:** Search Engine Journal
-**Date:** April 2, 2026
-
-The debate over what comes after llms.txt has crystallized into a more structured framework:
-
-- **llms.txt's honest value is legibility** — it provides a clean path into content by flattening it into Markdown, but it has no relationship model
-- The structural problem with llms.txt: **it cannot express relationships** between products, features, people, or topics — it's a flat list with no graph
-- A proposed layered architecture has emerged (not requiring everything built at once):
-  - **Layer 1 — Structured Fact Sheets (JSON-LD)**: Pages with valid structured data are 2.3x more likely to appear in Google AI Overviews; JSON-LD should be treated as a machine-facing fact layer, not just a rich-snippet play
-  - **Layer 2 — Entity Relationship Mapping**: Expressing the graph (products → categories → solutions → use cases), implemented as JSON-LD graph extension or headless CMS endpoint
-  - **Layer 3 — Provenance APIs**: Programmatically authoritative data sources, reducing the manual maintenance burden of llms.txt
-  - **Layer 4 — AI-Specific Endpoints**: Direct machine-readable content feeds designed for AI consumption
-- An audit of CDN logs across 1,000 Adobe Experience Manager domains found **LLM-specific bots were essentially absent from llms.txt requests** — Googlebot accounted for the vast majority of file fetches
-- The maintenance burden of llms.txt (updating both live site and the file for every change) is an **operational liability for enterprise brands**
-
-**Why it matters:** Brands need to think beyond llms.txt as a checkbox exercise and toward a programmatic, layered content architecture that AI systems can actually consume and cite accurately. The flat file approach won't scale for complex brand content.
+**Why it matters:** Gemma 4's Apache 2.0 license removes all commercial restrictions, making it the most powerful truly open model for SEO automation. Its native function calling and JSON output make it ideal for generating structured data, schema markup, and programmatic SEO content at scale.
 
 ---
 
-### Finding 5: MCP, A2A, NLWeb, AGENTS.md — The Standards Powering the Agentic Web
+### Finding 3: The 5-Pillar Framework For AI Content That Audiences Actually Trust
 **Source:** Search Engine Journal
 **Date:** April 4, 2026
 
-Search Engine Journal published a guide on the emerging standards for the agentic web:
+A structured framework for creating AI-assisted content that audiences trust has emerged:
 
-- **MCP (Model Context Protocol)** — An Anthropic-developed protocol for connecting AI models to external data sources and tools; becoming widely adopted as a de facto standard for AI agent content access
-- **A2A (Agent-to-Agent)** — A protocol for AI agents to communicate with each other; relevant for multi-agent workflows that may involve content discovery and citation
-- **NLWeb** — Mozilla's project to make web content machine-readable through a protocol layer; positioned as an evolution of RSS for the AI era
-- **AGENTS.md** — A proposed standard for documenting how AI agents should interact with websites; similar to robots.txt but designed for AI agents rather than crawlers
-- These standards are **still forming** — no major AI platform has formally committed to consuming any of them, but early adopters are experimenting
-- The article notes that **publishers who understand these protocols early will define the patterns that become standards** — similar to how early adopters of structured data shaped Schema.org
+- **The trust gap is widening**: Consumer trust in AI content is falling as volume explodes. Audiences in 2026 can detect "slop" — generic AI-generated output that looks like an ad and reads like a press release
+- **Three erosion forces operating simultaneously**:
+  1. Algorithmic gatekeeping — platforms' AI filters are better at detecting low-quality content
+  2. Authenticity crisis — audiences have seen tens of thousands of AI content pieces and developed skepticism
+  3. Audience sophistication — the brain is a prediction machine that ignores what it can easily predict
 
-**Why it matters:** As AI agents become a significant consumer of web content, the protocols they use for content discovery and interaction will shape SEO. Understanding MCP, A2A, NLWeb, and AGENTS.md now positions publishers to be early adopters of the next wave of web standards.
+**The 5 Pillars:**
+1. **Strategy First, Automation Second** — Build strategy deeply before using AI to execute; treat AI as infrastructure not a shortcut; AI brief should include audience segment, emotional response target, single reader action, brand voice guidelines, explicit guardrails
+2. **Visceral Storytelling** — Human authenticity and cultural integrity that AI cannot replicate
+3. **Multimodal Optimization** — Content across text, image, audio, video formats
+4. **Audience Psychology and Analytics** — Understanding what drives engagement beyond clicks
+5. **Ethics and Authenticity** — Explicitly avoiding manipulative patterns; getting ethics wrong undermines everything else
+
+**Why it matters:** As AI content volume accelerates, content that demonstrates genuine expertise, authentic voice, and ethical transparency will differentiate. The 5-pillar framework provides a structural approach that aligns with E-E-A-T signals Google evaluates.
 
 ---
 
-### Finding 6: Agentic AI Shopping Still Feels Unnatural — May Not Threaten SEO as Feared
+### Finding 4: Gemini Referral Traffic More Than Doubles, Overtakes Perplexity Globally
+**Source:** Search Engine Journal (SE Ranking data)
+**Date:** April 3–4, 2026
+
+Google Gemini has surged past Perplexity in referral traffic to websites:
+
+- **115% combined increase** in Gemini referral traffic between November 2025 and January 2026, measured across 101,000+ sites with Google Analytics
+- **Gemini now sends 29% more referral traffic than Perplexity globally** and 41% more in the U.S. (January 2026 data)
+- **ChatGPT still generates ~80% of all AI referral traffic** — but the gap is narrowing
+- **August 2025 context**: Perplexity was sending ~2.9x more traffic than Gemini — the reversal is dramatic
+- **ChatGPT's lead over Gemini narrowed from ~22x (October 2025) to ~8x (January 2026)**
+- All AI platforms combined account for **~0.24% of global internet traffic** (up from 0.15% in 2025) — measurable growth but still small vs. organic search
+- **Gemini 3 launch** (December 2025) correlates with the traffic surge, suggesting product improvements drove adoption
+
+**Why it matters:** Gemini's traffic surge means SEO professionals need to monitor Gemini referrals alongside ChatGPT and Perplexity. Gemini-optimized content may generate meaningful traffic for the first time. The AI referral traffic landscape is volatile — patterns established in 2025 may not hold in 2026.
+
+---
+
+### Finding 5: MCP Reaches 97M Monthly SDK Downloads — The USB-C Moment For AI
+**Source:** Search Engine Journal
+**Date:** April 4, 2026
+
+The Model Context Protocol (MCP) has reached a major adoption milestone:
+
+- **97 million monthly SDK downloads** across Python and TypeScript — reached in just over a year since launch
+- **Over 10,000 public MCP servers** built by the community
+- **Anthropic launched MCP** as open-source on November 25, 2024
+- **OpenAI adopted MCP** in March 2025 (CEO Sam Altman: "People love MCP and we are excited to add support across our products")
+- **Google confirmed MCP support in Gemini** in April 2025
+- **Microsoft joined the MCP steering committee** at Build 2025, with VS Code MCP support reaching general availability in July 2025
+- **The analogy**: MCP is like USB-C for AI — a single standard interface replacing multiple platform-specific integrations
+- **Linux Foundation's Agentic AI Foundation** (announced December 9, 2025) provides vendor-neutral governance for MCP, A2A, and related standards — backed by AWS, Anthropic, Block, Bloomberg, Cloudflare, Google, Microsoft, and OpenAI as platinum members
+
+**Why it matters:** MCP adoption is accelerating toward a tipping point where every major AI platform supports it. For SEO and content publishers, MCP means data, tools, and content feeds can be exposed once to MCP and consumed by Claude, GPT, Gemini, and Copilot without custom integrations.
+
+---
+
+### Finding 6: A2A Protocol — How AI Agents From Different Vendors Collaborate
+**Source:** Search Engine Journal
+**Date:** April 4, 2026
+
+The Agent-to-Agent (A2A) protocol provides inter-operability between AI agents:
+
+- **Google launched A2A on April 9, 2025** with 50+ technology partners; donated to Linux Foundation in June 2025
+- **Version 0.3 shipped in July 2025** with 150+ supporting organizations: Salesforce, SAP, ServiceNow, PayPal, Atlassian, Microsoft, AWS
+- **Core concept: Agent Card** — a JSON metadata document at `/.well-known/agent-card.json` describing an agent's identity, capabilities, skills, and authentication requirements
+- **Google's framing**: "Build with ADK, equip with MCP, communicate with A2A"
+- **Why it matters for content**: In a world where a business uses Salesforce agents for CRM, ServiceNow for IT, and an internal agent for content — A2A enables these agents to discover each other's capabilities and delegate tasks without proprietary integrations
+
+**Why it matters:** A2A is enabling a multi-agent ecosystem where SEO tools, content management systems, analytics platforms, and AI writing assistants can communicate programmatically. SEO workflows that previously required human intervention can be automated across agent boundaries.
+
+---
+
+### Finding 7: NLWeb — Mozilla's Project For Machine-Readable Web Content
+**Source:** Search Engine Journal
+**Date:** April 4, 2026
+
+Mozilla's NLWeb project aims to make web content machine-readable through a protocol layer:
+
+- **Positioned as "RSS for the AI era"** — a structured way for websites to expose content in formats AI agents can consume
+- **Competing/complementary to MCP and A2A**: NLWeb focuses on content exposure (how websites serve AI agents), while MCP focuses on connecting AI to tools, and A2A focuses on agent-to-agent communication
+- **Still forming**: No major AI platform has formally committed to consuming NLWeb, but early adopters are experimenting
+- **SEO implication**: Sites that implement NLWeb endpoints could provide AI agents with direct access to structured content without requiring traditional crawl-based indexing
+
+**Why it matters:** NLWeb represents a potential shift from crawl-based to API-based content consumption by AI. Publishers implementing NLWeb early could position their content for direct AI agent consumption rather than relying on AI-generated summaries of crawled content.
+
+---
+
+### Finding 8: Mullenweg vs. Cloudflare EmDash — WordPress Wars Heat Up
 **Source:** Search Engine Journal
 **Date:** April 3, 2026
 
-An analysis of AI shopping agents found:
+The WordPress vs. Cloudflare CMS competition escalated:
 
-- **Agentic AI shopping experiences still feel unnatural to users** — early implementations require significant cognitive load to set up and monitor
-- Unlike traditional search (where intent is expressed in a single query), AI shopping agents require multi-step conversations, preference setting, and trust establishment
-- The research suggests **users may prefer AI shopping agents for high-stakes, infrequent purchases** (cars, appliances) but stick with traditional search for everyday shopping
-- The SEO threat from AI shopping agents may be lower than feared because:
-  - Users resist delegating purchasing decisions to AI agents
-  - The "last mile" problem — getting users to hand over payment and trust AI to complete transactions — remains unsolved
-  - Retailer control over product data and pricing creates fragmentation that AI agents struggle to navigate
+- **Cloudflare launched EmDash** as a streamlined, edge-deployed CMS — positioning it as a successor to WordPress
+- **Matt Mullenweg responded** with a blog post invoking the Will Smith Oscars slap metaphor ("Keep WordPress out of your mouth"), later edited to tone down
+- **Mullenweg's core argument**: WordPress runs on virtually any device and platform, part of their mission to democratize publishing
+- **Mullenweg accused Cloudflare** of using EmDash to sell more Cloudflare infrastructure services and trap users within their ecosystem
+- **WordPress powers ~43% of all websites** — any competitive shift affects the largest segment of the web
+- **EmDash offers edge-deployed, performance-optimized hosting** — addressing WordPress's historical Core Web Vitals weaknesses
+- **SEO implication**: If EmDash or similar edge-native platforms gain meaningful market share, SEO tools and plugins built on WordPress infrastructure may need EmDash equivalents; performance-first publishing is a direct SEO signal
 
-**Why it matters:** SEO professionals worried about AI agents replacing search-based product discovery can take some comfort — the user adoption curve for fully agentic shopping is likely to be gradual. However, the implications for product data quality and machine-readable content remain significant.
+**Why it matters:** The CMS wars signal that edge computing and Core Web Vitals optimization are becoming primary competitive differentiators. SEO professionals managing WordPress sites should monitor whether EmDash or similar platforms gain traction.
 
 ---
 
-### Finding 7: ChatGPT Ads Launch — New Acquisition Channel or Brand Tax?
-**Source:** Search Engine Journal
+### Finding 9: Gemini Now 8x Behind ChatGPT in Referral Traffic — AI Search Landscape Shifting
+**Source:** Search Engine Journal (SE Ranking)
 **Date:** April 3, 2026
 
-OpenAI launched advertising in ChatGPT:
+Additional context on the AI referral traffic landscape:
 
-- ChatGPT Ads have begun appearing in ChatGPT's chat interface, creating a **new acquisition channel for brands**
-- Early performance data is mixed — some brands report good results for top-of-funnel awareness, while others question the ROI for direct response
-- The chat context of ChatGPT Ads creates **different user intent signals than search advertising** — users in a conversational AI context may be in a different mindset than users actively searching for products
-- Advertisers need to consider **creative and messaging strategies suited to conversational contexts** — traditional search ad copy may not convert in chat interfaces
-- The pricing model and targeting capabilities are still maturing
+- **ChatGPT generates ~80% of all AI referral traffic** — still dominant but declining share
+- **Gemini's surge to 8x behind ChatGPT** (from 22x behind in October 2025) shows Google is successfully driving AI product adoption
+- **Perplexity** has been eclipsed by Gemini in referral volume despite earlier traffic leadership
+- **All AI platforms combined** account for ~0.24% of global internet traffic — growth trajectory is significant but absolute volume remains small
+- **Implication for SEO**: AI referral traffic is real but still represents a fraction of organic search; monitoring AI platform referral data in Google Analytics is increasingly important
 
-**Why it matters:** ChatGPT Ads represent the first major advertising format within a conversational AI interface. As AI-native platforms grow their ad businesses, marketers need to develop new creative and targeting strategies for chat-based advertising.
-
----
-
-### Finding 8: Google Explains Why SEOs Split Sitemaps — No Direct Ranking Benefit
-**Source:** Search Engine Journal
-**Date:** April 3, 2026
-
-John Mueller answered a question about why some SEOs split their XML sitemaps into multiple files:
-
-- **Splitting sitemaps has no direct ranking benefit** — Google processes all sitemap types equivalently
-- Reasons SEOs split sitemaps:
-  - **Organization**: Large sites with hundreds of thousands of URLs benefit from logical separation (by section, content type, language)
-  - **Maintenance**: Teams can manage their section without affecting others
-  - **Diagnostics**: Easier to identify which section has crawl or indexing issues
-  - **Prioritization**: Some SEOs use separate sitemaps for different priority tiers
-- Mueller noted that Google handles multi-sitemap setups just as efficiently as single files — **the benefit is entirely operational, not algorithmic**
-
-**Why it matters:** Large sites using multiple sitemaps for "SEO purposes" can simplify their approach — the sitemap structure has no ranking impact. Focus on the operational benefits (organization, maintenance, diagnostics) rather than SEO value.
+**Why it matters:** The AI referral traffic hierarchy is being reshaped by major platform investments. ChatGPT's ad business launch (Finding 7 of Round 265) combined with Gemini's traffic surge signals that AI platforms are becoming genuine traffic sources — not just research curiosities.
 
 ---
 
-### Finding 9: AI Led All Reasons for U.S. Job Cuts in March at 25% — Challenger Report
-**Source:** Search Engine Journal (Challenger, Gray & Christmas)
-**Date:** April 2, 2026
+### Finding 10: Structured Data and Page Bloat — Googlebot 2MB Limit Creates New Technical SEO Challenge
+**Source:** Search Engine Journal (Search Off the Record podcast)
+**Date:** April 2–4, 2026
 
-The March 2026 jobs report from outplacement firm Challenger, Gray & Christmas found:
+The intersection of Google's structured data demands and its own 2MB byte limit:
 
-- **AI led all cited reasons for U.S. job cuts in March at 25% of the total** — the single largest reason for layoffs
-- This is consistent with the broader trend of AI automation displacing roles in customer service, content creation, data entry, and basic analysis
-- The SEO and digital marketing industries are seeing effects in:
-  - Reduced demand for basic SEO task execution (keyword research, meta tag writing)
-  - Consolidation of junior-level roles
-  - Growing demand for AI supervision and strategy-level skills
-- The 59% senior-level SEO job composition (from Finding 6 of Round 264) is consistent with this trend — entry-level work is being automated, leaving senior strategy roles
+- **Illyes raised whether structured data Google asks websites to add is contributing to page bloat** — a significant admission from a Google engineer
+- **2025 Web Almanac**: Median mobile homepage size is 2,362 KB — nearly at the 2MB Googlebot limit
+- **Pages that were safely below the 15MB platform default** are now affected by Googlebot's 2MB Search-specific override
+- **The tension**: Google asks for more structured data (JSON-LD, schema.org) for rich results and AI Overviews → pages grow → Googlebot's 2MB limit catches more content → content past the limit is never indexed
+- **Content past 2MB is not rejected — it is simply never indexed** — this is a silent indexing gap
+- Martin Splitt committed to addressing specific page size reduction techniques in a future episode
 
-**Why it matters:** The job market data confirms what SEO professionals are observing anecdotally — AI is automating basic SEO and content tasks. Professionals need to develop senior-level, AI-supervisory skills to remain competitive.
-
----
-
-### Finding 10: WordPress vs. Cloudflare EmDash — The CMS Wars Heat Up
-**Source:** Search Engine Journal
-**Date:** April 2–3, 2026
-
-Matt Mullenweg (WordPress) responded to Cloudflare's new EmDash CMS:
-
-- Cloudflare launched EmDash as a streamlined WordPress alternative — prompting Mullenweg to publicly respond
-- Mullenweg invoked the Will Smith Oscars slap metaphor ("Keep WordPress out of your mouth") in his response
-- SEO implications of the WordPress vs. EmDash competition:
-  - **WordPress powers ~43% of all websites** — any change in WordPress's competitive position affects the largest segment of the web
-  - Cloudflare's EmDash offers edge-deployed, performance-optimized hosting — potentially addressing WordPress's historical performance weaknesses
-  - If EmDash gains traction, **SEO tools and plugins built on WordPress infrastructure** may need to develop EmDash equivalents
-  - The debate highlights the ongoing shift toward **edge-computed, performance-first web publishing** — a trend with direct SEO implications
-
-**Why it matters:** The CMS landscape is evolving rapidly. Cloudflare's entry into the CMS market signals that performance (Core Web Vitals, edge computing) will be a competitive differentiator. SEO professionals managing WordPress sites should monitor whether EmDash or similar edge-native platforms gain meaningful market share.
+**Why it matters:** Publishers adding extensive structured data markup need to audit total page weight, not just structured data validity. Critical content must load within the first 2MB of the HTML response. This is a new technical SEO issue that may cause important content to be invisible to Google Search.
 
 ---
 
 ## Related Existing Topics
-- topic288: Agentic Web Standards — MCP, A2A, NLWeb, and structured content architecture (directly related to Finding 5)
-- topic285: Verified Source Packs — AI citation patterns and authoritative sources (context for Findings 4–5)
-- topic292: March 2026 Core Update Week Two, Google Zero 65% No-Click (context for Finding 1)
-- topic282: GEO/AEO and the Fall of Traditional SEO (context for Findings 4, 6)
-- topic104: Answer Engine Optimization (AEO) Framework (context for Findings 4, 6)
+- topic294: Core Update Completing + Gemma 4 + AI Content Trust (from Round 266 — directly adjacent)
+- topic293: Core Update Nears Completion + Googlebot 2MB Byte Limit + Agentic Web Standards (context for Findings 1, 10)
+- topic288: Agentic Web Standards — MCP, A2A, NLWeb (directly related to Findings 5, 6, 7)
+- topic290: Core Update + Gemini Overtakes Perplexity (Finding 4 updates this)
+- topic285: Verified Source Packs — AI citation patterns and authoritative sources (context for Findings 3, 4)
+- topic282: GEO/AEO and the Fall of Traditional SEO (context for Findings 3, 4)
+- topic104: Answer Engine Optimization (AEO) Framework (context for Findings 2, 3)
 
-## Suggested Article Angle for topic293
-"March 2026 Core Update Nears Completion: Googlebot's 2MB Byte Limit Explained, The Machine-Readable Brand Stack Beyond llms.txt, and the Agentic Web Standards Landscape (MCP, A2A, NLWeb, AGENTS.md)"
+## Suggested Article Angle for topic295
+"March 2026 Core Update Completing: Google Gemma 4 Under Apache 2.0 Enables Local SEO Agents, The 5-Pillar AI Content Trust Framework, and the MCP/A2A/NLWeb Standards Landscape"
 
 ## Keywords
-March 2026 core update completion, Googlebot 2MB byte limit, Gary Illyes Googlebot crawling architecture, pages getting larger, llms.txt beyond architecture, machine-readable brand content stack, JSON-LD entity graph provenance, MCP Model Context Protocol, A2A agent to agent protocol, NLWeb Mozilla, AGENTS.md standard, ChatGPT Ads launch, WordPress Cloudflare EmDash, agentic AI shopping SEO threat, AI job cuts March 2026 Challenger
+March 2026 core update completion April 2026, Google Gemma 4 Apache 2.0 open source, Gemma 4 function calling JSON output, AI content trust framework 5 pillars, Gemini Perplexity referral traffic reversal, MCP Model Context Protocol 97M downloads, A2A Agent to Agent protocol, NLWeb Mozilla machine readable, WordPress Cloudflare EmDash Mullenweg, structured data page bloat 2MB limit, Gemini overtakes Perplexity 2026, AI referral traffic SEO, agentic AI standards Linux Foundation, content trust slop authenticity 2026
